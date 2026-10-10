@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { useUserData } from '@/lib/useUserData';
 import { TopBar } from '@/components/TopBar';
 import { BottomNav } from '@/components/BottomNav';
@@ -70,9 +71,9 @@ export default function SettingsPage() {
       <div className="p-4 pb-20 bg-[var(--bg)] text-[var(--fg)] space-y-6">
         {/* 學習報告 */}
         <div className="card text-center p-6">
-          <a href="/dashboard" className="inline-block btn btn-primary text-lg px-8 py-4 shadow-lg">
+          <Link href="/dashboard/" className="inline-block btn btn-primary text-lg px-8 py-4 shadow-lg">
             📊 學習報告
-          </a>
+          </Link>
         </div>
 
         {/* 寵物改名 */}
