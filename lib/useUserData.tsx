@@ -9,7 +9,7 @@ import { createContext, useContext, useState, useEffect, useCallback, ReactNode 
 import { storage, createDefaultUserData } from '@/lib/storage';
 import { nextReviewDate, isDue } from '@/lib/srs';
 import { calculateRewards, levelUpPet, feedPet, buyItem, resetDailyQuests } from '@/lib/game';
-import { applyTheme, isThemeUnlocked } from '@/lib/themes';
+import { applyTheme, normalizeThemeId } from '@/lib/themes';
 import type { UserData, Question, ThemeId, DailyQuest } from '@/lib/types';
 
 interface UserDataContextType {
@@ -33,15 +33,16 @@ function useUserDataInternal(): UserDataContextType {
   const today = new Date().toISOString().split('T')[0];
 
   const updateData = useCallback((updater: (data: UserData) => UserData) => {
-    if (!userData) return;
-    const newData = updater(userData);
-    storage.setUserData(newData);
-    setUserData(newData);
-  }, [userData]);
+    setUserData((prev) => {
+      if (!prev) return prev;
+      const newData = updater(prev);
+      storage.setUserData(newData);
+      return newData;
+    });
+  }, []);
 
   const recordAnswer = useCallback((q: Question, userAnswer: string | string[], isCorrect: boolean) => {
-    if (!userData) return;
-    updateData(data => {
+    updateData((data) => {
       const newRecord = {
         questionId: q.id,
         userAnswer,
@@ -65,7 +66,7 @@ function useUserDataInternal(): UserDataContextType {
         coins: data.inventory.coins + rewards.coins,
       };
       const newPet = levelUpPet(data.pet, rewards.exp);
-      const newDailyQuests = data.dailyQuests.map(quest => {
+      const newDailyQuests = data.dailyQuests.map((quest) => {
         if (quest.id === 'daily-practice') {
           return { ...quest, progress: quest.progress + 1 };
         }
@@ -88,8 +89,7 @@ function useUserDataInternal(): UserDataContextType {
   }, [updateData, today]);
 
   const toggleMark = useCallback((qId: string, mark: 'unsure' | 'wrong') => {
-    if (!userData) return;
-    updateData(data => {
+    updateData((data) => {
       const currentMark = data.questionMarks[qId] ?? { unsure: false, wrong: false };
       return {
         ...data,
@@ -105,8 +105,8 @@ function useUserDataInternal(): UserDataContextType {
   }, [updateData]);
 
   const feedPetImpl = useCallback((food: number) => {
-    if (!userData || userData.inventory.food < food) return;
-    updateData(data => {
+    updateData((data) => {
+      if (data.inventory.food < food) return data;
       const newPetState = feedPet(data.pet, food);
       return {
         ...data,
@@ -117,70 +117,68 @@ function useUserDataInternal(): UserDataContextType {
         pet: newPetState,
       };
     });
-  }, [updateData, userData]);
+  }, [updateData]);
 
   const buyItemImpl = useCallback((itemId: string, cost: number): boolean => {
-    if (!userData) return false;
-    const newInv = buyItem(userData.inventory, itemId, cost);
-    if (!newInv) return false;
-    updateData(data => ({
-      ...data,
-      inventory: newInv,
-    }));
-    return true;
-  }, [updateData, userData]);
+    let success = false;
+    updateData((data) => {
+      const newInv = buyItem(data.inventory, itemId, cost);
+      if (!newInv) return data;
+      success = true;
+      return {
+        ...data,
+        inventory: newInv,
+      };
+    });
+    return success;
+  }, [updateData]);
 
   const setThemeImpl = useCallback((themeId: ThemeId) => {
-    if (!userData || !isThemeUnlocked(themeId, userData)) return;
-    updateData(data => ({
+    const normalized = normalizeThemeId(themeId);
+    updateData((data) => ({
       ...data,
-      currentTheme: themeId,
+      currentTheme: normalized,
     }));
-    applyTheme(themeId);
-  }, [updateData, userData]);
+    applyTheme(normalized);
+  }, [updateData]);
 
   const unlockUnitImpl = useCallback((unitId: string) => {
-    if (!userData || userData.unlockedUnits.includes(unitId)) return;
-    updateData(data => ({
-      ...data,
-      unlockedUnits: [...data.unlockedUnits, unitId],
-    }));
-  }, [updateData, userData]);
+    updateData((data) => {
+      if (data.unlockedUnits.includes(unitId)) return data;
+      return {
+        ...data,
+        unlockedUnits: [...data.unlockedUnits, unitId],
+      };
+    });
+  }, [updateData]);
 
   const refreshSrsImpl = useCallback((todayStr: string) => {
-    if (!userData) return;
-    updateData(data => {
+    updateData((data) => {
       // 目前空實作：未來可標記已複習或更新
       return data;
     });
-  }, [updateData, userData]);
+  }, [updateData]);
 
   const claimQuestImpl = useCallback((id: string) => {
-    if (!userData) return;
-    updateData(data => {
+    updateData((data) => {
+      const quest = data.dailyQuests.find((q) => q.id === id);
+      if (!quest || quest.progress < quest.target || quest.completed) return data;
       return {
         ...data,
-        dailyQuests: data.dailyQuests.map(quest => {
-          if (quest.id === id && quest.progress >= quest.target && !quest.completed) {
-            return {
-              ...quest,
-              completed: true,
-            };
-          }
-          return quest;
-        }),
+        dailyQuests: data.dailyQuests.map((q) =>
+          q.id === id ? { ...q, completed: true } : q
+        ),
         inventory: {
           ...data.inventory,
-          food: data.inventory.food + (data.dailyQuests.find(q => q.id === id)?.reward.food ?? 0),
-          coins: data.inventory.coins + (data.dailyQuests.find(q => q.id === id)?.reward.coins ?? 0),
+          food: data.inventory.food + quest.reward.food,
+          coins: data.inventory.coins + quest.reward.coins,
         },
       };
     });
-  }, [updateData, userData]);
+  }, [updateData]);
 
   const setPetSceneImpl = useCallback((scene: string) => {
-    if (!userData) return;
-    updateData(data => ({
+    updateData((data) => ({
       ...data,
       pet: {
         ...data.pet,
@@ -190,15 +188,17 @@ function useUserDataInternal(): UserDataContextType {
   }, [updateData]);
 
   const equipAccessoryImpl = useCallback((id: string) => {
-    if (!userData || !userData.inventory.ownedItems.includes(id)) return;
-    updateData(data => ({
-      ...data,
-      pet: {
-        ...data.pet,
-        accessory: [id],
-      },
-    }));
-  }, [updateData, userData]);
+    updateData((data) => {
+      if (!data.inventory.ownedItems.includes(id)) return data;
+      return {
+        ...data,
+        pet: {
+          ...data.pet,
+          accessory: [id],
+        },
+      };
+    });
+  }, [updateData]);
 
   useEffect(() => {
     let data = storage.getUserData();
@@ -209,7 +209,7 @@ function useUserDataInternal(): UserDataContextType {
       // 複製以避免 mutate 原始資料
       data = { ...data };
       // 檢查每日任務重置
-      const needsReset = data.dailyQuests.some(q => q.resetDate !== today);
+      const needsReset = data.dailyQuests.some((q) => q.resetDate !== today);
       if (needsReset) {
         data.dailyQuests = resetDailyQuests(data, today);
         storage.setUserData(data);
@@ -218,6 +218,8 @@ function useUserDataInternal(): UserDataContextType {
       storage.setUserData(data);
     }
     if (data) {
+      data.currentTheme = normalizeThemeId(data.currentTheme);
+      storage.setUserData(data);
       applyTheme(data.currentTheme);
       setUserData(data);
     }

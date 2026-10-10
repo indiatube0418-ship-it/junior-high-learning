@@ -139,14 +139,11 @@ export interface DailyQuest {
   resetDate: string;
 }
 
-export type ThemeId = 'campus' | 'adventure' | 'focus' | 'sakura' | 'math';
+export type ThemeId = 'japanese' | 'korean' | 'american' | 'lolita' | 'cyber' | 'anime';
 
 export interface ThemeDef {
-  name: string;
-  /** CSS 變數 e.g. { '--bg': '#f0f8ff' } */
+  /** CSS 變數 e.g. { '--bg': '#f0f8ff' } (僅預覽用 bg/card/primary/fg) */
   cssVars: Record<string, string>;
-  /** 寵物變體：心情/配件 SVG class */
-  petVariants: Record<string, string>;
 }
 
 export interface UserData {
@@ -156,7 +153,7 @@ export interface UserData {
   lastActiveDate: string;
   /** 目前主題 */
   currentTheme: ThemeId;
-  /** 解鎖主題 */
+  /** 解鎖主題 (保留欄位，現全開放) */
   unlockedThemes: ThemeId[];
   /** 解鎖單元 */
   unlockedUnits: string[];

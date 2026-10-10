@@ -4,6 +4,7 @@
  */
 
 import type { UserData } from './types';
+import { THEME_LIST, normalizeThemeId } from './themes';
 
 interface StorageAdapter {
   /** 取得使用者資料 */
@@ -43,10 +44,13 @@ class LocalStorageAdapter implements StorageAdapter {
   public migrate(data: any): UserData {
     // 版本遷移掛鉤：未來版本在此擴充
     const today = new Date().toISOString().split('T')[0];
+    const allThemes = THEME_LIST.map(t => t.id);
+
     if (!data.version) {
-      data.version = 1;
-      data.currentTheme = 'campus';
-      data.unlockedThemes = ['campus'];
+      // 新資料：版本 3，全部主題開放，預設 japanese
+      data.version = 3;
+      data.currentTheme = 'japanese' as const;
+      data.unlockedThemes = allThemes;
       data.unlockedUnits = ['unit-1-1'];
       data.pet = {
         name: '小學伴',
@@ -72,11 +76,17 @@ class LocalStorageAdapter implements StorageAdapter {
       });
       data.version = 2;
     }
+    if (data.version < 3) {
+      // v2 → v3：正規化主題，全開 unlockedThemes
+      data.currentTheme = normalizeThemeId(data.currentTheme);
+      data.unlockedThemes = allThemes;
+      data.version = 3;
+    }
     // 確保第一單元解鎖
     if (!data.unlockedUnits || data.unlockedUnits.length === 0) {
       data.unlockedUnits = ['unit-1-1'];
     }
-    // data.version >= 2：當前最新
+    // data.version >= 3：當前最新
     return data as UserData;
   }
 
