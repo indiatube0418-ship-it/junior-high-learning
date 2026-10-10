@@ -1,0 +1,218 @@
+/**
+ * Phase 2 資料庫架構：PostgreSQL
+ * 使用 Prisma ORM，支援 UserData 各模型關聯。
+ * 遷移：npx prisma migrate dev --name init
+ * 種子：npx prisma db seed (另寫 seed.ts)
+ */
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// 使用者主表
+model User {
+  id              String        @id @default(cuid())
+  version         Int           @default(1)
+  lastActiveDate  String?       // YYYY-MM-DD
+  currentTheme    String?       // ThemeId
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  // 關聯
+  pet             Pet?
+  inventoryItems  InventoryItem[]
+  answerRecords   AnswerRecord[]
+  questionMarks   QuestionMark[]
+  srsStates       SrsState[]
+  dailyQuests     DailyQuest[]
+  themeUnlocks    ThemeUnlock[]
+
+  // 解鎖單元 (多對多)
+  unlockedUnits   UnlockedUnit[]
+
+  @@map("users")
+}
+
+// 章節 (靜態資料，可種子)
+model Chapter {
+  id        String  @id  // math-7a-ch1
+  subject   String  // Subject enum 未來
+  grade     Int
+  semester  Int
+  title     String
+  units     Unit[]
+
+  @@map("chapters")
+}
+
+// 單元
+model Unit {
+  id              String         @id
+  chapterId       String
+  title           String
+  chapter         Chapter        @relation(fields: [chapterId], references: [id])
+  knowledgePoints KnowledgePoint[]
+
+  @@map("units")
+}
+
+// 知識點 (含 lesson 文字)
+model KnowledgePoint {
+  id     String @id
+  unitId String
+  title  String
+  lesson Json[] // string[] 分段
+  unit   Unit   @relation(fields: [unitId], references: [id])
+  questions Question[]
+
+  @@map("knowledge_points")
+}
+
+// 題目
+model Question {
+  id             String   @id
+  chapterId      String
+  unitId         String
+  knowledgePointId String
+  tier           String   // Tier
+  type           String   // QuestionType
+  stem           String
+  options        Json?    // string[]?
+  answer         Json     // string | string[]
+  explanation    String
+  source         Json?    // {year, exam, number}
+  tags           String[]
+  difficulty     Int
+
+  knowledgePoint KnowledgePoint @relation(fields: [knowledgePointId], references: [id])
+
+  // 使用者紀錄
+  answerRecords  AnswerRecord[]
+  questionMarks  QuestionMark[]
+  srsStates      SrsState[]
+
+  @@index([chapterId, unitId])
+  @@map("questions")
+}
+
+// 答題紀錄
+model AnswerRecord {
+  id          String @id @default(cuid())
+  userId      String
+  questionId  String
+  userAnswer  Json   // string | string[]
+  isCorrect   Boolean
+  timestamp   String // ISO
+
+  user     User    @relation(fields: [userId], references: [id])
+  question Question @relation(fields: [questionId], references: [id])
+
+  @@unique([userId, questionId]) // 最新覆蓋舊
+  @@map("answer_records")
+}
+
+// 題目標記
+model QuestionMark {
+  questionId String @id
+  userId     String
+  unsure     Boolean @default(false)
+  wrong      Boolean @default(false)
+
+  user     User    @relation(fields: [userId], references: [id])
+  question Question @relation(fields: [questionId], references: [id])
+
+  @@unique([userId, questionId])
+  @@map("question_marks")
+}
+
+// 間隔複習狀態 (Phase 2 擴充 SRS)
+model SrsState {
+  questionId String @id
+  userId     String
+  stage      Int    // 1|2|3
+  intervalDays Int
+  dueDate    String // YYYY-MM-DD
+
+  user     User    @relation(fields: [userId], references: [id])
+  question Question @relation(fields: [questionId], references: [id])
+
+  @@unique([userId, questionId])
+  @@map("srs_states")
+}
+
+// 寵物
+model Pet {
+  id       String @id @default(cuid())
+  userId   String @unique
+  name     String
+  kind     String // PetKind
+  level    Int    @default(1)
+  exp      Int    @default(0)
+  hunger   Int    @default(100)
+  mood     Int    @default(100)
+  accessory String[] @default([])
+  scene    String @default("default")
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@map("pets")
+}
+
+// 物品欄項目
+model InventoryItem {
+  id     String @id @default(cuid())
+  userId String
+  type   String // food, coins, item
+  amount Int    @default(1)
+  itemId String?
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@map("inventory_items")
+}
+
+// 每日任務
+model DailyQuest {
+  id        String @id
+  userId    String
+  title     String
+  target    Int
+  progress  Int    @default(0)
+  rewardFood Int
+  rewardCoins Int
+  completed Boolean @default(false)
+  resetDate String // YYYY-MM-DD
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@map("daily_quests")
+}
+
+// 主題解鎖
+model ThemeUnlock {
+  id      String @id @default(cuid())
+  userId  String
+  themeId String // ThemeId
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@unique([userId, themeId])
+  @@map("theme_unlocks")
+}
+
+// 解鎖單元 (多對多)
+model UnlockedUnit {
+  userId String
+  unitId String
+
+  user User @relation(fields: [userId], references: [id])
+  unit Unit @relation(fields: [unitId], references: [id])
+
+  @@id([userId, unitId])
+  @@map("unlocked_units")
+}
