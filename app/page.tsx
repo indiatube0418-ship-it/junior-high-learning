@@ -4,98 +4,245 @@ import Link from 'next/link';
 import { Suspense } from 'react';
 import { useUserData } from '@/lib/useUserData';
 import { Pet } from '@/components/Pet';
-import { QuestDaily } from '@/components/QuestDaily';
-import { ProgressRing } from '@/components/ProgressRing';
-import { TopBar } from '@/components/TopBar';
-import { checkDailyReminders } from '@/lib/game';
+import { ThemeSwitcher } from '@/components/ThemeSwitcher';
+import { questions, getUnitProgress } from '@/lib/questions';
+import chapterData from '@/data/math-grade1-sem1-chapter1.json';
+import type { Chapter, Unit, UserData } from '@/lib/types';
+
+const chapter: Chapter = chapterData.chapter;
+
+function getUnitAnsweredAndCorrect(unitId: string, userData: UserData): { answered: number; correct: number } {
+  const unitQs = questions.filter((q) => q.unitId === unitId);
+  const latestRecords: Record<string, boolean> = {};
+  for (const record of [...userData.answerRecords].reverse()) {
+    if (unitQs.some((q) => q.id === record.questionId) && !(record.questionId in latestRecords)) {
+      latestRecords[record.questionId] = record.isCorrect;
+    }
+  }
+  const answered = Object.keys(latestRecords).length;
+  const correct = Object.values(latestRecords).filter(Boolean).length;
+  return { answered, correct };
+}
 
 function HomeContent() {
   const { userData, claimQuest } = useUserData();
-  const today = new Date().toISOString().split('T')[0];
 
   if (!userData) {
-    return <div className="flex-1 flex items-center justify-center"><div className="text-2xl">載入中...</div></div>;
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <div className="text-2xl">載入中...</div>
+      </div>
+    );
   }
 
-  const reminders = checkDailyReminders(userData, today);
-  const overallProgress = userData.answerRecords.length > 0 
-    ? userData.answerRecords.filter(r => r.isCorrect).length / userData.answerRecords.length
-    : 0;
-
-  const handleClaimQuest = (id: string) => {
-    claimQuest(id);
-  };
-
-  const inventory = userData.inventory;
+  const units: Unit[] = chapter.units;
   const pet = userData.pet;
-  const hasFood = inventory.food > 0;
+
+  // 尋找下一個學習單元
+  let nextUnit: Unit | null = null;
+  let allPassed = true;
+  for (let idx = 0; idx < units.length; idx++) {
+    const unit = units[idx];
+    const isUnlocked = userData.unlockedUnits.includes(unit.id) || idx === 0;
+    const { answered, correct } = getUnitAnsweredAndCorrect(unit.id, userData);
+    const correctRate = answered > 0 ? correct / answered : 0;
+    const passed = correctRate >= 0.8 && answered >= 4;
+    if (isUnlocked && !passed) {
+      nextUnit = unit;
+      allPassed = false;
+      break;
+    }
+    if (!passed) allPassed = false;
+  }
+
+  // 計算一鍵複習數量（錯題 + 不熟）
+  const reviewCount = Object.values(userData.questionMarks).filter((mark: any) => mark?.wrong || mark?.unsure).length;
 
   return (
-    <>
-      <TopBar title="歡迎回來！" />
-      <div className="p-4 space-y-6 pb-20 min-h-screen bg-[var(--bg)] text-[var(--text)]">
-        {/* 問候與提醒 */}
-        <div className="text-center space-y-2">
-          <h2 className="text-2xl font-bold">小學伴：{pet.name}</h2>
-          {reminders.length > 0 && (
-            <p className="text-[var(--accent)] bg-[var(--accent)]/10 p-3 rounded-xl">{reminders[0]}</p>
-          )}
+    <div className="flex flex-col min-h-screen bg-[var(--bg)] text-[var(--text)] pb-[calc(96px+env(safe-area-inset-bottom))]">
+      {/* 頂部問候與主題切換 */}
+      <div className="flex items-center justify-between p-4 pt-6 pb-2">
+        <div>
+          <h1 className="text-2xl font-bold">歡迎回來！</h1>
+          <p className="text-lg text-[var(--muted)]">小學伴：{pet.name}</p>
         </div>
+        <ThemeSwitcher compact />
+      </div>
 
-        {/* 進度與寵物 */}
-        <div className="card grid grid-cols-3 gap-4 items-center p-6">
-          <ProgressRing progress={overallProgress} />
-          <div className="col-span-2 space-y-1 text-center">
-            <p className="text-3xl font-bold text-[var(--primary)]">{Math.round(overallProgress * 100)}%</p>
-            <p className="text-sm text-[var(--muted)]">總正確率</p>
-          </div>
-        </div>
-
-        {/* 今日任務 */}
-        <QuestDaily quests={userData.dailyQuests} onClaim={handleClaimQuest} />
-
-        {/* 寵物狀態 */}
-        <div className="card p-6 text-center">
-          <Pet
-            kind={pet.kind}
-            mood={pet.mood}
-            level={pet.level}
-            accessory={pet.accessory}
-            scene={pet.scene}
-          />
-          <div className="space-y-1 mt-4">
-            <p>飢餓：{pet.hunger}/100</p>
-            <p>心情：{pet.mood}/100</p>
-            <div className="flex gap-2 justify-center pt-4">
-              <Link 
-                href="/pet" 
-                className={`flex-1 btn ${hasFood ? 'btn-primary' : 'btn-disabled opacity-50 cursor-not-allowed bg-gray-400 border-gray-400 text-gray-500'}`}
+      <div className="p-4 space-y-6 flex-1">
+        {/* 繼續學習主卡 */}
+        <div className="card p-6 md:p-8 text-center relative overflow-hidden">
+          {allPassed ? (
+            <>
+              <div className="text-4xl mb-4">🎉</div>
+              <h2 className="text-2xl font-bold mb-4">全章節通過！</h2>
+              <p className="text-[var(--muted)] mb-6">準備挑戰更高難度吧！</p>
+              <Link
+                href="/practice?mode=exam"
+                className="block w-full btn btn-primary text-xl py-5 shadow-lg"
               >
-                餵食 {hasFood ? '' : '(無飼料，先練習！)'}
+                挑戰模擬考
               </Link>
-            </div>
+            </>
+          ) : nextUnit ? (
+            <>
+              <div className="absolute inset-0 bg-gradient-to-r from-[var(--primary)]/10 to-[var(--accent)]/10" />
+              <h2 className="text-2xl font-bold mb-6 relative z-10">{nextUnit.title}</h2>
+              <div className="w-full bg-[var(--bg2)] rounded-full h-4 mb-4 overflow-hidden">
+                <div
+                  className="bg-[var(--primary)] h-full rounded-full transition-all duration-700"
+                  style={{
+                    width: `${(questions.filter((q) => q.unitId === nextUnit!.id).length > 0
+                      ? getUnitAnsweredAndCorrect(nextUnit!.id, userData).correct /
+                        questions.filter((q) => q.unitId === nextUnit!.id).length
+                      : 0) * 100
+                      }%`,
+                  }}
+                />
+              </div>
+              <p className="text-[var(--muted)] mb-8 relative z-10">
+                {getUnitAnsweredAndCorrect(nextUnit.id, userData).correct}/
+                {questions.filter((q) => q.unitId === nextUnit.id).length} 已答對
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 relative z-10">
+                <Link
+                  href={`/learn?unit=${nextUnit.id}`}
+                  className="flex-1 btn btn-primary text-lg py-4 shadow-md"
+                >
+                  ▶ 繼續學習
+                </Link>
+                <Link
+                  href={`/practice?mode=basic&unit=${nextUnit.id}`}
+                  className="btn btn-secondary px-8 py-4"
+                >
+                  直接練習
+                </Link>
+              </div>
+            </>
+          ) : null}
+        </div>
+
+        {/* 課程路徑 */}
+        <div>
+          <h3 className="section-title mb-4">課程路徑</h3>
+          <div className="space-y-3">
+            {units.map((unit, idx) => {
+              const uid = unit.id;
+              const isUnlocked = userData.unlockedUnits.includes(uid) || idx === 0;
+              const prog = getUnitProgress(uid, userData);
+              const { answered, correct } = getUnitAnsweredAndCorrect(uid, userData);
+              const correctRate = answered > 0 ? correct / answered : 0;
+              const passed = correctRate >= 0.8 && answered >= 4;
+              const totalQs = questions.filter((q) => q.unitId === uid).length;
+              const progressPct = totalQs > 0 ? (correct / totalQs) * 100 : 0;
+              const statusIcon = passed ? '✅' : isUnlocked ? '▶' : '🔒';
+              const statusText = passed ? '已通過' : isUnlocked ? '進行中' : '未解鎖';
+              return (
+                <Link
+                  key={uid}
+                  href={isUnlocked ? `/learn?unit=${uid}` : '#'}
+                  className={`card p-4 flex items-center gap-4 transition-all ${
+                    !isUnlocked ? 'opacity-60 cursor-not-allowed' : 'hover:shadow-xl active:scale-[0.98]'
+                  }`}
+                >
+                  <div className="w-12 h-12 bg-[var(--primary)]/20 rounded-2xl flex items-center justify-center text-2xl font-bold shrink-0">
+                    {idx + 1}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-xl shrink-0">{statusIcon}</span>
+                      <h4 className="font-bold text-lg truncate">{unit.title}</h4>
+                    </div>
+                    <div className="w-full bg-[var(--border)] rounded-full h-2.5 overflow-hidden">
+                      <div
+                        className="bg-[var(--primary)] h-full rounded-full transition-all"
+                        style={{ width: `${Math.min(progressPct, 100)}%` }}
+                      />
+                    </div>
+                    <p className="text-xs text-[var(--muted)] mt-1.5">
+                      {correct}/{totalQs} {statusText}
+                    </p>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
 
-        {/* 快速入口 */}
+        {/* 今日任務精簡版 */}
+        <div className="card p-4">
+          <h3 className="section-title mb-4">📋 今日任務</h3>
+          <div className="space-y-3">
+            {userData.dailyQuests.map((quest) => {
+              const progressPct = (quest.progress / quest.target) * 100;
+              const canClaim = quest.progress >= quest.target && !quest.completed;
+              return (
+                <div key={quest.id} className="flex items-center justify-between p-3 bg-[var(--bg2)]/50 rounded-xl border border-[var(--border)]/50">
+                  <div className="flex items-center gap-3 flex-1">
+                    <div className="w-2 h-2 bg-[var(--primary)] rounded-full animate-pulse shrink-0" />
+                    <div className="min-w-0">
+                      <p className="font-bold truncate">{quest.title}</p>
+                      <p className="text-xs text-[var(--muted)]">{quest.progress}/{quest.target}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center shrink-0 ml-4 gap-2">
+                    {quest.completed ? (
+                      <span className="px-3 py-1.5 text-xs font-bold text-[var(--accent)] bg-[var(--accent)]/10 rounded-lg flex items-center gap-1">
+                        ✓ 已領取
+                      </span>
+                    ) : canClaim ? (
+                      <button
+                        className="btn btn-primary text-sm px-4 py-1.5 whitespace-nowrap shadow-md hover:shadow-lg"
+                        onClick={() => claimQuest(quest.id)}
+                      >
+                        領取飼料
+                      </button>
+                    ) : (
+                      <div className="w-20 h-2 bg-[var(--border)] rounded-full overflow-hidden ml-2">
+                        <div
+                          className="bg-[var(--primary)] h-full rounded-full transition-all duration-500"
+                          style={{ width: `${progressPct}%` }}
+                        />
+                      </div>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* 寵物小卡 + 一鍵複習 */}
         <div className="grid grid-cols-2 gap-4">
-          <Link href="/review" className="card p-8 text-center">
-            <div className="text-4xl mb-4">🎯</div>
-            <h3 className="font-bold text-xl mb-2">一鍵複習</h3>
-            <p className="text-[var(--muted)]">錯題 + 不熟題</p>
+          <Link href="/pet" className="card p-4 text-center hover:shadow-lg transition-all">
+            <div className="w-24 aspect-[3/4] mx-auto mb-3">
+              <Pet
+                kind={pet.kind}
+                mood={pet.mood}
+                level={pet.level}
+                accessory={pet.accessory}
+                scene={pet.scene}
+              />
+            </div>
+            <h4 className="font-bold text-lg mb-1">{pet.name}</h4>
+            <p className="text-sm text-[var(--muted)]">點擊照顧我吧！</p>
           </Link>
-          <Link href="/learn" className="card p-8 text-center">
-            <div className="text-4xl mb-4">📖</div>
-            <h3 className="font-bold text-xl mb-2">繼續學習</h3>
-            <p className="text-[var(--muted)]">國一數學整數運算</p>
+          <Link href="/review" className="card p-4 text-center hover:shadow-lg transition-all flex flex-col items-center justify-center">
+            <div className="text-4xl mb-3">🎯</div>
+            <h4 className="font-bold text-xl mb-2">一鍵複習</h4>
+            <p className="text-sm text-[var(--muted)]">錯題＋不熟 ({reviewCount})</p>
           </Link>
         </div>
 
-        <Link href="/map" className="block mx-4 btn btn-primary text-center">
-          🗺️ 進入闖關地圖
+        {/* 頁尾連結 */}
+        <Link
+          href="/dashboard"
+          className="block mx-4 btn btn-secondary text-center shadow-md hover:shadow-lg"
+        >
+          📊 學習報告
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

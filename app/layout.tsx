@@ -14,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="zh-Hant" data-theme="campus" suppressHydrationWarning>
+    <html lang="zh-Hant" data-theme="japanese" suppressHydrationWarning>
       <body className="bg-[var(--bg)] text-[var(--fg)] font-[var(--font-family)] antialiased min-h-screen flex flex-col">
         <UserDataProvider>
-          <main className="flex-1 flex flex-col pb-20 md:pb-0"> {/* 留底部空間給導覽 */}
+          <main className="flex-1 flex flex-col pb-[calc(96px + env(safe-area-inset-bottom))]">
             {children}
           </main>
           <BottomNav />

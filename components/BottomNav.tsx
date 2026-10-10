@@ -3,8 +3,10 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+type BottomNavActive = 'home' | 'learn' | 'practice' | 'pet' | 'map' | 'dashboard' | 'exam' | 'settings';
+
 interface BottomNavProps {
-  active?: 'home' | 'learn' | 'practice' | 'pet' | 'map' | 'dashboard' | 'exam' | 'settings';
+  active?: BottomNavActive;
 }
 
 export function BottomNav({ active }: BottomNavProps) {
@@ -18,19 +20,25 @@ export function BottomNav({ active }: BottomNavProps) {
     { id: 'settings' as const, href: '/settings', label: '更多', icon: '⚙️' },
   ] as const;
 
-  const currentActive = active || (pathname.split('?')[0].slice(1) as BottomNavProps['active'] || 'home');
+  const pathnameClean = pathname.split('?')[0];
+  const pathSegment = pathnameClean === '/' ? 'home' : pathnameClean.slice(1);
+  const currentActive = (active || pathSegment) as BottomNavActive | 'home';
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-[var(--card)]/80 backdrop-blur-md border-t border-[var(--border)] z-50 grid grid-cols-5 gap-2 p-2 pt-3 md:hidden">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 grid grid-cols-5 gap-2 p-3 pt-4 bg-[var(--card)]/90 backdrop-blur-md border-t border-[var(--border)] md:hidden px-4 h-[72px + env(safe-area-inset-bottom)]">
       {tabs.map(({ id, href, label, icon }) => (
         <Link
           key={id}
           href={href}
-          className={`btn flex-col gap-1 text-xs flex-1 ${currentActive === id ? 'text-[var(--primary)] scale-105 shadow-md' : 'text-[var(--muted)]'}`}
+          className={`btn flex flex-col gap-1 items-center text-xs flex-1 py-2 px-1 transition-all h-full justify-center ${
+            currentActive === id
+              ? 'text-[var(--primary)] scale-[1.05] shadow-md bg-[var(--primary)]/10 border-[var(--primary)] border'
+              : 'text-[var(--muted)] hover:scale-[1.02]'
+          }`}
           aria-current={currentActive === id ? 'page' : undefined}
         >
           <span className="text-xl">{icon}</span>
-          <span>{label}</span>
+          <span className="leading-none">{label}</span>
         </Link>
       ))}
     </nav>
