@@ -4,215 +4,294 @@
 
 @layer base {
   :root {
+    --border-width: 1px;
+    --card-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+    --btn-shadow: 0 4px 12px -2px rgba(0,0,0,0.1);
     --font: ui-sans-serif, system-ui, -apple-system, sans-serif;
     --radius: 0.75rem;
+  }
+
+  html {
+    font-family: var(--font-family);
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    background-image: var(--pattern);
+    color: var(--text);
+    font-family: var(--font-family);
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-heading, var(--font-family));
+    font-weight: bold;
   }
 }
 
 @layer components {
   .btn {
-    @apply px-4 py-2 rounded-[var(--radius)] font-medium transition-all duration-200 flex items-center justify-center gap-2 no-underline shadow-sm border active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)] disabled:opacity-50 disabled:cursor-not-allowed;
+    @apply px-4 py-2 font-medium transition-all duration-200 flex items-center justify-center gap-2 no-underline border border-[var(--border-width)] shadow-[var(--btn-shadow)] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)] disabled:opacity-50 disabled:cursor-not-allowed;
+    border-radius: var(--radius);
   }
+
   .btn-primary {
-    @apply bg-[var(--primary)] text-[var(--primary-fg)] border-[var(--primary)];
+    @apply bg-[var(--primary)] text-[var(--primary-fg)];
   }
+
   .btn-primary:hover:not(:disabled) {
-    filter: brightness(0.92);
+    filter: brightness(0.95);
   }
+
   .btn-secondary {
-    @apply bg-[var(--bg2)] text-[var(--fg)] border-[var(--border)];
+    @apply bg-[var(--bg2)] text-[var(--fg)];
   }
+
   .btn-secondary:hover:not(:disabled) {
     @apply bg-[var(--card)];
   }
-  .btn-accent {
-    @apply bg-[var(--accent)] text-[var(--fg)] border-[var(--accent)];
-  }
-  .btn-accent:hover:not(:disabled) {
-    filter: brightness(0.92);
-  }
+
   .card {
-    @apply bg-[var(--card)] rounded-[calc(var(--radius)*1.5)] p-6 shadow-lg border border-[var(--border)] backdrop-blur-sm;
+    @apply bg-[var(--bg-card)] rounded-[calc(var(--radius)*1.5)] p-6 border border-[var(--border-width)] shadow-[var(--card-shadow)] backdrop-blur-sm;
+    background-color: var(--card);
   }
-  .section {
-    @apply space-y-4;
+
+  .chip {
+    @apply inline-flex px-3 py-1 rounded-full text-sm font-medium border bg-[var(--muted)/0.15] text-[var(--muted)] border-[var(--muted)/0.5];
+    border-radius: calc(var(--radius) / 2);
+  }
+
+  .section-title {
+    @apply text-2xl font-bold mb-6 text-[var(--fg)] pb-2;
+    font-family: var(--font-heading);
   }
 }
 
-/* 主題 CSS 變數 */
-[data-theme="campus"] {
-  --bg: #f0f8ff;
-  --bg2: #e6f3ff;
-  --card: #ffffff;
+/* 主題 CSS 變數與樣式 */
+[data-theme="japanese"] {
+  --bg: #fdf4ff;
+  --bg2: #f9e8ff;
   --bg-card: #ffffff;
-  --fg: #1e293b;
-  --text: #1e293b;
-  --muted: #64748b;
-  --primary: #3b82f6;
+  --card: #ffffff;
+  --fg: #4a2c5e;
+  --text: #4a2c5e;
+  --muted: #8b5a7b;
+  --primary: #c084fc;
   --primary-fg: #ffffff;
-  --primary-light: #93c5fd;
-  --primary-dark: #2563e0;
-  --accent: #10b981;
-  --border: #e2e8f0;
-  --radius: 1rem;
-  --font: ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --pet-body: #f6c28b;
-  --pet-accent: #3b82f6;
-  --pet-blush: #ffb6c1;
-  --pet-nose: #8b4513;
-}
-[data-theme="campus"]::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 20% 80%, rgba(59,130,246,0.1) 0%, transparent 50%),
-              radial-gradient(circle at 80% 20%, rgba(16,185,129,0.1) 0%, transparent 50%),
-              repeating-linear-gradient(45deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px);
-  pointer-events: none;
-  z-index: -1;
-}
-
-[data-theme="adventure"] {
-  --bg: #fef3c7;
-  --bg2: #fde68a;
-  --card: #fefce8;
-  --bg-card: #fefce8;
-  --fg: #92400e;
-  --text: #92400e;
-  --muted: #a78b4e;
-  --primary: #f59e0b;
-  --primary-fg: #7c2d12;
-  --primary-light: #feb21f;
-  --primary-dark: #ca7600;
-  --accent: #059669;
-  --border: #fcd34d;
+  --primary-light: #e9d5ff;
+  --primary-dark: #a855f7;
+  --accent: #f472b6;
+  --border: #e9d5ff;
+  --border-width: 1px;
   --radius: 1.5rem;
-  --font: system-ui;
-  --font-family: system-ui;
-  --pet-body: #f59e0b;
-  --pet-accent: #ea580c;
-  --pet-blush: #ffb6c1;
-  --pet-nose: #8b4513;
+  --font-family: ui-sans-serif, -apple-system, system-ui, sans-serif;
+  --font-heading: ui-sans-serif, system-ui, sans-serif;
+  --card-shadow: 0 8px 32px rgba(192,132,252,0.15);
+  --btn-shadow: 0 8px 20px rgba(192,132,252,0.2);
+  --pattern: repeating-radial-gradient(circle at 20% 80%, rgba(192,132,252,0.08) 0px, transparent 0px 15px), repeating-radial-gradient(circle at 80% 20%, rgba(244,114,182,0.08) 0px, transparent 0px 15px);
 }
-[data-theme="adventure"]::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 30% 70%, rgba(245,158,11,0.2) 0%, transparent 50%),
-              linear-gradient(135deg, rgba(5,150,105,0.1) 0%, transparent 100%);
-  pointer-events: none;
-  z-index: -1;
-}
+[data-theme="japanese"] .btn { box-shadow: var(--btn-shadow); }
+[data-theme="japanese"] .card { box-shadow: var(--card-shadow); }
+[data-theme="japanese"] .pet-deco-japanese { display: inline; }
+[data-theme="japanese"] .pet-body { fill: #ffd6e8; }
+[data-theme="japanese"] .pet-accent { fill: #c084fc; }
+[data-theme="japanese"] .pet-blush { fill: #ffb3d1; }
+[data-theme="japanese"] .pet-nose { fill: #a67c00; }
 
-[data-theme="focus"] {
-  --bg: #0f0f23;
-  --bg2: #1a1a2e;
-  --card: #1a1a2e;
-  --bg-card: #1a1a2e;
-  --fg: #f8fafc;
-  --text: #f8fafc;
-  --muted: #94a3b8;
-  --primary: #6366f1;
-  --primary-fg: #ffffff;
-  --primary-light: #a5a7ff;
-  --primary-dark: #4f52de;
-  --accent: #10b981;
-  --border: #334155;
-  --radius: 0.75rem;
-  --font: ui-monospace;
-  --font-family: ui-monospace;
-  --pet-body: #6b7280;
-  --pet-accent: #6366f1;
-  --pet-blush: #ffb6c1;
-  --pet-nose: #8b4513;
+[data-theme="korean"] {
+  --bg: #fdf8f0;
+  --bg2: #f5ebe0;
+  --bg-card: #fefbf8;
+  --card: #fefbf8;
+  --fg: #5d4037;
+  --text: #5d4037;
+  --muted: #a1887f;
+  --primary: #d7a68a;
+  --primary-fg: #4a2c1f;
+  --primary-light: #e6d0c0;
+  --primary-dark: #b58a6a;
+  --accent: #ffb3ba;
+  --border: #f0e6d8;
+  --border-width: 0.5px;
+  --radius: 1rem;
+  --font-family: system-ui, -apple-system, ui-sans-serif, sans-serif;
+  --font-heading: system-ui, -apple-system, sans-serif;
+  --card-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  --btn-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  --pattern: linear-gradient(135deg, rgba(215,166,138,0.04) 0%, transparent 50%), repeating-linear-gradient(90deg, transparent 0 20px, rgba(255,179,186,0.03) 20px 40px);
 }
-[data-theme="focus"]::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at center, rgba(99,102,241,0.1) 0%, transparent 70%);
-  pointer-events: none;
-  z-index: -1;
-}
+[data-theme="korean"] .btn { box-shadow: var(--btn-shadow); }
+[data-theme="korean"] .card { box-shadow: var(--card-shadow); }
+[data-theme="korean"] .pet-deco-korean { display: inline; }
+[data-theme="korean"] .pet-body { fill: #f8d7c4; }
+[data-theme="korean"] .pet-accent { fill: #d7a68a; }
+[data-theme="korean"] .pet-blush { fill: #ffcccb; }
+[data-theme="korean"] .pet-nose { fill: #8d6e63; }
 
-[data-theme="sakura"] {
-  --bg: #fdf2f8;
-  --bg2: #fce7f3;
-  --card: #ffffff;
+[data-theme="american"] {
+  --bg: #fff2cc;
+  --bg2: #ffeb99;
   --bg-card: #ffffff;
-  --fg: #881337;
-  --text: #881337;
-  --muted: #be185d;
-  --primary: #ec4899;
-  --primary-fg: #ffffff;
-  --primary-light: #f9a8d4;
-  --primary-dark: #be185d;
-  --accent: #8b5cf6;
-  --border: #fbcfe8;
-  --radius: 2rem;
-  --font: system-ui;
-  --font-family: system-ui;
-  --pet-body: #fef3f2;
-  --pet-accent: #ec4899;
-  --pet-blush: #ffb6c1;
-  --pet-nose: #8b4513;
-}
-[data-theme="sakura"]::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: repeating-radial-gradient(circle at 20% 80%, rgba(236,72,153,0.1) 0px, transparent 10px),
-                    repeating-radial-gradient(circle at 80% 20%, rgba(139,92,246,0.1) 0px, transparent 10px);
-  pointer-events: none;
-  z-index: -1;
-}
-
-[data-theme="math"] {
-  --bg: #f8fafc;
-  --bg2: #e2e8f0;
   --card: #ffffff;
-  --bg-card: #ffffff;
-  --fg: #1e293b;
-  --text: #1e293b;
-  --muted: #475569;
-  --primary: #0ea5e9;
+  --fg: #000000;
+  --text: #000000;
+  --muted: #666666;
+  --primary: #ff1744;
   --primary-fg: #ffffff;
-  --primary-light: #38bdf8;
-  --primary-dark: #0077b6;
-  --accent: #8b5cf6;
-  --border: #cbd5e1;
+  --primary-light: #ff5252;
+  --primary-dark: #d50000;
+  --accent: #2196f3;
+  --border: #000000;
+  --border-width: 3px;
   --radius: 0.5rem;
-  --font: ui-monospace, SFMono-Regular;
-  --font-family: ui-monospace, SFMono-Regular;
-  --pet-body: #f1f5f9;
-  --pet-accent: #0ea5e9;
-  --pet-blush: #ffb6c1;
-  --pet-nose: #8b4513;
+  --font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-heading: ui-sans-serif, system-ui, sans-serif;
+  --card-shadow: 6px 8px 0 #000000;
+  --btn-shadow: 4px 4px 0 #000000;
+  --pattern: repeating-linear-gradient(0deg, transparent 0 30px, rgba(255,23,68,0.15) 30px 60px), radial-gradient(circle at 70% 30%, rgba(33,150,243,0.15) 0%, transparent 50%);
 }
-[data-theme="math"]::before {
+[data-theme="american"] .btn {
+  box-shadow: var(--btn-shadow);
+  transform: translateY(0);
+}
+[data-theme="american"] .btn:active:not(:disabled) {
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 #000000;
+}
+[data-theme="american"] .card { box-shadow: var(--card-shadow); }
+[data-theme="american"] .pet-deco-american { display: inline; }
+[data-theme="american"] .pet-body { fill: #ffcc80; }
+[data-theme="american"] .pet-accent { fill: #ff1744; }
+[data-theme="american"] .pet-blush { fill: #ff80ab; }
+[data-theme="american"] .pet-nose { fill: #000000; }
+
+[data-theme="lolita"] {
+  --bg: #fff0f5;
+  --bg2: #ffe4e6;
+  --bg-card: #ffffff;
+  --card: #ffffff;
+  --fg: #880e4f;
+  --text: #880e4f;
+  --muted: #c2185b;
+  --primary: #f06292;
+  --primary-fg: #ffffff;
+  --primary-light: #f8bbd9;
+  --primary-dark: #c2185b;
+  --accent: #e91e63;
+  --border: #f8bbd9;
+  --border-width: 1px;
+  --radius: 2rem;
+  --font-family: ui-serif, system-ui, -apple-system, serif;
+  --font-heading: ui-serif, system-ui, serif;
+  --card-shadow: 0 12px 40px rgba(240,98,146,0.2);
+  --btn-shadow: 0 8px 24px rgba(240,98,146,0.25);
+  --pattern: radial-gradient(ellipse 30% 30% at 25% 25%, rgba(240,98,146,0.12) 0%, transparent 60%), radial-gradient(ellipse 20% 20% at 75% 75%, rgba(233,30,99,0.12) 0%, transparent 60%);
+}
+[data-theme="lolita"] .btn,
+[data-theme="lolita"] .card {
+  box-shadow: var(--btn-shadow);
+  position: relative;
+  overflow: hidden;
+}
+[data-theme="lolita"] .btn::before,
+[data-theme="lolita"] .card::before {
   content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, transparent 49%, rgba(14,165,233,0.03) 50%, rgba(14,165,233,0.03) 51%, transparent 52%),
-              repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(139,92,246,0.02) 20px, rgba(139,92,246,0.02) 21px);
-  pointer-events: none;
-  z-index: -1;
+  position: absolute;
+  inset: -2px;
+  padding: 2px;
+  background: radial-gradient(ellipse at top, rgba(255,255,255,0.6) 0%, transparent 50%), radial-gradient(ellipse at bottom, rgba(255,255,255,0.6) 0%, transparent 50%);
+  mask: radial-gradient(ellipse 60% 30% at top, #fff 0%, transparent 70%) top / 100% 30% no-repeat, radial-gradient(ellipse 60% 30% at bottom, #fff 0%, transparent 70%) bottom / 100% 30% no-repeat, linear-gradient(#fff 0 0) left / 2px 100% no-repeat, linear-gradient(#fff 0 0) right / 2px 100% no-repeat;
+  mask-composite: exclude;
+  border-radius: inherit;
+}
+[data-theme="lolita"] .pet-deco-lolita { display: inline; }
+[data-theme="lolita"] .pet-body { fill: #ffebee; }
+[data-theme="lolita"] .pet-accent { fill: #f06292; }
+[data-theme="lolita"] .pet-blush { fill: #ffc1e3; }
+[data-theme="lolita"] .pet-nose { fill: #7b1fa2; }
+
+[data-theme="cyber"] {
+  --bg: #000000;
+  --bg2: #111111;
+  --bg-card: #1a1a1a;
+  --card: #1a1a1a;
+  --fg: #00ffea;
+  --text: #ffffff;
+  --muted: #88ffff;
+  --primary: #00ffea;
+  --primary-fg: #000000;
+  --primary-light: #66ffea;
+  --primary-dark: #00ccaa;
+  --accent: #ff00ff;
+  --border: #00ffea;
+  --border-width: 1px;
+  --radius: 0.25rem;
+  --font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  --font-heading: ui-monospace, SFMono-Regular, monospace;
+  --card-shadow: 0 0 30px rgba(0,255,234,0.4);
+  --btn-shadow: 0 0 20px rgba(0,255,234,0.6), inset 0 0 10px rgba(0,255,234,0.2);
+  --pattern: repeating-linear-gradient(90deg, transparent 0 2px, rgba(0,255,234,0.1) 2px 4px), conic-gradient(from 180deg at 50% 50%, transparent 0deg 200deg, #ff00ff 270deg 360deg);
+}
+[data-theme="cyber"] .btn,
+[data-theme="cyber"] .card {
+  box-shadow: var(--btn-shadow);
+  background: linear-gradient(var(--bg-card), var(--bg-card)), linear-gradient(45deg, var(--primary), var(--accent));
+  background-clip: padding-box, border-box;
+  border: 1px solid transparent;
+  animation: cyber-scan 3s linear infinite;
+}
+@keyframes cyber-scan {
+  0% { box-shadow: var(--btn-shadow); }
+  50% { box-shadow: 0 0 40px var(--accent); }
+  100% { box-shadow: var(--btn-shadow); }
+}
+[data-theme="cyber"] .pet-deco-cyber { display: inline; }
+[data-theme="cyber"] .pet-body { fill: #333333; }
+[data-theme="cyber"] .pet-accent { fill: #00ffea; }
+[data-theme="cyber"] .pet-blush { fill: #ff1493; }
+[data-theme="cyber"] .pet-nose { fill: #ff69b4; }
+
+[data-theme="anime"] {
+  --bg: #f5f5f5;
+  --bg2: #e0e0e0;
+  --bg-card: #ffffff;
+  --card: #ffffff;
+  --fg: #000000;
+  --text: #000000;
+  --muted: #666666;
+  --primary: #4169e1;
+  --primary-fg: #ffffff;
+  --primary-light: #6495ed;
+  --primary-dark: #000080;
+  --accent: #ff4500;
+  --border: #000000;
+  --border-width: 3px;
+  --radius: 0.125rem;
+  --font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-heading: ui-monospace, SFMono-Regular, monospace;
+  --card-shadow: inset 0 0 0 2px #000000, 4px 4px 0 #000000;
+  --btn-shadow: 2px 2px 0 #000000;
+  --pattern: repeating-conic-gradient(from 45deg, rgba(0,0,0,0.08) 0deg 2deg, transparent 2deg 360deg), repeating-linear-gradient(45deg, transparent 0 3px, rgba(65,105,225,0.06) 3px 6px);
+}
+[data-theme="anime"] .btn,
+[data-theme="anime"] .card {
+  box-shadow: var(--btn-shadow);
+  background-image: repeating-linear-gradient(135deg, transparent 0 1px, rgba(0,0,0,0.04) 1px 2px);
+  border: var(--border-width) solid var(--border);
+}
+[data-theme="anime"] .btn:active:not(:disabled) {
+  box-shadow: 0 0 0 #000000;
+  transform: translate(2px, 2px);
+}
+[data-theme="anime"] .pet-deco-anime { display: inline; }
+[data-theme="anime"] .pet-body { fill: #dddddd; }
+[data-theme="anime"] .pet-accent { fill: #4169e1; }
+[data-theme="anime"] .pet-blush { fill: #ff69b4; }
+[data-theme="anime"] .pet-nose { fill: #000000; }
+
+/* 寵物裝飾預設隱藏 */
+.pet-deco {
+  display: none;
 }
 
 /* 安全區域 */
