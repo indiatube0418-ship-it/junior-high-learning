@@ -215,13 +215,15 @@ function HomeContent() {
         {/* 寵物小卡 + 一鍵複習 */}
         <div className="grid grid-cols-2 gap-4">
           <Link href="/pet" className="card p-4 text-center hover:shadow-lg transition-all">
-            <div className="w-24 aspect-[3/4] mx-auto mb-3">
+            <div className="w-24 aspect-square mx-auto mb-3">
               <Pet
                 kind={pet.kind}
                 mood={pet.mood}
+                hunger={pet.hunger}
                 level={pet.level}
                 accessory={pet.accessory}
-                scene={pet.scene}
+                scene={pet.scene || 'room'}
+                size={96}
               />
             </div>
             <h4 className="font-bold text-lg mb-1">{pet.name}</h4>

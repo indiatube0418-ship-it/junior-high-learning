@@ -1,7 +1,8 @@
 'use client';
 
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { useUserData } from '@/lib/useUserData';
-import { Pet } from '@/components/Pet';
+import { Pet, type PetPose } from '@/components/Pet';
 import { TopBar } from '@/components/TopBar';
 import { ProgressRing } from '@/components/ProgressRing';
 import { BottomNav } from '@/components/BottomNav';
@@ -12,6 +13,51 @@ import type { PetState, Inventory } from '@/lib/types';
  */
 export default function PetPage() {
   const { userData, feedPet, buyItem, equipAccessory, setPetScene } = useUserData();
+  const [tempPose, setTempPose] = useState<PetPose | null>(null);
+  const [showUpgrade, setShowUpgrade] = useState(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const prevLevelRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    if (!userData?.pet) return;
+    const pet = userData.pet;
+    if (prevLevelRef.current === null) {
+      prevLevelRef.current = pet.level;
+      return;
+    }
+    if (pet.level > prevLevelRef.current) {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+      setTempPose('cheer');
+      setShowUpgrade(true);
+      timeoutRef.current = setTimeout(() => {
+        setTempPose(null);
+        setShowUpgrade(false);
+      }, 3000);
+    }
+    prevLevelRef.current = pet.level;
+  }, [userData?.pet?.level]);
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
+
+  const handleFeed = useCallback(() => {
+    if (!userData || userData.inventory.food < 1) return;
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    setTempPose('happy');
+    timeoutRef.current = setTimeout(() => {
+      setTempPose(null);
+    }, 2500);
+    feedPet(1);
+  }, [userData, feedPet]);
 
   if (!userData) {
     return (
@@ -49,15 +95,21 @@ export default function PetPage() {
       <div className="p-4 pb-20 min-h-screen bg-[var(--bg)] text-[var(--text)] flex flex-col">
         {/* 寵物大顯示 */}
         <div className="flex flex-col items-center py-8">
-          <div className="w-[min(70vw,28rem)] aspect-[3/4] mx-auto">
+          <div className="w-[min(70vw,28rem)] aspect-square mx-auto">
             <Pet
               kind={pet.kind}
               mood={pet.mood}
+              hunger={pet.hunger}
               level={pet.level}
               accessory={pet.accessory}
               scene={pet.scene || 'classroom'}
+              pose={tempPose ?? undefined}
+              size={240}
             />
           </div>
+          {showUpgrade && (
+            <div className="text-3xl font-bold text-yellow-400 animate-bounce mb-4 drop-shadow-lg">升級了！✨</div>
+          )}
           <div className="mt-6 text-2xl font-bold">{pet.name}</div>
         </div>
 
@@ -101,7 +153,7 @@ export default function PetPage() {
         <div className="mb-8">
           <button
             className="w-full bg-[var(--primary)] text-white py-4 px-6 rounded-2xl text-lg font-bold shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:scale-100 disabled:hover:scale-100"
-            onClick={() => feedPet(1)}
+            onClick={handleFeed}
             disabled={inventory.food < 1}
           >
             🥩 餵食 (+20 飢餓){inventory.food < 1 ? ' (無飼料)' : ''}
