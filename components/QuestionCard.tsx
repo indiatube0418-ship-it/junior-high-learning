@@ -1,7 +1,7 @@
 'use client';
 
 import { Question, QuestionType, QuestionMark } from '@/lib/types';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 interface QuestionCardProps {
   question: Question;
@@ -21,11 +21,11 @@ export function QuestionCard({
   onToggleMark,
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<string[]>([]);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const handleSubmit = () => {
     if (question.type === 'fill') {
-      const input = document.querySelector('input[type="text"]') as HTMLInputElement;
-      const ans = input?.value.trim().replace(/[−－]/g, '-') || '';
+      const ans = inputRef.current?.value.trim().replace(/[−－]/g, '-') || '';
       onAnswer(ans);
     } else {
       onAnswer(selected);
@@ -55,7 +55,7 @@ export function QuestionCard({
   return (
     <div className="card mx-4 grow flex flex-col justify-between min-h-0">
       <div className="flex-1 overflow-y-auto pb-20">
-        <h3 className="text-lg font-bold mb-4">題目 {question.tags.join(' ')}</h3>
+        <h3 className="section-title mb-4">題目 {question.tags.join(' ')}</h3>
         <p className="text-[var(--fg)] mb-6 whitespace-pre-wrap leading-relaxed">{question.stem}</p>
         
         {question.type !== 'fill' && question.options && (
@@ -101,6 +101,7 @@ export function QuestionCard({
         {question.type === 'fill' && (
           <div className="mb-6">
             <input
+              ref={inputRef}
               type="text"
               className="w-full p-4 border-2 border-[var(--border)] rounded-xl text-lg font-mono text-center focus:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]/50 bg-[var(--bg2)]"
               placeholder="請填入答案"

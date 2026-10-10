@@ -28,6 +28,23 @@ function PracticeContent() {
     exam: '歷年真題',
   };
 
+  // 載入題目清單，只依賴 mode/unitId，一次計算固定
+  useEffect(() => {
+    const qs = getQuestionsByTier(mode, unitId).slice(0, 20);
+    setQuestions(qs);
+    setCurrentIdx(0);
+    setUserAnswers({});
+    setNumCorrect(0);
+    setShowResults(false);
+  }, [mode, unitId]);
+
+  // userData 載入後刷新 SRS（不影響題目清單）
+  useEffect(() => {
+    if (userData) {
+      refreshSrs(today);
+    }
+  }, [userData, refreshSrs, today]);
+
   const computeIsCorrect = useCallback((q: Question, ans: string | string[]): boolean => {
     const normalizeUser = (ua: string | string[]): string[] => {
       if (Array.isArray(ua)) return ua.slice().sort();
@@ -64,6 +81,7 @@ function PracticeContent() {
     if (isCorrect) {
       setNumCorrect(c => c + 1);
     }
+    // 不移動 idx，持續顯示結果直到按下一題
   };
 
   const onToggleMark = (mark: 'unsure' | 'wrong') => {
@@ -72,18 +90,6 @@ function PracticeContent() {
       toggleMark(currentQId, mark);
     }
   };
-
-  useEffect(() => {
-    if (userData) {
-      const qs = getQuestionsByTier(mode, unitId).slice(0, 20);
-      setQuestions(qs);
-      setCurrentIdx(0);
-      setUserAnswers({});
-      setNumCorrect(0);
-      setShowResults(false);
-      refreshSrs(today);
-    }
-  }, [mode, unitId, userData, refreshSrs, today]);
 
   if (!userData || questions.length === 0) {
     return (

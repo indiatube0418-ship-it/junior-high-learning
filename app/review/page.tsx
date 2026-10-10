@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Suspense, useState, useMemo, useCallback } from 'react';
+import { Suspense, useState, useEffect, useCallback, useRef } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useUserData } from '@/lib/useUserData';
 import { QuestionCard } from '@/components/QuestionCard';
@@ -13,11 +13,30 @@ import type { Question } from '@/lib/types';
 
 function ReviewContent() {
   const { userData, recordAnswer, toggleMark, refreshSrs } = useUserData();
+  const [reviewQs, setReviewQs] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [currentAns, setCurrentAns] = useState<string | string[] | undefined>(undefined);
   const [numCorrect, setNumCorrect] = useState(0);
   const [showResults, setShowResults] = useState(false);
+  const initializedRef = useRef(false);
   const today = new Date().toISOString().split('T')[0];
+
+  // 只在第一次 userData 載入後計算一次複習清單，之後固定不變
+  useEffect(() => {
+    if (userData && !initializedRef.current) {
+      const qs = questions.filter(q => {
+        const marks = userData.questionMarks[q.id] || { unsure: false, wrong: false };
+        const srs = userData.srs[q.id];
+        return marks.unsure || marks.wrong || (srs && isDue(srs, today));
+      });
+      setReviewQs(qs);
+      setCurrentIdx(0);
+      setCurrentAns(undefined);
+      setNumCorrect(0);
+      setShowResults(false);
+      initializedRef.current = true;
+    }
+  }, [userData, today]);
 
   const computeIsCorrect = useCallback((q: Question, ans: string | string[]): boolean => {
     const normalizeUser = (ua: string | string[]): string[] => {
@@ -31,15 +50,6 @@ function ReviewContent() {
       normUser.every((v, i) => v === normCorrect[i])
     );
   }, []);
-
-  const reviewQs = useMemo(() => {
-    if (!userData) return [];
-    return questions.filter(q => {
-      const marks = userData.questionMarks[q.id] || { unsure: false, wrong: false };
-      const srs = userData.srs[q.id];
-      return marks.unsure || marks.wrong || (srs && isDue(srs, today));
-    });
-  }, [userData, today]);
 
   const handleAnswer = (ans: string | string[]) => {
     if (!userData || reviewQs.length === 0) return;
@@ -64,6 +74,7 @@ function ReviewContent() {
       setNumCorrect(c => c + 1);
     }
     refreshSrs(today);
+    // 不移動 idx，持續顯示結果直到按下一題
   };
 
   const onToggleMark = (mark: 'unsure' | 'wrong') => {
@@ -121,12 +132,19 @@ function ReviewContent() {
 
   const q = reviewQs[currentIdx];
   const marks = userData.questionMarks[q.id] || { unsure: false, wrong: false };
+  const answered = currentAns !== undefined;
+  const progress = reviewQs.length > 0 ? ((currentIdx + (answered ? 1 : 0)) / reviewQs.length) * 100 : 0;
 
   return (
     <>
       <TopBar
         title="錯題 + 不熟 + 複習"
-        rightSlot={<span className="text-sm">{currentIdx + 1}/{reviewQs.length}</span>}
+        rightSlot={
+          <div className="flex items-center gap-2">
+            <ProgressRing progress={progress} size={48} />
+            <span className="text-sm">{currentIdx + 1}/{reviewQs.length}</span>
+          </div>
+        }
       />
       <div className="flex flex-col flex-1 p-4 pb-[calc(88px+env(safe-area-inset-bottom))]">
         <QuestionCard
