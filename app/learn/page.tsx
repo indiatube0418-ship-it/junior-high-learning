@@ -39,7 +39,7 @@ function LearnContent() {
       setPlaying(false);
       return;
     }
-    const id = window.setTimeout(() => setLessonStep((step) => step + 1), 2600);
+    const id = window.setTimeout(() => setLessonStep((step) => step + 1), 8500);
     return () => window.clearTimeout(id);
   }, [playing, lessonStep, currentKP, unitId]);
 
@@ -97,9 +97,12 @@ function LearnContent() {
       <>
         <TopBar title={`${unit.title} - ${kp.title}`} />
         <div className="p-4 space-y-6 flex-1 flex flex-col">
-          {/* 教學內容 */}
           <div className="card grow">
-            <LessonFigure knowledgePointId={kp.id} step={lessonStep} />
+            <LessonFigure
+              knowledgePointId={kp.id}
+              step={lessonStep}
+              lessonText={lesson[lessonStep]}
+            />
             <div className="px-4 pb-3">
               <button
                 type="button"
@@ -113,22 +116,18 @@ function LearnContent() {
                   setPlaying(true);
                 }}
               >
-                {playing ? "暫停動畫" : "播放動畫"}
+                {playing ? '暫停自動播' : '慢慢自動播（每步約 8 秒）'}
               </button>
             </div>
-            <details className="mx-4 mb-4 rounded-xl bg-[var(--bg2)] px-4 py-3 text-sm">
-              <summary className="cursor-pointer font-bold">看這一段的文字說明</summary>
-              <p className="mt-2 leading-relaxed">{lesson[lessonStep]}</p>
-            </details>
             <div className="flex gap-2 p-4 pt-0">
               {lessonStep > 0 && (
                 <button className="btn btn-secondary flex-1" onClick={() => { setPlaying(false); setLessonStep((s) => s - 1); }}>
-                  上一段
+                  上一步
                 </button>
               )}
               {lessonStep < lesson.length - 1 ? (
                 <button className="btn btn-primary flex-1" onClick={() => { setPlaying(false); setLessonStep((s) => s + 1); }}>
-                  下一格圖 →
+                  看懂了，下一步
                 </button>
               ) : currentKP < unit.knowledgePoints.length - 1 ? (
                 <button className="btn btn-primary flex-1" onClick={() => {
@@ -136,7 +135,7 @@ function LearnContent() {
                   setCurrentKP((k) => k + 1);
                   setLessonStep(0);
                 }}>
-                  下一個觀念 →
+                  下一個觀念
                 </button>
               ) : (
                 <>
@@ -165,7 +164,6 @@ function LearnContent() {
     );
   }
 
-  // 練習模式
   const currentQId = practiceQs[currentQIdx];
   const questions = getQuestionsByTier('basic', unitId);
   const q = questions.find(qq => qq.id === currentQId)! as Question;
@@ -202,7 +200,7 @@ function LearnContent() {
 
   return (
     <>
-      <TopBar 
+      <TopBar
         title={`練習 ${currentQIdx + 1}/${practiceQs.length}`}
         rightSlot={<button className="btn btn-secondary text-sm px-3 py-1" onClick={() => setPracticeMode(false)}>結束</button>}
       />

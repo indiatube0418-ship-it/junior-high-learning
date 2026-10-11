@@ -106,19 +106,37 @@ function phaseAt<T>(phases: T[] | undefined, step: number): T | undefined {
   return phases[Math.min(step, phases.length - 1)];
 }
 
+
+function Cue({ cx, cy, show }: { cx: number; cy: number; show: boolean }) {
+  if (!show) return null;
+  return (
+    <circle cx={cx} cy={cy} r={10} fill="none" stroke="var(--accent)" strokeWidth={2.4}>
+      <animate attributeName="r" values="10;22;10" dur="1.2s" repeatCount="2" />
+      <animate attributeName="opacity" values="0.85;0;0.85" dur="1.2s" repeatCount="2" />
+    </circle>
+  );
+}
+
+
 function NumberLine({
   min,
   max,
   phase,
+  prev,
   motion,
+  beat,
   h = 168,
 }: {
   min: number;
   max: number;
   phase: NlPhase;
+  prev?: NlPhase;
   motion: boolean;
+  beat: number;
   h?: number;
 }) {
+  const showAct = beat >= 1;
+  const showSay = beat >= 2;
   const y = 92;
   const x0 = 32;
   const x1 = 328;
@@ -140,7 +158,7 @@ function NumberLine({
           </Label>
         </>
       )}
-      {phase.shade && (
+      {showAct && phase.shade && (
         <rect
           className="fig-grow"
           x={X(phase.shade.a)}
@@ -169,7 +187,7 @@ function NumberLine({
           </Label>
         </g>
       ))}
-      {phase.arcs?.map((arc, i) => {
+      {showAct && phase.arcs?.map((arc, i) => {
         const xA = X(arc.a);
         const xB = X(arc.b);
         const mid = (xA + xB) / 2;
@@ -183,13 +201,27 @@ function NumberLine({
               strokeWidth={2.4}
               pathLength={100} className="fig-dash"
             />
-            <Label x={mid} y={y - 16 - lift} size={13} fillColor="var(--primary)">
-              {arc.label}
-            </Label>
+            {showSay && (
+              <Label x={mid} y={y - 16 - lift} size={13} fillColor="var(--primary)">
+                {arc.label}
+              </Label>
+            )}
           </g>
         );
       })}
-      {arrow && (
+      {prev?.points?.map((p, i) => (
+        <g key={`prev-${p.at}-${i}`} className="fig-dim">
+          <circle
+            cx={X(p.at)}
+            cy={y}
+            r={7}
+            fill={p.open ? 'var(--card)' : fill[p.tone || 'mute']}
+            stroke={fill[p.tone || 'mute']}
+            strokeWidth={2}
+          />
+        </g>
+      ))}
+      {showAct && arrow && (
         <g>
           <line
             x1={X(arrow.from)}
@@ -208,7 +240,7 @@ function NumberLine({
             }
             fill="var(--accent)"
           />
-          {arrow.label && (
+          {showSay && arrow.label && (
             <Label x={(X(arrow.from) + X(arrow.to)) / 2} y={34} size={13} fillColor="var(--accent)">
               {arrow.label}
             </Label>
@@ -218,10 +250,11 @@ function NumberLine({
               <animate attributeName="cx" from={X(arrow.from)} to={X(arrow.to)} dur="1.25s" fill="freeze" />
             )}
           </circle>
+          <Cue cx={X(arrow.to)} cy={y} show={showAct} />
         </g>
       )}
-      {phase.points?.map((p, i) => (
-        <g key={`${p.at}-${i}`} className="fig-pop" style={{ animationDelay: `${i * 0.12}s` }}>
+      {showSay && phase.points?.map((p, i) => (
+        <g key={`${p.at}-${i}`} className={showAct ? 'fig-pop fig-pulse' : undefined} style={{ animationDelay: `${i * 0.12}s` }}>
           <circle
             cx={X(p.at)}
             cy={y}
@@ -230,7 +263,8 @@ function NumberLine({
             stroke={fill[p.tone || 'acc']}
             strokeWidth={3}
           />
-          {p.label && (
+          <Cue cx={X(p.at)} cy={y} show={showAct && i === 0} />
+          {showSay && p.label && (
             <Label x={X(p.at)} y={y - 18} size={13} fillColor={fill[p.tone || 'acc']}>
               {p.label}
             </Label>
@@ -241,7 +275,9 @@ function NumberLine({
   );
 }
 
-function Tokens({ phase }: { phase: TokenPhase }) {
+function Tokens({ phase, beat }: { phase: TokenPhase; beat: number }) {
+  const showAct = beat >= 1;
+  const showSay = beat >= 2;
   const n = Math.max(phase.groups.length, 1);
   const gap = 12;
   const w = (336 - gap * (n - 1)) / n;
@@ -255,7 +291,7 @@ function Tokens({ phase }: { phase: TokenPhase }) {
             <Label x={x + w / 2} y={40} size={14}>
               {g.label}
             </Label>
-            {g.cells.map((c, k) => {
+            {showAct && g.cells.map((c, k) => {
               const cols = Math.min(3, g.cells.length);
               const cw = 36;
               const row = Math.floor(k / cols);
@@ -264,7 +300,7 @@ function Tokens({ phase }: { phase: TokenPhase }) {
               const sx = x + (w - totalW) / 2 + col * cw + 18;
               const sy = 78 + row * 36;
               return (
-                <g key={`${c.t}-${k}`} className="fig-pop" style={{ animationDelay: `${k * 0.08}s` }}>
+                <g key={`${c.t}-${k}`} className="fig-pop fig-pulse" style={{ animationDelay: `${k * 0.08}s` }}>
                   <circle cx={sx} cy={sy} r={15} fill={fill[c.tone || 'pri']} />
                   <Label x={sx} y={sy + 4} size={12} fillColor="var(--primary-fg)">
                     {c.t}
@@ -275,7 +311,7 @@ function Tokens({ phase }: { phase: TokenPhase }) {
           </g>
         );
       })}
-      {phase.foot && (
+      {showSay && phase.foot && (
         <Label x={180} y={186} size={15}>
           {phase.foot}
         </Label>
@@ -284,7 +320,9 @@ function Tokens({ phase }: { phase: TokenPhase }) {
   );
 }
 
-function Flow({ phase }: { phase: FlowPhase }) {
+function Flow({ phase, beat = 2 }: { phase: FlowPhase; beat?: number }) {
+  const showAct = beat >= 1;
+  const showSay = beat >= 2;
   const rows = phase.boxes.length;
   const h = 36 + rows * 42 + (phase.result ? 28 : 12);
   return (
@@ -292,24 +330,27 @@ function Flow({ phase }: { phase: FlowPhase }) {
       {phase.boxes.map((box, i) => {
         const y = 16 + i * 42;
         const hot = phase.hot === i;
+        const later = phase.hot != null && i > phase.hot;
+        if (later && !showSay) return null;
+        const lit = hot && showAct;
         return (
-          <g key={box} className="fig-pop" style={{ animationDelay: `${i * 0.12}s` }}>
+          <g key={box} className={lit ? 'fig-pop fig-pulse' : later ? 'fig-dim' : undefined}>
             <rect
               x={28}
               y={y}
               width={304}
               height={34}
               rx={10}
-              fill={hot ? 'var(--primary)' : 'var(--bg2)'}
+              fill={lit ? 'var(--primary)' : 'var(--bg2)'}
               stroke="var(--border)"
             />
-            <Label x={180} y={y + 22} size={15} fillColor={hot ? 'var(--primary-fg)' : 'var(--fg)'}>
+            <Label x={180} y={y + 22} size={15} fillColor={lit ? 'var(--primary-fg)' : 'var(--fg)'}>
               {box}
             </Label>
           </g>
         );
       })}
-      {phase.result && (
+      {showSay && phase.result && (
         <Label x={180} y={h - 12} size={15} fillColor="var(--primary)">
           {phase.result}
         </Label>
@@ -318,7 +359,9 @@ function Flow({ phase }: { phase: FlowPhase }) {
   );
 }
 
-function Bars({ phase }: { phase: BarPhase }) {
+function Bars({ phase, beat = 2 }: { phase: BarPhase; beat?: number }) {
+  const showAct = beat >= 1;
+  const showSay = beat >= 2;
   const max = Math.max(...phase.items.map((it) => it.value), 1);
   const n = Math.max(phase.items.length, 1);
   const w = Math.min(48, 280 / n);
@@ -330,26 +373,30 @@ function Bars({ phase }: { phase: BarPhase }) {
         const x = 36 + i * (300 / n);
         return (
           <g key={it.label}>
-            <rect
-              className="fig-rise"
-              x={x}
-              y={base - bh}
-              width={w}
-              height={bh}
-              rx={6}
-              fill={fill[it.tone || (i % 2 === 0 ? 'pri' : 'acc')]}
-              style={{ animationDelay: `${i * 0.08}s` }}
-            />
-            <Label x={x + w / 2} y={base - bh - 8} size={12}>
-              {it.value}
-            </Label>
+            {showAct && (
+              <rect
+                className="fig-rise fig-pulse"
+                x={x}
+                y={base - bh}
+                width={w}
+                height={bh}
+                rx={6}
+                fill={fill[it.tone || (i % 2 === 0 ? 'pri' : 'acc')]}
+                style={{ animationDelay: `${i * 0.08}s` }}
+              />
+            )}
+            {showSay && (
+              <Label x={x + w / 2} y={base - bh - 8} size={12}>
+                {it.value}
+              </Label>
+            )}
             <Label x={x + w / 2} y={172} size={12} weight={600}>
               {it.label}
             </Label>
           </g>
         );
       })}
-      {phase.note && (
+      {showSay && phase.note && (
         <Label x={180} y={192} size={13} fillColor="var(--primary)">
           {phase.note}
         </Label>
@@ -358,7 +405,9 @@ function Bars({ phase }: { phase: BarPhase }) {
   );
 }
 
-function Fractions({ phase }: { phase: FracPhase }) {
+function Fractions({ phase, beat }: { phase: FracPhase; beat: number }) {
+  const showAct = beat >= 1;
+  const showSay = beat >= 2;
   const h = 28 + phase.rows.length * 48 + 28;
   return (
     <Board h={h}>
@@ -375,7 +424,7 @@ function Fractions({ phase }: { phase: FracPhase }) {
             <rect x={x} y={y} width={width} height={28} rx={6} fill="var(--bg2)" stroke="var(--border)" />
             {Array.from({ length: row.den }, (_, k) => (
               <g key={k}>
-                {k < row.num && (
+                {showAct && k < row.num && (
                   <rect
                     className="fig-grow"
                     x={x + k * cell}
@@ -392,7 +441,7 @@ function Fractions({ phase }: { phase: FracPhase }) {
           </g>
         );
       })}
-      {phase.note && (
+      {showSay && phase.note && (
         <Label x={180} y={h - 12} size={15} fillColor="var(--primary)">
           {phase.note}
         </Label>
@@ -401,7 +450,9 @@ function Fractions({ phase }: { phase: FracPhase }) {
   );
 }
 
-function Plane({ phase }: { phase: PlanePhase }) {
+function Plane({ phase, beat }: { phase: PlanePhase; beat: number }) {
+  const showAct = beat >= 1;
+  const showSay = beat >= 2;
   const ox = 180;
   const oy = 108;
   const s = 22;
@@ -456,7 +507,7 @@ function Plane({ phase }: { phase: PlanePhase }) {
           <Label x={X(2.1)} y={Y(-2)} size={13}>IV</Label>
         </>
       )}
-      {phase.lines?.map((ln, i) => (
+      {showAct && phase.lines?.map((ln, i) => (
         <line
           key={i}
           x1={X(ln.x1)}
@@ -468,7 +519,7 @@ function Plane({ phase }: { phase: PlanePhase }) {
           pathLength={100} className="fig-dash"
         />
       ))}
-      {phase.curve && (
+      {showAct && phase.curve && (
         <path d={curvePath()} fill="none" stroke="var(--primary)" strokeWidth={2.6} pathLength={100} className="fig-dash" />
       )}
       {phase.points?.map((p, i) => (
@@ -479,7 +530,7 @@ function Plane({ phase }: { phase: PlanePhase }) {
           </Label>
         </g>
       ))}
-      {phase.note && (
+      {showSay && phase.note && (
         <Label x={180} y={216} size={13} fillColor="var(--primary)">
           {phase.note}
         </Label>
@@ -520,7 +571,9 @@ function incenter(A: Pt, B: Pt, C: Pt) {
   return { x: (a * A.x + b * B.x + c * C.x) / p, y: (a * A.y + b * B.y + c * C.y) / p };
 }
 
-function Geo({ name, step, motion = true }: { name: string; step: number; motion?: boolean }) {
+function Geo({ name, step, motion = true, beat = 2 }: { name: string; step: number; motion?: boolean; beat?: number }) {
+  const showAct = beat >= 1;
+  const showSay = beat >= 2;
   if (name === 'mulsign') {
     const cells = [
       ['正×正', '正'],
@@ -535,7 +588,7 @@ function Geo({ name, step, motion = true }: { name: string; step: number; motion
           const row = Math.floor(i / 2);
           const hot = step === i;
           return (
-            <g key={c[0]} className="fig-pop" style={{ animationDelay: `${i * 0.1}s` }}>
+            <g key={c[0]} className={hot && showAct ? "fig-pulse" : undefined}>
               <rect x={24 + col * 160} y={20 + row * 72} width={148} height={60} rx={12} fill={hot ? 'var(--primary)' : 'var(--bg2)'} />
               <Label x={98 + col * 160} y={44 + row * 72} size={15} fillColor={hot ? 'var(--primary-fg)' : 'var(--fg)'}>{c[0]}</Label>
               <Label x={98 + col * 160} y={66 + row * 72} size={16} fillColor={hot ? 'var(--primary-fg)' : 'var(--accent)'}>{c[1]}</Label>
@@ -1202,7 +1255,7 @@ function Geo({ name, step, motion = true }: { name: string; step: number; motion
   }
 
   if (name === 'order') {
-    return <Flow phase={{ boxes: ['2 + (−3) × 4', '先算 (−3) × 4 = −12', '再算 2 + (−12)', '得到 −10'], hot: step }} />;
+    return <Flow beat={beat} phase={{ boxes: ['2 + (−3) × 4', '先算 (−3) × 4 = −12', '再算 2 + (−12)', '得到 −10'], hot: step }} />;
   }
 
   if (name === 'zero') {
@@ -1221,6 +1274,7 @@ function Geo({ name, step, motion = true }: { name: string; step: number; motion
   if (name === 'rel') {
     return (
       <Bars
+        beat={beat}
         phase={{
           items: [
             { label: '甲', value: 2 },
@@ -1283,7 +1337,7 @@ function Geo({ name, step, motion = true }: { name: string; step: number; motion
       { items: [{ label: 'a', value: 8 }, { label: 'b', value: 12 }, { label: 'c', value: 15 }], note: 'b 都對齊成 12' },
       { items: [{ label: '2份', value: 2 }, { label: '3份', value: 3 }, { label: '5份', value: 5 }], note: '總量照份數分' },
     ];
-    return <Bars phase={phases[Math.min(step, 3)]} />;
+    return <Bars beat={beat} phase={phases[Math.min(step, 3)]} />;
   }
 
   if (name === 'sector') {
@@ -1361,6 +1415,7 @@ function Geo({ name, step, motion = true }: { name: string; step: number; motion
   if (name === 'cumul') {
     return (
       <Bars
+        beat={beat}
         phase={{
           items: [
             { label: '第1組', value: 4 },
@@ -1381,14 +1436,23 @@ function Geo({ name, step, motion = true }: { name: string; step: number; motion
   );
 }
 
-export function renderVisual(visual: Visual, step: number, motion: boolean): ReactNode {
+export function renderVisual(visual: Visual, step: number, motion: boolean, beat = 2): ReactNode {
   if (visual.type === 'nl') {
-    return <NumberLine min={visual.min} max={visual.max} phase={phaseAt(visual.phases, step) || {}} motion={motion} />;
+    return (
+      <NumberLine
+        min={visual.min}
+        max={visual.max}
+        phase={phaseAt(visual.phases, step) || {}}
+        prev={step > 0 ? phaseAt(visual.phases, step - 1) : undefined}
+        motion={motion}
+        beat={beat}
+      />
+    );
   }
-  if (visual.type === 'tokens') return <Tokens phase={phaseAt(visual.phases, step) || { groups: [] }} />;
-  if (visual.type === 'flow') return <Flow phase={phaseAt(visual.phases, step) || { boxes: [] }} />;
-  if (visual.type === 'bars') return <Bars phase={phaseAt(visual.phases, step) || { items: [] }} />;
-  if (visual.type === 'frac') return <Fractions phase={phaseAt(visual.phases, step) || { rows: [] }} />;
-  if (visual.type === 'plane') return <Plane phase={phaseAt(visual.phases, step) || {}} />;
-  return <Geo name={visual.name} step={step} motion={motion} />;
+  if (visual.type === 'tokens') return <Tokens phase={phaseAt(visual.phases, step) || { groups: [] }} beat={beat} />;
+  if (visual.type === 'flow') return <Flow phase={phaseAt(visual.phases, step) || { boxes: [] }} beat={beat} />;
+  if (visual.type === 'bars') return <Bars phase={phaseAt(visual.phases, step) || { items: [] }} beat={beat} />;
+  if (visual.type === 'frac') return <Fractions phase={phaseAt(visual.phases, step) || { rows: [] }} beat={beat} />;
+  if (visual.type === 'plane') return <Plane phase={phaseAt(visual.phases, step) || {}} beat={beat} />;
+  return <Geo name={visual.name} step={step} motion={motion} beat={beat} />;
 }
