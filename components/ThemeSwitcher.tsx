@@ -1,69 +1,15 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import { useUserData } from '@/lib/useUserData';
 import { THEME_LIST } from '@/lib/themes';
-import type { ThemeId } from '@/lib/types';
 
 /**
- * 主題切換器元件
- * compact=true：小按鈕 + 下拉選單；compact=false：6 張預覽卡片網格
+ * 主題切換器：6 張預覽卡。只放在設定頁。
+ * 首頁不放，避免右上角下拉蓋住選項。
  */
-interface ThemeSwitcherProps {
-  compact?: boolean;
-}
-
-export function ThemeSwitcher({ compact = false }: ThemeSwitcherProps) {
+export function ThemeSwitcher() {
   const { userData, setTheme } = useUserData();
-  const [open, setOpen] = useState(false);
   const currentTheme = userData?.currentTheme ?? 'japanese';
-
-  useEffect(() => {
-    const handleClickOutside = () => setOpen(false);
-    if (open) {
-      document.addEventListener('click', handleClickOutside);
-      return () => document.removeEventListener('click', handleClickOutside);
-    }
-  }, [open]);
-
-  const currentThemeInfo = THEME_LIST.find(t => t.id === currentTheme);
-
-  if (compact) {
-    return (
-      <div className="relative inline-block">
-        <button
-          className="btn h-12 px-3 flex items-center gap-2 text-base"
-          onClick={(e) => {
-            e.stopPropagation();
-            setOpen(!open);
-          }}
-        >
-          <span className="text-2xl">{currentThemeInfo?.emoji ?? '🎨'}</span>
-          主題
-        </button>
-        {open && (
-          <div className="absolute bottom-full left-0 mb-2 w-60 bg-card rounded-2xl shadow-2xl border border-border py-2 z-50 flex flex-col overflow-hidden">
-            {THEME_LIST.map((theme) => (
-              <button
-                key={theme.id}
-                className="flex items-center gap-3 px-4 py-3 hover:bg-primary/10 w-full text-left transition-colors first:rounded-t-lg last:rounded-b-lg"
-                onClick={() => {
-                  setTheme(theme.id);
-                  setOpen(false);
-                }}
-              >
-                <span className="text-2xl flex-shrink-0">{theme.emoji}</span>
-                <span className="font-medium">{theme.name}</span>
-                {theme.id === currentTheme && (
-                  <span className="ml-auto text-primary font-bold text-sm">✓</span>
-                )}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  }
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 gap-4">

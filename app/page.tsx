@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { Suspense } from 'react';
 import { useUserData } from '@/lib/useUserData';
 import { Pet } from '@/components/Pet';
-import { ThemeSwitcher } from '@/components/ThemeSwitcher';
 import { questions, getUnitProgress, books, findNextUnit, findUnit, isUnitUnlocked } from '@/lib/questions';
 import type { Unit, UserData } from '@/lib/types';
 
@@ -46,13 +45,10 @@ function HomeContent() {
 
   return (
     <div className="flex min-h-[calc(100dvh-var(--bottom-nav-offset))] flex-col bg-[var(--bg)] text-[var(--text)]">
-      {/* 頂部問候與主題切換 */}
-      <div className="flex items-center justify-between p-4 pt-6 pb-2">
-        <div>
-          <h1 className="text-2xl font-bold">歡迎回來！</h1>
-          <p className="text-lg text-[var(--muted)]">小學伴：{pet.name}</p>
-        </div>
-        <ThemeSwitcher compact />
+      {/* 頂部問候 */}
+      <div className="p-4 pt-6 pb-2">
+        <h1 className="text-2xl font-bold">歡迎回來！</h1>
+        <p className="text-lg text-[var(--muted)]">小學伴：{pet.name}</p>
       </div>
 
       <div className="p-4 space-y-6 flex-1">

@@ -1,6 +1,7 @@
 /**
  * 題庫：國一到國三數學。
- * 進度以單元最新作答計算。前一單元答對率 ≥80% 且至少 4 題，下一單元就解鎖。
+ * 進度以單元最新作答計算。所有單元都開放，不依前一關上鎖。
+ * 答對率 ≥80% 且至少 4 題，單元標成已通過。
  */
 
 import bank from '@/data/math-bank.json';
@@ -68,11 +69,9 @@ export function unitPassed(unitId: string, userData: UserData): boolean {
 }
 
 export function isUnitUnlocked(unitId: string, userData: UserData): boolean {
-  const units = allUnits();
-  const index = units.findIndex((unit) => unit.id === unitId);
-  if (index <= 0) return true;
-  if (userData.unlockedUnits.includes(unitId)) return true;
-  return unitPassed(units[index - 1].id, userData);
+  void unitId;
+  void userData;
+  return true;
 }
 
 export function findNextUnit(userData: UserData): Unit | null {

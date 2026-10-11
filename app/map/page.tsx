@@ -198,7 +198,7 @@ function MapContent() {
         })}
       </div>
       <div className="rounded-xl border border-[var(--border)]/50 bg-[var(--bg2)] p-4 text-center text-sm opacity-75">
-        前一單元答對率達 80% 且至少作答 4 題，就會解開下一關。會考練習是依課綱自編的題目，不是歷屆原題。
+        所有單元都已開放，不用先通過前一關。答對率達 80% 且至少作答 4 題會標成已通過。會考練習是依課綱自編的題目，不是歷屆原題。
       </div>
     </>,
   );
