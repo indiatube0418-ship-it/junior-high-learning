@@ -129,6 +129,22 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "unit-1-6",
+              "title": "很小的數的科學記號",
+              "knowledgePoints": [
+                {
+                  "id": "unit-1-6-kp1",
+                  "title": "很小的數的科學記號",
+                  "lesson": [
+                    "小於 1 的正數，科學記號的指數是負的。",
+                    "仍然寫成 a×10 的 n 次方，而且 1≤a＜10。",
+                    "小數點向左移 n 位，就是乘上 10 的 −n 次方。",
+                    "指數的絕對值，就是小數點移動的位數。"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -196,6 +212,22 @@
                     "同底數相除，指數相減。",
                     "乘方再乘方，指數相乘。",
                     "這裡先使用正整數指數。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "u7a2-u5",
+              "title": "負指數",
+              "knowledgePoints": [
+                {
+                  "id": "u7a2-u5-kp1",
+                  "title": "負指數",
+                  "lesson": [
+                    "負指數表示倒數：a 的 −n 次方＝1／a 的 n 次方。",
+                    "底數不是 0，指數上的負號不是把整個數變負。",
+                    "先處理指數，再看要不要取倒數。",
+                    "乘方再乘方時，指數仍然相乘。"
                   ]
                 }
               ]
@@ -919,6 +951,22 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "u9a1-u3",
+              "title": "三連比",
+              "knowledgePoints": [
+                {
+                  "id": "u9a1-u3-kp1",
+                  "title": "三連比",
+                  "lesson": [
+                    "三連比一次比較三個量。",
+                    "兩個比要先把共同的那一項化成一樣，才能接起來。",
+                    "中間項本來就相同時，可以直接接。",
+                    "知道連比和總量，就照份數分配。"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -957,6 +1005,76 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "u9a2-u3",
+              "title": "弧長與扇形",
+              "knowledgePoints": [
+                {
+                  "id": "u9a2-u3-kp1",
+                  "title": "弧長與扇形",
+                  "lesson": [
+                    "弧長＝圓心角／360° × 圓周長。",
+                    "扇形面積＝圓心角／360° × 圓面積。",
+                    "半徑不變時，弧長和圓心角成正比。",
+                    "先算出占了整圓的幾分之幾。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "u9a2-u4",
+              "title": "圓內接四邊形",
+              "knowledgePoints": [
+                {
+                  "id": "u9a2-u4-kp1",
+                  "title": "圓內接四邊形",
+                  "lesson": [
+                    "四個頂點都在同一個圓上，就是圓內接四邊形。",
+                    "它的對角互補，和是 180°。",
+                    "一個外角等於它的內對角。",
+                    "知道一個角，就能求出對面的角。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "math-9a-ch5",
+          "title": "三角比",
+          "units": [
+            {
+              "id": "u9a5-u1",
+              "title": "銳角三角比",
+              "knowledgePoints": [
+                {
+                  "id": "u9a5-u1-kp1",
+                  "title": "銳角三角比",
+                  "lesson": [
+                    "直角三角形裡，銳角的三角比是兩邊的比。",
+                    "正弦＝對邊 ÷ 斜邊。",
+                    "餘弦＝鄰邊 ÷ 斜邊。",
+                    "正切＝對邊 ÷ 鄰邊。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "u9a5-u2",
+              "title": "特殊角與應用",
+              "knowledgePoints": [
+                {
+                  "id": "u9a5-u2-kp1",
+                  "title": "特殊角與應用",
+                  "lesson": [
+                    "30° 的正弦是 1/2，對邊是斜邊的一半。",
+                    "45° 的正切是 1，對邊和鄰邊一樣長。",
+                    "60° 的餘弦是 1/2。",
+                    "測量高度時，先看仰角，再選對的三角比。"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -992,6 +1110,22 @@
                     "把對稱軸的 x 代回去，就得到頂點的 y。",
                     "寫成 a(x−h)²＋k 時，頂點是 (h, k)。",
                     "開口向上時，頂點是最小值。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "u9a3-u3",
+              "title": "最大值與最小值",
+              "knowledgePoints": [
+                {
+                  "id": "u9a3-u3-kp1",
+                  "title": "最大值與最小值",
+                  "lesson": [
+                    "開口向下，頂點是最高點，函數值是最大值。",
+                    "開口向上，頂點是最低點，函數值是最小值。",
+                    "對稱軸的 x 代入函數，就得到那個最大或最小。",
+                    "配成平方之後，平方項最小是 0。"
                   ]
                 }
               ]
@@ -1069,6 +1203,22 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "u9b2-u2",
+              "title": "空間中的線與平面",
+              "knowledgePoints": [
+                {
+                  "id": "u9b2-u2-kp1",
+                  "title": "空間中的線與平面",
+                  "lesson": [
+                    "長方體的上面和底面沒有交線，所以平行。",
+                    "兩條直線不相交、也不平行，就是歪斜，它們不在同一個平面。",
+                    "直線垂直一個平面時，會垂直平面上通過垂足的每一條直線。",
+                    "直線和平面沒有交點，就是線和面平行。"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1088,6 +1238,22 @@
                     "相對次數等於該組次數除以總次數。",
                     "全部相對次數加起來是 1。",
                     "知道相對次數和總筆數，就可以還原次數。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "u9b3-u2",
+              "title": "累積次數",
+              "knowledgePoints": [
+                {
+                  "id": "u9b3-u2-kp1",
+                  "title": "累積次數",
+                  "lesson": [
+                    "累積次數是從第一組加到這一組的次數。",
+                    "累積相對次數＝累積次數 ÷ 總次數。",
+                    "最後一組的累積次數等於總次數。",
+                    "它可以看出「到這裡為止」一共有多少筆。"
                   ]
                 }
               ]
@@ -1823,6 +1989,102 @@
       ]
     },
     {
+      "id": "math-1-1-math-7a-ch1-unit-1-6-unit-1-6-kp1-1",
+      "subject": "math",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "math-7a-ch1",
+      "unitId": "unit-1-6",
+      "knowledgePointId": "unit-1-6-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "0.0045 用科學記號表示是？",
+      "answer": "B",
+      "explanation": "小數點移到 4 和 5 之間，向右移了 3 位，指數是 −3。 答案是 4.5×10 的 −3 次方。",
+      "tags": [
+        "科學記號"
+      ],
+      "difficulty": 1,
+      "options": [
+        "4.5×10 的 3 次方",
+        "4.5×10 的 −3 次方",
+        "45×10 的 −3 次方",
+        "0.45×10 的 −2 次方"
+      ]
+    },
+    {
+      "id": "math-1-1-math-7a-ch1-unit-1-6-unit-1-6-kp1-2",
+      "subject": "math",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "math-7a-ch1",
+      "unitId": "unit-1-6",
+      "knowledgePointId": "unit-1-6-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "3.2×10 的 −2 次方＝（____）。",
+      "answer": "0.032",
+      "explanation": "小數點向左移 2 位。",
+      "tags": [
+        "科學記號"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-1-1-math-7a-ch1-unit-1-6-unit-1-6-kp1-3",
+      "subject": "math",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "math-7a-ch1",
+      "unitId": "unit-1-6",
+      "knowledgePointId": "unit-1-6-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "用科學記號寫很小的數時，指數是？",
+      "answer": "B",
+      "explanation": "小數點向左移，指數就是負的。 答案是 負整數。",
+      "tags": [
+        "科學記號"
+      ],
+      "difficulty": 3,
+      "options": [
+        "正整數",
+        "負整數",
+        "0",
+        "分數"
+      ]
+    },
+    {
+      "id": "math-1-1-math-7a-ch1-unit-1-6-unit-1-6-kp1-4",
+      "subject": "math",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "math-7a-ch1",
+      "unitId": "unit-1-6",
+      "knowledgePointId": "unit-1-6-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "6×10 的 −1 次方等於？",
+      "answer": "B",
+      "explanation": "小數點向左移 1 位。 答案是 0.6。",
+      "tags": [
+        "科學記號",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 36
+      },
+      "options": [
+        "0.06",
+        "0.6",
+        "60",
+        "−6"
+      ]
+    },
+    {
       "id": "math-1-1-math-7a-ch2-u7a2-u1-u7a2-u1-kp1-1",
       "subject": "math",
       "grade": 1,
@@ -1909,7 +2171,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 36
+        "number": 40
       },
       "options": [
         "8",
@@ -2005,7 +2267,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 40
+        "number": 44
       },
       "options": [
         "3",
@@ -2101,7 +2363,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 44
+        "number": 48
       },
       "options": [
         "1/6",
@@ -2197,13 +2459,109 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 48
+        "number": 52
       },
       "options": [
         "5",
         "6",
         "8",
         "9"
+      ]
+    },
+    {
+      "id": "math-1-1-math-7a-ch2-u7a2-u5-u7a2-u5-kp1-1",
+      "subject": "math",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "math-7a-ch2",
+      "unitId": "u7a2-u5",
+      "knowledgePointId": "u7a2-u5-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "2 的 −3 次方等於？",
+      "answer": "B",
+      "explanation": "負指數是正指數的倒數。2³＝8，所以是 1/8。 答案是 1/8。",
+      "tags": [
+        "指數"
+      ],
+      "difficulty": 1,
+      "options": [
+        "−8",
+        "1/8",
+        "−6",
+        "8"
+      ]
+    },
+    {
+      "id": "math-1-1-math-7a-ch2-u7a2-u5-u7a2-u5-kp1-2",
+      "subject": "math",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "math-7a-ch2",
+      "unitId": "u7a2-u5",
+      "knowledgePointId": "u7a2-u5-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "10 的 −2 次方＝（____）。寫成分數。",
+      "answer": "1/100",
+      "explanation": "10²＝100，負指數取倒數。",
+      "tags": [
+        "指數"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-1-1-math-7a-ch2-u7a2-u5-u7a2-u5-kp1-3",
+      "subject": "math",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "math-7a-ch2",
+      "unitId": "u7a2-u5",
+      "knowledgePointId": "u7a2-u5-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "a 的 −n 次方（a 不是 0）等於？",
+      "answer": "B",
+      "explanation": "負號在指數上，不是在底數前面。 答案是 1／a 的 n 次方。",
+      "tags": [
+        "指數"
+      ],
+      "difficulty": 3,
+      "options": [
+        "−a 的 n 次方",
+        "1／a 的 n 次方",
+        "a 的 n 次方",
+        "0"
+      ]
+    },
+    {
+      "id": "math-1-1-math-7a-ch2-u7a2-u5-u7a2-u5-kp1-4",
+      "subject": "math",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "math-7a-ch2",
+      "unitId": "u7a2-u5",
+      "knowledgePointId": "u7a2-u5-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "(2 的 −1 次方) 的 3 次方等於？",
+      "answer": "B",
+      "explanation": "先變成 2 的 −3 次方，也就是 1/8。 答案是 1/8。",
+      "tags": [
+        "指數",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 56
+      },
+      "options": [
+        "−8",
+        "1/8",
+        "6",
+        "1/6"
       ]
     },
     {
@@ -2293,7 +2651,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 52
+        "number": 60
       },
       "options": [
         "−7",
@@ -2389,7 +2747,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 56
+        "number": 64
       },
       "options": [
         "4",
@@ -2485,7 +2843,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 60
+        "number": 68
       },
       "options": [
         "3",
@@ -2581,7 +2939,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 64
+        "number": 72
       },
       "options": [
         "2",
@@ -2677,7 +3035,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 68
+        "number": 76
       },
       "options": [
         "2",
@@ -2773,7 +3131,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 72
+        "number": 80
       },
       "options": [
         "在 x 軸上",
@@ -2869,7 +3227,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 76
+        "number": 84
       },
       "options": [
         "(0, 4)",
@@ -2965,7 +3323,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 80
+        "number": 88
       },
       "options": [
         "16",
@@ -3061,7 +3419,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 84
+        "number": 92
       },
       "options": [
         "從 −2 變成 6",
@@ -3157,7 +3515,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 88
+        "number": 96
       },
       "options": [
         "x≥3",
@@ -3253,7 +3611,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 92
+        "number": 100
       },
       "options": [
         "6",
@@ -3349,7 +3707,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 96
+        "number": 104
       },
       "options": [
         "4",
@@ -3445,7 +3803,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 100
+        "number": 108
       },
       "options": [
         "三角形",
@@ -3541,7 +3899,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 104
+        "number": 112
       },
       "options": [
         "x²＋5x＋25",
@@ -3637,7 +3995,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 108
+        "number": 116
       },
       "options": [
         "3",
@@ -3733,7 +4091,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 112
+        "number": 120
       },
       "options": [
         "50",
@@ -3829,7 +4187,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 116
+        "number": 124
       },
       "options": [
         "√10",
@@ -3925,7 +4283,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 120
+        "number": 128
       },
       "options": [
         "7",
@@ -4021,7 +4379,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 124
+        "number": 132
       },
       "options": [
         "6x²y²",
@@ -4117,7 +4475,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 128
+        "number": 136
       },
       "options": [
         "(x−4)²",
@@ -4213,7 +4571,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 132
+        "number": 140
       },
       "options": [
         "(2x＋3)(x＋1)",
@@ -4309,7 +4667,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 136
+        "number": 144
       },
       "options": [
         "只有 4",
@@ -4405,7 +4763,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 140
+        "number": 148
       },
       "options": [
         "0",
@@ -4501,7 +4859,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 144
+        "number": 152
       },
       "options": [
         "5",
@@ -4597,7 +4955,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 148
+        "number": 156
       },
       "options": [
         "4",
@@ -4693,7 +5051,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 152
+        "number": 160
       },
       "options": [
         "36",
@@ -4789,7 +5147,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 156
+        "number": 164
       },
       "options": [
         "−16",
@@ -4885,7 +5243,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 160
+        "number": 168
       },
       "options": [
         "y＝x",
@@ -4981,7 +5339,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 164
+        "number": 172
       },
       "options": [
         "−1",
@@ -5077,7 +5435,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 168
+        "number": 176
       },
       "options": [
         "90°",
@@ -5173,7 +5531,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 172
+        "number": 180
       },
       "options": [
         "SSA",
@@ -5269,7 +5627,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 176
+        "number": 184
       },
       "options": [
         "70°",
@@ -5365,7 +5723,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 180
+        "number": 188
       },
       "options": [
         "一定垂直",
@@ -5461,7 +5819,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 184
+        "number": 192
       },
       "options": [
         "一定只是梯形",
@@ -5557,7 +5915,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 188
+        "number": 196
       },
       "options": [
         "一定相等",
@@ -5653,7 +6011,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 192
+        "number": 200
       },
       "options": [
         "1：3",
@@ -5749,13 +6107,109 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 196
+        "number": 204
       },
       "options": [
         "5",
         "6",
         "8",
         "3"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch1-u9a1-u3-u9a1-u3-kp1-1",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch1",
+      "unitId": "u9a1-u3",
+      "knowledgePointId": "u9a1-u3-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "a：b＝2：3，b：c＝4：5。a：b：c 是？",
+      "answer": "B",
+      "explanation": "把兩個比的 b 都化成 12。 答案是 8：12：15。",
+      "tags": [
+        "三連比"
+      ],
+      "difficulty": 1,
+      "options": [
+        "2：3：5",
+        "8：12：15",
+        "2：4：5",
+        "8：12：20"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch1-u9a1-u3-u9a1-u3-kp1-2",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch1",
+      "unitId": "u9a1-u3",
+      "knowledgePointId": "u9a1-u3-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "a：b：c＝2：3：5，而且 a＋b＋c＝60。a＝（____）。",
+      "answer": "12",
+      "explanation": "60 分成 10 份，a 占 2 份。",
+      "tags": [
+        "三連比"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-3-1-math-9a-ch1-u9a1-u3-u9a1-u3-kp1-3",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch1",
+      "unitId": "u9a1-u3",
+      "knowledgePointId": "u9a1-u3-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "2：3 和 3：4 接成三連比，結果是？",
+      "answer": "B",
+      "explanation": "中間項都是 3，可以直接接起來。 答案是 2：3：4。",
+      "tags": [
+        "三連比"
+      ],
+      "difficulty": 3,
+      "options": [
+        "2：3：7",
+        "2：3：4",
+        "6：3：4",
+        "2：6：4"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch1-u9a1-u3-u9a1-u3-kp1-4",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch1",
+      "unitId": "u9a1-u3",
+      "knowledgePointId": "u9a1-u3-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "x：y：z＝1：2：3，而且 x＝5。z 是？",
+      "answer": "B",
+      "explanation": "z 是 x 的 3 倍。 答案是 15。",
+      "tags": [
+        "三連比",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 208
+      },
+      "options": [
+        "10",
+        "15",
+        "6",
+        "8"
       ]
     },
     {
@@ -5845,7 +6299,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 200
+        "number": 212
       },
       "options": [
         "一定互補",
@@ -5941,13 +6395,397 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 204
+        "number": 216
       },
       "options": [
         "4",
         "8",
         "6",
         "10"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch2-u9a2-u3-u9a2-u3-kp1-1",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch2",
+      "unitId": "u9a2-u3",
+      "knowledgePointId": "u9a2-u3-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "半徑 6、圓心角 60°，弧長是？",
+      "answer": "B",
+      "explanation": "弧長＝(60/360)×2π×6＝2π。 答案是 2π。",
+      "tags": [
+        "扇形"
+      ],
+      "difficulty": 1,
+      "options": [
+        "6π",
+        "2π",
+        "π",
+        "12π"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch2-u9a2-u3-u9a2-u3-kp1-2",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch2",
+      "unitId": "u9a2-u3",
+      "knowledgePointId": "u9a2-u3-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "半徑 6、圓心角 60°，扇形面積是（____）π。只填數字。",
+      "answer": "6",
+      "explanation": "面積＝(60/360)×π×36＝6π。",
+      "tags": [
+        "扇形"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-3-1-math-9a-ch2-u9a2-u3-u9a2-u3-kp1-3",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch2",
+      "unitId": "u9a2-u3",
+      "knowledgePointId": "u9a2-u3-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "半徑不變，圓心角變成 2 倍，弧長會？",
+      "answer": "B",
+      "explanation": "弧長和圓心角成正比。 答案是 變成 2 倍。",
+      "tags": [
+        "扇形"
+      ],
+      "difficulty": 3,
+      "options": [
+        "不變",
+        "變成 2 倍",
+        "變成 4 倍",
+        "變成一半"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch2-u9a2-u3-u9a2-u3-kp1-4",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch2",
+      "unitId": "u9a2-u3",
+      "knowledgePointId": "u9a2-u3-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "半徑 10、圓心角 36°，扇形面積是？",
+      "answer": "B",
+      "explanation": "(36/360)×π×100＝10π。 答案是 10π。",
+      "tags": [
+        "扇形",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 220
+      },
+      "options": [
+        "36π",
+        "10π",
+        "20π",
+        "100π"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch2-u9a2-u4-u9a2-u4-kp1-1",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch2",
+      "unitId": "u9a2-u4",
+      "knowledgePointId": "u9a2-u4-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "圓內接四邊形的一組對角？",
+      "answer": "B",
+      "explanation": "對角和是 180°。 答案是 互補。",
+      "tags": [
+        "圓"
+      ],
+      "difficulty": 1,
+      "options": [
+        "相等",
+        "互補",
+        "互餘",
+        "和是 90°"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch2-u9a2-u4-u9a2-u4-kp1-2",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch2",
+      "unitId": "u9a2-u4",
+      "knowledgePointId": "u9a2-u4-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "圓內接四邊形一個內角 70°。它的對角是（____）度。",
+      "answer": "110",
+      "explanation": "180−70＝110。",
+      "tags": [
+        "圓"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-3-1-math-9a-ch2-u9a2-u4-u9a2-u4-kp1-3",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch2",
+      "unitId": "u9a2-u4",
+      "knowledgePointId": "u9a2-u4-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "圓內接四邊形的一個外角等於？",
+      "answer": "B",
+      "explanation": "外角等於它的內對角。 答案是 內對角。",
+      "tags": [
+        "圓"
+      ],
+      "difficulty": 3,
+      "options": [
+        "鄰角",
+        "內對角",
+        "外對角",
+        "圓心角"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch2-u9a2-u4-u9a2-u4-kp1-4",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch2",
+      "unitId": "u9a2-u4",
+      "knowledgePointId": "u9a2-u4-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "四邊形 ABCD 內接於圓，∠A＝80°。∠C 是？",
+      "answer": "B",
+      "explanation": "∠A 和 ∠C 是對角，和是 180°。 答案是 100°。",
+      "tags": [
+        "圓",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 224
+      },
+      "options": [
+        "80°",
+        "100°",
+        "90°",
+        "280°"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch5-u9a5-u1-u9a5-u1-kp1-1",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch5",
+      "unitId": "u9a5-u1",
+      "knowledgePointId": "u9a5-u1-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "正弦是哪兩邊的比？",
+      "answer": "B",
+      "explanation": "sin＝對邊／斜邊。 答案是 對邊 ÷ 斜邊。",
+      "tags": [
+        "三角比"
+      ],
+      "difficulty": 1,
+      "options": [
+        "鄰邊 ÷ 斜邊",
+        "對邊 ÷ 斜邊",
+        "對邊 ÷ 鄰邊",
+        "斜邊 ÷ 對邊"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch5-u9a5-u1-u9a5-u1-kp1-2",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch5",
+      "unitId": "u9a5-u1",
+      "knowledgePointId": "u9a5-u1-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "直角三角形對邊 3、斜邊 5。這個銳角的正弦是（____）。寫最簡分數。",
+      "answer": "3/5",
+      "explanation": "sin＝3÷5。",
+      "tags": [
+        "三角比"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-3-1-math-9a-ch5-u9a5-u1-u9a5-u1-kp1-3",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch5",
+      "unitId": "u9a5-u1",
+      "knowledgePointId": "u9a5-u1-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "正切是哪兩邊的比？",
+      "answer": "B",
+      "explanation": "tan＝對邊／鄰邊。 答案是 對邊 ÷ 鄰邊。",
+      "tags": [
+        "三角比"
+      ],
+      "difficulty": 3,
+      "options": [
+        "對邊 ÷ 斜邊",
+        "對邊 ÷ 鄰邊",
+        "鄰邊 ÷ 斜邊",
+        "斜邊 ÷ 鄰邊"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch5-u9a5-u1-u9a5-u1-kp1-4",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch5",
+      "unitId": "u9a5-u1",
+      "knowledgePointId": "u9a5-u1-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "對邊 3、鄰邊 4、斜邊 5。餘弦是？",
+      "answer": "B",
+      "explanation": "cos＝鄰邊／斜邊＝4/5。 答案是 4/5。",
+      "tags": [
+        "三角比",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 228
+      },
+      "options": [
+        "3/5",
+        "4/5",
+        "3/4",
+        "5/4"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch5-u9a5-u2-u9a5-u2-kp1-1",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch5",
+      "unitId": "u9a5-u2",
+      "knowledgePointId": "u9a5-u2-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "30° 的正弦是？",
+      "answer": "B",
+      "explanation": "30° 所對的直角邊是斜邊的一半。 答案是 1/2。",
+      "tags": [
+        "三角比"
+      ],
+      "difficulty": 1,
+      "options": [
+        "√3/2",
+        "1/2",
+        "1",
+        "√2/2"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch5-u9a5-u2-u9a5-u2-kp1-2",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch5",
+      "unitId": "u9a5-u2",
+      "knowledgePointId": "u9a5-u2-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "直角三角形一個銳角 30°，斜邊 10。30° 的對邊是（____）。",
+      "answer": "5",
+      "explanation": "對邊＝10×(1/2)＝5。",
+      "tags": [
+        "三角比"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-3-1-math-9a-ch5-u9a5-u2-u9a5-u2-kp1-3",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch5",
+      "unitId": "u9a5-u2",
+      "knowledgePointId": "u9a5-u2-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "45° 的正切是？",
+      "answer": "B",
+      "explanation": "45° 的對邊和鄰邊一樣長。 答案是 1。",
+      "tags": [
+        "三角比"
+      ],
+      "difficulty": 3,
+      "options": [
+        "1/2",
+        "1",
+        "√3",
+        "√2/2"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch5-u9a5-u2-u9a5-u2-kp1-4",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch5",
+      "unitId": "u9a5-u2",
+      "knowledgePointId": "u9a5-u2-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "人離樹 12 公尺，以 45° 仰角看樹頂（不計身高）。樹高是？",
+      "answer": "B",
+      "explanation": "tan45°＝1，高度等於水平距離。 答案是 12 公尺。",
+      "tags": [
+        "三角比",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 232
+      },
+      "options": [
+        "6 公尺",
+        "12 公尺",
+        "24 公尺",
+        "12√3 公尺"
       ]
     },
     {
@@ -6037,7 +6875,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 208
+        "number": 236
       },
       "options": [
         "(−2, 1)",
@@ -6133,13 +6971,109 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 212
+        "number": 240
       },
       "options": [
         "0",
         "2",
         "−2",
         "沒有最小值"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch3-u9a3-u3-u9a3-u3-kp1-1",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch3",
+      "unitId": "u9a3-u3",
+      "knowledgePointId": "u9a3-u3-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "y＝−x²＋6x＋1 的最大值是？",
+      "answer": "B",
+      "explanation": "對稱軸 x＝3，代入得 10。開口向下，這就是最大值。 答案是 10。",
+      "tags": [
+        "二次函數"
+      ],
+      "difficulty": 1,
+      "options": [
+        "6",
+        "10",
+        "1",
+        "9"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch3-u9a3-u3-u9a3-u3-kp1-2",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch3",
+      "unitId": "u9a3-u3",
+      "knowledgePointId": "u9a3-u3-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "y＝(x−2)²＋5 的最小值是（____）。",
+      "answer": "5",
+      "explanation": "平方項最小是 0，所以最小值是 5。",
+      "tags": [
+        "二次函數"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-3-1-math-9a-ch3-u9a3-u3-u9a3-u3-kp1-3",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch3",
+      "unitId": "u9a3-u3",
+      "knowledgePointId": "u9a3-u3-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "開口向上的拋物線，頂點的函數值是？",
+      "answer": "B",
+      "explanation": "開口向上時，最低點在頂點。 答案是 最小值。",
+      "tags": [
+        "二次函數"
+      ],
+      "difficulty": 3,
+      "options": [
+        "最大值",
+        "最小值",
+        "一定是 0",
+        "對稱軸"
+      ]
+    },
+    {
+      "id": "math-3-1-math-9a-ch3-u9a3-u3-u9a3-u3-kp1-4",
+      "subject": "math",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "math-9a-ch3",
+      "unitId": "u9a3-u3",
+      "knowledgePointId": "u9a3-u3-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "y＝−2(x−1)²＋7 的最大值發生在？",
+      "answer": "B",
+      "explanation": "括號裡是 0 的時候，函數值最高。 答案是 x＝1。",
+      "tags": [
+        "二次函數",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 244
+      },
+      "options": [
+        "x＝−2",
+        "x＝1",
+        "x＝7",
+        "x＝−1"
       ]
     },
     {
@@ -6229,7 +7163,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 216
+        "number": 248
       },
       "options": [
         "1/4",
@@ -6325,7 +7259,7 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 220
+        "number": 252
       },
       "options": [
         "1：1",
@@ -6421,13 +7355,109 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 224
+        "number": 256
       },
       "options": [
         "27",
         "54",
         "36",
         "18"
+      ]
+    },
+    {
+      "id": "math-3-2-math-9b-ch2-u9b2-u2-u9b2-u2-kp1-1",
+      "subject": "math",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "math-9b-ch2",
+      "unitId": "u9b2-u2",
+      "knowledgePointId": "u9b2-u2-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "長方體裡，上面和底面的關係是？",
+      "answer": "B",
+      "explanation": "這兩個面沒有交線。 答案是 平行。",
+      "tags": [
+        "空間"
+      ],
+      "difficulty": 1,
+      "options": [
+        "一定相交",
+        "平行",
+        "一定垂直",
+        "只有一點重合"
+      ]
+    },
+    {
+      "id": "math-3-2-math-9b-ch2-u9b2-u2-u9b2-u2-kp1-2",
+      "subject": "math",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "math-9b-ch2",
+      "unitId": "u9b2-u2",
+      "knowledgePointId": "u9b2-u2-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "長方體裡，既不平行也不相交的兩條邊叫做？",
+      "answer": "B",
+      "explanation": "不在同一個平面上的兩直線是歪斜。 答案是 歪斜。",
+      "tags": [
+        "空間"
+      ],
+      "difficulty": 2,
+      "options": [
+        "垂直",
+        "歪斜",
+        "共面",
+        "重合"
+      ]
+    },
+    {
+      "id": "math-3-2-math-9b-ch2-u9b2-u2-u9b2-u2-kp1-3",
+      "subject": "math",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "math-9b-ch2",
+      "unitId": "u9b2-u2",
+      "knowledgePointId": "u9b2-u2-kp1",
+      "tier": "advanced",
+      "type": "fill",
+      "stem": "直線垂直一個平面時，會垂直平面上通過垂足的（____）直線。填「每一條」或「只有一條」。",
+      "answer": "每一條",
+      "explanation": "線面垂直，就是垂直於平面上過垂足的每一條直線。",
+      "tags": [
+        "空間"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "math-3-2-math-9b-ch2-u9b2-u2-u9b2-u2-kp1-4",
+      "subject": "math",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "math-9b-ch2",
+      "unitId": "u9b2-u2",
+      "knowledgePointId": "u9b2-u2-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "一條直線和一個平面沒有交點。它們的關係是？",
+      "answer": "B",
+      "explanation": "直線和平面不相交，就是平行。 答案是 平行。",
+      "tags": [
+        "空間",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 260
+      },
+      "options": [
+        "垂直",
+        "平行",
+        "歪斜",
+        "重合"
       ]
     },
     {
@@ -6517,13 +7547,109 @@
       "source": {
         "year": 0,
         "exam": "自編會考練習",
-        "number": 228
+        "number": 264
       },
       "options": [
         "20",
         "10",
         "5",
         "2"
+      ]
+    },
+    {
+      "id": "math-3-2-math-9b-ch3-u9b3-u2-u9b3-u2-kp1-1",
+      "subject": "math",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "math-9b-ch3",
+      "unitId": "u9b3-u2",
+      "knowledgePointId": "u9b3-u2-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "次數依序是 4、6、5、5。前兩組的累積次數是？",
+      "answer": "B",
+      "explanation": "4＋6＝10。 答案是 10。",
+      "tags": [
+        "統計"
+      ],
+      "difficulty": 1,
+      "options": [
+        "6",
+        "10",
+        "4",
+        "20"
+      ]
+    },
+    {
+      "id": "math-3-2-math-9b-ch3-u9b3-u2-u9b3-u2-kp1-2",
+      "subject": "math",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "math-9b-ch3",
+      "unitId": "u9b3-u2",
+      "knowledgePointId": "u9b3-u2-kp1",
+      "tier": "basic",
+      "type": "fill",
+      "stem": "總次數 20，累積次數 10。累積相對次數是（____）。寫最簡分數。",
+      "answer": "1/2",
+      "explanation": "10÷20＝1/2。",
+      "tags": [
+        "統計"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "math-3-2-math-9b-ch3-u9b3-u2-u9b3-u2-kp1-3",
+      "subject": "math",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "math-9b-ch3",
+      "unitId": "u9b3-u2",
+      "knowledgePointId": "u9b3-u2-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "最後一組的累積次數一定等於？",
+      "answer": "B",
+      "explanation": "全部資料都已經算進去。 答案是 總次數。",
+      "tags": [
+        "統計"
+      ],
+      "difficulty": 3,
+      "options": [
+        "0",
+        "總次數",
+        "最後一組的次數",
+        "組數"
+      ]
+    },
+    {
+      "id": "math-3-2-math-9b-ch3-u9b3-u2-u9b3-u2-kp1-4",
+      "subject": "math",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "math-9b-ch3",
+      "unitId": "u9b3-u2",
+      "knowledgePointId": "u9b3-u2-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "次數 3、5、2，共 10 筆。第二組的累積相對次數是？",
+      "answer": "B",
+      "explanation": "(3＋5)÷10＝0.8。 答案是 0.8。",
+      "tags": [
+        "統計",
+        "會考練習"
+      ],
+      "difficulty": 4,
+      "source": {
+        "year": 0,
+        "exam": "自編會考練習",
+        "number": 268
+      },
+      "options": [
+        "0.5",
+        "0.8",
+        "0.3",
+        "0.2"
       ]
     }
   ]

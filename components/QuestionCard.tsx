@@ -1,6 +1,7 @@
 'use client';
 
 import { Question, QuestionType, QuestionMark } from '@/lib/types';
+import { LessonFigure } from '@/components/figures/LessonFigure';
 import { useState, useRef } from 'react';
 
 interface QuestionCardProps {
@@ -128,6 +129,7 @@ export function QuestionCard({
           {showExplanation && (
             <div className="p-4 bg-[var(--bg2)]/50 rounded-xl border border-dashed border-[var(--border)]">
               <h4 className="font-bold mb-2">解析：</h4>
+              <LessonFigure knowledgePointId={question.knowledgePointId} step={0} compact />
               <p className="whitespace-pre-wrap">{question.explanation}</p>
             </div>
           )}

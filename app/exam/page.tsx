@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useUserData } from '@/lib/useUserData';
 import { TopBar } from '@/components/TopBar';
 import { QuestionCard } from '@/components/QuestionCard';
+import { LessonFigure } from '@/components/figures/LessonFigure';
 import { getQuestionsByTier, sampleQuestions } from '@/lib/questions';
 import type { Question } from '@/lib/types';
 
@@ -167,7 +168,12 @@ export default function ExamPage() {
                     <span className="font-bold">正解：</span>
                     {Array.isArray(q.answer) ? q.answer.join(',') : q.answer}
                   </div>
-                  {q.explanation && <div className="mt-2 text-sm">{q.explanation}</div>}
+                  {q.explanation && (
+                    <div className="mt-2 text-sm">
+                      <LessonFigure knowledgePointId={q.knowledgePointId} step={0} compact />
+                      {q.explanation}
+                    </div>
+                  )}
                 </div>
               );
             })}

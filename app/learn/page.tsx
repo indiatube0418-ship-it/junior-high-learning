@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { Suspense, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useUserData } from '@/lib/useUserData';
 import { QuestionCard } from '@/components/QuestionCard';
+import { LessonFigure } from '@/components/figures/LessonFigure';
 import { TopBar } from '@/components/TopBar';
 import { books, findUnit, getQuestionsByTier, isUnitUnlocked } from '@/lib/questions';
 import type { Question } from '@/lib/types';
@@ -18,7 +19,29 @@ function LearnContent() {
   const [practiceMode, setPracticeMode] = useState(false);
   const [practiceQs, setPracticeQs] = useState<string[]>([]);
   const [currentQIdx, setCurrentQIdx] = useState(0);
+  const [practiceAnswer, setPracticeAnswer] = useState<string | string[] | undefined>(undefined);
+  const [playing, setPlaying] = useState(false);
   const today = new Date().toISOString().split('T')[0];
+
+  useEffect(() => {
+    setCurrentKP(0);
+    setLessonStep(0);
+    setPracticeMode(false);
+    setPracticeAnswer(undefined);
+    setPlaying(false);
+  }, [unitId]);
+
+  useEffect(() => {
+    if (!playing) return;
+    const locatedNow = unitId ? findUnit(unitId) : null;
+    const len = locatedNow?.unit.knowledgePoints[currentKP]?.lesson.length ?? 0;
+    if (len === 0 || lessonStep >= len - 1) {
+      setPlaying(false);
+      return;
+    }
+    const id = window.setTimeout(() => setLessonStep((step) => step + 1), 2600);
+    return () => window.clearTimeout(id);
+  }, [playing, lessonStep, currentKP, unitId]);
 
   if (!userData) return <div className="flex-1 flex items-center justify-center p-4"><div>載入中...</div></div>;
 
@@ -76,25 +99,59 @@ function LearnContent() {
         <div className="p-4 space-y-6 flex-1 flex flex-col">
           {/* 教學內容 */}
           <div className="card grow">
-            <div className="prose max-w-none">
-              {lesson.slice(0, lessonStep + 1).map((para, i) => (
-                <p key={i} className="mb-4 p-4 bg-[var(--bg2)] rounded-xl">{para}</p>
-              ))}
+            <LessonFigure knowledgePointId={kp.id} step={lessonStep} />
+            <div className="px-4 pb-3">
+              <button
+                type="button"
+                className="btn btn-secondary w-full"
+                onClick={() => {
+                  if (playing) {
+                    setPlaying(false);
+                    return;
+                  }
+                  if (lessonStep >= lesson.length - 1) setLessonStep(0);
+                  setPlaying(true);
+                }}
+              >
+                {playing ? "暫停動畫" : "播放動畫"}
+              </button>
             </div>
+            <details className="mx-4 mb-4 rounded-xl bg-[var(--bg2)] px-4 py-3 text-sm">
+              <summary className="cursor-pointer font-bold">看這一段的文字說明</summary>
+              <p className="mt-2 leading-relaxed">{lesson[lessonStep]}</p>
+            </details>
             <div className="flex gap-2 p-4 pt-0">
+              {lessonStep > 0 && (
+                <button className="btn btn-secondary flex-1" onClick={() => { setPlaying(false); setLessonStep((s) => s - 1); }}>
+                  上一段
+                </button>
+              )}
               {lessonStep < lesson.length - 1 ? (
-                <button className="btn btn-primary flex-1" onClick={() => setLessonStep(s => s + 1)}>
-                  下一段 →
+                <button className="btn btn-primary flex-1" onClick={() => { setPlaying(false); setLessonStep((s) => s + 1); }}>
+                  下一格圖 →
+                </button>
+              ) : currentKP < unit.knowledgePoints.length - 1 ? (
+                <button className="btn btn-primary flex-1" onClick={() => {
+                  setPlaying(false);
+                  setCurrentKP((k) => k + 1);
+                  setLessonStep(0);
+                }}>
+                  下一個觀念 →
                 </button>
               ) : (
                 <>
-                  <button className="btn btn-secondary flex-1" onClick={() => setCurrentKP(0)}>
+                  <button className="btn btn-secondary flex-1" onClick={() => {
+                    setPlaying(false);
+                    setCurrentKP(0);
+                    setLessonStep(0);
+                  }}>
                     重新開始
                   </button>
                   <button className="btn btn-primary flex-1" onClick={() => {
                     const qs = getQuestionsByTier('basic', unitId).slice(0, 5).map(q => q.id);
                     setPracticeQs(qs);
                     setCurrentQIdx(0);
+                    setPracticeAnswer(undefined);
                     setPracticeMode(true);
                   }}>
                     開始練習 (5題)
@@ -125,14 +182,22 @@ function LearnContent() {
   };
 
   const handleAnswer = (ans: string | string[]) => {
+    if (Array.isArray(ans) && ans.length === 0) {
+      if (currentQIdx < practiceQs.length - 1) {
+        setCurrentQIdx(idx => idx + 1);
+        setPracticeAnswer(undefined);
+      } else {
+        setPracticeAnswer(undefined);
+        setPracticeMode(false);
+        setLessonStep(0);
+      }
+      return;
+    }
+    if (practiceAnswer !== undefined) return;
     const isCorrect = checkAnswer(q, ans);
     recordAnswer(q, ans, isCorrect);
     refreshSrs(today);
-    if (currentQIdx < practiceQs.length - 1) {
-      setCurrentQIdx(idx => idx + 1);
-    } else {
-      setPracticeMode(false);
-    }
+    setPracticeAnswer(ans);
   };
 
   return (
@@ -145,6 +210,7 @@ function LearnContent() {
         <QuestionCard
           question={q}
           onAnswer={handleAnswer}
+          userAnswer={practiceAnswer}
           showExplanation={true}
           marks={userData.questionMarks[q.id] || { unsure: false, wrong: false }}
           onToggleMark={(mark) => toggleMark(q.id, mark)}
