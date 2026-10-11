@@ -8,12 +8,13 @@ import { QuestionCard } from '@/components/QuestionCard';
 import { TopBar } from '@/components/TopBar';
 import { ProgressRing } from '@/components/ProgressRing';
 import { getQuestionsByTier, sampleQuestions } from '@/lib/questions';
-import type { Question } from '@/lib/types';
+import type { Question, Subject } from '@/lib/types';
 
 function PracticeContent() {
   const searchParams = useSearchParams();
   const mode = (searchParams?.get('mode') || 'basic') as 'basic' | 'advanced' | 'exam';
   const unitId = searchParams?.get('unit') || '';
+  const subject = (searchParams?.get('subject') || 'math') as Subject;
   const { userData, recordAnswer, toggleMark, refreshSrs } = useUserData();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -30,14 +31,14 @@ function PracticeContent() {
 
   // 載入題目清單，只依賴 mode/unitId，一次計算固定
   useEffect(() => {
-    const pool = getQuestionsByTier(mode, unitId || undefined);
+    const pool = getQuestionsByTier(mode, unitId || undefined, unitId ? undefined : subject);
     const qs = mode === 'exam' && !unitId ? sampleQuestions(pool, 10) : pool.slice(0, 20);
     setQuestions(qs);
     setCurrentIdx(0);
     setUserAnswers({});
     setNumCorrect(0);
     setShowResults(false);
-  }, [mode, unitId]);
+  }, [mode, unitId, subject]);
 
   // userData 載入後刷新 SRS（不影響題目清單）
   useEffect(() => {

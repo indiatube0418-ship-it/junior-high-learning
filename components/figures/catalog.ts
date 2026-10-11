@@ -1,14 +1,17 @@
 import type { Visual } from './draw';
+import { englishFigures } from './englishCatalog';
 
 export interface FigureEntry {
   title: string;
   captions: [string, string, string, string];
   visual: Visual;
+  voice?: 'math' | 'language';
 }
 
 const cell = (t: string, tone: 'pri' | 'acc' | 'ink' = 'pri') => ({ t, tone });
 
 export const figures: Record<string, FigureEntry> = {
+  ...englishFigures,
   'unit-1-1-kp1': {
     title: '正數、負數和零',
     captions: [

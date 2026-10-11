@@ -65,7 +65,7 @@ export function LessonFigure({
   const safe = entry ? Math.max(0, Math.min(entry.captions.length - 1, shown)) : 0;
   const last = entry ? entry.captions.length - 1 : 0;
   const total = entry ? entry.captions.length : 1;
-  const role = stepRole(safe, total);
+  const role = stepRole(safe, total, entry.voice ?? 'math');
 
   useEffect(() => {
     if (!entry) return;

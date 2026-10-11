@@ -1,18 +1,19 @@
 'use client';
 
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { Suspense, useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { useUserData } from '@/lib/useUserData';
 import { TopBar } from '@/components/TopBar';
 import { QuestionCard } from '@/components/QuestionCard';
 import { LessonFigure } from '@/components/figures/LessonFigure';
 import { getQuestionsByTier, sampleQuestions } from '@/lib/questions';
-import type { Question } from '@/lib/types';
+import type { Question, Subject } from '@/lib/types';
 
-function drawExamQuestions(): Question[] {
-  const examQuestions = sampleQuestions(getQuestionsByTier('exam'), 10);
+function drawExamQuestions(subject: Subject): Question[] {
+  const examQuestions = sampleQuestions(getQuestionsByTier('exam', undefined, subject), 10);
   if (examQuestions.length >= 10) return examQuestions;
-  const extra = sampleQuestions(getQuestionsByTier('advanced'), 10 - examQuestions.length);
+  const extra = sampleQuestions(getQuestionsByTier('advanced', undefined, subject), 10 - examQuestions.length);
   return [...examQuestions, ...extra];
 }
 
@@ -32,7 +33,9 @@ function answersMatch(expected: string | string[], given: string | string[] | un
  * 模擬考：混合 10 題，計時 10 分，結束顯示結果。
  * 題幹在內部捲動，交卷與換題留在底部導覽上方。
  */
-export default function ExamPage() {
+function ExamContent() {
+  const searchParams = useSearchParams();
+  const subject = (searchParams?.get('subject') || 'math') as Subject;
   const { userData, recordAnswer } = useUserData();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -44,8 +47,8 @@ export default function ExamPage() {
 
   useEffect(() => {
     if (!userData) return;
-    setQuestions(drawExamQuestions());
-  }, [userData]);
+    setQuestions(drawExamQuestions(subject));
+  }, [userData, subject]);
 
   useEffect(() => {
     if (timeLeft === 0 || finished) return;
@@ -82,7 +85,7 @@ export default function ExamPage() {
     setFinished(false);
     setScore(0);
     setTimeLeft(600);
-    setQuestions(drawExamQuestions());
+    setQuestions(drawExamQuestions(subject));
   };
 
   if (!userData || questions.length === 0) {
@@ -189,5 +192,13 @@ export default function ExamPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function ExamPage() {
+  return (
+    <Suspense fallback={<div className="flex min-h-screen items-center justify-center">載入考題中...</div>}>
+      <ExamContent />
+    </Suspense>
   );
 }

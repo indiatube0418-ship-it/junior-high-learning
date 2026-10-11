@@ -1,11 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import { useUserData } from '@/lib/useUserData';
 import { Pet } from '@/components/Pet';
 import { questions, getUnitProgress, books, findNextUnit, findUnit, isUnitUnlocked } from '@/lib/questions';
-import type { Unit, UserData } from '@/lib/types';
+import type { Subject, Unit, UserData } from '@/lib/types';
 
 function getUnitAnsweredAndCorrect(unitId: string, userData: UserData): { answered: number; correct: number } {
   const unitQs = questions.filter((q) => q.unitId === unitId);
@@ -22,6 +22,7 @@ function getUnitAnsweredAndCorrect(unitId: string, userData: UserData): { answer
 
 function HomeContent() {
   const { userData, claimQuest } = useUserData();
+  const [subject, setSubject] = useState<Subject>('math');
 
   if (!userData) {
     return (
@@ -31,8 +32,9 @@ function HomeContent() {
     );
   }
 
-  const nextUnit = findNextUnit(userData);
-  const lastBook = books[books.length - 1];
+  const subjectBooks = books.filter((book) => book.subject === subject);
+  const nextUnit = findNextUnit(userData, subject);
+  const lastBook = subjectBooks[subjectBooks.length - 1];
   const lastChapter = lastBook.chapters[lastBook.chapters.length - 1];
   const lastUnit = lastChapter.units[lastChapter.units.length - 1];
   const focus = nextUnit ? findUnit(nextUnit.id) : findUnit(lastUnit.id);
@@ -50,6 +52,18 @@ function HomeContent() {
         <h1 className="text-2xl font-bold">歡迎回來！</h1>
         <p className="text-lg text-[var(--muted)]">小學伴：{pet.name}</p>
       </div>
+      <div className="flex gap-2 px-4">
+        {([['math', '數學'], ['english', '英文']] as const).map(([id, label]) => (
+          <button
+            key={id}
+            type="button"
+            className={id === subject ? 'btn btn-primary px-4 py-2' : 'btn btn-secondary px-4 py-2'}
+            onClick={() => setSubject(id)}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
 
       <div className="p-4 space-y-6 flex-1">
         {/* 繼續學習主卡 */}
@@ -57,10 +71,10 @@ function HomeContent() {
           {allPassed ? (
             <>
               <div className="text-4xl mb-4">🎉</div>
-              <h2 className="text-2xl font-bold mb-4">全章節通過！</h2>
+              <h2 className="text-2xl font-bold mb-4">{subject === 'english' ? '英文' : '數學'}全部通過！</h2>
               <p className="text-[var(--muted)] mb-6">準備挑戰更高難度吧！</p>
               <Link
-                href="/practice?mode=exam"
+                href={`/practice?mode=exam&subject=${subject}`}
                 className="block w-full btn btn-primary text-xl py-5 shadow-lg"
               >
                 挑戰模擬考
@@ -108,7 +122,7 @@ function HomeContent() {
         <div>
           <h3 className="section-title mb-4">課程路徑{focus ? ` · ${focus.book.title} ${focus.chapter.title}` : ''}</h3>
           <div className="mb-3 flex gap-2 overflow-x-auto">
-            {books.map((book) => (
+            {subjectBooks.map((book) => (
               <Link
                 key={book.id}
                 href={`/map?book=${book.id}`}

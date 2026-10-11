@@ -1,24 +1,37 @@
 /**
- * 題庫：國一到國三數學。
+ * 題庫：國一到國三數學與英文。
  * 進度以單元最新作答計算。所有單元都開放，不依前一關上鎖。
  * 答對率 ≥80% 且至少 4 題，單元標成已通過。
  */
 
-import bank from '@/data/math-bank.json';
-import type { Chapter, Grade, Question, Semester, Tier, Unit, UserData } from './types';
+import mathBank from '@/data/math-bank.json';
+import englishBank from '@/data/english-bank.json';
+import type { Chapter, Grade, Question, Semester, Subject, Tier, Unit, UserData } from './types';
 
 export interface CourseBook {
   id: string;
   title: string;
   grade: Grade;
   semester: Semester;
+  subject: Subject;
   chapters: Chapter[];
 }
 
-const data = bank as unknown as { books: CourseBook[]; questions: Question[] };
+function loadBooks(
+  bank: { books: Array<Omit<CourseBook, 'subject'> & { subject?: Subject }>; questions: Question[] },
+  subject: Subject,
+): { books: CourseBook[]; questions: Question[] } {
+  return {
+    books: bank.books.map((book) => ({ ...book, subject: book.subject ?? subject })),
+    questions: bank.questions,
+  };
+}
 
-export const books: CourseBook[] = data.books;
-export const questions: Question[] = data.questions;
+const math = loadBooks(mathBank as { books: CourseBook[]; questions: Question[] }, 'math');
+const english = loadBooks(englishBank as { books: CourseBook[]; questions: Question[] }, 'english');
+
+export const books: CourseBook[] = [...math.books, ...english.books];
+export const questions: Question[] = [...math.questions, ...english.questions];
 
 export function allChapters(): Chapter[] {
   return books.flatMap((book) => book.chapters);
@@ -46,8 +59,8 @@ export function findChapter(chapterId: string): { book: CourseBook; chapter: Cha
   return null;
 }
 
-export function getQuestionsByTier(tier: Tier, unitId?: string): Question[] {
-  return questions.filter((q) => q.tier === tier && (!unitId || q.unitId === unitId));
+export function getQuestionsByTier(tier: Tier, unitId?: string, subject?: Subject): Question[] {
+  return questions.filter((q) => q.tier === tier && (!unitId || q.unitId === unitId) && (!subject || q.subject === subject));
 }
 
 function latestUnitResults(unitId: string, userData: UserData): { answered: number; correct: number } {
@@ -74,8 +87,9 @@ export function isUnitUnlocked(unitId: string, userData: UserData): boolean {
   return true;
 }
 
-export function findNextUnit(userData: UserData): Unit | null {
+export function findNextUnit(userData: UserData, subject?: Subject): Unit | null {
   for (const unit of allUnits()) {
+    if (subject && findUnit(unit.id)?.book.subject !== subject) continue;
     if (!unitPassed(unit.id, userData)) return unit;
   }
   return null;

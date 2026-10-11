@@ -7,12 +7,13 @@ import { useUserData } from '@/lib/useUserData';
 import { QuestionCard } from '@/components/QuestionCard';
 import { LessonFigure } from '@/components/figures/LessonFigure';
 import { TopBar } from '@/components/TopBar';
-import { books, findUnit, getQuestionsByTier, isUnitUnlocked } from '@/lib/questions';
-import type { Question } from '@/lib/types';
+import { books, findUnit, questions as allQuestions, isUnitUnlocked } from '@/lib/questions';
+import type { Question, Subject } from '@/lib/types';
 
 function LearnContent() {
   const searchParams = useSearchParams();
   const unitId = searchParams?.get('unit') || '';
+  const subject = (searchParams?.get('subject') || 'math') as Subject;
   const { userData, recordAnswer, toggleMark, unlockUnit, refreshSrs } = useUserData();
   const [currentKP, setCurrentKP] = useState(0);
   const [lessonStep, setLessonStep] = useState(0);
@@ -52,7 +53,18 @@ function LearnContent() {
       <>
         <TopBar title="選擇單元學習" />
         <div className="space-y-6 p-4">
-          {books.map((book) => (
+          <div className="flex gap-2">
+            {([['math', '數學'], ['english', '英文']] as const).map(([id, label]) => (
+              <Link
+                key={id}
+                href={`/learn?subject=${id}`}
+                className={id === subject ? 'btn btn-primary px-4 py-2' : 'btn btn-secondary px-4 py-2'}
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+          {books.filter((book) => book.subject === subject).map((book) => (
             <section key={book.id}>
               <h2 className="mb-3 text-xl font-bold">{book.title}</h2>
               <div className="space-y-3">
@@ -147,13 +159,13 @@ function LearnContent() {
                     重新開始
                   </button>
                   <button className="btn btn-primary flex-1" onClick={() => {
-                    const qs = getQuestionsByTier('basic', unitId).slice(0, 5).map(q => q.id);
+                    const qs = allQuestions.filter((item) => item.unitId === unitId).map((item) => item.id);
                     setPracticeQs(qs);
                     setCurrentQIdx(0);
                     setPracticeAnswer(undefined);
                     setPracticeMode(true);
                   }}>
-                    開始練習 (5題)
+                    開始練習
                   </button>
                 </>
               )}
@@ -165,8 +177,7 @@ function LearnContent() {
   }
 
   const currentQId = practiceQs[currentQIdx];
-  const questions = getQuestionsByTier('basic', unitId);
-  const q = questions.find(qq => qq.id === currentQId)! as Question;
+  const q = allQuestions.find((item) => item.id === currentQId) as Question;
 
   const checkAnswer = (question: Question, userAnswer: string | string[]): boolean => {
     const norm = (value: string) => value.trim().replace(/[−－]/g, '-').toUpperCase();
