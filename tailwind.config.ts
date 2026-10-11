@@ -18,8 +18,6 @@ const config: Config = {
         'primary-fg': 'var(--primary-fg)',
         accent: 'var(--accent)',
         border: 'var(--border)',
-        'pet-body': 'var(--pet-body)',
-        'pet-accent': 'var(--pet-accent)',
       },
       borderRadius: {
         theme: 'var(--radius)',

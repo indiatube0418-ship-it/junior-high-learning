@@ -16,19 +16,21 @@ export default function PetPage() {
   const [tempPose, setTempPose] = useState<PetPose | null>(null);
   const [showUpgrade, setShowUpgrade] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const prevLevelRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (!userData?.pet) return;
-    const pet = userData.pet;
-    if (prevLevelRef.current === null) {
-      prevLevelRef.current = pet.level;
-      return;
+    const level = userData.pet.level;
+    const key = 'jhl-pet-celebrated-level';
+    let stored: number | null = null;
+    try {
+      const raw = window.localStorage.getItem(key);
+      stored = raw === null ? null : Number(raw);
+    } catch {
+      stored = null;
     }
-    if (pet.level > prevLevelRef.current) {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-      }
+    const shouldCheer = stored === null ? level > 1 : Number.isFinite(stored) && level > stored;
+    if (shouldCheer) {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
       setTempPose('cheer');
       setShowUpgrade(true);
       timeoutRef.current = setTimeout(() => {
@@ -36,7 +38,11 @@ export default function PetPage() {
         setShowUpgrade(false);
       }, 3000);
     }
-    prevLevelRef.current = pet.level;
+    try {
+      window.localStorage.setItem(key, String(level));
+    } catch {
+      /* 私人模式寫不進去時，這次造訪仍會播放 */
+    }
   }, [userData?.pet?.level]);
 
   useEffect(() => {
@@ -108,7 +114,7 @@ export default function PetPage() {
             />
           </div>
           {showUpgrade && (
-            <div className="text-3xl font-bold text-yellow-400 animate-bounce mb-4 drop-shadow-lg">升級了！✨</div>
+            <div className="mb-4 animate-bounce rounded-full border border-[var(--primary)] bg-[var(--card)] px-5 py-2 text-3xl font-bold text-[var(--fg)]">升級了！✨</div>
           )}
           <div className="mt-6 text-2xl font-bold">{pet.name}</div>
         </div>

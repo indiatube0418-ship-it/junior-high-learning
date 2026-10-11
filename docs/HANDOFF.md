@@ -22,12 +22,12 @@
 ## 目前狀態（Phase 1 MVP，無後端）
 - Next.js 14.2.35（App Router）+ TypeScript strict + Tailwind 3，靜態輸出（`output: 'export'`）。
 - 資料存在 `localStorage`（`lib/storage.ts` 抽象層，key `learning-platform-userdata-v1`，version 3，舊主題 id 會自動遷移成 japanese）。
-- 題庫：`data/math-grade1-sem1-chapter1.json`（七年級第一章「整數的運算」，4 單元、28 題）。
+- 題庫：`data/math-bank.json`（國一到國三數學，沿用第一章原題，其餘為自編；會考練習不是歷屆原題）。`scripts/build_math_bank.py` 會重算答案並覆寫這份 JSON。
 - 間隔複習：`lib/srs.ts`（1/3/7 天），單元測試 `lib/srs.test.ts`。
 - 已修正：練習作答後解析不會消失、主題切換、basePath 連結（設定頁學習報告改用 next/link）。
 
 ## 檔案地圖（詳見 docs/CONTRACT.md）
-- `app/`：頁面 — `page.tsx`(首頁) `learn/` `practice/` `review/` `exam/` `map/` `pet/` `dashboard/` `settings/`，`layout.tsx`，`globals.css`（6 套主題 CSS 變數與 .btn/.card/.chip 樣式）
+- `app/`：頁面 — `page.tsx`(首頁) `learn/` `practice/` `review/` `exam/` `map/` `pet/` `dashboard/` `settings/`，`layout.tsx`，`globals.css`（6 套主題 CSS 變數與 .btn/.card 樣式）
 - `components/`：`Pet.tsx`（圖片寵物、依狀態選圖、CSS 動畫、主題角標）、`ThemeSwitcher.tsx`、`QuestionCard.tsx`、`BottomNav.tsx`、`TopBar.tsx`、`ProgressRing.tsx`、`QuestDaily.tsx` 等
 - `lib/`：`types.ts` `storage.ts` `useUserData.tsx`（Context 與所有動作）`themes.ts` `game.ts` `srs.ts` `questions.ts`
 - `data/`：題庫 JSON；`prisma/schema.prisma`：Phase 2 用；`scripts/serve.mjs`：本機靜態伺服器
@@ -46,16 +46,16 @@ $env:NEXT_PUBLIC_BASE_PATH='/junior-high-learning'; node scripts/serve.mjs   # �
 - 程式內連結一律用 `next/link` 或 `useRouter`；不要用原生 `<a href="/...">` 或寫死 `/xxx` 的 `window.location`（會繞過 basePath 造成 404）。靜態資源網址請加 `process.env.NEXT_PUBLIC_BASE_PATH` 前綴。
 
 ## 已知問題（待修）
-1. 學習地圖（`app/map/page.tsx`）：手機上單元標籤重疊；鎖定節點顯示為全黑圓。
-2. 底部導覽列在長頁面遮住練習頁的「下一題／不熟／錯題」按鈕（需加足夠 padding 或改成內容區內固定操作列）。
-3. 賽博風主題主要按鈕（如「繼續學習」）文字與底色對比不足，難以閱讀。
-4. 升級時的 cheer 動畫、以及「貓」這組圖片尚未在 App 內實測（目前測試帳號是狗）。
-5. `app/globals.css` 有舊主題遺留、未使用的 CSS，可清理。
-6. 測驗結束後的按鈕（結果頁）尚未做完整點擊巡檢（填空題自動作答腳本卡在「送出答案」）。
+1. ~~學習地圖（`app/map/page.tsx`）：手機上單元標籤重疊；鎖定節點顯示為全黑圓。~~ 已改為直向路徑：標籤在節點右側換行，鎖定節點用卡片底色、`--muted` 描邊與斜線，編號用 `--fg`。
+2. ~~底部導覽列在長頁面遮住練習頁的「下一題／不熟／錯題」按鈕。~~ 導覽高度改為 `--bottom-nav-offset`（舊的 Tailwind 任意值含空白，留白沒生效）。練習與複習把解析放進可捲動區，操作列留在導覽列上方。
+3. ~~賽博風主題主要按鈕（如「繼續學習」）文字與底色對比不足。~~ 賽博 `.btn` 的深色底不再蓋過 `.btn-primary`，主按鈕用 `--primary` 底與 `--primary-fg` 字。
+4. ~~升級時的 cheer 動畫、以及「貓」這組圖片尚未在 App 內實測（目前測試帳號是狗）。~~ 寵物頁用 `jhl-pet-celebrated-level` 記住看過的等級；等級變高時換 cheer 圖、跑 cheerJump，並顯示「升級了！」。390×844 預覽已載入貓的 idle／happy／sleepy／cheer，以及狗的 idle，圖片 naturalWidth 皆為 512。
+5. ~~`app/globals.css` 有舊主題遺留、未使用的 CSS，可清理。~~ 已刪除沒有元件使用的 `.chip`、各主題 `.pet-deco*`／`.pet-body`／`.pet-accent`／`.pet-blush`／`.pet-nose`。`tailwind.config.ts` 裡對應、且沒有定義 CSS 變數的 `pet-body`／`pet-accent` 顏色一併移除。
+6. ~~測驗結束後的按鈕（結果頁）尚未做完整點擊巡檢（填空題自動作答腳本卡在「送出答案」）。~~ 測驗改為一屏：題卡內部捲動，交卷與上下題留在導覽上方，不再用 `fixed` 蓋住「送出答案」。單選答題是陣列，計分會正規化後再比對（先前對陣列呼叫 `trim` 會丟例外，結果頁出不來）。「再考一次」會重抽題目並把計時設回 10:00；「回首頁」用 `next/link`。賽博「交卷」底色是 `rgb(0, 255, 234)`、字是黑色。
 
 ## 建議下一步
 1. 修正上方已知問題（先 1、2、3）。
-2. 擴充題庫：第一章更多題目、第二章以後；歷屆會考題匯入（格式見 PLAN.md）。
+2. 題庫已含國一到國三單元與自編會考練習。若要再加題，改 `scripts/build_math_bank.py` 後重跑。歷屆會考原題有著作權，不要貼進題庫。
 3. 寵物：餵食／升級回饋更完整、商店配件。
 4. Phase 2：Prisma + PostgreSQL 後端、帳號登入、雲端同步（schema 已在 `prisma/schema.prisma`）。
 5. 每次修改後：`npx tsc --noEmit`、帶 basePath 的 `npm run build`、本機預覽確認；再請使用者決定是否 push / 部署。

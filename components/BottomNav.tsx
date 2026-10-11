@@ -25,12 +25,12 @@ export function BottomNav({ active }: BottomNavProps) {
   const currentActive = (active || pathSegment) as BottomNavActive | 'home';
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 grid grid-cols-5 gap-2 p-3 pt-4 bg-[var(--card)]/90 backdrop-blur-md border-t border-[var(--border)] md:hidden px-4 h-[72px + env(safe-area-inset-bottom)]">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 grid grid-cols-5 items-center gap-1 border-t border-[var(--border)] bg-[var(--card)]/95 px-2 pt-1 backdrop-blur-md md:hidden h-[var(--bottom-nav-offset)] pb-[env(safe-area-inset-bottom)]">
       {tabs.map(({ id, href, label, icon }) => (
         <Link
           key={id}
           href={href}
-          className={`btn flex flex-col gap-1 items-center text-xs flex-1 py-2 px-1 transition-all h-full justify-center ${
+          className={`btn flex flex-col gap-1 items-center text-xs flex-1 py-1 px-1 transition-all justify-center ${
             currentActive === id
               ? 'text-[var(--primary)] scale-[1.05] shadow-md bg-[var(--primary)]/10 border-[var(--primary)] border'
               : 'text-[var(--muted)] hover:scale-[1.02]'

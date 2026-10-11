@@ -1,158 +1,212 @@
 'use client';
 
+import { Suspense, type ReactNode } from 'react';
+import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { Suspense } from 'react';
-import { useUserData } from '@/lib/useUserData';
+import type { CSSProperties } from 'react';
 import { TopBar } from '@/components/TopBar';
 import { BottomNav } from '@/components/BottomNav';
-import { getUnitProgress } from '@/lib/questions';
-import chapterData from '@/data/math-grade1-sem1-chapter1.json';
-import Link from 'next/link';
-import type { Chapter, Unit } from '@/lib/types';
+import { useUserData } from '@/lib/useUserData';
+import {
+  books,
+  findChapter,
+  getUnitProgress,
+  isUnitUnlocked,
+  questions,
+  unitPassed,
+} from '@/lib/questions';
+import type { Unit } from '@/lib/types';
+
+type UnitState = 'passed' | 'unlocked' | 'locked';
+
+function nodeStyle(state: UnitState): CSSProperties {
+  if (state === 'passed') {
+    return {
+      backgroundColor: 'var(--accent)',
+      color: 'var(--primary-fg)',
+      boxShadow: 'inset 0 0 0 3px var(--accent)',
+    };
+  }
+  if (state === 'unlocked') {
+    return {
+      backgroundColor: 'var(--primary)',
+      color: 'var(--primary-fg)',
+      boxShadow: 'inset 0 0 0 3px var(--primary-dark)',
+    };
+  }
+  return {
+    backgroundColor: 'var(--bg-card)',
+    color: 'var(--fg)',
+    boxShadow: 'inset 0 0 0 3px var(--muted)',
+    backgroundImage:
+      'repeating-linear-gradient(135deg, transparent 0 6px, color-mix(in srgb, var(--muted) 45%, transparent) 6px 7px)',
+  };
+}
 
 function MapContent() {
-  const { userData, unlockUnit } = useUserData();
+  const { userData } = useUserData();
   const searchParams = useSearchParams();
+  const bookId = searchParams?.get('book') || '';
+  const chapterId = searchParams?.get('chapter') || '';
 
   if (!userData) {
     return <div className="flex items-center justify-center min-h-screen bg-[var(--bg)] text-[var(--fg)]">載入中...</div>;
   }
 
-  const chapter: Chapter = chapterData.chapter;
-  const units: Unit[] = chapter.units;
+  const book = books.find((item) => item.id === bookId) ?? null;
+  const located = chapterId ? findChapter(chapterId) : null;
 
-  // 計算單元狀態
-  const getUnitState = (unitId: string) => {
-    const progress = getUnitProgress(unitId, userData);
-    // 簡化：假設 answered 從 progress 推斷，實際需計算但為狀態用正確率
-    const unitQs = chapter.units.find(u => u.id === unitId);
-    if (!unitQs) return 'locked';
-    const isFirstUnit = units[0].id === unitId;
-    const unlocked = userData.unlockedUnits.includes(unitId) || isFirstUnit;
-    // 模擬 passed：正確率高
-    const passed = progress.correctRate >= 0.8;
-    if (passed) return 'passed';
-    if (unlocked) return 'unlocked';
-    return 'locked';
-  };
-
-  const handleNodeClick = (unitId: string) => {
-    const state = getUnitState(unitId);
-    if (state === 'unlocked' || state === 'passed') {
-      // 已解鎖可進入
-    } else if (units[0].id === unitId) {
-      unlockUnit(unitId);
-    }
-  };
-
-  return (
+  const shell = (title: string, body: ReactNode) => (
     <>
-      <TopBar title="學習地圖" />
-      <div className="p-4 pb-[calc(96px+env(safe-area-inset-bottom))] min-h-screen bg-[var(--bg)] text-[var(--fg)] overflow-auto">
-        <h1 className="text-2xl font-bold text-center mb-8">{chapter.title}</h1>
+      <TopBar title={title} />
+      <div className="min-h-screen bg-[var(--bg)] p-4 pb-[calc(96px+env(safe-area-inset-bottom))] text-[var(--fg)]">
+        {body}
+      </div>
+      <BottomNav />
+    </>
+  );
 
-        {/* SVG 直式蜿蜒路徑 */}
-        <div className="relative w-full h-[600px] mx-auto border rounded-2xl overflow-hidden bg-[var(--bg-card)] mb-8">
-          <svg viewBox="0 0 400 650" className="w-full h-full">
-            {/* 直式蜿蜒路徑 */}
-            <path
-              d="M200 40 L 120 90 L 280 140 L 120 190 L 280 240 L 120 290 L 280 340"
-              stroke="var(--primary)"
-              strokeWidth="20"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              fill="none"
-              opacity="0.4"
-              strokeDasharray="20 15"
-            />
-
-            {/* 單元節點 */}
-            {units.map((unit, idx) => {
-              const x = idx % 2 === 0 ? 120 : 280;
-              const y = 60 + idx * 80;
-              const state = getUnitState(unit.id);
-              const isActionable = state === 'unlocked' || state === 'passed';
-              const nodeCls = state === 'passed'
-                ? 'fill-[var(--accent)] stroke-[var(--accent)] stroke-width-6'
-                : state === 'unlocked'
-                ? 'fill-[var(--primary)] stroke-[var(--primary-dark)] stroke-width-6'
-                : 'fill-[var(--border)] stroke-[var(--muted)] stroke-width-4';
-              return (
-                <g key={unit.id}>
-                  {/* 節點圓 */}
-                  <circle cx={x} cy={y} r="35" className={`transition-all duration-500 drop-shadow-md ${nodeCls}`} />
-                  {/* 序號 */}
-                  <text x={x} y={y + 8} textAnchor="middle" className="fill-[var(--fg)] font-bold text-[20px] drop-shadow-sm">
-                    {idx + 1}
-                  </text>
-                  {/* 單元名稱 */}
-                  <text
-                    x={x}
-                    y={y + 35}
-                    textAnchor="middle"
-                    className="fill-[var(--fg)] font-semibold text-[14px] drop-shadow-sm leading-tight max-w-[120px] truncate"
-                  >
-                    {unit.title}
-                  </text>
-                  {/* 進入按鈕 */}
-                  <foreignObject x={x - 50} y={y + 50} width="100" height="70">
-                    <div className="w-full h-full flex items-center justify-center p-2">
-                      {isActionable ? (
-                        <Link
-                          href={`/learn?unit=${unit.id}`}
-                          className="block w-full p-2.5 text-center bg-[var(--primary)] hover:bg-[var(--primary-dark)] text-[var(--primary-fg)] text-xs font-bold rounded-xl shadow-md transition-all no-underline flex flex-col items-center gap-1 h-full justify-center"
-                          onClick={() => handleNodeClick(unit.id)}
-                        >
-                          <span className="text-[22px]">
-                            {state === 'passed' ? '⭐' : '🚀'}
-                          </span>
-                          <span>{state === 'passed' ? '已通過' : '開始學習'}</span>
-                        </Link>
-                      ) : (
-                        <div className="text-center p-2.5 text-xs text-[var(--muted)] font-medium flex flex-col items-center justify-center h-full">
-                          <span className="text-[26px]">🔒</span>
-                          <span>鎖定</span>
-                        </div>
-                      )}
-                    </div>
-                  </foreignObject>
-                </g>
-              );
-            })}
-          </svg>
-        </div>
-
-        {/* 練習模式按鈕 */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-          {(['basic', 'advanced', 'exam'] as const).map((mode) => {
-            const labels = { basic: '基礎練習', advanced: '進階題', exam: '歷年真題' } as Record<string, string>;
-            const icons = { basic: '📖', advanced: '📚', exam: '📝' } as Record<string, string>;
+  if (!book) {
+    return shell(
+      '學習地圖',
+      <>
+        <h1 className="mb-2 text-center text-2xl font-bold">國一到國三數學</h1>
+        <p className="mb-6 text-center text-sm text-[var(--muted)]">選一個學期，再進入章節。</p>
+        <div className="mx-auto grid max-w-lg grid-cols-2 gap-3">
+          {books.map((item) => {
+            const unitCount = item.chapters.reduce((sum, chapter) => sum + chapter.units.length, 0);
             return (
               <Link
-                key={mode}
-                href={`/practice?mode=${mode}&unit=${units[0].id}`}
-                className="btn btn-secondary p-6 rounded-xl h-auto flex flex-col items-center gap-2 text-sm shadow-lg hover:shadow-xl transition-all flex-1"
+                key={item.id}
+                href={`/map?book=${item.id}`}
+                className="card p-4 no-underline"
               >
-                <span className="text-3xl">{icons[mode]}</span>
-                {labels[mode]}
+                <div className="text-lg font-bold">{item.title}</div>
+                <p className="mt-1 text-sm text-[var(--muted)]">{item.chapters.length} 章 · {unitCount} 單元</p>
               </Link>
             );
           })}
         </div>
+      </>,
+    );
+  }
 
-        {/* 提示 */}
-        <div className="text-center text-sm opacity-75 bg-[var(--bg2)] p-4 rounded-xl border border-[var(--border)]/50">
-          提示：單元基礎題正確率 ≥80% 且答 ≥4 題，即可解鎖下一關！
+  if (!located || located.book.id !== book.id) {
+    return shell(
+      book.title,
+      <>
+        <div className="mb-4">
+          <Link href="/map" className="text-sm font-bold text-[var(--primary)]">← 全部學期</Link>
         </div>
+        <h1 className="mb-6 text-center text-2xl font-bold">{book.title}</h1>
+        <div className="mx-auto max-w-lg space-y-3">
+          {book.chapters.map((chapter, index) => (
+            <Link
+              key={chapter.id}
+              href={`/map?book=${book.id}&chapter=${chapter.id}`}
+              className="card flex items-center gap-4 p-4 no-underline"
+            >
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)]/20 text-lg font-bold">
+                {index + 1}
+              </div>
+              <div>
+                <h2 className="font-bold">{chapter.title}</h2>
+                <p className="text-sm text-[var(--muted)]">{chapter.units.length} 個單元</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </>,
+    );
+  }
+
+  const chapter = located.chapter;
+  const units: Unit[] = chapter.units;
+  const getUnitState = (unitId: string): UnitState => {
+    if (unitPassed(unitId, userData)) return 'passed';
+    if (isUnitUnlocked(unitId, userData)) return 'unlocked';
+    return 'locked';
+  };
+
+  return shell(
+    '學習地圖',
+    <>
+      <div className="mb-4">
+        <Link href={`/map?book=${book.id}`} className="text-sm font-bold text-[var(--primary)]">← {book.title}</Link>
       </div>
-      <BottomNav />
-    </>
+      <h1 className="mb-6 text-center text-2xl font-bold">{chapter.title}</h1>
+      <ol className="relative mx-auto mb-8 max-w-lg">
+        {units.map((unit, idx) => {
+          const state = getUnitState(unit.id);
+          const progress = getUnitProgress(unit.id, userData);
+          const total = questions.filter((q) => q.unitId === unit.id).length;
+          const isActionable = state !== 'locked';
+          return (
+            <li key={unit.id} className="relative flex items-start gap-4 pb-8 last:pb-0">
+              {idx < units.length - 1 && (
+                <span
+                  className="pointer-events-none absolute bottom-0 left-8 top-16 w-[3px] -translate-x-1/2"
+                  style={{
+                    backgroundImage:
+                      'repeating-linear-gradient(to bottom, var(--primary) 0 8px, transparent 8px 14px)',
+                  }}
+                  aria-hidden
+                />
+              )}
+              <div
+                className="relative z-10 flex h-16 w-16 shrink-0 items-center justify-center rounded-full text-xl font-bold"
+                style={nodeStyle(state)}
+                aria-label={state === 'locked' ? `第 ${idx + 1} 關，尚未解鎖` : `第 ${idx + 1} 關`}
+              >
+                {idx + 1}
+              </div>
+              <div className="min-w-0 flex-1 pt-1">
+                <h2 className="break-words text-base font-semibold leading-snug">{unit.title}</h2>
+                <p className="mt-1 text-xs text-[var(--muted)]">{total} 題 · 已作答正確率 {Math.round(progress.correctRate * 100)}%</p>
+                {isActionable ? (
+                  <Link
+                    href={`/learn?unit=${unit.id}`}
+                    className="mt-3 inline-flex w-full items-center justify-center px-4 py-3 text-sm font-bold no-underline sm:w-auto"
+                    style={{
+                      backgroundColor: 'var(--primary)',
+                      color: 'var(--primary-fg)',
+                      borderRadius: 'var(--radius)',
+                    }}
+                  >
+                    {state === 'passed' ? '已通過' : '開始學習'}
+                  </Link>
+                ) : (
+                  <p className="mt-2 text-sm font-medium text-[var(--muted)]">尚未解鎖</p>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ol>
+      <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+        {(['basic', 'advanced', 'exam'] as const).map((mode) => {
+          const labels = { basic: '基礎練習', advanced: '進階題', exam: '會考練習' };
+          return (
+            <Link
+              key={mode}
+              href={`/practice?mode=${mode}&unit=${units[0].id}`}
+              className="btn btn-secondary flex h-auto flex-1 flex-col items-center gap-2 rounded-xl p-6 text-sm shadow-lg"
+            >
+              {labels[mode]}
+            </Link>
+          );
+        })}
+      </div>
+      <div className="rounded-xl border border-[var(--border)]/50 bg-[var(--bg2)] p-4 text-center text-sm opacity-75">
+        前一單元答對率達 80% 且至少作答 4 題，就會解開下一關。會考練習是依課綱自編的題目，不是歷屆原題。
+      </div>
+    </>,
   );
 }
 
 export default function MapPage() {
   return (
-    <Suspense fallback={<div>載入地圖...</div>}>
+    <Suspense fallback={<div className="flex min-h-screen items-center justify-center">載入中...</div>}>
       <MapContent />
     </Suspense>
   );

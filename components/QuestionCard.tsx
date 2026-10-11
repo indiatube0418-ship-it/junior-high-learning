@@ -10,6 +10,8 @@ interface QuestionCardProps {
   showExplanation?: boolean;
   marks?: QuestionMark;
   onToggleMark?: (mark: 'unsure' | 'wrong') => void;
+  /** 填滿父層：題幹與解析在內部捲動，操作列留在底部導覽上方 */
+  fill?: boolean;
 }
 
 export function QuestionCard({
@@ -19,6 +21,7 @@ export function QuestionCard({
   showExplanation = false,
   marks = { unsure: false, wrong: false },
   onToggleMark,
+  fill = false,
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<string[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -41,20 +44,21 @@ export function QuestionCard({
 
   const isCorrect = (() => {
     if (userAnswer === undefined) return false;
+    const norm = (value: string) => value.toString().trim().replace(/[−－]/g, '-');
     const normUser = Array.isArray(userAnswer)
-      ? (userAnswer as string[]).slice().sort()
-      : [userAnswer.toString().trim().replace(/[−－]/g, '-')];
+      ? (userAnswer as string[]).map(norm).sort()
+      : [norm(userAnswer.toString())];
     const normCorrect = Array.isArray(question.answer)
-      ? (question.answer as string[]).slice().sort()
-      : [question.answer as string];
+      ? (question.answer as string[]).map(norm).sort()
+      : [norm(question.answer as string)];
     return normUser.length === normCorrect.length && normUser.every((v, i) => v === normCorrect[i]);
   })();
 
   const correctAns = Array.isArray(question.answer) ? question.answer : [question.answer as string];
 
   return (
-    <div className="card mx-4 grow flex flex-col justify-between min-h-0">
-      <div className="flex-1 overflow-y-auto pb-20">
+    <div className={`card mx-4 flex flex-col ${fill ? 'min-h-0 flex-1 overflow-hidden' : ''}`}>
+      <div className={fill ? 'min-h-0 flex-1 overflow-y-auto' : ''}>
         <h3 className="section-title mb-4">題目 {question.tags.join(' ')}</h3>
         <p className="text-[var(--fg)] mb-6 whitespace-pre-wrap leading-relaxed">{question.stem}</p>
         
@@ -110,9 +114,8 @@ export function QuestionCard({
             />
           </div>
         )}
-      </div>
 
-      {userAnswer !== undefined && (
+        {userAnswer !== undefined && (
         <div className="space-y-4 pt-4 border-t border-[var(--border)]">
           <div className={`p-4 rounded-xl text-center font-bold text-xl ${
             isCorrect
@@ -137,9 +140,10 @@ export function QuestionCard({
             </button>
           )}
         </div>
-      )}
+        )}
+      </div>
 
-      <div className="flex gap-2 pt-4 border-t border-[var(--border)] px-0">
+      <div className="flex shrink-0 gap-2 border-t border-[var(--border)] px-0 pt-4">
         {userAnswer !== undefined ? (
           <>
             <button className="btn flex-1 btn-primary" onClick={() => onAnswer([])}>

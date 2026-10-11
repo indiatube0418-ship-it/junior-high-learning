@@ -5,11 +5,8 @@ import { Suspense } from 'react';
 import { useUserData } from '@/lib/useUserData';
 import { Pet } from '@/components/Pet';
 import { ThemeSwitcher } from '@/components/ThemeSwitcher';
-import { questions, getUnitProgress } from '@/lib/questions';
-import chapterData from '@/data/math-grade1-sem1-chapter1.json';
-import type { Chapter, Unit, UserData } from '@/lib/types';
-
-const chapter: Chapter = chapterData.chapter;
+import { questions, getUnitProgress, books, findNextUnit, findUnit, isUnitUnlocked } from '@/lib/questions';
+import type { Unit, UserData } from '@/lib/types';
 
 function getUnitAnsweredAndCorrect(unitId: string, userData: UserData): { answered: number; correct: number } {
   const unitQs = questions.filter((q) => q.unitId === unitId);
@@ -35,31 +32,20 @@ function HomeContent() {
     );
   }
 
-  const units: Unit[] = chapter.units;
+  const nextUnit = findNextUnit(userData);
+  const lastBook = books[books.length - 1];
+  const lastChapter = lastBook.chapters[lastBook.chapters.length - 1];
+  const lastUnit = lastChapter.units[lastChapter.units.length - 1];
+  const focus = nextUnit ? findUnit(nextUnit.id) : findUnit(lastUnit.id);
+  const units: Unit[] = focus?.chapter.units ?? [];
+  const allPassed = nextUnit === null;
   const pet = userData.pet;
-
-  // 尋找下一個學習單元
-  let nextUnit: Unit | null = null;
-  let allPassed = true;
-  for (let idx = 0; idx < units.length; idx++) {
-    const unit = units[idx];
-    const isUnlocked = userData.unlockedUnits.includes(unit.id) || idx === 0;
-    const { answered, correct } = getUnitAnsweredAndCorrect(unit.id, userData);
-    const correctRate = answered > 0 ? correct / answered : 0;
-    const passed = correctRate >= 0.8 && answered >= 4;
-    if (isUnlocked && !passed) {
-      nextUnit = unit;
-      allPassed = false;
-      break;
-    }
-    if (!passed) allPassed = false;
-  }
 
   // 計算一鍵複習數量（錯題 + 不熟）
   const reviewCount = Object.values(userData.questionMarks).filter((mark: any) => mark?.wrong || mark?.unsure).length;
 
   return (
-    <div className="flex flex-col min-h-screen bg-[var(--bg)] text-[var(--text)] pb-[calc(96px+env(safe-area-inset-bottom))]">
+    <div className="flex min-h-[calc(100dvh-var(--bottom-nav-offset))] flex-col bg-[var(--bg)] text-[var(--text)]">
       {/* 頂部問候與主題切換 */}
       <div className="flex items-center justify-between p-4 pt-6 pb-2">
         <div>
@@ -124,11 +110,23 @@ function HomeContent() {
 
         {/* 課程路徑 */}
         <div>
-          <h3 className="section-title mb-4">課程路徑</h3>
+          <h3 className="section-title mb-4">課程路徑{focus ? ` · ${focus.book.title} ${focus.chapter.title}` : ''}</h3>
+          <div className="mb-3 flex gap-2 overflow-x-auto">
+            {books.map((book) => (
+              <Link
+                key={book.id}
+                href={`/map?book=${book.id}`}
+                className="shrink-0 rounded-full px-3 py-1 text-sm font-bold no-underline"
+                style={{ backgroundColor: 'var(--bg2)', color: 'var(--fg)' }}
+              >
+                {book.title}
+              </Link>
+            ))}
+          </div>
           <div className="space-y-3">
             {units.map((unit, idx) => {
               const uid = unit.id;
-              const isUnlocked = userData.unlockedUnits.includes(uid) || idx === 0;
+              const isUnlocked = isUnitUnlocked(uid, userData);
               const prog = getUnitProgress(uid, userData);
               const { answered, correct } = getUnitAnsweredAndCorrect(uid, userData);
               const correctRate = answered > 0 ? correct / answered : 0;

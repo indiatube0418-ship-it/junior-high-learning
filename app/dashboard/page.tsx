@@ -5,10 +5,8 @@ import { useUserData } from '@/lib/useUserData';
 import { TopBar } from '@/components/TopBar';
 import { ProgressRing } from '@/components/ProgressRing';
 import { BottomNav } from '@/components/BottomNav';
-import { getQuestionsByTier, getUnitProgress } from '@/lib/questions';
-import { questions } from '@/lib/questions';
-import chapterData from '@/data/math-grade1-sem1-chapter1.json';
-import type { UserData, Chapter } from '@/lib/types';
+import { books, getUnitProgress, questions } from '@/lib/questions';
+import type { UserData } from '@/lib/types';
 
 /**
  * 進度儀表板：總覽、單元長條、弱點、待複習
@@ -16,6 +14,7 @@ import type { UserData, Chapter } from '@/lib/types';
 export default function DashboardPage() {
   const { userData } = useUserData();
   const [today] = useState(() => new Date().toISOString().split('T')[0]);
+  const [bookId, setBookId] = useState(books[0].id);
 
   if (!userData) {
     return <div className="flex items-center justify-center min-h-screen bg-[var(--bg)] text-[var(--fg)]">載入中...</div>;
@@ -27,12 +26,12 @@ export default function DashboardPage() {
   const overallRate = totalQuestions > 0 ? correctCount / totalQuestions : 0;
 
   // 單元進度
-  const chapter: Chapter = chapterData.chapter;
-  const unitProgresses = chapter.units.map(unit => ({
+  const book = books.find((item) => item.id === bookId) ?? books[0];
+  const unitProgresses = book.chapters.flatMap((chapter) => chapter.units.map(unit => ({
     unitId: unit.id,
     title: unit.title,
     ...getUnitProgress(unit.id, userData)
-  }));
+  })));
 
   // 弱點知識點：各 KP 正確率最低前 3，水平條
   const latestRecords: Record<string, boolean> = {};
@@ -44,9 +43,13 @@ export default function DashboardPage() {
 
   const kpCorrectSums: Record<string, { sum: number; count: number }> = {};
   const allKps: Record<string, string> = {};
-  for (const unit of chapter.units) {
-    for (const kp of unit.knowledgePoints) {
-      allKps[kp.id] = kp.title;
+  for (const item of books) {
+    for (const chapter of item.chapters) {
+      for (const unit of chapter.units) {
+        for (const kp of unit.knowledgePoints) {
+          allKps[kp.id] = kp.title;
+        }
+      }
     }
   }
   for (const qId in latestRecords) {
@@ -93,6 +96,18 @@ export default function DashboardPage() {
         {/* 單元長條圖 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold mb-4">單元進度</h2>
+          <div className="mb-4 flex gap-2 overflow-x-auto">
+            {books.map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                className={item.id === book.id ? 'btn btn-primary px-3 py-1 text-sm' : 'btn btn-secondary px-3 py-1 text-sm'}
+                onClick={() => setBookId(item.id)}
+              >
+                {item.title}
+              </button>
+            ))}
+          </div>
           <div className="space-y-3">
             {unitProgresses.map(({ unitId, title, correctRate }) => (
               <div key={unitId} className="flex items-center justify-between">

@@ -6,9 +6,8 @@ import { useSearchParams } from 'next/navigation';
 import { useUserData } from '@/lib/useUserData';
 import { QuestionCard } from '@/components/QuestionCard';
 import { TopBar } from '@/components/TopBar';
-import { getQuestionsByTier } from '@/lib/questions';
-import data from '@/data/math-grade1-sem1-chapter1.json';
-import type { Chapter, Question } from '@/lib/types';
+import { books, findUnit, getQuestionsByTier, isUnitUnlocked } from '@/lib/questions';
+import type { Question } from '@/lib/types';
 
 function LearnContent() {
   const searchParams = useSearchParams();
@@ -23,25 +22,44 @@ function LearnContent() {
 
   if (!userData) return <div className="flex-1 flex items-center justify-center p-4"><div>載入中...</div></div>;
 
-  const chapterData = data as { chapter: Chapter };
-  const chapter = chapterData.chapter;
-  const unit = chapter.units.find(u => u.id === unitId);
-  if (!unit) {
-    // 顯示單元選擇
+  const located = unitId ? findUnit(unitId) : null;
+  const unit = located?.unit;
+  if (!unit || !located) {
     return (
       <>
         <TopBar title="選擇單元學習" />
-        <div className="p-4 space-y-4">
-          <h2 className="text-2xl font-bold text-center">國一上 第1章 整數的運算</h2>
-          {chapter.units.map((u) => (
-            <Link
-              key={u.id}
-              href={`/learn?unit=${u.id}`}
-              className="block card p-6 text-center"
-              onClick={() => unlockUnit(u.id)}
-            >
-              <h3 className="text-xl font-bold">{u.title}</h3>
-            </Link>
+        <div className="space-y-6 p-4">
+          {books.map((book) => (
+            <section key={book.id}>
+              <h2 className="mb-3 text-xl font-bold">{book.title}</h2>
+              <div className="space-y-3">
+                {book.chapters.map((chapter) => (
+                  <div key={chapter.id} className="card p-4">
+                    <h3 className="mb-2 font-bold">{chapter.title}</h3>
+                    <div className="space-y-2">
+                      {chapter.units.map((item) => {
+                        const open = isUnitUnlocked(item.id, userData);
+                        if (!open) {
+                          return (
+                            <p key={item.id} className="text-sm text-[var(--muted)]">{item.title} · 尚未解鎖</p>
+                          );
+                        }
+                        return (
+                          <Link
+                            key={item.id}
+                            href={`/learn?unit=${item.id}`}
+                            className="block font-bold no-underline"
+                            onClick={() => unlockUnit(item.id)}
+                          >
+                            {item.title}
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
           ))}
         </div>
       </>
@@ -96,12 +114,13 @@ function LearnContent() {
   const q = questions.find(qq => qq.id === currentQId)! as Question;
 
   const checkAnswer = (question: Question, userAnswer: string | string[]): boolean => {
+    const norm = (value: string) => value.trim().replace(/[−－]/g, '-').toUpperCase();
     const normAns = Array.isArray(question.answer)
-      ? question.answer.map((a: string) => a.trim().toUpperCase()).sort().join('')
-      : question.answer.trim().toUpperCase();
+      ? question.answer.map((a: string) => norm(a)).sort().join('')
+      : norm(question.answer);
     const normUser = Array.isArray(userAnswer)
-      ? userAnswer.map((a: string) => a.trim().toUpperCase()).sort().join('')
-      : userAnswer.toString().trim().toUpperCase();
+      ? userAnswer.map((a: string) => norm(a)).sort().join('')
+      : norm(userAnswer.toString());
     return normAns === normUser;
   };
 

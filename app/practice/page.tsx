@@ -7,7 +7,7 @@ import { useUserData } from '@/lib/useUserData';
 import { QuestionCard } from '@/components/QuestionCard';
 import { TopBar } from '@/components/TopBar';
 import { ProgressRing } from '@/components/ProgressRing';
-import { getQuestionsByTier } from '@/lib/questions';
+import { getQuestionsByTier, sampleQuestions } from '@/lib/questions';
 import type { Question } from '@/lib/types';
 
 function PracticeContent() {
@@ -25,12 +25,13 @@ function PracticeContent() {
   const modeNames: Record<'basic' | 'advanced' | 'exam', string> = {
     basic: '基礎練習',
     advanced: '進階練習',
-    exam: '歷年真題',
+    exam: '會考練習',
   };
 
   // 載入題目清單，只依賴 mode/unitId，一次計算固定
   useEffect(() => {
-    const qs = getQuestionsByTier(mode, unitId).slice(0, 20);
+    const pool = getQuestionsByTier(mode, unitId || undefined);
+    const qs = mode === 'exam' && !unitId ? sampleQuestions(pool, 10) : pool.slice(0, 20);
     setQuestions(qs);
     setCurrentIdx(0);
     setUserAnswers({});
@@ -131,7 +132,7 @@ function PracticeContent() {
   }
 
   return (
-    <>
+    <div className="flex h-[calc(100dvh-var(--bottom-nav-offset))] max-h-[calc(100dvh-var(--bottom-nav-offset))] flex-col overflow-hidden">
       <TopBar
         title={modeNames[mode]}
         rightSlot={
@@ -141,8 +142,9 @@ function PracticeContent() {
           </div>
         }
       />
-      <div className="flex flex-col flex-1 p-4 pb-[calc(88px+env(safe-area-inset-bottom))]">
+      <div className="flex min-h-0 flex-1 flex-col p-4">
         <QuestionCard
+          fill
           question={currentQ}
           onAnswer={handleAnswer}
           userAnswer={userAnswers[currentQ.id] || undefined}
@@ -151,7 +153,7 @@ function PracticeContent() {
           onToggleMark={onToggleMark}
         />
       </div>
-    </>
+    </div>
   );
 }
 

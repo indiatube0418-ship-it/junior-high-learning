@@ -136,7 +136,7 @@ function ReviewContent() {
   const progress = reviewQs.length > 0 ? ((currentIdx + (answered ? 1 : 0)) / reviewQs.length) * 100 : 0;
 
   return (
-    <>
+    <div className="flex h-[calc(100dvh-var(--bottom-nav-offset))] max-h-[calc(100dvh-var(--bottom-nav-offset))] flex-col overflow-hidden">
       <TopBar
         title="錯題 + 不熟 + 複習"
         rightSlot={
@@ -146,8 +146,9 @@ function ReviewContent() {
           </div>
         }
       />
-      <div className="flex flex-col flex-1 p-4 pb-[calc(88px+env(safe-area-inset-bottom))]">
+      <div className="flex min-h-0 flex-1 flex-col p-4">
         <QuestionCard
+          fill
           question={q}
           onAnswer={handleAnswer}
           userAnswer={currentAns}
@@ -156,7 +157,7 @@ function ReviewContent() {
           onToggleMark={onToggleMark}
         />
       </div>
-    </>
+    </div>
   );
 }
 

@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="zh-Hant" data-theme="japanese" suppressHydrationWarning>
       <body className="bg-[var(--bg)] text-[var(--fg)] font-[var(--font-family)] antialiased min-h-screen flex flex-col">
         <UserDataProvider>
-          <main className="flex-1 flex flex-col pb-[calc(96px + env(safe-area-inset-bottom))]">
+          <main className="flex-1 flex flex-col min-h-0 pb-[var(--bottom-nav-offset)]">
             {children}
           </main>
           <BottomNav />

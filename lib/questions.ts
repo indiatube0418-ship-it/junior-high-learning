@@ -1,39 +1,94 @@
 /**
- * 題庫管理：目前僅國一上數學第1章
- * getQuestionsByTier 篩選難度/單元
- * getUnitProgress：正確率(最新答題)、弱點KP(有錯標或SRS stage<3)
+ * 題庫：國一到國三數學。
+ * 進度以單元最新作答計算。前一單元答對率 ≥80% 且至少 4 題，下一單元就解鎖。
  */
 
-import mathData from '@/data/math-grade1-sem1-chapter1.json';
-import type { Question, UserData, Tier } from './types';
+import bank from '@/data/math-bank.json';
+import type { Chapter, Grade, Question, Semester, Tier, Unit, UserData } from './types';
 
-export const questions: Question[] = mathData.questions as unknown as Question[];
+export interface CourseBook {
+  id: string;
+  title: string;
+  grade: Grade;
+  semester: Semester;
+  chapters: Chapter[];
+}
 
-const chapter = mathData.chapter;
+const data = bank as unknown as { books: CourseBook[]; questions: Question[] };
+
+export const books: CourseBook[] = data.books;
+export const questions: Question[] = data.questions;
+
+export function allChapters(): Chapter[] {
+  return books.flatMap((book) => book.chapters);
+}
+
+export function allUnits(): Unit[] {
+  return allChapters().flatMap((chapter) => chapter.units);
+}
+
+export function findUnit(unitId: string): { book: CourseBook; chapter: Chapter; unit: Unit } | null {
+  for (const book of books) {
+    for (const chapter of book.chapters) {
+      const unit = chapter.units.find((item) => item.id === unitId);
+      if (unit) return { book, chapter, unit };
+    }
+  }
+  return null;
+}
+
+export function findChapter(chapterId: string): { book: CourseBook; chapter: Chapter } | null {
+  for (const book of books) {
+    const chapter = book.chapters.find((item) => item.id === chapterId);
+    if (chapter) return { book, chapter };
+  }
+  return null;
+}
 
 export function getQuestionsByTier(tier: Tier, unitId?: string): Question[] {
-  return questions.filter(q => q.tier === tier && (!unitId || q.unitId === unitId));
+  return questions.filter((q) => q.tier === tier && (!unitId || q.unitId === unitId));
+}
+
+function latestUnitResults(unitId: string, userData: UserData): { answered: number; correct: number } {
+  const unitQs = questions.filter((q) => q.unitId === unitId);
+  const latest: Record<string, boolean> = {};
+  for (const record of [...userData.answerRecords].reverse()) {
+    if (unitQs.some((q) => q.id === record.questionId) && !(record.questionId in latest)) {
+      latest[record.questionId] = record.isCorrect;
+    }
+  }
+  const answered = Object.keys(latest).length;
+  const correct = Object.values(latest).filter(Boolean).length;
+  return { answered, correct };
+}
+
+export function unitPassed(unitId: string, userData: UserData): boolean {
+  const { answered, correct } = latestUnitResults(unitId, userData);
+  return answered >= 4 && correct / answered >= 0.8;
+}
+
+export function isUnitUnlocked(unitId: string, userData: UserData): boolean {
+  const units = allUnits();
+  const index = units.findIndex((unit) => unit.id === unitId);
+  if (index <= 0) return true;
+  if (userData.unlockedUnits.includes(unitId)) return true;
+  return unitPassed(units[index - 1].id, userData);
+}
+
+export function findNextUnit(userData: UserData): Unit | null {
+  for (const unit of allUnits()) {
+    if (!unitPassed(unit.id, userData)) return unit;
+  }
+  return null;
 }
 
 export function getUnitProgress(unitId: string, userData: UserData): { correctRate: number; weakPoints: string[] } {
-  const unitQs = questions.filter(q => q.unitId === unitId);
+  const unitQs = questions.filter((q) => q.unitId === unitId);
   if (unitQs.length === 0) {
     return { correctRate: 0, weakPoints: [] };
   }
-
-  // 最新答題紀錄
-  const latestRecords: Record<string, boolean> = {};
-  for (const record of userData.answerRecords.slice().reverse()) {
-    if (unitQs.some(q => q.id === record.questionId) && !(record.questionId in latestRecords)) {
-      latestRecords[record.questionId] = record.isCorrect;
-    }
-  }
-
-  const answered = Object.keys(latestRecords).length;
-  const correct = Object.values(latestRecords).filter(Boolean).length;
+  const { answered, correct } = latestUnitResults(unitId, userData);
   const correctRate = answered > 0 ? correct / answered : 0;
-
-  // 弱點：錯標或 SRS stage < 3
   const weakKps = new Set<string>();
   for (const q of unitQs) {
     const mark = userData.questionMarks[q.id];
@@ -42,6 +97,16 @@ export function getUnitProgress(unitId: string, userData: UserData): { correctRa
       weakKps.add(q.knowledgePointId);
     }
   }
-
   return { correctRate, weakPoints: Array.from(weakKps) };
+}
+
+export function sampleQuestions(list: Question[], count: number): Question[] {
+  const copy = [...list];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const current = copy[i];
+    copy[i] = copy[j];
+    copy[j] = current;
+  }
+  return copy.slice(0, count);
 }

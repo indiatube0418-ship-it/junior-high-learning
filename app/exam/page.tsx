@@ -1,77 +1,87 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import Link from 'next/link';
 import { useUserData } from '@/lib/useUserData';
 import { TopBar } from '@/components/TopBar';
 import { QuestionCard } from '@/components/QuestionCard';
-import { BottomNav } from '@/components/BottomNav';
-import { getQuestionsByTier } from '@/lib/questions';
+import { getQuestionsByTier, sampleQuestions } from '@/lib/questions';
 import type { Question } from '@/lib/types';
 
+function drawExamQuestions(): Question[] {
+  const examQuestions = sampleQuestions(getQuestionsByTier('exam'), 10);
+  if (examQuestions.length >= 10) return examQuestions;
+  const extra = sampleQuestions(getQuestionsByTier('advanced'), 10 - examQuestions.length);
+  return [...examQuestions, ...extra];
+}
+
+function normalizeAnswer(value: string | string[]): string[] {
+  const list = Array.isArray(value) ? value : [value];
+  return list.map((item) => item.toString().trim().replace(/[−－]/g, '-')).sort();
+}
+
+function answersMatch(expected: string | string[], given: string | string[] | undefined): boolean {
+  if (given === undefined) return false;
+  const user = normalizeAnswer(given);
+  const correct = normalizeAnswer(expected);
+  return user.length === correct.length && user.every((item, index) => item === correct[index]);
+}
+
 /**
- * 模擬考：混合10題，計時10分，結束顯示結果
+ * 模擬考：混合 10 題，計時 10 分，結束顯示結果。
+ * 題幹在內部捲動，交卷與換題留在底部導覽上方。
  */
 export default function ExamPage() {
   const { userData, recordAnswer } = useUserData();
-  const router = useRouter();
-  const [today] = useState(() => new Date().toISOString().split('T')[0]);
-
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<Record<string, string | string[]>>({});
-  const [timeLeft, setTimeLeft] = useState(600); // 10分鐘
+  const [timeLeft, setTimeLeft] = useState(600);
   const [finished, setFinished] = useState(false);
   const [score, setScore] = useState(0);
+  const submittedRef = useRef(false);
 
   useEffect(() => {
     if (!userData) return;
-
-    // 抽10題：各 tier 混合，從解鎖 units
-    const allBasic = getQuestionsByTier('basic');
-    const allAdvanced = getQuestionsByTier('advanced');
-    const allExam = getQuestionsByTier('exam');
-    const examQuestions = [
-      ...allBasic.slice(0,4),
-      ...allAdvanced.slice(0,3),
-      ...allExam.slice(0,3)
-    ].sort(() => Math.random() - 0.5).slice(0,10);
-    setQuestions(examQuestions);
+    setQuestions(drawExamQuestions());
   }, [userData]);
 
   useEffect(() => {
     if (timeLeft === 0 || finished) return;
-    const timer = setInterval(() => setTimeLeft(t => t - 1), 1000);
+    const timer = setInterval(() => setTimeLeft((t) => t - 1), 1000);
     return () => clearInterval(timer);
   }, [timeLeft, finished]);
 
-  const handleAnswer = useCallback((qId: string, ans: string | string[]) => {
-    setUserAnswers(prev => ({ ...prev, [qId]: ans }));
-  }, []);
-
-  const submitExam = () => {
+  const submitExam = useCallback(() => {
+    if (submittedRef.current || questions.length === 0) return;
+    submittedRef.current = true;
     let totalScore = 0;
-    questions.forEach(q => {
+    questions.forEach((q) => {
       const userAns = userAnswers[q.id];
-      let isCorrect = false;
-      if (userAns) {
-        if (Array.isArray(q.answer)) {
-          if (Array.isArray(userAns)) {
-            isCorrect = JSON.stringify([...userAns].sort()) === JSON.stringify([...q.answer].sort());
-          }
-        } else {
-          isCorrect = (userAns as string).trim() === (q.answer as string).trim();
-        }
-      }
-      recordAnswer(q, userAns || (Array.isArray(q.answer) ? [] : ''), isCorrect);
-      if (isCorrect) totalScore++;
+      const isCorrect = answersMatch(q.answer, userAns);
+      recordAnswer(q, userAns ?? (Array.isArray(q.answer) ? [] : ''), isCorrect);
+      if (isCorrect) totalScore += 1;
     });
     setScore(totalScore);
     setFinished(true);
-  };
+  }, [questions, userAnswers, recordAnswer]);
+
+  const handleAnswer = useCallback((qId: string, ans: string | string[]) => {
+    if (Array.isArray(ans) && ans.length === 0) {
+      setCurrentIndex((index) => Math.min(questions.length - 1, index + 1));
+      return;
+    }
+    setUserAnswers((prev) => ({ ...prev, [qId]: ans }));
+  }, [questions.length]);
 
   const restart = () => {
-    router.push('/exam');
+    submittedRef.current = false;
+    setUserAnswers({});
+    setCurrentIndex(0);
+    setFinished(false);
+    setScore(0);
+    setTimeLeft(600);
+    setQuestions(drawExamQuestions());
   };
 
   if (!userData || questions.length === 0) {
@@ -83,90 +93,95 @@ export default function ExamPage() {
   const seconds = timeLeft % 60;
 
   return (
-    <>
-      <TopBar 
-        title="模擬考試" 
+    <div className="flex h-[calc(100dvh-var(--bottom-nav-offset))] max-h-[calc(100dvh-var(--bottom-nav-offset))] flex-col overflow-hidden">
+      <TopBar
+        title="模擬考試"
         rightSlot={
           <div className="text-lg font-mono min-w-[5rem] text-right">
             {minutes}:{seconds.toString().padStart(2, '0')}
           </div>
-        } 
+        }
       />
-      <div className="p-4 pb-20 min-h-screen bg-[var(--bg)] text-[var(--text)]">
-        {!finished ? (
-          <>
-            <div className="mb-4 text-center">
-              <div className="text-2xl font-bold">{currentIndex + 1} / {questions.length}</div>
-            </div>
-            <QuestionCard
-              question={currentQ}
-              onAnswer={(ans) => handleAnswer(currentQ.id, ans)}
-              userAnswer={userAnswers[currentQ.id] as string | string[] | undefined}
-              showExplanation={false}
-            />
-            <div className="fixed bottom-24 left-4 right-4 space-y-2">
+      {!finished ? (
+        <div className="flex min-h-0 flex-1 flex-col p-4">
+          <div className="mb-3 shrink-0 text-center text-2xl font-bold">
+            {currentIndex + 1} / {questions.length}
+          </div>
+          <QuestionCard
+            fill
+            question={currentQ}
+            onAnswer={(ans) => handleAnswer(currentQ.id, ans)}
+            userAnswer={userAnswers[currentQ.id]}
+            showExplanation={false}
+          />
+          <div className="mt-3 shrink-0 space-y-2">
+            <button type="button" className="btn btn-primary w-full py-4 text-lg font-bold" onClick={submitExam}>
+              交卷
+            </button>
+            <div className="grid grid-cols-2 gap-2">
               <button
-                className="w-full bg-[var(--primary)] text-white py-4 px-6 rounded-xl text-lg font-bold shadow-lg hover:scale-105 active:scale-95"
-                onClick={submitExam}
+                type="button"
+                className="btn btn-secondary py-3 text-lg"
+                onClick={() => setCurrentIndex((index) => Math.max(0, index - 1))}
+                disabled={currentIndex === 0}
               >
-                交卷
+                上一題
               </button>
-              <div className="grid grid-cols-2 gap-2">
-                <button
-                  className="bg-[var(--bg-card)] py-3 px-6 rounded-xl text-lg border hover:bg-[var(--primary-light)]"
-                  onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
-                  disabled={currentIndex === 0}
-                >
-                  上一題
-                </button>
-                <button
-                  className="bg-[var(--bg-card)] py-3 px-6 rounded-xl text-lg border hover:bg-[var(--primary-light)]"
-                  onClick={() => setCurrentIndex(Math.min(questions.length - 1, currentIndex + 1))}
-                  disabled={currentIndex === questions.length - 1}
-                >
-                  下一題
-                </button>
-              </div>
+              <button
+                type="button"
+                className="btn btn-secondary py-3 text-lg"
+                onClick={() => setCurrentIndex((index) => Math.min(questions.length - 1, index + 1))}
+                disabled={currentIndex === questions.length - 1}
+              >
+                下一題
+              </button>
             </div>
-          </>
-        ) : (
-          <div className="flex flex-col items-center justify-center min-h-[80vh] text-center">
-            <div className="text-6xl font-bold text-[var(--primary)] mb-4">{score} / {questions.length}</div>
-            <div className="text-2xl mb-8">{Math.round((score / questions.length) * 100)} 分</div>
-            <div className="max-w-2xl mx-auto space-y-4 mb-8">
-              {questions.map((q, idx) => {
-                const userAns = userAnswers[q.id];
-                let isCorrect = false;
-                if (userAns) {
-                  if (Array.isArray(q.answer)) {
-                    if (Array.isArray(userAns)) {
-                      isCorrect = JSON.stringify([...userAns].sort()) === JSON.stringify([...q.answer].sort());
-                    }
-                  } else {
-                    isCorrect = (userAns as string).trim() === (q.answer as string).trim();
-                  }
-                }
-                return (
-                  <div key={q.id} className={`p-4 rounded-xl ${isCorrect ? 'bg-green-100 border-green-400' : 'bg-red-100 border-red-400'} border-2`}>
-                    <div className="font-bold mb-1">Q{idx+1}</div>
-                    <div className="mb-2 opacity-75">{q.stem}</div>
-                    <div><span className="font-bold">答：</span>{Array.isArray(userAns) ? userAns.join(',') : userAns}</div>
-                    <div className="mt-2"><span className="font-bold">正解：</span>{Array.isArray(q.answer) ? q.answer.join(',') : q.answer}</div>
-                    {q.explanation && <div className="mt-2 text-sm">{q.explanation}</div>}
+          </div>
+        </div>
+      ) : (
+        <div className="flex min-h-0 flex-1 flex-col p-4">
+          <div className="shrink-0 text-center">
+            <div className="mb-2 text-6xl font-bold text-[var(--primary)]">{score} / {questions.length}</div>
+            <div className="mb-4 text-2xl">{Math.round((score / questions.length) * 100)} 分</div>
+          </div>
+          <div className="min-h-0 flex-1 space-y-4 overflow-y-auto">
+            {questions.map((q, idx) => {
+              const userAns = userAnswers[q.id];
+              const isCorrect = answersMatch(q.answer, userAns);
+              return (
+                <div
+                  key={q.id}
+                  className={`rounded-xl border-2 p-4 ${
+                    isCorrect
+                      ? 'border-green-700 bg-green-100 text-green-950'
+                      : 'border-red-700 bg-red-100 text-red-950'
+                  }`}
+                >
+                  <div className="mb-1 font-bold">Q{idx + 1}</div>
+                  <div className="mb-2 opacity-80">{q.stem}</div>
+                  <div>
+                    <span className="font-bold">答：</span>
+                    {userAns === undefined ? '（未作答）' : Array.isArray(userAns) ? userAns.join(',') : userAns}
                   </div>
-                );
-              })}
-            </div>
-            <button
-              className="w-48 bg-[var(--primary)] text-white py-3 px-8 rounded-xl text-lg font-bold shadow-lg hover:scale-105"
-              onClick={restart}
-            >
+                  <div className="mt-2">
+                    <span className="font-bold">正解：</span>
+                    {Array.isArray(q.answer) ? q.answer.join(',') : q.answer}
+                  </div>
+                  {q.explanation && <div className="mt-2 text-sm">{q.explanation}</div>}
+                </div>
+              );
+            })}
+          </div>
+          <div className="mt-4 flex shrink-0 gap-2">
+            <button type="button" className="btn btn-primary flex-1 py-3 text-lg font-bold" onClick={restart}>
               再考一次
             </button>
+            <Link href="/" className="btn btn-secondary flex-1 py-3 text-lg font-bold">
+              回首頁
+            </Link>
           </div>
-        )}
-      </div>
-      <BottomNav active="exam" />
-    </>
+        </div>
+      )}
+    </div>
   );
 }
