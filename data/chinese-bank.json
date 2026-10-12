@@ -1,0 +1,5508 @@
+{
+  "books": [
+    {
+      "id": "zh7a",
+      "title": "國文・國一上",
+      "grade": 1,
+      "semester": 1,
+      "subject": "chinese",
+      "chapters": [
+        {
+          "id": "zh7a-ch1",
+          "title": "把句子讀懂",
+          "units": [
+            {
+              "id": "zh7a-u01",
+              "title": "字音和字形",
+              "knowledgePoints": [
+                {
+                  "id": "zh7a-u01-kp1",
+                  "title": "字音和字形",
+                  "lesson": [
+                    "同一個字，詞不一樣，讀音可能不同。",
+                    "形近字只差一筆，意思可以差很遠。",
+                    "先看詞，再決定讀音，不要只背孤立的字。",
+                    "寫之前先想意思，再選正確的字形。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7a-u02",
+              "title": "看上下文猜詞義",
+              "knowledgePoints": [
+                {
+                  "id": "zh7a-u02-kp1",
+                  "title": "看上下文猜詞義",
+                  "lesson": [
+                    "詞不一定只有字典裡的第一個意思。",
+                    "先讀完整句，再看這個詞站在什麼位置。",
+                    "前後句若轉折，意思可能和前一句相反。",
+                    "把猜到的意思代回去，讀得通才算。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7a-u03",
+              "title": "標點幫句子換氣",
+              "knowledgePoints": [
+                {
+                  "id": "zh7a-u03-kp1",
+                  "title": "標點幫句子換氣",
+                  "lesson": [
+                    "句號代表一件事說完。",
+                    "問句用問號，強烈的情緒才用驚嘆號。",
+                    "逗號是句中的停頓，頓號用在並列的詞之間。",
+                    "引號包住別人說的話或特別標出的詞。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7a-u04",
+              "title": "句子的主語和述語",
+              "knowledgePoints": [
+                {
+                  "id": "zh7a-u04-kp1",
+                  "title": "句子的主語和述語",
+                  "lesson": [
+                    "主語是句子在說「誰」或「什麼」。",
+                    "述語說這個主語「做什麼」或「是什麼」。",
+                    "主語可以省略，但讀的人要推得出來。",
+                    "一個完整的意思，通常兩邊都找得到。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh7a-ch2",
+          "title": "記敘和文言入門",
+          "units": [
+            {
+              "id": "zh7a-u05",
+              "title": "記敘文的六何",
+              "knowledgePoints": [
+                {
+                  "id": "zh7a-u05-kp1",
+                  "title": "記敘文的六何",
+                  "lesson": [
+                    "記敘文在講一件發生過的事。",
+                    "先找人、時、地、事。",
+                    "再補原因和經過，事情才連得起來。",
+                    "有畫面的細節，比空泛的形容更讓人記住。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7a-u06",
+              "title": "論語：學而時習之",
+              "knowledgePoints": [
+                {
+                  "id": "zh7a-u06-kp1",
+                  "title": "論語：學而時習之",
+                  "lesson": [
+                    "《論語》記下孔子和學生的對話，句子短。",
+                    "「學而時習之」是學了之後按時複習。",
+                    "「有朋自遠方來」把學習延伸到朋友互相交流。",
+                    "「人不知而不慍」是別人還不了解時，不必生氣。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7a-u07",
+              "title": "觀察：兒時記趣",
+              "knowledgePoints": [
+                {
+                  "id": "zh7a-u07-kp1",
+                  "title": "觀察：兒時記趣",
+                  "lesson": [
+                    "沈復用小孩的眼光看蚊子、蟲和土牆。",
+                    "他把蚊子看成鶴，是觀察加上想像。",
+                    "「張目對日」再看細小的東西，是在講觀察的方法。",
+                    "文章趣味來自主觀想像，不是科學報告。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7a-u08",
+              "title": "絕句只有四句",
+              "knowledgePoints": [
+                {
+                  "id": "zh7a-u08-kp1",
+                  "title": "絕句只有四句",
+                  "lesson": [
+                    "絕句一共四句。",
+                    "五言每句五個字，七言每句七個字。",
+                    "常見的押韻在偶數句的最後一個字。",
+                    "讀的時候先抓畫面，再抓詩人的心情。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh7b",
+      "title": "國文・國一下",
+      "grade": 1,
+      "semester": 2,
+      "subject": "chinese",
+      "chapters": [
+        {
+          "id": "zh7b-ch1",
+          "title": "修辭和說明",
+          "units": [
+            {
+              "id": "zh7b-u01",
+              "title": "譬喻",
+              "knowledgePoints": [
+                {
+                  "id": "zh7b-u01-kp1",
+                  "title": "譬喻",
+                  "lesson": [
+                    "譬喻把不懂的東西說成懂的東西。",
+                    "明喻有像、如、彷彿，本體和喻體都出現。",
+                    "暗喻常用「是」，少了像、如。",
+                    "借喻連本體都不說，只留下喻體。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7b-u02",
+              "title": "擬人",
+              "knowledgePoints": [
+                {
+                  "id": "zh7b-u02-kp1",
+                  "title": "擬人",
+                  "lesson": [
+                    "擬人把物寫成會做人的動作或有人的心情。",
+                    "風「跑」、花「笑」，就是把物當人。",
+                    "它讓景物有情緒，適合抒情。",
+                    "說明文若要精確，不宜把事實寫成擬人。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7b-u03",
+              "title": "說明文怎麼把事情說清楚",
+              "knowledgePoints": [
+                {
+                  "id": "zh7b-u03-kp1",
+                  "title": "說明文怎麼把事情說清楚",
+                  "lesson": [
+                    "說明文的目的是讓人懂，不是只抒發心情。",
+                    "常見順序：定義、特徵、例子。",
+                    "數字、分類、比較，都能讓說明更清楚。",
+                    "一個段落最好只說明一件事。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7b-u04",
+              "title": "寓言：守株待兔",
+              "knowledgePoints": [
+                {
+                  "id": "zh7b-u04-kp1",
+                  "title": "寓言：守株待兔",
+                  "lesson": [
+                    "寓言用短故事寄託道理。",
+                    "農人碰巧撿到撞死的兔子，就天天在樹下等。",
+                    "他把偶然當成必然。",
+                    "道理是：不能靠一次運氣過生活。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh7b-ch2",
+          "title": "應用和抒情",
+          "units": [
+            {
+              "id": "zh7b-u05",
+              "title": "一封信的骨架",
+              "knowledgePoints": [
+                {
+                  "id": "zh7b-u05-kp1",
+                  "title": "一封信的骨架",
+                  "lesson": [
+                    "信要讓收信的人知道你是誰、你說什麼。",
+                    "開頭是稱謂和提稱語。",
+                    "中間是正文，一件事一個段落。",
+                    "結尾有祝頌、署名和日期。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7b-u06",
+              "title": "便條只留必要的話",
+              "knowledgePoints": [
+                {
+                  "id": "zh7b-u06-kp1",
+                  "title": "便條只留必要的話",
+                  "lesson": [
+                    "便條比信更短，用在請假、留言、借物。",
+                    "仍要寫給誰、什麼事、誰留的。",
+                    "時間地點若和事情有關，不能省。",
+                    "語氣可以簡短，但不能沒有禮貌。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7b-u07",
+              "title": "抒情：情要有景",
+              "knowledgePoints": [
+                {
+                  "id": "zh7b-u07-kp1",
+                  "title": "抒情：情要有景",
+                  "lesson": [
+                    "抒情文在寫感受，但感受要有來源。",
+                    "先寫看到的景物或事件，再寫心情。",
+                    "不要只重複「我好開心」。",
+                    "結尾可以收回一個畫面，讓情緒留下。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh7b-u08",
+              "title": "量詞和疊字",
+              "knowledgePoints": [
+                {
+                  "id": "zh7b-u08-kp1",
+                  "title": "量詞和疊字",
+                  "lesson": [
+                    "中文數東西要用量詞：一本書、一張紙。",
+                    "量詞跟名詞有搭配，不能隨便換。",
+                    "疊字像慢慢、亮晶晶，可以加強狀態。",
+                    "疊字太多，句子會變輕、變花。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh8a",
+      "title": "國文・國二上",
+      "grade": 2,
+      "semester": 1,
+      "subject": "chinese",
+      "chapters": [
+        {
+          "id": "zh8a-ch1",
+          "title": "議論和經典短文",
+          "units": [
+            {
+              "id": "zh8a-u01",
+              "title": "論點要有理由",
+              "knowledgePoints": [
+                {
+                  "id": "zh8a-u01-kp1",
+                  "title": "論點要有理由",
+                  "lesson": [
+                    "議論先講你的主張，這叫論點。",
+                    "理由要能支持論點，不能各說各的。",
+                    "例子是理由的證據，不是另一個論點。",
+                    "最後用一句話把主張收回來。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8a-u02",
+              "title": "舉例和對比",
+              "knowledgePoints": [
+                {
+                  "id": "zh8a-u02-kp1",
+                  "title": "舉例和對比",
+                  "lesson": [
+                    "舉例是拿出一個具體的事，證明前面的話。",
+                    "例子要典型，不能只是例外。",
+                    "對比把兩個相反的情況放在一起。",
+                    "對比之後要說清楚你站在哪一邊。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8a-u03",
+              "title": "愛蓮說：借物言志",
+              "knowledgePoints": [
+                {
+                  "id": "zh8a-u03-kp1",
+                  "title": "愛蓮說：借物言志",
+                  "lesson": [
+                    "周敦頤用蓮花說自己的品格。",
+                    "「出淤泥而不染」是環境濁，自己仍清白。",
+                    "蓮是喻體，君子是被說明的對象。",
+                    "這叫借物言志：寫物，其實在寫志。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8a-u04",
+              "title": "陋室銘：安貧樂道",
+              "knowledgePoints": [
+                {
+                  "id": "zh8a-u04-kp1",
+                  "title": "陋室銘：安貧樂道",
+                  "lesson": [
+                    "銘是刻下來提醒自己的短文。",
+                    "劉禹錫說屋子簡陋，但有德行就不簡陋。",
+                    "「山不在高，有仙則名」是用山和水引出房子。",
+                    "重點不是房子大不大，是住的人。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh8a-ch2",
+          "title": "詩和成語",
+          "units": [
+            {
+              "id": "zh8a-u05",
+              "title": "律詩：八句和對仗",
+              "knowledgePoints": [
+                {
+                  "id": "zh8a-u05-kp1",
+                  "title": "律詩：八句和對仗",
+                  "lesson": [
+                    "律詩有八句。",
+                    "中間兩聯通常要對仗，詞性和結構相對。",
+                    "押韻多在偶數句。",
+                    "對仗對得工整，意思仍要往前走，不能只是複讀。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8a-u06",
+              "title": "成語不能只看字面",
+              "knowledgePoints": [
+                {
+                  "id": "zh8a-u06-kp1",
+                  "title": "成語不能只看字面",
+                  "lesson": [
+                    "成語有固定說法，也有來源。",
+                    "望文生義常會解錯。",
+                    "使用前先確認感情是褒還是貶。",
+                    "一句話裡硬塞很多成語，不會更有說服力。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8a-u07",
+              "title": "因果怎麼連",
+              "knowledgePoints": [
+                {
+                  "id": "zh8a-u07-kp1",
+                  "title": "因果怎麼連",
+                  "lesson": [
+                    "因為、由於，帶出原因。",
+                    "所以、因此，帶出結果。",
+                    "原因和結果不能對調後還說得通，才算真的有因果。",
+                    "兩件事先後發生，不一定就是因果。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8a-u08",
+              "title": "五柳先生：不慕榮利",
+              "knowledgePoints": [
+                {
+                  "id": "zh8a-u08-kp1",
+                  "title": "五柳先生：不慕榮利",
+                  "lesson": [
+                    "陶淵明用第三者寫自己，像在寫別人。",
+                    "五柳先生好讀書，不求甚解，是求會意。",
+                    "性嗜酒、家貧，寫的是淡泊而不是擺爛。",
+                    "「不戚戚於貧賤，不汲汲於富貴」是全篇人格。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh8b",
+      "title": "國文・國二下",
+      "grade": 2,
+      "semester": 2,
+      "subject": "chinese",
+      "chapters": [
+        {
+          "id": "zh8b-ch1",
+          "title": "詞、小說和詞性",
+          "units": [
+            {
+              "id": "zh8b-u01",
+              "title": "詞：句子長短不一",
+              "knowledgePoints": [
+                {
+                  "id": "zh8b-u01-kp1",
+                  "title": "詞：句子長短不一",
+                  "lesson": [
+                    "詞有詞牌，詞牌決定句數和字數。",
+                    "它和詩不同，句子可以有長有短，所以又稱長短句。",
+                    "詞牌是格式，不等於這首詞的題目。",
+                    "讀詞先找畫面，再找作者想說的情緒。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8b-u02",
+              "title": "小說看人物和情節",
+              "knowledgePoints": [
+                {
+                  "id": "zh8b-u02-kp1",
+                  "title": "小說看人物和情節",
+                  "lesson": [
+                    "小說有人物、情節和場景。",
+                    "情節是事情因為什麼改變。",
+                    "人物的選擇推動情節。",
+                    "結局要和前面的性格對得上，才有說服力。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8b-u03",
+              "title": "詞性：名詞、動詞、形容詞",
+              "knowledgePoints": [
+                {
+                  "id": "zh8b-u03-kp1",
+                  "title": "詞性：名詞、動詞、形容詞",
+                  "lesson": [
+                    "名詞是人、地、事、物的名稱。",
+                    "動詞表示動作或狀態的變化。",
+                    "形容詞修飾名詞，說明性質。",
+                    "先看它在句子裡做什麼，再決定詞性。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8b-u04",
+              "title": "轉品",
+              "knowledgePoints": [
+                {
+                  "id": "zh8b-u04-kp1",
+                  "title": "轉品",
+                  "lesson": [
+                    "轉品是同一個詞，臨時換成另一種詞性。",
+                    "名詞當動詞用，是常見的轉品。",
+                    "要靠上下文才看得出來。",
+                    "它讓句子精簡，也讓動作更有畫面。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh8b-ch2",
+          "title": "應用和閱讀",
+          "units": [
+            {
+              "id": "zh8b-u05",
+              "title": "題辭要看場合",
+              "knowledgePoints": [
+                {
+                  "id": "zh8b-u05-kp1",
+                  "title": "題辭要看場合",
+                  "lesson": [
+                    "題辭是送人的幾個字，場合不能錯。",
+                    "婚嫁常用成雙、美好的詞。",
+                    "喪事要用哀悼的詞，不能用喜慶。",
+                    "不確定就查，不要靠字面亂送。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8b-u06",
+              "title": "對聯怎麼對",
+              "knowledgePoints": [
+                {
+                  "id": "zh8b-u06-kp1",
+                  "title": "對聯怎麼對",
+                  "lesson": [
+                    "對聯上下兩句，字數相同。",
+                    "詞性要相對，動詞對動詞。",
+                    "上聯末字多為仄聲，下聯末字多為平聲。",
+                    "意思相關，可以互補，不要兩句完全重複。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8b-u07",
+              "title": "抓主旨",
+              "knowledgePoints": [
+                {
+                  "id": "zh8b-u07-kp1",
+                  "title": "抓主旨",
+                  "lesson": [
+                    "主旨是全文最想說的那一句。",
+                    "它常出現在開頭或結尾，但也可能要自己收。",
+                    "例子和景物都是為主旨服務。",
+                    "能用自己的一句話說出來，才算讀到。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh8b-u08",
+              "title": "找依據",
+              "knowledgePoints": [
+                {
+                  "id": "zh8b-u08-kp1",
+                  "title": "找依據",
+                  "lesson": [
+                    "閱讀題問「根據文章」，答案要回得去原文。",
+                    "自己的經驗不能取代文章裡的句子。",
+                    "先在文中圈出關鍵句，再看選項。",
+                    "選項多寫了文章沒有的話，就不能選。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh9a",
+      "title": "國文・國三上",
+      "grade": 3,
+      "semester": 1,
+      "subject": "chinese",
+      "chapters": [
+        {
+          "id": "zh9a-ch1",
+          "title": "文言和議論進階",
+          "units": [
+            {
+              "id": "zh9a-u01",
+              "title": "生於憂患：困境磨人",
+              "knowledgePoints": [
+                {
+                  "id": "zh9a-u01-kp1",
+                  "title": "生於憂患：困境磨人",
+                  "lesson": [
+                    "孟子舉出幾位先在困境裡的人。",
+                    "「天將降大任」後面，是苦其心志、勞其筋骨。",
+                    "困境被說成是把人磨練出來的過程。",
+                    "「生於憂患，死於安樂」是全篇判斷。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9a-u02",
+              "title": "常見虛詞",
+              "knowledgePoints": [
+                {
+                  "id": "zh9a-u02-kp1",
+                  "title": "常見虛詞",
+                  "lesson": [
+                    "之可以是的，也可以是它。",
+                    "其常指他的、那個。",
+                    "而連接前後，可能順接，也可能轉折。",
+                    "以常是用、拿來。要看後面接什麼。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9a-u03",
+              "title": "一字多義",
+              "knowledgePoints": [
+                {
+                  "id": "zh9a-u03-kp1",
+                  "title": "一字多義",
+                  "lesson": [
+                    "文言一個字常常有好幾個意思。",
+                    "先看它在這句做名詞還是動詞。",
+                    "再看前後搭配。",
+                    "最後才選定一個放回句子仍通順的意思。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9a-u04",
+              "title": "空城計：誰在嚇誰",
+              "knowledgePoints": [
+                {
+                  "id": "zh9a-u04-kp1",
+                  "title": "空城計：誰在嚇誰",
+                  "lesson": [
+                    "諸葛亮兵力不足，卻開城門、自己彈琴。",
+                    "司馬懿看到反常，疑心有埋伏。",
+                    "計策靠的是對方多疑，不是城裡真的有兵。",
+                    "讀小說要問：人物為什麼做出這個選擇。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh9a-ch2",
+          "title": "閱讀策略",
+          "units": [
+            {
+              "id": "zh9a-u05",
+              "title": "先破後立",
+              "knowledgePoints": [
+                {
+                  "id": "zh9a-u05-kp1",
+                  "title": "先破後立",
+                  "lesson": [
+                    "先指出別人的說法哪裡不夠，這是破。",
+                    "再提出自己的說法，這是立。",
+                    "破的時候要對準理由，不能只罵人。",
+                    "立的時候要給得出證據。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9a-u06",
+              "title": "兩篇文章怎麼比",
+              "knowledgePoints": [
+                {
+                  "id": "zh9a-u06-kp1",
+                  "title": "兩篇文章怎麼比",
+                  "lesson": [
+                    "比較閱讀先確認兩篇在談不是完全無關的事。",
+                    "再比相同點：主題、立場或寫法。",
+                    "然後比不同點，而且要說出差異的效果。",
+                    "最後才下判斷，哪一篇對哪個目的更合適。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9a-u07",
+              "title": "語氣和立場",
+              "knowledgePoints": [
+                {
+                  "id": "zh9a-u07-kp1",
+                  "title": "語氣和立場",
+                  "lesson": [
+                    "作者的立場可能贊成、反對或保留。",
+                    "也許、似乎、一定，語氣強度不同。",
+                    "反問常常是強調，不是真的不知道。",
+                    "把語氣強度看準，才不會把推測當成事實。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9a-u08",
+              "title": "長文分段",
+              "knowledgePoints": [
+                {
+                  "id": "zh9a-u08-kp1",
+                  "title": "長文分段",
+                  "lesson": [
+                    "長文先看標題和每段第一句。",
+                    "一段通常有一個小重點。",
+                    "把每段收成短語，全文骨架就出來了。",
+                    "題目若問某段，就別用別段的內容回答。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh9b",
+      "title": "國文・國三下",
+      "grade": 3,
+      "semester": 2,
+      "subject": "chinese",
+      "chapters": [
+        {
+          "id": "zh9b-ch1",
+          "title": "國寫",
+          "units": [
+            {
+              "id": "zh9b-u01",
+              "title": "記敘要有畫面",
+              "knowledgePoints": [
+                {
+                  "id": "zh9b-u01-kp1",
+                  "title": "記敘要有畫面",
+                  "lesson": [
+                    "國寫若是記敘，要有一件真的在發生的事。",
+                    "時間順序要讓人跟得上。",
+                    "用一個動作或物品代替「我很感動」。",
+                    "結尾回到這件事對你的影響，不要另寫一篇議論。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9b-u02",
+              "title": "議論要有理由",
+              "knowledgePoints": [
+                {
+                  "id": "zh9b-u02-kp1",
+                  "title": "議論要有理由",
+                  "lesson": [
+                    "議論國寫第一句就要讓人看見主張。",
+                    "理由至少兩個，而且不重複。",
+                    "每個理由配一個說得通的例子或解釋。",
+                    "結尾重申主張，並回應一開始的問題。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9b-u03",
+              "title": "開頭和結尾",
+              "knowledgePoints": [
+                {
+                  "id": "zh9b-u03-kp1",
+                  "title": "開頭和結尾",
+                  "lesson": [
+                    "開頭可以用一個問題、一個畫面或直接點題。",
+                    "不要用空話暖身太久。",
+                    "結尾可以回扣開頭的畫面或問題。",
+                    "結尾不要突然出現正文沒準備過的新主張。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9b-u04",
+              "title": "改一句話",
+              "knowledgePoints": [
+                {
+                  "id": "zh9b-u04-kp1",
+                  "title": "改一句話",
+                  "lesson": [
+                    "累贅的句子先刪掉重複的意思。",
+                    "抽象的詞改成看得到的動作。",
+                    "一句裡只留一個重點。",
+                    "改完要朗讀，聽得懂才算。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh9b-ch2",
+          "title": "會考閱讀",
+          "units": [
+            {
+              "id": "zh9b-u05",
+              "title": "文意推論",
+              "knowledgePoints": [
+                {
+                  "id": "zh9b-u05-kp1",
+                  "title": "文意推論",
+                  "lesson": [
+                    "推論是文章沒有直說，但依文字推得出來。",
+                    "推論不能跳到文章完全沒提示的事。",
+                    "若兩個推論都說得通，選較靠近原文的。",
+                    "題目若問「最可能」，就不要選「一定」。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9b-u06",
+              "title": "修辭綜合",
+              "knowledgePoints": [
+                {
+                  "id": "zh9b-u06-kp1",
+                  "title": "修辭綜合",
+                  "lesson": [
+                    "先判斷句子在做譬喻、擬人、誇飾還是對偶。",
+                    "誇飾是故意說得超過事實，用來加強感受。",
+                    "設問是自問自答，反問是答案已在問裡。",
+                    "一題若問效果，就要答它對意思有什麼幫助。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9b-u07",
+              "title": "文言翻譯的步驟",
+              "knowledgePoints": [
+                {
+                  "id": "zh9b-u07-kp1",
+                  "title": "文言翻譯的步驟",
+                  "lesson": [
+                    "先圈出不熟的字，別急著寫通順的中文。",
+                    "用詞性和上下文決定字義。",
+                    "再按中文習慣調整順序。",
+                    "最後檢查有沒有把虛詞的意思漏掉或重複。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zh9b-u08",
+              "title": "圖表配文字",
+              "knowledgePoints": [
+                {
+                  "id": "zh9b-u08-kp1",
+                  "title": "圖表配文字",
+                  "lesson": [
+                    "圖表題先看標題、單位和圖例。",
+                    "文字若和圖表數字衝突，以題目要你讀的那一份為準，並指出衝突。",
+                    "趨勢是上升、下降或持平，不要只報一個點。",
+                    "結論不能超出圖表所給的範圍。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u01-zh7a-u01-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u01",
+      "knowledgePointId": "zh7a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「樂」在「音樂」和「快樂」裡，讀音？",
+      "options": [
+        "完全相同",
+        "可能不同",
+        "都不能讀",
+        "只在古文不同"
+      ],
+      "answer": "B",
+      "explanation": "樂是多音字，要看詞。",
+      "tags": [
+        "字音和字形"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u01-zh7a-u01-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u01",
+      "knowledgePointId": "zh7a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "形近字最容易錯在？",
+      "options": [
+        "意思差很多，樣子卻像",
+        "讀音一定相同",
+        "都是標點",
+        "不能組成詞"
+      ],
+      "answer": "A",
+      "explanation": "形近字外貌相近，意思要分開記。",
+      "tags": [
+        "字音和字形"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u01-zh7a-u01-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u01",
+      "knowledgePointId": "zh7a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "不確定字形時，最好先？",
+      "options": [
+        "挑筆畫多的",
+        "確認這個詞的意思",
+        "一律寫同音字",
+        "先寫注音"
+      ],
+      "answer": "B",
+      "explanation": "字形由詞義決定。",
+      "tags": [
+        "字音和字形"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u01-zh7a-u01-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u01",
+      "knowledgePointId": "zh7a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「請帖」的「帖」若寫成「貼」，問題是？",
+      "options": [
+        "讀音不同所以一定對",
+        "形近字用錯",
+        "標點用錯",
+        "它是英文"
+      ],
+      "answer": "B",
+      "explanation": "帖和貼外形接近，但詞不同。",
+      "tags": [
+        "字音和字形"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u02-zh7a-u02-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u02",
+      "knowledgePointId": "zh7a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "推測詞義時，最先該看的是？",
+      "options": [
+        "這個字好不好看",
+        "上下文",
+        "它有幾畫",
+        "它在第幾頁"
+      ],
+      "answer": "B",
+      "explanation": "詞義要放回句子裡看。",
+      "tags": [
+        "看上下文猜詞義"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u02-zh7a-u02-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u02",
+      "knowledgePointId": "zh7a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "句子出現「卻」，通常表示？",
+      "options": [
+        "前後意思順著說",
+        "前後意思有轉折",
+        "一定是問句",
+        "一定在引述"
+      ],
+      "answer": "B",
+      "explanation": "卻是轉折。",
+      "tags": [
+        "看上下文猜詞義"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u02-zh7a-u02-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u02",
+      "knowledgePointId": "zh7a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "猜完詞義後還要？",
+      "options": [
+        "立刻換一篇",
+        "代回原句，看讀不讀得通",
+        "把句子刪掉",
+        "只看第一個字"
+      ],
+      "answer": "B",
+      "explanation": "代回檢查可以排除猜錯。",
+      "tags": [
+        "看上下文猜詞義"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u02-zh7a-u02-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u02",
+      "knowledgePointId": "zh7a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「深」在「深夜」和「深色」裡意思不同。這說明？",
+      "options": [
+        "詞義會隨搭配改變",
+        "深只能有一個意思",
+        "兩個都是動詞",
+        "都是標點"
+      ],
+      "answer": "A",
+      "explanation": "同一個字在不同詞裡意思不同。",
+      "tags": [
+        "看上下文猜詞義"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u03-zh7a-u03-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u03",
+      "knowledgePointId": "zh7a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "一件事說完，應該用？",
+      "options": [
+        "頓號",
+        "句號",
+        "引號",
+        "書名號"
+      ],
+      "answer": "B",
+      "explanation": "句號表示句子結束。",
+      "tags": [
+        "標點幫句子換氣"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u03-zh7a-u03-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u03",
+      "knowledgePointId": "zh7a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「筆、墨、紙」中間的點適合用？",
+      "options": [
+        "句號",
+        "頓號",
+        "問號",
+        "驚嘆號"
+      ],
+      "answer": "B",
+      "explanation": "並列的詞語用頓號。",
+      "tags": [
+        "標點幫句子換氣"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u03-zh7a-u03-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u03",
+      "knowledgePointId": "zh7a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "整句是在發問時，結尾用？",
+      "options": [
+        "逗號",
+        "問號",
+        "頓號",
+        "刪節號"
+      ],
+      "answer": "B",
+      "explanation": "疑問句用問號。",
+      "tags": [
+        "標點幫句子換氣"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u03-zh7a-u03-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u03",
+      "knowledgePointId": "zh7a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "引用別人說的話，應該？",
+      "options": [
+        "不用任何標點",
+        "用引號標出",
+        "全部改成頓號",
+        "寫成書名"
+      ],
+      "answer": "B",
+      "explanation": "引號用來標示話語。",
+      "tags": [
+        "標點幫句子換氣"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u04-zh7a-u04-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u04",
+      "knowledgePointId": "zh7a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「小鳥唱歌」的主語是？",
+      "options": [
+        "唱",
+        "小鳥",
+        "歌",
+        "句號"
+      ],
+      "answer": "B",
+      "explanation": "小鳥是被說明的對象。",
+      "tags": [
+        "句子的主語和述語"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u04-zh7a-u04-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u04",
+      "knowledgePointId": "zh7a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「天空很藍」的述語是？",
+      "options": [
+        "天空",
+        "很藍",
+        "很",
+        "標點"
+      ],
+      "answer": "B",
+      "explanation": "很藍在說明天空。",
+      "tags": [
+        "句子的主語和述語"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u04-zh7a-u04-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u04",
+      "knowledgePointId": "zh7a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "祈使句常常省略主語。被省略的多半是？",
+      "options": [
+        "第三人稱的風景",
+        "聽話的你",
+        "所有標點",
+        "前一句的名詞"
+      ],
+      "answer": "B",
+      "explanation": "命令、請求的對象通常是你。",
+      "tags": [
+        "句子的主語和述語"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch1-zh7a-u04-zh7a-u04-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch1",
+      "unitId": "zh7a-u04",
+      "knowledgePointId": "zh7a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "只有「很漂亮」三個字時，讀者還需要？",
+      "options": [
+        "知道在說誰或什麼",
+        "先翻譯成英文",
+        "補上頓號",
+        "改成問句"
+      ],
+      "answer": "A",
+      "explanation": "省略主語時，上下文要補得起來。",
+      "tags": [
+        "句子的主語和述語"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u05-zh7a-u05-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u05",
+      "knowledgePointId": "zh7a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "記敘文最主要在做什麼？",
+      "options": [
+        "下定義",
+        "把事情的經過寫出來",
+        "只列數據",
+        "寫對聯"
+      ],
+      "answer": "B",
+      "explanation": "記敘是在敘述事件。",
+      "tags": [
+        "記敘文的六何"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u05-zh7a-u05-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u05",
+      "knowledgePointId": "zh7a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "六何不包括下列哪一項？",
+      "options": [
+        "何人",
+        "何時",
+        "何地",
+        "何種標點字型"
+      ],
+      "answer": "D",
+      "explanation": "六何是人、時、地、事、原因、經過。",
+      "tags": [
+        "記敘文的六何"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u05-zh7a-u05-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u05",
+      "knowledgePointId": "zh7a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「他很開心」如果沒有事件，讀者會覺得？",
+      "options": [
+        "畫面很清楚",
+        "不知道為什麼開心",
+        "這是說明文",
+        "必須用頓號"
+      ],
+      "answer": "B",
+      "explanation": "記敘要有原因和經過。",
+      "tags": [
+        "記敘文的六何"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u05-zh7a-u05-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u05",
+      "knowledgePointId": "zh7a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "哪一種寫法比較像有效的細節？",
+      "options": [
+        "非常非常開心",
+        "他把獎狀反覆抹平",
+        "很棒很棒",
+        "感到欣慰"
+      ],
+      "answer": "B",
+      "explanation": "具體動作讓讀者看見情緒。",
+      "tags": [
+        "記敘文的六何"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u06-zh7a-u06-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u06",
+      "knowledgePointId": "zh7a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「學而時習之」的「習」最接近？",
+      "options": [
+        "只上一次課",
+        "按時複習、練習",
+        "出門旅行",
+        "生別人的氣"
+      ],
+      "answer": "B",
+      "explanation": "習是複習、實踐。",
+      "tags": [
+        "論語：學而時習之"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u06-zh7a-u06-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u06",
+      "knowledgePointId": "zh7a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「不亦說乎」的「說」讀喜悅的意思，相同於？",
+      "options": [
+        "說話",
+        "悅",
+        "解釋",
+        "說服"
+      ],
+      "answer": "B",
+      "explanation": "這裡的說是悅的古字。",
+      "tags": [
+        "論語：學而時習之"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u06-zh7a-u06-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u06",
+      "knowledgePointId": "zh7a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「有朋自遠方來」強調的是？",
+      "options": [
+        "一個人閉門讀書就夠",
+        "朋友來互相切磋是樂事",
+        "遠方一定更好",
+        "不要交朋友"
+      ],
+      "answer": "B",
+      "explanation": "孔子把朋友的交流也當成學習的快樂。",
+      "tags": [
+        "論語：學而時習之"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u06-zh7a-u06-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u06",
+      "knowledgePointId": "zh7a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「人不知而不慍」是在說？",
+      "options": [
+        "一定要別人立刻了解",
+        "暫時不被了解，也不必怨怒",
+        "要大聲抱怨",
+        "不要學習"
+      ],
+      "answer": "B",
+      "explanation": "慍是生氣。不慍是不因此怨怒。",
+      "tags": [
+        "論語：學而時習之"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u07-zh7a-u07-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u07",
+      "knowledgePointId": "zh7a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "〈兒時記趣〉的趣味主要來自？",
+      "options": [
+        "實驗數據",
+        "童年版的觀察和想像",
+        "法律條文",
+        "地圖比例尺"
+      ],
+      "answer": "B",
+      "explanation": "作者把所見想成另一個世界。",
+      "tags": [
+        "觀察：兒時記趣"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u07-zh7a-u07-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u07",
+      "knowledgePointId": "zh7a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "把蚊子看成鶴，屬於？",
+      "options": [
+        "客觀測量",
+        "想像",
+        "標點錯誤",
+        "引用數據"
+      ],
+      "answer": "B",
+      "explanation": "這是主觀想像，不是蚊子真的變成鶴。",
+      "tags": [
+        "觀察：兒時記趣"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u07-zh7a-u07-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u07",
+      "knowledgePointId": "zh7a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「張目對日」後再看東西，是為了？",
+      "options": [
+        "讓眼睛更適合看細處",
+        "避免閱讀",
+        "寫對聯",
+        "測量地震"
+      ],
+      "answer": "A",
+      "explanation": "這是作者描述的觀察方法。",
+      "tags": [
+        "觀察：兒時記趣"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u07-zh7a-u07-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u07",
+      "knowledgePointId": "zh7a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "讀這類文章時要分開的是？",
+      "options": [
+        "觀察到的和想像出來的",
+        "主語和頓號",
+        "只有英文和中文",
+        "地圖和法規"
+      ],
+      "answer": "A",
+      "explanation": "想像讓文章有趣，但不等於事實。",
+      "tags": [
+        "觀察：兒時記趣"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u08-zh7a-u08-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u08",
+      "knowledgePointId": "zh7a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "絕句有幾句？",
+      "options": [
+        "兩句",
+        "四句",
+        "八句",
+        "不固定"
+      ],
+      "answer": "B",
+      "explanation": "絕句四句。律詩才是八句。",
+      "tags": [
+        "絕句只有四句"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u08-zh7a-u08-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u08",
+      "knowledgePointId": "zh7a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "七言絕句每一句有幾個字？",
+      "options": [
+        "五個",
+        "七個",
+        "四個",
+        "八個"
+      ],
+      "answer": "B",
+      "explanation": "七言就是每句七字。",
+      "tags": [
+        "絕句只有四句"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u08-zh7a-u08-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u08",
+      "knowledgePointId": "zh7a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "絕句最常押韻的位置是？",
+      "options": [
+        "每一句的第一個字",
+        "第二、四句的最後一個字",
+        "只有第一句",
+        "標點上"
+      ],
+      "answer": "B",
+      "explanation": "偶數句句尾押韻是常見形式。",
+      "tags": [
+        "絕句只有四句"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-1-zh7a-ch2-zh7a-u08-zh7a-u08-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "zh7a-ch2",
+      "unitId": "zh7a-u08",
+      "knowledgePointId": "zh7a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "讀詩時若只背翻譯、不看畫面，容易漏掉？",
+      "options": [
+        "詩人怎麼把心情放進景物",
+        "標點名稱",
+        "作者的戶籍",
+        "印刷廠"
+      ],
+      "answer": "A",
+      "explanation": "詩用景物帶出心情。",
+      "tags": [
+        "絕句只有四句"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u01-zh7b-u01-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u01",
+      "knowledgePointId": "zh7b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「月光像銀盤」是？",
+      "options": [
+        "明喻",
+        "借喻",
+        "誇飾",
+        "對偶"
+      ],
+      "answer": "A",
+      "explanation": "有像，本體喻體都在，是明喻。",
+      "tags": [
+        "譬喻"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u01-zh7b-u01-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u01",
+      "knowledgePointId": "zh7b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「母親是太陽」比較接近？",
+      "options": [
+        "明喻",
+        "暗喻",
+        "類疊",
+        "頂真"
+      ],
+      "answer": "B",
+      "explanation": "用「是」連接，沒有像、如。",
+      "tags": [
+        "譬喻"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u01-zh7b-u01-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u01",
+      "knowledgePointId": "zh7b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只說「鐵公雞」，不說人很小氣。這是？",
+      "options": [
+        "明喻",
+        "借喻",
+        "排比",
+        "設問"
+      ],
+      "answer": "B",
+      "explanation": "本體沒出現，只留喻體。",
+      "tags": [
+        "譬喻"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u01-zh7b-u01-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u01",
+      "knowledgePointId": "zh7b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "譬喻的作用是？",
+      "options": [
+        "讓抽象的意思變得具體",
+        "把句子改成問句",
+        "增加頓號",
+        "取消主語"
+      ],
+      "answer": "A",
+      "explanation": "用熟悉的事物說明陌生的事物。",
+      "tags": [
+        "譬喻"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u02-zh7b-u02-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u02",
+      "knowledgePointId": "zh7b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「春風輕輕叫醒種子」用了？",
+      "options": [
+        "擬人",
+        "只是標點",
+        "對仗",
+        "二名法"
+      ],
+      "answer": "A",
+      "explanation": "風不會叫人，這是把風當人。",
+      "tags": [
+        "擬人"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u02-zh7b-u02-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u02",
+      "knowledgePointId": "zh7b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "擬人的主語通常是？",
+      "options": [
+        "只能是人",
+        "物或抽象事物",
+        "標點",
+        "題辭"
+      ],
+      "answer": "B",
+      "explanation": "把物寫成人。",
+      "tags": [
+        "擬人"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u02-zh7b-u02-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u02",
+      "knowledgePointId": "zh7b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "抒情文常用擬人，是為了？",
+      "options": [
+        "讓情感有所依附",
+        "代替數據",
+        "避免押韻",
+        "增加法律效力"
+      ],
+      "answer": "A",
+      "explanation": "擬人讓情緒透過景物出現。",
+      "tags": [
+        "擬人"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u02-zh7b-u02-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u02",
+      "knowledgePointId": "zh7b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "實驗報告寫「水很高興地沸騰」較不適合，因為？",
+      "options": [
+        "水不會沸騰",
+        "精確說明不宜把事實情緒化",
+        "沸騰不是動詞",
+        "必須用借喻"
+      ],
+      "answer": "B",
+      "explanation": "說明文以準確為先。",
+      "tags": [
+        "擬人"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u03-zh7b-u03-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u03",
+      "knowledgePointId": "zh7b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "說明文最重視？",
+      "options": [
+        "把事物說清楚",
+        "押韻",
+        "隱藏主旨",
+        "只寫心情"
+      ],
+      "answer": "A",
+      "explanation": "說明以理解為目標。",
+      "tags": [
+        "說明文怎麼把事情說清楚"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u03-zh7b-u03-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u03",
+      "knowledgePointId": "zh7b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「什麼叫做颱風」這種句子是在？",
+      "options": [
+        "下定義",
+        "抒情",
+        "下命令",
+        "寫對聯"
+      ],
+      "answer": "A",
+      "explanation": "定義用來圈出概念。",
+      "tags": [
+        "說明文怎麼把事情說清楚"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u03-zh7b-u03-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u03",
+      "knowledgePointId": "zh7b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "定義之後接著舉例，是為了？",
+      "options": [
+        "讓抽象概念變具體",
+        "取消定義",
+        "增加驚嘆號",
+        "改成詩歌"
+      ],
+      "answer": "A",
+      "explanation": "例子幫助讀者對上經驗。",
+      "tags": [
+        "說明文怎麼把事情說清楚"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u03-zh7b-u03-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u03",
+      "knowledgePointId": "zh7b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "一段裡同時講颱風、烹飪和法律，問題是？",
+      "options": [
+        "沒有聚焦",
+        "標點太少",
+        "沒有擬人",
+        "缺少押韻"
+      ],
+      "answer": "A",
+      "explanation": "說明要一段一件事。",
+      "tags": [
+        "說明文怎麼把事情說清楚"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u04-zh7b-u04-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u04",
+      "knowledgePointId": "zh7b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "寓言和一般故事最大的差別是？",
+      "options": [
+        "一定很長",
+        "故事裡寄託道理",
+        "不能有動物",
+        "必須押韻"
+      ],
+      "answer": "B",
+      "explanation": "寓言借故事說道理。",
+      "tags": [
+        "寓言：守株待兔"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u04-zh7b-u04-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u04",
+      "knowledgePointId": "zh7b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "守株待兔的農人錯在？",
+      "options": [
+        "把偶然當成會一直發生",
+        "太努力耕田",
+        "把兔子放走",
+        "沒有使用標點"
+      ],
+      "answer": "A",
+      "explanation": "一次巧合不能當成方法。",
+      "tags": [
+        "寓言：守株待兔"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u04-zh7b-u04-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u04",
+      "knowledgePointId": "zh7b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "這個故事批評的態度是？",
+      "options": [
+        "勤勞",
+        "心存僥倖",
+        "仔細觀察",
+        "按時複習"
+      ],
+      "answer": "B",
+      "explanation": "想不勞而獲。",
+      "tags": [
+        "寓言：守株待兔"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch1-zh7b-u04-zh7b-u04-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch1",
+      "unitId": "zh7b-u04",
+      "knowledgePointId": "zh7b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "讀寓言的順序最好是？",
+      "options": [
+        "先背道理再拒絕看故事",
+        "先懂情節，再收成道理",
+        "只看最後一個字",
+        "先翻譯成英文"
+      ],
+      "answer": "B",
+      "explanation": "道理是從情節裡長出來的。",
+      "tags": [
+        "寓言：守株待兔"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u05-zh7b-u05-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u05",
+      "knowledgePointId": "zh7b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "寫信開頭最先要確認的是？",
+      "options": [
+        "紙張顏色",
+        "對方的稱謂",
+        "是否押韻",
+        "有沒有圖表"
+      ],
+      "answer": "B",
+      "explanation": "稱謂錯了，後面再有禮也不適當。",
+      "tags": [
+        "一封信的骨架"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u05-zh7b-u05-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u05",
+      "knowledgePointId": "zh7b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "正文最好？",
+      "options": [
+        "一段只說清一件事",
+        "把所有事情寫成一句",
+        "只用標點",
+        "不署名"
+      ],
+      "answer": "A",
+      "explanation": "分段讓對方讀得懂。",
+      "tags": [
+        "一封信的骨架"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u05-zh7b-u05-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u05",
+      "knowledgePointId": "zh7b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "信的結尾通常包含？",
+      "options": [
+        "只剩問號",
+        "祝頌、署名、日期",
+        "食物鏈",
+        "比例尺"
+      ],
+      "answer": "B",
+      "explanation": "結尾告訴對方你的祝願和身份。",
+      "tags": [
+        "一封信的骨架"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u05-zh7b-u05-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u05",
+      "knowledgePointId": "zh7b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "給老師的信若稱謂寫成暱稱，問題在？",
+      "options": [
+        "不夠尊敬、對象不對",
+        "日期太清楚",
+        "正文太短一定錯",
+        "不能用句號"
+      ],
+      "answer": "A",
+      "explanation": "稱謂要符合關係。",
+      "tags": [
+        "一封信的骨架"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u06-zh7b-u06-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u06",
+      "knowledgePointId": "zh7b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "便條和一般書信相比？",
+      "options": [
+        "更短、目的更單一",
+        "必須寫成律詩",
+        "不能署名",
+        "一定要有引文"
+      ],
+      "answer": "A",
+      "explanation": "便條是簡短的應用文。",
+      "tags": [
+        "便條只留必要的話"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u06-zh7b-u06-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u06",
+      "knowledgePointId": "zh7b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "請假便條一定要讓人知道？",
+      "options": [
+        "你為什麼不喜歡標點",
+        "誰請假、請什麼時候",
+        "全班的血型",
+        "食物鏈"
+      ],
+      "answer": "B",
+      "explanation": "時間和對象是必要資訊。",
+      "tags": [
+        "便條只留必要的話"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u06-zh7b-u06-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u06",
+      "knowledgePointId": "zh7b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "便條不署名會造成？",
+      "options": [
+        "對方不知道是誰留的",
+        "標點自動補上",
+        "事情更清楚",
+        "語氣更恭敬"
+      ],
+      "answer": "A",
+      "explanation": "署名是必要項目。",
+      "tags": [
+        "便條只留必要的話"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u06-zh7b-u06-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u06",
+      "knowledgePointId": "zh7b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "哪一項可以依情況省略？",
+      "options": [
+        "留條的人",
+        "和事情無關的寒暄",
+        "請假日期",
+        "對象"
+      ],
+      "answer": "B",
+      "explanation": "無關的客套可省，關鍵資訊不行。",
+      "tags": [
+        "便條只留必要的話"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u07-zh7b-u07-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u07",
+      "knowledgePointId": "zh7b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "只有「我非常非常難過」時，讀者缺少的是？",
+      "options": [
+        "情緒的來源和畫面",
+        "更多驚嘆號",
+        "英文翻譯",
+        "頓號"
+      ],
+      "answer": "A",
+      "explanation": "抒情要讓人看見為什麼。",
+      "tags": [
+        "抒情：情要有景"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u07-zh7b-u07-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u07",
+      "knowledgePointId": "zh7b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「雨打在空椅上」適合用來帶出？",
+      "options": [
+        "抽象的孤單",
+        "食物鏈",
+        "法律位階",
+        "血型"
+      ],
+      "answer": "A",
+      "explanation": "景物可以承載情緒。",
+      "tags": [
+        "抒情：情要有景"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u07-zh7b-u07-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u07",
+      "knowledgePointId": "zh7b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "抒情文最好避免？",
+      "options": [
+        "具體細節",
+        "一整段只有同一個形容詞",
+        "有事件",
+        "有結尾"
+      ],
+      "answer": "B",
+      "explanation": "重複空泛形容詞沒有新資訊。",
+      "tags": [
+        "抒情：情要有景"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u07-zh7b-u07-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u07",
+      "knowledgePointId": "zh7b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "結尾收回開頭的景物，作用是？",
+      "options": [
+        "讓情緒有著落",
+        "取消主旨",
+        "變成說明文定義",
+        "增加題辭"
+      ],
+      "answer": "A",
+      "explanation": "首尾的畫面讓感受留下。",
+      "tags": [
+        "抒情：情要有景"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u08-zh7b-u08-kp1-1",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u08",
+      "knowledgePointId": "zh7b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「一張紙」的量詞是？",
+      "options": [
+        "張",
+        "本",
+        "隻",
+        "棵"
+      ],
+      "answer": "A",
+      "explanation": "紙用量詞張。",
+      "tags": [
+        "量詞和疊字"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u08-zh7b-u08-kp1-2",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u08",
+      "knowledgePointId": "zh7b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「一隻書」讀起來怪，是因為？",
+      "options": [
+        "量詞搭配不對",
+        "書不是名詞",
+        "必須用疊字",
+        "張和隻相同"
+      ],
+      "answer": "A",
+      "explanation": "書常用「本」，動物才常用「隻」。",
+      "tags": [
+        "量詞和疊字"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u08-zh7b-u08-kp1-3",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u08",
+      "knowledgePointId": "zh7b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「亮晶晶」屬於？",
+      "options": [
+        "疊字摹狀",
+        "題辭",
+        "法律用語",
+        "學名"
+      ],
+      "answer": "A",
+      "explanation": "疊字用來描寫狀態。",
+      "tags": [
+        "量詞和疊字"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-1-2-zh7b-ch2-zh7b-u08-zh7b-u08-kp1-4",
+      "subject": "chinese",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "zh7b-ch2",
+      "unitId": "zh7b-u08",
+      "knowledgePointId": "zh7b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "一段裡每句都用疊字，可能讓文章？",
+      "options": [
+        "更精確",
+        "顯得浮誇、重點不清楚",
+        "變成說明定義",
+        "自動押韻"
+      ],
+      "answer": "B",
+      "explanation": "修辭要服務意思，不是堆砌。",
+      "tags": [
+        "量詞和疊字"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u01-zh8a-u01-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u01",
+      "knowledgePointId": "zh8a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "議論文的論點是？",
+      "options": [
+        "一個景物",
+        "作者的主張",
+        "標點",
+        "量詞"
+      ],
+      "answer": "B",
+      "explanation": "論點是要說服別人的主張。",
+      "tags": [
+        "論點要有理由"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u01-zh8a-u01-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u01",
+      "knowledgePointId": "zh8a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "例子和論點的關係應該是？",
+      "options": [
+        "例子支持論點",
+        "例子取代主張",
+        "例子愈無關愈好",
+        "不能有例子"
+      ],
+      "answer": "A",
+      "explanation": "例子是證據。",
+      "tags": [
+        "論點要有理由"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u01-zh8a-u01-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u01",
+      "knowledgePointId": "zh8a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "主張「應早睡」，理由卻全在講午餐。問題是？",
+      "options": [
+        "理由沒有支持論點",
+        "標點太多",
+        "沒有主語",
+        "使用明喻"
+      ],
+      "answer": "A",
+      "explanation": "理由必須對準主張。",
+      "tags": [
+        "論點要有理由"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u01-zh8a-u01-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u01",
+      "knowledgePointId": "zh8a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "結尾適合？",
+      "options": [
+        "突然換成另一個無關主張",
+        "用一句話重申論點",
+        "只列量詞",
+        "改成便條"
+      ],
+      "answer": "B",
+      "explanation": "收束讓主張被記住。",
+      "tags": [
+        "論點要有理由"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u02-zh8a-u02-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u02",
+      "knowledgePointId": "zh8a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "舉例的作用是？",
+      "options": [
+        "證明或說明主張",
+        "隱藏主張",
+        "代替標點",
+        "增加字數即可"
+      ],
+      "answer": "A",
+      "explanation": "例子讓主張有依據。",
+      "tags": [
+        "舉例和對比"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u02-zh8a-u02-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u02",
+      "knowledgePointId": "zh8a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "只用一個極端例外來證明所有人，問題在？",
+      "options": [
+        "例子不夠典型",
+        "句子太短",
+        "沒有擬人",
+        "使用頓號"
+      ],
+      "answer": "A",
+      "explanation": "證據要有代表性。",
+      "tags": [
+        "舉例和對比"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u02-zh8a-u02-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u02",
+      "knowledgePointId": "zh8a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "對比是？",
+      "options": [
+        "把相反情況放在一起看",
+        "只寫一邊",
+        "取消論點",
+        "把名詞疊字"
+      ],
+      "answer": "A",
+      "explanation": "對比靠差異說理。",
+      "tags": [
+        "舉例和對比"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u02-zh8a-u02-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u02",
+      "knowledgePointId": "zh8a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "對比之後若不下判斷，讀者會？",
+      "options": [
+        "自動知道作者的立場",
+        "不清楚作者要支持哪一邊",
+        "改讀詩歌",
+        "只記得標點"
+      ],
+      "answer": "B",
+      "explanation": "比較是為了幫助判斷。",
+      "tags": [
+        "舉例和對比"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u03-zh8a-u03-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u03",
+      "knowledgePointId": "zh8a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "〈愛蓮說〉主要在寫？",
+      "options": [
+        "種蓮技術",
+        "君子的品格",
+        "地圖",
+        "血型"
+      ],
+      "answer": "B",
+      "explanation": "蓮是用來比喻君子。",
+      "tags": [
+        "愛蓮說：借物言志"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u03-zh8a-u03-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u03",
+      "knowledgePointId": "zh8a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「出淤泥而不染」強調？",
+      "options": [
+        "環境再濁也能保持清白",
+        "蓮不能活在水裡",
+        "要隨環境改變原則",
+        "淤泥沒有意義"
+      ],
+      "answer": "A",
+      "explanation": "不染是不被汙染。",
+      "tags": [
+        "愛蓮說：借物言志"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u03-zh8a-u03-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u03",
+      "knowledgePointId": "zh8a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "這種寫法稱為？",
+      "options": [
+        "借物言志",
+        "純科學觀察",
+        "僅列數據",
+        "便條"
+      ],
+      "answer": "A",
+      "explanation": "借物寫出志向。",
+      "tags": [
+        "愛蓮說：借物言志"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u03-zh8a-u03-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u03",
+      "knowledgePointId": "zh8a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "讀的時候要把蓮對上？",
+      "options": [
+        "君子",
+        "比例尺",
+        "酵素",
+        "量詞"
+      ],
+      "answer": "A",
+      "explanation": "喻體要回到作者想說的人。",
+      "tags": [
+        "愛蓮說：借物言志"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u04-zh8a-u04-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u04",
+      "knowledgePointId": "zh8a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "〈陋室銘〉的「陋」是指？",
+      "options": [
+        "屋子簡陋",
+        "人沒有名字",
+        "沒有標點",
+        "沒有押韻"
+      ],
+      "answer": "A",
+      "explanation": "陋室是簡樸的屋子。",
+      "tags": [
+        "陋室銘：安貧樂道"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u04-zh8a-u04-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u04",
+      "knowledgePointId": "zh8a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "作者認為屋子值不值得稱道，主要看？",
+      "options": [
+        "坪數",
+        "居住者的德行",
+        "家具價格",
+        "是否押韻"
+      ],
+      "answer": "B",
+      "explanation": "有德就不顯得陋。",
+      "tags": [
+        "陋室銘：安貧樂道"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u04-zh8a-u04-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u04",
+      "knowledgePointId": "zh8a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「山不在高，有仙則名」在文中的作用是？",
+      "options": [
+        "開始講地理課",
+        "引出「屋子不在華，有德則馨」",
+        "取消論點",
+        "寫請假條"
+      ],
+      "answer": "B",
+      "explanation": "用類比引出後文。",
+      "tags": [
+        "陋室銘：安貧樂道"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch1-zh8a-u04-zh8a-u04-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch1",
+      "unitId": "zh8a-u04",
+      "knowledgePointId": "zh8a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "這篇最接近的生活態度是？",
+      "options": [
+        "安貧樂道",
+        "追求更大的房子",
+        "放棄學習",
+        "只看外表"
+      ],
+      "answer": "A",
+      "explanation": "簡樸而仍堅持自己的原則。",
+      "tags": [
+        "陋室銘：安貧樂道"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u05-zh8a-u05-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u05",
+      "knowledgePointId": "zh8a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "律詩一共幾句？",
+      "options": [
+        "四句",
+        "八句",
+        "六句",
+        "不限"
+      ],
+      "answer": "B",
+      "explanation": "律詩八句，絕句四句。",
+      "tags": [
+        "律詩：八句和對仗"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u05-zh8a-u05-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u05",
+      "knowledgePointId": "zh8a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "對仗是指？",
+      "options": [
+        "上下句詞性和結構互相對應",
+        "只要字數一樣",
+        "必須用擬人",
+        "取消押韻"
+      ],
+      "answer": "A",
+      "explanation": "對仗要求對應。",
+      "tags": [
+        "律詩：八句和對仗"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u05-zh8a-u05-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u05",
+      "knowledgePointId": "zh8a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "律詩中間兩聯若完全沒有對應，就？",
+      "options": [
+        "不符合律詩常規",
+        "變成更好的絕句",
+        "自動成為詞",
+        "不必押韻"
+      ],
+      "answer": "A",
+      "explanation": "對仗是律詩的重要規矩。",
+      "tags": [
+        "律詩：八句和對仗"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u05-zh8a-u05-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u05",
+      "knowledgePointId": "zh8a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "對仗工整但兩句意思完全重複，仍是缺點，因為？",
+      "options": [
+        "詩要有推進",
+        "不能有畫面",
+        "不能押韻",
+        "字數必須不同"
+      ],
+      "answer": "A",
+      "explanation": "形式為內容服務。",
+      "tags": [
+        "律詩：八句和對仗"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u06-zh8a-u06-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u06",
+      "knowledgePointId": "zh8a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "望文生義是指？",
+      "options": [
+        "查過來源再用",
+        "只按字面亂猜意思",
+        "先看上下文",
+        "確認褒貶"
+      ],
+      "answer": "B",
+      "explanation": "成語不能只拆字面。",
+      "tags": [
+        "成語不能只看字面"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u06-zh8a-u06-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u06",
+      "knowledgePointId": "zh8a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "貶義成語用來稱讚別人，問題在？",
+      "options": [
+        "感情色彩用反",
+        "字數太少",
+        "沒有對仗",
+        "缺少量詞"
+      ],
+      "answer": "A",
+      "explanation": "褒貶要配合場合。",
+      "tags": [
+        "成語不能只看字面"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u06-zh8a-u06-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u06",
+      "knowledgePointId": "zh8a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "不確定成語時應該？",
+      "options": [
+        "先造一個新的",
+        "查意思和用法再使用",
+        "看字形漂不漂亮",
+        "一律當褒義"
+      ],
+      "answer": "B",
+      "explanation": "成語有約定的意思。",
+      "tags": [
+        "成語不能只看字面"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u06-zh8a-u06-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u06",
+      "knowledgePointId": "zh8a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "一段話每句都用成語，可能？",
+      "options": [
+        "更精確",
+        "讓句子變得空洞",
+        "自動成為律詩",
+        "取代論點"
+      ],
+      "answer": "B",
+      "explanation": "堆砌不能代替理由。",
+      "tags": [
+        "成語不能只看字面"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u07-zh8a-u07-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u07",
+      "knowledgePointId": "zh8a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「因為下雨，所以路上濕」的原因是？",
+      "options": [
+        "路上濕",
+        "下雨",
+        "所以",
+        "標點"
+      ],
+      "answer": "B",
+      "explanation": "因為後面是原因。",
+      "tags": [
+        "因果怎麼連"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u07-zh8a-u07-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u07",
+      "knowledgePointId": "zh8a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "只因為甲發生在乙前面，就說甲造成乙。這叫？",
+      "options": [
+        "正確的實驗",
+        "把先後誤當成因果",
+        "對仗",
+        "借喻"
+      ],
+      "answer": "B",
+      "explanation": "先後不是因果的充分條件。",
+      "tags": [
+        "因果怎麼連"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u07-zh8a-u07-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u07",
+      "knowledgePointId": "zh8a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「因此」後面多半接？",
+      "options": [
+        "結果",
+        "主語的量詞",
+        "押韻",
+        "題辭"
+      ],
+      "answer": "A",
+      "explanation": "因此引出結果。",
+      "tags": [
+        "因果怎麼連"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u07-zh8a-u07-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u07",
+      "knowledgePointId": "zh8a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "對調原因和結果後句子變得不合理，代表？",
+      "options": [
+        "原來的因果比較站得住",
+        "必須改成擬人",
+        "沒有關係",
+        "應該刪掉主張"
+      ],
+      "answer": "A",
+      "explanation": "方向對了，對調就會怪。",
+      "tags": [
+        "因果怎麼連"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u08-zh8a-u08-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u08",
+      "knowledgePointId": "zh8a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "五柳先生這個人物最接近？",
+      "options": [
+        "作者的自畫像",
+        "一位真實的縣令檔案",
+        "科學觀察對象",
+        "題辭"
+      ],
+      "answer": "A",
+      "explanation": "陶淵明以傳記手法寫自己。",
+      "tags": [
+        "五柳先生：不慕榮利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u08-zh8a-u08-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u08",
+      "knowledgePointId": "zh8a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「不求甚解」在這裡不是？",
+      "options": [
+        "完全不讀書",
+        "不過分拘泥字句，重在會意",
+        "喜歡讀書",
+        "淡泊"
+      ],
+      "answer": "A",
+      "explanation": "它強調領會，不是拒絕理解。",
+      "tags": [
+        "五柳先生：不慕榮利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u08-zh8a-u08-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u08",
+      "knowledgePointId": "zh8a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「不汲汲於富貴」是？",
+      "options": [
+        "拼命追求富貴",
+        "不急著追求富貴",
+        "很憂愁",
+        "很簡陋的房子"
+      ],
+      "answer": "B",
+      "explanation": "汲汲是急切追求。",
+      "tags": [
+        "五柳先生：不慕榮利"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-1-zh8a-ch2-zh8a-u08-zh8a-u08-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "zh8a-ch2",
+      "unitId": "zh8a-u08",
+      "knowledgePointId": "zh8a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "這篇的生活態度是？",
+      "options": [
+        "不慕榮利",
+        "追求更大的官位",
+        "只看字面",
+        "堆砌成語"
+      ],
+      "answer": "A",
+      "explanation": "安於貧賤、不熱中富貴。",
+      "tags": [
+        "五柳先生：不慕榮利"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u01-zh8b-u01-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u01",
+      "knowledgePointId": "zh8b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "詞又稱為長短句，是因為？",
+      "options": [
+        "每句字數可以不同",
+        "一定只有四句",
+        "沒有格式",
+        "必須八句對仗"
+      ],
+      "answer": "A",
+      "explanation": "詞的句子長短參差。",
+      "tags": [
+        "詞：句子長短不一"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u01-zh8b-u01-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u01",
+      "knowledgePointId": "zh8b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "詞牌是？",
+      "options": [
+        "這件事發生的地點",
+        "格式的名稱",
+        "作者的字號",
+        "標點"
+      ],
+      "answer": "B",
+      "explanation": "詞牌規定格律，不是內容標題。",
+      "tags": [
+        "詞：句子長短不一"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u01-zh8b-u01-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u01",
+      "knowledgePointId": "zh8b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "〈水調歌頭〉若另外寫了中秋，中秋比較像？",
+      "options": [
+        "詞牌",
+        "題目或內容",
+        "量詞",
+        "對仗規則"
+      ],
+      "answer": "B",
+      "explanation": "內容和詞牌要分開。",
+      "tags": [
+        "詞：句子長短不一"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u01-zh8b-u01-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u01",
+      "knowledgePointId": "zh8b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "讀詞和讀絕句一樣，可以先？",
+      "options": [
+        "抓畫面和情緒",
+        "只背詞牌筆畫",
+        "改成便條",
+        "先算染色體"
+      ],
+      "answer": "A",
+      "explanation": "格式是為了承載意思。",
+      "tags": [
+        "詞：句子長短不一"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u02-zh8b-u02-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u02",
+      "knowledgePointId": "zh8b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "小說三要素通常包含？",
+      "options": [
+        "人物、情節、場景",
+        "標點、量詞、詞牌",
+        "界門綱",
+        "五院"
+      ],
+      "answer": "A",
+      "explanation": "這三項構成故事。",
+      "tags": [
+        "小說看人物和情節"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u02-zh8b-u02-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u02",
+      "knowledgePointId": "zh8b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "情節是指？",
+      "options": [
+        "紙張大小",
+        "事件的發展和變化",
+        "只有第一句",
+        "作者的戶籍"
+      ],
+      "answer": "B",
+      "explanation": "情節看事情怎麼推進。",
+      "tags": [
+        "小說看人物和情節"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u02-zh8b-u02-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u02",
+      "knowledgePointId": "zh8b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "一個自私的人突然無緣無故大公無私，讀者會覺得？",
+      "options": [
+        "性格和情節斷掉",
+        "一定是好結局",
+        "這是說明文",
+        "必須押韻"
+      ],
+      "answer": "A",
+      "explanation": "轉變需要過程。",
+      "tags": [
+        "小說看人物和情節"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u02-zh8b-u02-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u02",
+      "knowledgePointId": "zh8b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "場景的作用是？",
+      "options": [
+        "讓事件發生在可想像的時空",
+        "代替人物",
+        "取消衝突",
+        "只為了對仗"
+      ],
+      "answer": "A",
+      "explanation": "場景提供時間和空間。",
+      "tags": [
+        "小說看人物和情節"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u03-zh8b-u03-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u03",
+      "knowledgePointId": "zh8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「鳥」在大多數句子裡是？",
+      "options": [
+        "名詞",
+        "只有動詞",
+        "標點",
+        "詞牌"
+      ],
+      "answer": "A",
+      "explanation": "鳥是事物的名稱。",
+      "tags": [
+        "詞性：名詞、動詞、形容詞"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u03-zh8b-u03-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u03",
+      "knowledgePointId": "zh8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「飛」最常做？",
+      "options": [
+        "動詞",
+        "量詞",
+        "題辭",
+        "姓氏"
+      ],
+      "answer": "A",
+      "explanation": "飛是動作。",
+      "tags": [
+        "詞性：名詞、動詞、形容詞"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u03-zh8b-u03-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u03",
+      "knowledgePointId": "zh8b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「藍天」的「藍」是？",
+      "options": [
+        "形容詞",
+        "動詞",
+        "連詞",
+        "代詞"
+      ],
+      "answer": "A",
+      "explanation": "藍說明天的性質。",
+      "tags": [
+        "詞性：名詞、動詞、形容詞"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u03-zh8b-u03-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u03",
+      "knowledgePointId": "zh8b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "判斷詞性最可靠的方法是？",
+      "options": [
+        "看它在這句裡的工作",
+        "只看筆畫",
+        "只看它常不常用",
+        "看它是不是疊字"
+      ],
+      "answer": "A",
+      "explanation": "詞性由句子功能決定。",
+      "tags": [
+        "詞性：名詞、動詞、形容詞"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u04-zh8b-u04-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u04",
+      "knowledgePointId": "zh8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "轉品是？",
+      "options": [
+        "詞性臨時轉變",
+        "標點改變",
+        "押韻",
+        "成語堆砌"
+      ],
+      "answer": "A",
+      "explanation": "轉品是詞類活用。",
+      "tags": [
+        "轉品"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u04-zh8b-u04-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u04",
+      "knowledgePointId": "zh8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「春風又綠江南岸」的「綠」若當動詞，是？",
+      "options": [
+        "轉品",
+        "量詞",
+        "只是錯字",
+        "題辭"
+      ],
+      "answer": "A",
+      "explanation": "綠原是形容，這裡當「使它變綠」。",
+      "tags": [
+        "轉品"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u04-zh8b-u04-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u04",
+      "knowledgePointId": "zh8b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "判斷是不是轉品，要？",
+      "options": [
+        "看上下文的用法",
+        "只看字典第一義",
+        "看字好不好看",
+        "算字數"
+      ],
+      "answer": "A",
+      "explanation": "臨時用法要放回句子。",
+      "tags": [
+        "轉品"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch1-zh8b-u04-zh8b-u04-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch1",
+      "unitId": "zh8b-u04",
+      "knowledgePointId": "zh8b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "轉品的效果通常是？",
+      "options": [
+        "讓句子精簡有畫面",
+        "取消意思",
+        "增加無關標點",
+        "變成說明定義"
+      ],
+      "answer": "A",
+      "explanation": "活用可以讓語言緊湊。",
+      "tags": [
+        "轉品"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u05-zh8b-u05-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u05",
+      "knowledgePointId": "zh8b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "題辭最先要配合的是？",
+      "options": [
+        "紙張價錢",
+        "場合",
+        "是否七言",
+        "作者血型"
+      ],
+      "answer": "B",
+      "explanation": "場合錯了，詞再美也不適當。",
+      "tags": [
+        "題辭要看場合"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u05-zh8b-u05-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u05",
+      "knowledgePointId": "zh8b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "哀悼的題辭可以用在？",
+      "options": [
+        "喪禮",
+        "婚禮",
+        "新居落成",
+        "生日"
+      ],
+      "answer": "A",
+      "explanation": "哀悼只用於喪事。",
+      "tags": [
+        "題辭要看場合"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u05-zh8b-u05-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u05",
+      "knowledgePointId": "zh8b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「桃符」常指春聯，拿去當結婚題辭會？",
+      "options": [
+        "非常正確",
+        "場合不對",
+        "變成律詩",
+        "自動押韻"
+      ],
+      "answer": "B",
+      "explanation": "不能只靠字面好看。",
+      "tags": [
+        "題辭要看場合"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u05-zh8b-u05-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u05",
+      "knowledgePointId": "zh8b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "不確定題辭時應該？",
+      "options": [
+        "挑筆畫好看的",
+        "查準場合再送",
+        "一律用哀悼",
+        "改成便條不署名"
+      ],
+      "answer": "B",
+      "explanation": "題辭有約定用法。",
+      "tags": [
+        "題辭要看場合"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u06-zh8b-u06-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u06",
+      "knowledgePointId": "zh8b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "對聯上下聯的字數必須？",
+      "options": [
+        "相同",
+        "上聯比較長",
+        "不必管",
+        "差兩個字最好"
+      ],
+      "answer": "A",
+      "explanation": "字數相對是基本條件。",
+      "tags": [
+        "對聯怎麼對"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u06-zh8b-u06-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u06",
+      "knowledgePointId": "zh8b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "詞性相對是指？",
+      "options": [
+        "名詞對名詞、動詞對動詞",
+        "只要意思相反",
+        "只要押韻",
+        "只要有擬人"
+      ],
+      "answer": "A",
+      "explanation": "對仗要求詞性對應。",
+      "tags": [
+        "對聯怎麼對"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u06-zh8b-u06-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u06",
+      "knowledgePointId": "zh8b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "下聯最後一個字傳統上多為？",
+      "options": [
+        "仄聲",
+        "平聲",
+        "標點",
+        "量詞"
+      ],
+      "answer": "B",
+      "explanation": "上仄下平是常見規矩。",
+      "tags": [
+        "對聯怎麼對"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u06-zh8b-u06-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u06",
+      "knowledgePointId": "zh8b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "上下聯意思完全一樣，問題是？",
+      "options": [
+        "沒有互補或推進",
+        "字數不同",
+        "沒有名詞",
+        "不能貼"
+      ],
+      "answer": "A",
+      "explanation": "對聯要成一組，而不是複讀。",
+      "tags": [
+        "對聯怎麼對"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u07-zh8b-u07-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u07",
+      "knowledgePointId": "zh8b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "主旨是？",
+      "options": [
+        "第一個標點",
+        "全文最想表達的意思",
+        "字數",
+        "作者籍貫"
+      ],
+      "answer": "B",
+      "explanation": "主旨是核心意思。",
+      "tags": [
+        "抓主旨"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u07-zh8b-u07-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u07",
+      "knowledgePointId": "zh8b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "細節和主旨的關係是？",
+      "options": [
+        "細節支持主旨",
+        "細節必須無關",
+        "有細節就沒有主旨",
+        "主旨就是標點"
+      ],
+      "answer": "A",
+      "explanation": "材料為中心服務。",
+      "tags": [
+        "抓主旨"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u07-zh8b-u07-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u07",
+      "knowledgePointId": "zh8b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "刪掉例子後中心還在，代表？",
+      "options": [
+        "那些例子不是主旨本身",
+        "文章沒有意思",
+        "必須重寫標題",
+        "這是對聯"
+      ],
+      "answer": "A",
+      "explanation": "主旨比例子更上一層。",
+      "tags": [
+        "抓主旨"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u07-zh8b-u07-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u07",
+      "knowledgePointId": "zh8b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "檢驗有沒有讀懂，可以？",
+      "options": [
+        "用一句話重述",
+        "只數段落",
+        "把每個字抄一遍",
+        "先背詞牌"
+      ],
+      "answer": "A",
+      "explanation": "能重述才算抓住。",
+      "tags": [
+        "抓主旨"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u08-zh8b-u08-kp1-1",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u08",
+      "knowledgePointId": "zh8b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "題目寫「根據文章」，答案應該？",
+      "options": [
+        "用自己的生活經驗代替",
+        "能在文章裡找到依據",
+        "選最長的選項",
+        "選有成語的"
+      ],
+      "answer": "B",
+      "explanation": "依據必須來自文章。",
+      "tags": [
+        "找依據"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u08-zh8b-u08-kp1-2",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u08",
+      "knowledgePointId": "zh8b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "選項比文章多加了一個原因。這時？",
+      "options": [
+        "可以選，因為更完整",
+        "不能選，文章沒說",
+        "一定是主旨",
+        "屬於對仗"
+      ],
+      "answer": "B",
+      "explanation": "多出來的資訊沒有依據。",
+      "tags": [
+        "找依據"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u08-zh8b-u08-kp1-3",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u08",
+      "knowledgePointId": "zh8b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "做閱讀題比較穩的順序是？",
+      "options": [
+        "先圈關鍵句再看選項",
+        "先選再隨便找",
+        "不讀文章",
+        "只看標題"
+      ],
+      "answer": "A",
+      "explanation": "先有依據再判斷。",
+      "tags": [
+        "找依據"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-2-2-zh8b-ch2-zh8b-u08-zh8b-u08-kp1-4",
+      "subject": "chinese",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "zh8b-ch2",
+      "unitId": "zh8b-u08",
+      "knowledgePointId": "zh8b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "兩個選項都合理，但只有一個文章有寫。應選？",
+      "options": [
+        "文章有寫的",
+        "自己比較喜歡的",
+        "比較長的",
+        "有擬人的"
+      ],
+      "answer": "A",
+      "explanation": "閱讀測驗考的是文章，不是常識比賽。",
+      "tags": [
+        "找依據"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u01-zh9a-u01-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u01",
+      "knowledgePointId": "zh9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "〈生於憂患，死於安樂〉的主要判斷是？",
+      "options": [
+        "安樂一定更好",
+        "憂患能磨練人，安逸可能讓人衰敗",
+        "不要努力",
+        "只談農業"
+      ],
+      "answer": "B",
+      "explanation": "憂患與安樂對比出人的狀態。",
+      "tags": [
+        "生於憂患：困境磨人"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u01-zh9a-u01-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u01",
+      "knowledgePointId": "zh9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「苦其心志、勞其筋骨」是在說？",
+      "options": [
+        "給人考驗",
+        "讓人立刻富貴",
+        "取消教育",
+        "只是寫景"
+      ],
+      "answer": "A",
+      "explanation": "這些都是磨練。",
+      "tags": [
+        "生於憂患：困境磨人"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u01-zh9a-u01-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u01",
+      "knowledgePointId": "zh9a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "文章先舉歷史人物，作用是？",
+      "options": [
+        "用例子支撐後面的主張",
+        "增加標點",
+        "代替結論",
+        "寫成對聯"
+      ],
+      "answer": "A",
+      "explanation": "例證在前，判斷在後。",
+      "tags": [
+        "生於憂患：困境磨人"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u01-zh9a-u01-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u01",
+      "knowledgePointId": "zh9a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「死於安樂」不是咒人死亡，而是強調？",
+      "options": [
+        "安逸會讓人失去警覺",
+        "安樂不存在",
+        "必須受苦才算道德",
+        "不要休息"
+      ],
+      "answer": "A",
+      "explanation": "它警告懈怠，不是鼓勵自虐。",
+      "tags": [
+        "生於憂患：困境磨人"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u02-zh9a-u02-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u02",
+      "knowledgePointId": "zh9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「人之初」的「之」最接近？",
+      "options": [
+        "的",
+        "跑",
+        "很",
+        "嗎"
+      ],
+      "answer": "A",
+      "explanation": "這裡的之等於的。",
+      "tags": [
+        "常見虛詞"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u02-zh9a-u02-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u02",
+      "knowledgePointId": "zh9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「其」常用來？",
+      "options": [
+        "指代",
+        "表示驚嘆",
+        "當量詞",
+        "當詞牌"
+      ],
+      "answer": "A",
+      "explanation": "其是代詞性的虛詞。",
+      "tags": [
+        "常見虛詞"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u02-zh9a-u02-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u02",
+      "knowledgePointId": "zh9a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「而」的前後若意思相反，它就是？",
+      "options": [
+        "轉折",
+        "名詞",
+        "量詞",
+        "題辭"
+      ],
+      "answer": "A",
+      "explanation": "而可以表轉折。",
+      "tags": [
+        "常見虛詞"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u02-zh9a-u02-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u02",
+      "knowledgePointId": "zh9a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「以」後面若接方法，它多半是？",
+      "options": [
+        "用",
+        "的",
+        "嗎",
+        "呢"
+      ],
+      "answer": "A",
+      "explanation": "以常解釋成用、藉。",
+      "tags": [
+        "常見虛詞"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u03-zh9a-u03-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u03",
+      "knowledgePointId": "zh9a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "文言一字多義時，不能？",
+      "options": [
+        "只背字典的第一個意思就套全部",
+        "看上下文",
+        "看詞性",
+        "代回檢查"
+      ],
+      "answer": "A",
+      "explanation": "意思由句子決定。",
+      "tags": [
+        "一字多義"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u03-zh9a-u03-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u03",
+      "knowledgePointId": "zh9a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "同一個「之」在不同句裡？",
+      "options": [
+        "意思可能不同",
+        "永遠是跑",
+        "永遠是標點",
+        "不能翻譯"
+      ],
+      "answer": "A",
+      "explanation": "之是典型的多義字。",
+      "tags": [
+        "一字多義"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u03-zh9a-u03-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u03",
+      "knowledgePointId": "zh9a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "選定義時最後要？",
+      "options": [
+        "代回原句還通順",
+        "選筆畫多的",
+        "選最短的",
+        "不看句子"
+      ],
+      "answer": "A",
+      "explanation": "通順才算選對。",
+      "tags": [
+        "一字多義"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u03-zh9a-u03-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u03",
+      "knowledgePointId": "zh9a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "詞性若已確定是動詞，就不該選？",
+      "options": [
+        "動作義",
+        "純粹當名詞的那個意思",
+        "上下文",
+        "翻譯"
+      ],
+      "answer": "B",
+      "explanation": "詞性會排除一批解釋。",
+      "tags": [
+        "一字多義"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u04-zh9a-u04-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u04",
+      "knowledgePointId": "zh9a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "空城計能成，主要因為？",
+      "options": [
+        "城裡其實兵很多",
+        "司馬懿疑心有埋伏",
+        "城門打不開",
+        "雙方沒有衝突"
+      ],
+      "answer": "B",
+      "explanation": "計策利用了對方的判斷。",
+      "tags": [
+        "空城計：誰在嚇誰"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u04-zh9a-u04-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u04",
+      "knowledgePointId": "zh9a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "諸葛亮開門的目的不是？",
+      "options": [
+        "讓對方起疑",
+        "真的邀請對方進城喝茶",
+        "掩蓋兵力不足",
+        "避免硬拚"
+      ],
+      "answer": "B",
+      "explanation": "開門是計，不是好客。",
+      "tags": [
+        "空城計：誰在嚇誰"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u04-zh9a-u04-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u04",
+      "knowledgePointId": "zh9a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "這個情節讓讀者看見司馬懿的？",
+      "options": [
+        "多疑",
+        "不會思考",
+        "沒有性格",
+        "只是路人"
+      ],
+      "answer": "A",
+      "explanation": "性格推動了他的選擇。",
+      "tags": [
+        "空城計：誰在嚇誰"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch1-zh9a-u04-zh9a-u04-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch1",
+      "unitId": "zh9a-u04",
+      "knowledgePointId": "zh9a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "讀這段最值得問的是？",
+      "options": [
+        "人物為何如此判斷",
+        "城牆有多高的精確尺",
+        "是否押韻",
+        "量詞對不對"
+      ],
+      "answer": "A",
+      "explanation": "小說的重點是選擇和結果。",
+      "tags": [
+        "空城計：誰在嚇誰"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u05-zh9a-u05-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u05",
+      "knowledgePointId": "zh9a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "先破後立的「破」是？",
+      "options": [
+        "指出原說法的不足",
+        "先寫結局",
+        "先押韻",
+        "先用量詞"
+      ],
+      "answer": "A",
+      "explanation": "破是反駁。",
+      "tags": [
+        "先破後立"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u05-zh9a-u05-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u05",
+      "knowledgePointId": "zh9a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "只罵人、不談理由，問題是？",
+      "options": [
+        "沒有真正反駁",
+        "太有禮貌",
+        "使用對仗",
+        "主旨太清楚"
+      ],
+      "answer": "A",
+      "explanation": "反駁要針對論點。",
+      "tags": [
+        "先破後立"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u05-zh9a-u05-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u05",
+      "knowledgePointId": "zh9a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「立」是指？",
+      "options": [
+        "提出並支持自己的主張",
+        "把文章刪掉",
+        "增加題辭",
+        "改寫成詩"
+      ],
+      "answer": "A",
+      "explanation": "立是建立新說法。",
+      "tags": [
+        "先破後立"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u05-zh9a-u05-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u05",
+      "knowledgePointId": "zh9a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "只有破、沒有立時，讀者還不知道？",
+      "options": [
+        "作者到底主張什麼",
+        "標點怎麼用",
+        "誰是主語",
+        "字數"
+      ],
+      "answer": "A",
+      "explanation": "反駁之後要給出替代說法。",
+      "tags": [
+        "先破後立"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u06-zh9a-u06-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u06",
+      "knowledgePointId": "zh9a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "比較閱讀的第一步是？",
+      "options": [
+        "確認兩篇有可比之處",
+        "直接說哪篇較好",
+        "只數標點",
+        "先寫結論"
+      ],
+      "answer": "A",
+      "explanation": "沒有共同點就無法比。",
+      "tags": [
+        "兩篇文章怎麼比"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u06-zh9a-u06-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u06",
+      "knowledgePointId": "zh9a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "只說「甲較好」但沒有標準。問題是？",
+      "options": [
+        "判斷沒有依據",
+        "相同點太多",
+        "使用虛詞",
+        "有例子"
+      ],
+      "answer": "A",
+      "explanation": "比較要有目的和標準。",
+      "tags": [
+        "兩篇文章怎麼比"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u06-zh9a-u06-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u06",
+      "knowledgePointId": "zh9a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "不同點之後最好再說明？",
+      "options": [
+        "這種差異造成什麼效果",
+        "作者的鞋碼",
+        "印刷年份",
+        "量詞"
+      ],
+      "answer": "A",
+      "explanation": "差異要解釋，不是只列項目。",
+      "tags": [
+        "兩篇文章怎麼比"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u06-zh9a-u06-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u06",
+      "knowledgePointId": "zh9a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "同一件事，一篇抒情、一篇說明。比較時可以看？",
+      "options": [
+        "哪一種寫法更適合它的目的",
+        "哪一篇字比較多一定更好",
+        "哪一篇沒有主旨",
+        "哪一篇不用名詞"
+      ],
+      "answer": "A",
+      "explanation": "好不好要看目的。",
+      "tags": [
+        "兩篇文章怎麼比"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u07-zh9a-u07-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u07",
+      "knowledgePointId": "zh9a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「也許會下雨」的語氣是？",
+      "options": [
+        "完全確定",
+        "推測",
+        "命令",
+        "哀悼"
+      ],
+      "answer": "B",
+      "explanation": "也許表示不確定。",
+      "tags": [
+        "語氣和立場"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u07-zh9a-u07-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u07",
+      "knowledgePointId": "zh9a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "反問句通常？",
+      "options": [
+        "作者真的沒有答案",
+        "用問句加強已經有的態度",
+        "等於頓號",
+        "沒有立場"
+      ],
+      "answer": "B",
+      "explanation": "反問是強調。",
+      "tags": [
+        "語氣和立場"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u07-zh9a-u07-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u07",
+      "knowledgePointId": "zh9a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "作者寫「我反對」，立場是？",
+      "options": [
+        "反對",
+        "贊成",
+        "與主題無關",
+        "只是押韻"
+      ],
+      "answer": "A",
+      "explanation": "oppose 的立場要直接讀出來。",
+      "tags": [
+        "語氣和立場"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u07-zh9a-u07-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u07",
+      "knowledgePointId": "zh9a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "把「可能」讀成「已經發生」，錯在？",
+      "options": [
+        "語氣強度被放大",
+        "主旨太清楚",
+        "有依據",
+        "有比較"
+      ],
+      "answer": "A",
+      "explanation": "不能把推測說成事實。",
+      "tags": [
+        "語氣和立場"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u08-zh9a-u08-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u08",
+      "knowledgePointId": "zh9a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "長文很快抓住結構的方法是？",
+      "options": [
+        "看標題和各段首句",
+        "從最後一個標點倒讀",
+        "只讀成語",
+        "先寫題辭"
+      ],
+      "answer": "A",
+      "explanation": "段首常是該段重點。",
+      "tags": [
+        "長文分段"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u08-zh9a-u08-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u08",
+      "knowledgePointId": "zh9a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "一段裡出現兩個互不相關的重點，代表？",
+      "options": [
+        "分段還可以更清楚",
+        "這是最好的說明",
+        "必須押韻",
+        "沒有主旨"
+      ],
+      "answer": "A",
+      "explanation": "一段一個重點。",
+      "tags": [
+        "長文分段"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u08-zh9a-u08-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u08",
+      "knowledgePointId": "zh9a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "題目指定第三段，卻用第五段作答。問題是？",
+      "options": [
+        "範圍錯了",
+        "太有依據",
+        "語氣太弱",
+        "有比較"
+      ],
+      "answer": "A",
+      "explanation": "要回答指定的位置。",
+      "tags": [
+        "長文分段"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-1-zh9a-ch2-zh9a-u08-zh9a-u08-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "zh9a-ch2",
+      "unitId": "zh9a-u08",
+      "knowledgePointId": "zh9a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "把每段收成短語的好處是？",
+      "options": [
+        "看見全文骨架",
+        "代替閱讀",
+        "取消段落",
+        "增加虛詞"
+      ],
+      "answer": "A",
+      "explanation": "大綱幫助掌握結構。",
+      "tags": [
+        "長文分段"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u01-zh9b-u01-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u01",
+      "knowledgePointId": "zh9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "記敘國寫最怕？",
+      "options": [
+        "從頭到尾只有「我很開心」",
+        "有具體事件",
+        "有時間順序",
+        "有細節"
+      ],
+      "answer": "A",
+      "explanation": "空泛形容沒有內容。",
+      "tags": [
+        "記敘要有畫面"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u01-zh9b-u01-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u01",
+      "knowledgePointId": "zh9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "情緒最好透過？",
+      "options": [
+        "動作、對話或物品",
+        "重複同一個形容詞",
+        "大量題辭",
+        "無關的法律條文"
+      ],
+      "answer": "A",
+      "explanation": "畫面讓感受可信。",
+      "tags": [
+        "記敘要有畫面"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u01-zh9b-u01-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u01",
+      "knowledgePointId": "zh9b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "結尾突然開始大談一個沒寫過的道理，問題是？",
+      "options": [
+        "和前文脫鉤",
+        "太具體",
+        "有順序",
+        "有細節"
+      ],
+      "answer": "A",
+      "explanation": "收束要接得上事件。",
+      "tags": [
+        "記敘要有畫面"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u01-zh9b-u01-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u01",
+      "knowledgePointId": "zh9b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "時間順序混亂時，讀者會？",
+      "options": [
+        "跟不上發生了什麼",
+        "更感動",
+        "自動補完",
+        "看成說明文定義"
+      ],
+      "answer": "A",
+      "explanation": "順序是記敘的路標。",
+      "tags": [
+        "記敘要有畫面"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u02-zh9b-u02-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u02",
+      "knowledgePointId": "zh9b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "議論寫作一開頭最需要？",
+      "options": [
+        "清楚的主張",
+        "無關的景物",
+        "大量疊字",
+        "詞牌"
+      ],
+      "answer": "A",
+      "explanation": "讀者要先知道你要證明什麼。",
+      "tags": [
+        "議論要有理由"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u02-zh9b-u02-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u02",
+      "knowledgePointId": "zh9b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "兩個理由如果其實是同一句話換個說法，問題是？",
+      "options": [
+        "理由重複",
+        "太有結構",
+        "主張太清楚",
+        "例子太準"
+      ],
+      "answer": "A",
+      "explanation": "理由要各自推進。",
+      "tags": [
+        "議論要有理由"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u02-zh9b-u02-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u02",
+      "knowledgePointId": "zh9b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "例子太長、把主張擠掉時，應該？",
+      "options": [
+        "縮短例子，讓它服務理由",
+        "再加三個故事",
+        "刪掉主張",
+        "改成對聯"
+      ],
+      "answer": "A",
+      "explanation": "例子是證據，不是主體。",
+      "tags": [
+        "議論要有理由"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u02-zh9b-u02-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u02",
+      "knowledgePointId": "zh9b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "結尾適合？",
+      "options": [
+        "重申主張",
+        "開始一個新題目",
+        "只寫日期",
+        "列出血型"
+      ],
+      "answer": "A",
+      "explanation": "收束回到中心。",
+      "tags": [
+        "議論要有理由"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u03-zh9b-u03-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u03",
+      "knowledgePointId": "zh9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "開頭用大段無關的天氣，可能？",
+      "options": [
+        "遲遲進不了題",
+        "讓主張更清楚",
+        "代替理由",
+        "等於結尾"
+      ],
+      "answer": "A",
+      "explanation": "開頭要盡快進到題目。",
+      "tags": [
+        "開頭和結尾"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u03-zh9b-u03-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u03",
+      "knowledgePointId": "zh9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "回扣開頭的好處是？",
+      "options": [
+        "全文閉合成一個整體",
+        "增加新題目",
+        "取消主張",
+        "代替例子"
+      ],
+      "answer": "A",
+      "explanation": "首尾呼應讓結構完整。",
+      "tags": [
+        "開頭和結尾"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u03-zh9b-u03-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u03",
+      "knowledgePointId": "zh9b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "結尾才第一次提出最重要的主張，問題是？",
+      "options": [
+        "正文沒有準備這個主張",
+        "太呼應",
+        "有畫面",
+        "有理由"
+      ],
+      "answer": "A",
+      "explanation": "主張要提早出現並被證明。",
+      "tags": [
+        "開頭和結尾"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u03-zh9b-u03-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u03",
+      "knowledgePointId": "zh9b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "直接點題適合？",
+      "options": [
+        "讓讀者立刻知道方向",
+        "隱藏全部意思",
+        "只寫疊字",
+        "避免主張"
+      ],
+      "answer": "A",
+      "explanation": "點題是清楚的開頭。",
+      "tags": [
+        "開頭和結尾"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u04-zh9b-u04-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u04",
+      "knowledgePointId": "zh9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「我個人認為我覺得」可以？",
+      "options": [
+        "刪成一個說法",
+        "再加兩次我覺得",
+        "改成題辭",
+        "增加頓號"
+      ],
+      "answer": "A",
+      "explanation": "重複的判斷詞要刪。",
+      "tags": [
+        "改一句話"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u04-zh9b-u04-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u04",
+      "knowledgePointId": "zh9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「感到欣慰」若想更有畫面，可以改成？",
+      "options": [
+        "一個具體動作",
+        "更多抽象詞",
+        "一個詞牌",
+        "一條法律"
+      ],
+      "answer": "A",
+      "explanation": "動作比空泛情緒清楚。",
+      "tags": [
+        "改一句話"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u04-zh9b-u04-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u04",
+      "knowledgePointId": "zh9b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "一句話同時講三件無關的事，應該？",
+      "options": [
+        "拆開",
+        "再加成語",
+        "改成一個字",
+        "取消主語"
+      ],
+      "answer": "A",
+      "explanation": "一句一個重點。",
+      "tags": [
+        "改一句話"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch1-zh9b-u04-zh9b-u04-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch1",
+      "unitId": "zh9b-u04",
+      "knowledgePointId": "zh9b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "改完句子後最好？",
+      "options": [
+        "朗讀一次",
+        "只數字數",
+        "翻成英文再翻回來",
+        "加上哀悼題辭"
+      ],
+      "answer": "A",
+      "explanation": "順口通常也比較清楚。",
+      "tags": [
+        "改一句話"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u05-zh9b-u05-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u05",
+      "knowledgePointId": "zh9b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "推論和原文的差別是？",
+      "options": [
+        "推論沒有直說，但有依據",
+        "推論可以任意發揮",
+        "推論不用讀文章",
+        "推論就是標點"
+      ],
+      "answer": "A",
+      "explanation": "推論要有文字當橋。",
+      "tags": [
+        "文意推論"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u05-zh9b-u05-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u05",
+      "knowledgePointId": "zh9b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "文章只說「他收起笑」，不能直接推論？",
+      "options": [
+        "他當時可能不開心",
+        "他後來一定考上第一名",
+        "情緒有變化",
+        "動作發生了"
+      ],
+      "answer": "B",
+      "explanation": "太遠的結論沒有橋。",
+      "tags": [
+        "文意推論"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u05-zh9b-u05-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u05",
+      "knowledgePointId": "zh9b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "題目問「最可能」，選項卻說「必然」。問題是？",
+      "options": [
+        "語氣比文章更武斷",
+        "太靠近原文",
+        "有依據",
+        "有橋"
+      ],
+      "answer": "A",
+      "explanation": "最可能不是必然。",
+      "tags": [
+        "文意推論"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u05-zh9b-u05-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u05",
+      "knowledgePointId": "zh9b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "兩個選項都像對的時候，選？",
+      "options": [
+        "更靠近原文提示的",
+        "比較長的",
+        "有成語的",
+        "自己經歷過的"
+      ],
+      "answer": "A",
+      "explanation": "推論的橋愈短愈穩。",
+      "tags": [
+        "文意推論"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u06-zh9b-u06-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u06",
+      "knowledgePointId": "zh9b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「教室安靜得連針掉下來都聽得見」是？",
+      "options": [
+        "誇飾",
+        "科學測量",
+        "題辭",
+        "虛詞"
+      ],
+      "answer": "A",
+      "explanation": "故意超過事實以強調安靜。",
+      "tags": [
+        "修辭綜合"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u06-zh9b-u06-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u06",
+      "knowledgePointId": "zh9b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "作者先問再自己回答，是？",
+      "options": [
+        "設問",
+        "反問",
+        "借喻",
+        "量詞"
+      ],
+      "answer": "A",
+      "explanation": "設問是自問自答。",
+      "tags": [
+        "修辭綜合"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u06-zh9b-u06-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u06",
+      "knowledgePointId": "zh9b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "反問和設問的差別是？",
+      "options": [
+        "反問的答案已經含在問句裡",
+        "反問沒有態度",
+        "設問不能有問號",
+        "兩者完全相同"
+      ],
+      "answer": "A",
+      "explanation": "反問不期待別人回答。",
+      "tags": [
+        "修辭綜合"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u06-zh9b-u06-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u06",
+      "knowledgePointId": "zh9b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "題目若問修辭效果，只寫出名稱還不夠，因為？",
+      "options": [
+        "還要說明它如何幫助意思",
+        "名稱一定是錯的",
+        "效果不能存在",
+        "必須改成詩"
+      ],
+      "answer": "A",
+      "explanation": "辨認之後要解釋作用。",
+      "tags": [
+        "修辭綜合"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u07-zh9b-u07-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u07",
+      "knowledgePointId": "zh9b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "翻譯文言時不該？",
+      "options": [
+        "先把每個關鍵字的意思定下來",
+        "不看上下文就寫一篇作文",
+        "檢查虛詞",
+        "調整語序"
+      ],
+      "answer": "B",
+      "explanation": "翻譯要忠於原句。",
+      "tags": [
+        "文言翻譯的步驟"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u07-zh9b-u07-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u07",
+      "knowledgePointId": "zh9b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "語序和現代中文不同時？",
+      "options": [
+        "可以在不改變意思下調整",
+        "必須逐字硬湊",
+        "刪掉動詞",
+        "改成英文"
+      ],
+      "answer": "A",
+      "explanation": "通順不能歪曲意思。",
+      "tags": [
+        "文言翻譯的步驟"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u07-zh9b-u07-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u07",
+      "knowledgePointId": "zh9b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "虛詞漏譯時，句子會？",
+      "options": [
+        "關係變不清楚",
+        "自動更準",
+        "變成律詩",
+        "增加畫面"
+      ],
+      "answer": "A",
+      "explanation": "之、而、以常常是關係。",
+      "tags": [
+        "文言翻譯的步驟"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u07-zh9b-u07-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u07",
+      "knowledgePointId": "zh9b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "最後一步是？",
+      "options": [
+        "對回原意，不隨意增刪",
+        "加一個新主張",
+        "改成題辭",
+        "只留最後一個字"
+      ],
+      "answer": "A",
+      "explanation": "翻譯結束前要回對。",
+      "tags": [
+        "文言翻譯的步驟"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u08-zh9b-u08-kp1-1",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u08",
+      "knowledgePointId": "zh9b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "看圖表最先要確認？",
+      "options": [
+        "標題和單位",
+        "畫得好不好看",
+        "有沒有擬人",
+        "作者星座"
+      ],
+      "answer": "A",
+      "explanation": "單位錯了，數字就沒有意義。",
+      "tags": [
+        "圖表配文字"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u08-zh9b-u08-kp1-2",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u08",
+      "knowledgePointId": "zh9b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "只報其中一年的數字，可能漏掉？",
+      "options": [
+        "整體趨勢",
+        "標題",
+        "單位",
+        "圖例"
+      ],
+      "answer": "A",
+      "explanation": "趨勢要看變化。",
+      "tags": [
+        "圖表配文字"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u08-zh9b-u08-kp1-3",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u08",
+      "knowledgePointId": "zh9b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "圖表沒有顯示的原因，結論裡卻寫成確定原因。問題是？",
+      "options": [
+        "超出資料",
+        "太謹慎",
+        "有單位",
+        "有趨勢"
+      ],
+      "answer": "A",
+      "explanation": "相關不等於圖表已證明原因。",
+      "tags": [
+        "圖表配文字"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "chinese-3-2-zh9b-ch2-zh9b-u08-zh9b-u08-kp1-4",
+      "subject": "chinese",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "zh9b-ch2",
+      "unitId": "zh9b-u08",
+      "knowledgePointId": "zh9b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "文字說「大幅下降」，圖卻是持平。這時應該？",
+      "options": [
+        "指出兩者不一致",
+        "只選比較長的句子",
+        "忽略圖",
+        "改單位"
+      ],
+      "answer": "A",
+      "explanation": "圖文衝突時要能發現。",
+      "tags": [
+        "圖表配文字"
+      ],
+      "difficulty": 3
+    }
+  ]
+}

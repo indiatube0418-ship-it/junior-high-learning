@@ -1,4 +1,28 @@
-export function stepRole(step: number, total: number, voice: 'math' | 'language' = 'math') {
+export function stepRole(step: number, total: number, voice: 'math' | 'language' | 'concept' = 'math') {
+  if (voice === 'concept') {
+    if (step <= 0) {
+      return {
+        look: '先看整張圖，先不要背',
+        hint: '這一步只認識畫面裡有什麼。',
+      };
+    }
+    if (step >= Math.max(total, 1) - 1) {
+      return {
+        look: '看最後亮起來的結論',
+        hint: '把圖收成一句話，做題時用這句。',
+      };
+    }
+    if (step === 1) {
+      return {
+        look: '只看會動、會亮的那一塊',
+        hint: '這一步是變化本身，其他先當背景。',
+      };
+    }
+    return {
+      look: '把圖對回這句話',
+      hint: '圖和句子講的是同一件事。',
+    };
+  }
   if (voice === 'language') {
     if (step <= 0) {
       return {

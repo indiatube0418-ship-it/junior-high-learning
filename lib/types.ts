@@ -3,7 +3,7 @@
  * 所有資料結構在此，供全專案使用
  */
 
-export type Subject = 'math' | 'chinese' | 'english' | 'science' | 'social';
+export type Subject = 'math' | 'chinese' | 'english' | 'science' | 'social' | 'biology';
 export type Grade = 1 | 2 | 3;
 export type Semester = 1 | 2;
 export type Tier = 'basic' | 'advanced' | 'exam';

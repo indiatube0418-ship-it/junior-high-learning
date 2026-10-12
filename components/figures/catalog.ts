@@ -1,17 +1,23 @@
 import type { Visual } from './draw';
 import { englishFigures } from './englishCatalog';
+import { chineseFigures } from './chineseCatalog';
+import { socialFigures } from './socialCatalog';
+import { biologyFigures } from './biologyCatalog';
 
 export interface FigureEntry {
   title: string;
   captions: [string, string, string, string];
   visual: Visual;
-  voice?: 'math' | 'language';
+  voice?: 'math' | 'language' | 'concept';
 }
 
 const cell = (t: string, tone: 'pri' | 'acc' | 'ink' = 'pri') => ({ t, tone });
 
 export const figures: Record<string, FigureEntry> = {
   ...englishFigures,
+  ...chineseFigures,
+  ...socialFigures,
+  ...biologyFigures,
   'unit-1-1-kp1': {
     title: '正數、負數和零',
     captions: [

@@ -1,0 +1,5508 @@
+{
+  "books": [
+    {
+      "id": "so7a",
+      "title": "社會・國一上",
+      "grade": 1,
+      "semester": 1,
+      "subject": "social",
+      "chapters": [
+        {
+          "id": "so7a-ch1",
+          "title": "台灣在哪裡",
+          "units": [
+            {
+              "id": "so7a-u01",
+              "title": "地圖的三要素",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u01-kp1",
+                  "title": "地圖的三要素",
+                  "lesson": [
+                    "地圖要有方向、圖例和比例尺。",
+                    "方向告訴你上下左右在真實世界是哪裡。",
+                    "圖例解釋符號，比例尺說明縮小了多少。",
+                    "三樣缺一，圖就讀不準。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7a-u02",
+              "title": "經線和緯線",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u02-kp1",
+                  "title": "經線和緯線",
+                  "lesson": [
+                    "緯線看南北，赤道是 0 度。",
+                    "經線看東西，也和時區有關。",
+                    "台灣大致在北回歸線附近，所以南部偏熱帶。",
+                    "絕對位置用經緯度說，相對位置用鄰近的海陸說。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7a-u03",
+              "title": "台灣的地形",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u03-kp1",
+                  "title": "台灣的地形",
+                  "lesson": [
+                    "台灣有山地、丘陵、台地、盆地、平原。",
+                    "山地面積最大，多在中央和東部。",
+                    "西部有較廣的平原，城市和農田較多。",
+                    "平原是河流帶來的泥沙堆積出來的。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7a-u04",
+              "title": "台灣的氣候",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u04-kp1",
+                  "title": "台灣的氣候",
+                  "lesson": [
+                    "台灣島嶼小，但有熱帶和副熱帶。",
+                    "夏天西南季風帶來雨，冬天東北季風影響北海岸和宜蘭。",
+                    "迎風坡雨多，背風坡雨少。",
+                    "颱風主要在夏秋，會帶來大雨和強風。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "so7a-ch2",
+          "title": "早期台灣",
+          "units": [
+            {
+              "id": "so7a-u05",
+              "title": "史前和原住民族",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u05-kp1",
+                  "title": "史前和原住民族",
+                  "lesson": [
+                    "史前是還沒有本地文字紀錄的時代。",
+                    "考古看器物、聚落和食物殘留。",
+                    "台灣原住民族各自有語言和文化，不是單一團體。",
+                    "理解歷史時要用他們的名稱和觀點，不只用地圖上的資源。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7a-u06",
+              "title": "荷西、鄭氏和清領",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u06-kp1",
+                  "title": "荷西、鄭氏和清領",
+                  "lesson": [
+                    "17 世紀荷蘭、西班牙先後來到台灣，建立貿易據點。",
+                    "鄭成功於 1662 年結束荷蘭在台灣的統治。",
+                    "1683 年以後進入清領。",
+                    "清領後期開港通商，台灣和世界的連結變深。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7a-u07",
+              "title": "我、家庭和社會化",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u07-kp1",
+                  "title": "我、家庭和社會化",
+                  "lesson": [
+                    "每個人同時有很多角色：子女、學生、朋友。",
+                    "家庭是最早學習規則的地方。",
+                    "社會化是學會一個社會期待的行為。",
+                    "角色會變，所以學來的規則也要能調整。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7a-u08",
+              "title": "規範、文化和偏見",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u08-kp1",
+                  "title": "規範、文化和偏見",
+                  "lesson": [
+                    "規範告訴人什麼該做、什麼不該做。",
+                    "法律是國家制定的，風俗和道德不是同一種力量。",
+                    "文化是一群人共同的生活方式，會改變。",
+                    "刻板印象是還沒認識就先下判斷。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "so7b",
+      "title": "社會・國一下",
+      "grade": 1,
+      "semester": 2,
+      "subject": "social",
+      "chapters": [
+        {
+          "id": "so7b-ch1",
+          "title": "台灣的人與產業",
+          "units": [
+            {
+              "id": "so7b-u01",
+              "title": "人口集中在哪裡",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u01-kp1",
+                  "title": "人口集中在哪裡",
+                  "lesson": [
+                    "台灣人口主要集中在西部平原。",
+                    "都市工作、學校和醫院較多，會吸引人口。",
+                    "東部山地多，人口較少。",
+                    "人口分布會影響交通、水和垃圾等公共服務。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7b-u02",
+              "title": "三級產業",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u02-kp1",
+                  "title": "三級產業",
+                  "lesson": [
+                    "第一級是農林漁牧，直接取自自然。",
+                    "第二級是製造和加工。",
+                    "第三級是服務，例如買賣、醫療、運輸。",
+                    "台灣現在以第三級產值最高。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7b-u03",
+              "title": "區域為什麼不一樣",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u03-kp1",
+                  "title": "區域為什麼不一樣",
+                  "lesson": [
+                    "北部服務和工商集中。",
+                    "中部有農業和機械等產業。",
+                    "南部有港埠、重工業和農業。",
+                    "東部觀光和原住民族文化是重要特色，開發也要顧環境。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7b-u04",
+              "title": "遷移",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u04-kp1",
+                  "title": "遷移",
+                  "lesson": [
+                    "遷移是人換了長期居住的地方。",
+                    "推力是原居地的不足，拉力是新地方的機會。",
+                    "鄉村到都市是台灣過去常見的方向。",
+                    "遷移會改變兩邊的人口組成。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "so7b-ch2",
+          "title": "近代台灣與公民",
+          "units": [
+            {
+              "id": "so7b-u05",
+              "title": "日治三階段",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u05-kp1",
+                  "title": "日治三階段",
+                  "lesson": [
+                    "1895 到 1945 年台灣處於日治。",
+                    "前期以穩定統治、壓制反抗為主。",
+                    "中期推動同化，後期則是皇民化。",
+                    "基礎建設和差別待遇同時存在，不能只記一邊。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7b-u06",
+              "title": "戰後到解嚴",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u06-kp1",
+                  "title": "戰後到解嚴",
+                  "lesson": [
+                    "1945 年戰爭結束，台灣進入中華民國體制。",
+                    "1947 年二二八事件造成嚴重傷亡，後來有調查與平反。",
+                    "1949 年起長期戒嚴，言論和結社受限制。",
+                    "1987 年解嚴，之後才有更完整的民主化。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7b-u07",
+              "title": "權利和義務",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u07-kp1",
+                  "title": "權利和義務",
+                  "lesson": [
+                    "權利是可以主張的保障，義務是應該完成的事。",
+                    "自由不是完全不影響別人。",
+                    "受教育既是權利也伴隨義務。",
+                    "權利受侵害時，要用制度求救，而不是私了。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7b-u08",
+              "title": "媒體怎麼讀",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u08-kp1",
+                  "title": "媒體怎麼讀",
+                  "lesson": [
+                    "媒體選擇什麼、怎麼下標題，就會影響理解。",
+                    "同一件事要對第二個來源。",
+                    "廣告和新聞的目的不同。",
+                    "轉傳之前先看日期、出處和有沒有斷章取義。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "so8a",
+      "title": "社會・國二上",
+      "grade": 2,
+      "semester": 1,
+      "subject": "social",
+      "chapters": [
+        {
+          "id": "so8a-ch1",
+          "title": "中國與東亞",
+          "units": [
+            {
+              "id": "so8a-u01",
+              "title": "中國的地形和氣候",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u01-kp1",
+                  "title": "中國的地形和氣候",
+                  "lesson": [
+                    "中國西高東低，西部有高原和山地。",
+                    "東部平原較多，也是人口主要分布區。",
+                    "季風帶來夏雨，內陸距海遠、較乾燥。",
+                    "秦嶺淮河是常用的南北分界。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u02",
+              "title": "兩條重要界線",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u02-kp1",
+                  "title": "兩條重要界線",
+                  "lesson": [
+                    "秦嶺淮河大致對應一月均溫 0 度、年雨量約 800 毫米。",
+                    "線以北偏旱作，以南稻作較普遍。",
+                    "胡煥庸線從黑河到騰衝。",
+                    "線以東人口稠密，以西稀疏。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u03",
+              "title": "東亞和東南亞",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u03-kp1",
+                  "title": "東亞和東南亞",
+                  "lesson": [
+                    "東亞包含中國、日本、朝鮮半島和蒙古一帶。",
+                    "東南亞位在中南半島和馬來群島。",
+                    "東南亞多海運要道，位置重要。",
+                    "區域合作和領土爭議會同時存在。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u04",
+              "title": "中國人口與產業",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u04-kp1",
+                  "title": "中國人口與產業",
+                  "lesson": [
+                    "人口基數大，東南側較稠密。",
+                    "沿海先發展外貿加工。",
+                    "內陸資源豐富，但交通成本較高。",
+                    "城鄉差距是理解發展時要看的差異。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "so8a-ch2",
+          "title": "中國史與國家",
+          "units": [
+            {
+              "id": "so8a-u05",
+              "title": "秦漢與唐宋",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u05-kp1",
+                  "title": "秦漢與唐宋",
+                  "lesson": [
+                    "秦建立郡縣，把地方收進中央。",
+                    "漢延續並擴張，儒家後來成為重要統治思想。",
+                    "唐是開放的帝國，對外交流多。",
+                    "宋的經濟和城市生活發達，外患也嚴重。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u06",
+              "title": "明清的統治",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u06-kp1",
+                  "title": "明清的統治",
+                  "lesson": [
+                    "明初加強君權，也有海禁與後來的調整。",
+                    "清以少數族統治廣大地區，用不同制度管理不同人群。",
+                    "人口在明清大幅增加。",
+                    "人口增加會帶來開墾、糧食和環境壓力。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u07",
+              "title": "國家的四個要素",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u07-kp1",
+                  "title": "國家的四個要素",
+                  "lesson": [
+                    "國家通常要有人民、領土、政府和主權。",
+                    "人民是成員，領土是範圍。",
+                    "政府是做決定的組織。",
+                    "主權是自己做最後決定、不受他國隨意支配。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u08",
+              "title": "民主政治在做什麼",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u08-kp1",
+                  "title": "民主政治在做什麼",
+                  "lesson": [
+                    "民主是人民透過制度參與公共決定。",
+                    "定期改選讓執政者可以被換掉。",
+                    "多數決定仍要保護少數的基本權利。",
+                    "言論和新聞讓不同意見被看見。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "so8b",
+      "title": "社會・國二下",
+      "grade": 2,
+      "semester": 2,
+      "subject": "social",
+      "chapters": [
+        {
+          "id": "so8b-ch1",
+          "title": "世界的樣子",
+          "units": [
+            {
+              "id": "so8b-u01",
+              "title": "歐洲和美洲",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u01-kp1",
+                  "title": "歐洲和美洲",
+                  "lesson": [
+                    "歐洲海岸曲折，航海傳統久。",
+                    "工業革命先從歐洲開始，改變生產方式。",
+                    "美洲有原住民族，後來經歷殖民。",
+                    "南北美洲的發展條件和歷史並不相同。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u02",
+              "title": "乾燥地區與季風",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u02-kp1",
+                  "title": "乾燥地區與季風",
+                  "lesson": [
+                    "回歸線附近若長期乾旱，可能形成沙漠。",
+                    "西亞、北非有大片乾燥區。",
+                    "南亞和東亞受季風影響，乾濕季明顯。",
+                    "水資源決定人可以住在哪裡、種什麼。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u03",
+              "title": "晚清變局",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u03-kp1",
+                  "title": "晚清變局",
+                  "lesson": [
+                    "19 世紀西方以武力要求通商，清廷接連受挫。",
+                    "不平等條約開放口岸、損失權利。",
+                    "有人推動洋務，想用新技術保住體制。",
+                    "改革趕不上內外形勢時，體制最後被取代。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u04",
+              "title": "近代革命",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u04-kp1",
+                  "title": "近代革命",
+                  "lesson": [
+                    "美國獨立和法國大革命都在挑戰舊的統治正當性。",
+                    "人民同意成為權力來源的一種說法。",
+                    "革命之後不一定立刻有穩定民主。",
+                    "比較革命時要看誰參與、誰被排除。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "so8b-ch2",
+          "title": "政府",
+          "units": [
+            {
+              "id": "so8b-u05",
+              "title": "中央政府五院",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u05-kp1",
+                  "title": "中央政府五院",
+                  "lesson": [
+                    "行政院負責推動政務。",
+                    "立法院審議法律和預算。",
+                    "司法院掌理審判和憲法解釋相關職權。",
+                    "考試院管考選，監察院負責監察。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u06",
+              "title": "地方和選舉",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u06-kp1",
+                  "title": "地方和選舉",
+                  "lesson": [
+                    "地方政府處理更靠近生活的事務。",
+                    "地方也要有議會監督。",
+                    "投票年齡目前是滿 20 歲，民法上的成年是 18 歲。",
+                    "兩種年齡不同，不能記成同一個。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u07",
+              "title": "憲法和基本權利",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u07-kp1",
+                  "title": "憲法和基本權利",
+                  "lesson": [
+                    "憲法是國家的根本法，位階最高。",
+                    "人民的基本權利包括平等、自由、受益和參政。",
+                    "權利不是無限，可以依法限制，但限制本身要有理由。",
+                    "修憲比修普通法律更嚴格。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u08",
+              "title": "為什麼要分權",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u08-kp1",
+                  "title": "為什麼要分權",
+                  "lesson": [
+                    "權力集中時，很難被糾正。",
+                    "分成不同機關，讓它們互相監督。",
+                    "分工也讓專業的事有人負責。",
+                    "分權之後仍要能合作，否則政務會停擺。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "so9a",
+      "title": "社會・國三上",
+      "grade": 3,
+      "semester": 1,
+      "subject": "social",
+      "chapters": [
+        {
+          "id": "so9a-ch1",
+          "title": "近代世界",
+          "units": [
+            {
+              "id": "so9a-u01",
+              "title": "工業革命",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u01-kp1",
+                  "title": "工業革命",
+                  "lesson": [
+                    "機器和工廠讓生產變快。",
+                    "人從鄉村進入工廠，都市變大。",
+                    "勞動時間長、環境差，後來才有勞動法規。",
+                    "工業也帶來汙染和資源消耗。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u02",
+              "title": "大戰和冷戰",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u02-kp1",
+                  "title": "大戰和冷戰",
+                  "lesson": [
+                    "第一次大戰暴露結盟如何把衝突擴大。",
+                    "第二次大戰有大規模迫害，事後才有更多國際人權討論。",
+                    "冷戰是美蘇兩大陣營的對立，不一定直接全面開戰。",
+                    "戰後出現聯合國等國際組織，想減少戰爭。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u03",
+              "title": "全球化",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u03-kp1",
+                  "title": "全球化",
+                  "lesson": [
+                    "人、貨物、資金和資訊跨過國界移動。",
+                    "好處是選擇變多、成本可能下降。",
+                    "風險是工作外移、疫情或金融震盪傳得很快。",
+                    "一個國家很難再只靠關上門解決所有問題。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u04",
+              "title": "資源和環境議題",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u04-kp1",
+                  "title": "資源和環境議題",
+                  "lesson": [
+                    "資源有的可更新，有的用了就少。",
+                    "工業化和高消費增加能源與廢棄物。",
+                    "氣候變遷影響農業、海岸和弱勢者。",
+                    "永續是現在的需要不要把未來的條件用盡。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "so9a-ch2",
+          "title": "法律與選擇",
+          "units": [
+            {
+              "id": "so9a-u05",
+              "title": "法律位階和年齡",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u05-kp1",
+                  "title": "法律位階和年齡",
+                  "lesson": [
+                    "憲法高於法律，法律高於命令。",
+                    "命令不能違反法律。",
+                    "民法成年是 18 歲。",
+                    "未滿 14 歲不負刑事責任；民法成年是 18 歲；選舉投票仍要滿 20 歲。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u06",
+              "title": "契約和損害",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u06-kp1",
+                  "title": "契約和損害",
+                  "lesson": [
+                    "契約是雙方同意產生的約定。",
+                    "同意若是被騙或被強迫，可能有問題。",
+                    "未成年人簽重大契約，法律上會特別保護。",
+                    "侵害別人造成損害，可能要負賠償責任。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u07",
+              "title": "罪刑法定",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u07-kp1",
+                  "title": "罪刑法定",
+                  "lesson": [
+                    "什麼是犯罪、會受什麼處罰，要先有法律規定。",
+                    "不能用今天新訂的刑罰去罰昨天的行為。",
+                    "嫌疑還不是有罪，審判要看證據。",
+                    "處罰的是行為，不是某一群人的身份。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u08",
+              "title": "機會成本",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u08-kp1",
+                  "title": "機會成本",
+                  "lesson": [
+                    "選擇一件事，就要放下其他事。",
+                    "機會成本是被放下的選項裡，價值最高的那一個。",
+                    "它不一定是金錢，時間也算。",
+                    "免費的活動若占用讀書時間，並不是沒有成本。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "so9b",
+      "title": "社會・國三下",
+      "grade": 3,
+      "semester": 2,
+      "subject": "social",
+      "chapters": [
+        {
+          "id": "so9b-ch1",
+          "title": "經濟與生活",
+          "units": [
+            {
+              "id": "so9b-u01",
+              "title": "價格怎麼來",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u01-kp1",
+                  "title": "價格怎麼來",
+                  "lesson": [
+                    "需求是買方在某價格下想買的量。",
+                    "供給是賣方想賣的量。",
+                    "其他條件不變時，價格上升，需求量通常下降。",
+                    "供需變化會推動價格調整。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u02",
+              "title": "貿易為什麼發生",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u02-kp1",
+                  "title": "貿易為什麼發生",
+                  "lesson": [
+                    "兩地條件不同，生產成本就不同。",
+                    "各自做相對擅長的，再交換，選擇可以變多。",
+                    "貿易會有受益者，也可能有受衝擊的產業。",
+                    "政策要同時看消費者和受影響的工作者。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u03",
+              "title": "社會福利",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u03-kp1",
+                  "title": "社會福利",
+                  "lesson": [
+                    "福利是社會一起分擔生病、年老、失業等風險。",
+                    "稅收是重要財源。",
+                    "給付要考慮誰真的需要，也要能持續。",
+                    "福利不是施捨，常和權利、義務一起設計。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u04",
+              "title": "社會變遷",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u04-kp1",
+                  "title": "社會變遷",
+                  "lesson": [
+                    "變遷是生活方式和價值觀改變。",
+                    "科技、教育和接觸他人都會推動改變。",
+                    "改變會產生新機會，也會讓舊規則不夠用。",
+                    "面對改變要區分事實和害怕。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "so9b-ch2",
+          "title": "會考素養題",
+          "units": [
+            {
+              "id": "so9b-u05",
+              "title": "地圖題怎麼讀",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u05-kp1",
+                  "title": "地圖題怎麼讀",
+                  "lesson": [
+                    "先讀題目問的是位置、地形還是產業。",
+                    "再看圖名、方向、圖例、比例尺。",
+                    "不要把顏色的美觀當成答案。",
+                    "答案要能指回圖上的證據。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u06",
+              "title": "年表題看因果",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u06-kp1",
+                  "title": "年表題看因果",
+                  "lesson": [
+                    "年表先確認先後，不要把順序讀反。",
+                    "先發生的不一定就是原因。",
+                    "題目若問影響，要找到事件之後的變化。",
+                    "把每格收成「誰、做了什麼」。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u07",
+              "title": "統計圖",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u07-kp1",
+                  "title": "統計圖",
+                  "lesson": [
+                    "先看標題、單位和年份。",
+                    "長條適合比較類別，折線適合看變化。",
+                    "縱軸若不是從零開始，視覺落差可能被放大。",
+                    "結論不要超過圖所顯示的範圍。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u08",
+              "title": "時事題的讀法",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u08-kp1",
+                  "title": "時事題的讀法",
+                  "lesson": [
+                    "時事題通常考長久的概念，不是考你有沒有背昨天的新聞。",
+                    "先把新聞翻譯成課程概念，例如權利、供需或地形。",
+                    "資料只給一段，就只根據那段。",
+                    "自己的政治偏好不能取代資料。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u01-so7a-u01-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u01",
+      "knowledgePointId": "so7a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "地圖三要素是？",
+      "options": [
+        "顏色、標題、作者",
+        "方向、圖例、比例尺",
+        "人口、產業、氣候",
+        "五院"
+      ],
+      "answer": "B",
+      "explanation": "三者讓地圖能被正確閱讀。",
+      "tags": [
+        "地圖的三要素"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u01-so7a-u01-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u01",
+      "knowledgePointId": "so7a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "圖上的小飛機符號代表機場。這要看？",
+      "options": [
+        "比例尺",
+        "圖例",
+        "經度",
+        "憲法"
+      ],
+      "answer": "B",
+      "explanation": "符號的意義在圖例。",
+      "tags": [
+        "地圖的三要素"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u01-so7a-u01-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u01",
+      "knowledgePointId": "so7a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "比例尺的作用是？",
+      "options": [
+        "換算圖上距離和實際距離",
+        "決定天氣",
+        "說明法律",
+        "標註血型"
+      ],
+      "answer": "A",
+      "explanation": "比例尺表示縮小的程度。",
+      "tags": [
+        "地圖的三要素"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u01-so7a-u01-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u01",
+      "knowledgePointId": "so7a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "一張沒有方向標的圖，最容易錯在？",
+      "options": [
+        "不知道圖的上下對應真實方位",
+        "顏色不好看",
+        "沒有人口",
+        "不能當文學作品"
+      ],
+      "answer": "A",
+      "explanation": "方向用來對應真實方位。",
+      "tags": [
+        "地圖的三要素"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u02-so7a-u02-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u02",
+      "knowledgePointId": "so7a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "赤道屬於？",
+      "options": [
+        "0 度緯線",
+        "0 度經線",
+        "比例尺",
+        "圖例"
+      ],
+      "answer": "A",
+      "explanation": "赤道是緯度起點。",
+      "tags": [
+        "經線和緯線"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u02-so7a-u02-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u02",
+      "knowledgePointId": "so7a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "想知道一個地方偏東還是偏西，要看？",
+      "options": [
+        "經度",
+        "只有圖例",
+        "人口",
+        "產業"
+      ],
+      "answer": "A",
+      "explanation": "經線表示東西方向。",
+      "tags": [
+        "經線和緯線"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u02-so7a-u02-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u02",
+      "knowledgePointId": "so7a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "北回歸線通過台灣，表示台灣？",
+      "options": [
+        "橫跨熱帶與副熱帶",
+        "位於北極",
+        "沒有季節",
+        "在南半球"
+      ],
+      "answer": "A",
+      "explanation": "北回歸線是熱帶的北界。",
+      "tags": [
+        "經線和緯線"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u02-so7a-u02-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u02",
+      "knowledgePointId": "so7a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「台灣在太平洋西岸」屬於？",
+      "options": [
+        "相對位置",
+        "經緯度數值",
+        "比例尺",
+        "圖例"
+      ],
+      "answer": "A",
+      "explanation": "用鄰近的海洋說明，是相對位置。",
+      "tags": [
+        "經線和緯線"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u03-so7a-u03-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u03",
+      "knowledgePointId": "so7a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "台灣面積最大的地形是？",
+      "options": [
+        "平原",
+        "山地",
+        "盆地",
+        "台地"
+      ],
+      "answer": "B",
+      "explanation": "山地約占全島大部分。",
+      "tags": [
+        "台灣的地形"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u03-so7a-u03-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u03",
+      "knowledgePointId": "so7a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "西部平原比較適合？",
+      "options": [
+        "大規模農耕和都市發展",
+        "完全沒有人住",
+        "只有高山放牧",
+        "沒有河流"
+      ],
+      "answer": "A",
+      "explanation": "平原平坦，方便居住和耕作。",
+      "tags": [
+        "台灣的地形"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u03-so7a-u03-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u03",
+      "knowledgePointId": "so7a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "平原的泥沙主要來自？",
+      "options": [
+        "河流沖積",
+        "冰川挖出來",
+        "人用手堆",
+        "風只從沙漠吹來"
+      ],
+      "answer": "A",
+      "explanation": "西部平原多為沖積平原。",
+      "tags": [
+        "台灣的地形"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u03-so7a-u03-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u03",
+      "knowledgePointId": "so7a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "高山多的地方，交通通常？",
+      "options": [
+        "比平原更不容易",
+        "一定比平原方便",
+        "沒有影響",
+        "只能靠航海"
+      ],
+      "answer": "A",
+      "explanation": "地形起伏會增加交通難度。",
+      "tags": [
+        "台灣的地形"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u04-so7a-u04-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u04",
+      "knowledgePointId": "so7a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "冬天東北季風的迎風面主要在？",
+      "options": [
+        "北部和東北部",
+        "高雄的內陸山區",
+        "澎湖以南沒有任何風",
+        "只有高山頂的雪"
+      ],
+      "answer": "A",
+      "explanation": "東北季風從海洋帶來水氣，北部、宜蘭較濕。",
+      "tags": [
+        "台灣的氣候"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u04-so7a-u04-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u04",
+      "knowledgePointId": "so7a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "迎風坡雨量較多，是因為？",
+      "options": [
+        "濕空氣沿山上升、成雲降雨",
+        "背風坡擋住了太陽",
+        "比例尺改變",
+        "人口較多"
+      ],
+      "answer": "A",
+      "explanation": "地形雨發生在迎風側。",
+      "tags": [
+        "台灣的氣候"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u04-so7a-u04-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u04",
+      "knowledgePointId": "so7a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "颱風最常影響台灣的季節是？",
+      "options": [
+        "夏秋",
+        "隆冬",
+        "只有春天的第一天",
+        "沒有季節"
+      ],
+      "answer": "A",
+      "explanation": "颱風季主要在夏季到秋季。",
+      "tags": [
+        "台灣的氣候"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch1-so7a-u04-so7a-u04-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch1",
+      "unitId": "so7a-u04",
+      "knowledgePointId": "so7a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "南部冬天通常比北部？",
+      "options": [
+        "更乾",
+        "天天下雪",
+        "沒有太陽",
+        "沒有季風"
+      ],
+      "answer": "A",
+      "explanation": "冬天南部多在背風側，降雨較少。",
+      "tags": [
+        "台灣的氣候"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u05-so7a-u05-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u05",
+      "knowledgePointId": "so7a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "史前時代主要靠什麼認識？",
+      "options": [
+        "考古資料",
+        "當天的報紙",
+        "會考考卷",
+        "比例尺"
+      ],
+      "answer": "A",
+      "explanation": "沒有文字紀錄時，要用考古證據。",
+      "tags": [
+        "史前和原住民族"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u05-so7a-u05-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u05",
+      "knowledgePointId": "so7a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "台灣原住民族應該被理解成？",
+      "options": [
+        "許多各有文化的民族",
+        "完全同一種語言",
+        "直到清代才出現",
+        "沒有社會組織"
+      ],
+      "answer": "A",
+      "explanation": "各族的語言、社會和領域都不同。",
+      "tags": [
+        "史前和原住民族"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u05-so7a-u05-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u05",
+      "knowledgePointId": "so7a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只把原住民族寫成「被開發的障礙」，問題是？",
+      "options": [
+        "忽略了他們是歷史的主體",
+        "太尊重",
+        "使用考古",
+        "有分類"
+      ],
+      "answer": "A",
+      "explanation": "歷史不能只從後來者的眼光書寫。",
+      "tags": [
+        "史前和原住民族"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u05-so7a-u05-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u05",
+      "knowledgePointId": "so7a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "器物出土的地層愈深，通常？",
+      "options": [
+        "年代可能愈早",
+        "一定是昨天",
+        "不能推論",
+        "等於文字紀錄"
+      ],
+      "answer": "A",
+      "explanation": "層位是考古判斷先後的線索。",
+      "tags": [
+        "史前和原住民族"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u06-so7a-u06-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u06",
+      "knowledgePointId": "so7a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "荷蘭人來台灣的主要目的是？",
+      "options": [
+        "建立貿易據點",
+        "推廣絕句",
+        "測量血糖",
+        "制定民法"
+      ],
+      "answer": "A",
+      "explanation": "大航海時代的據點服務貿易。",
+      "tags": [
+        "荷西、鄭氏和清領"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u06-so7a-u06-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u06",
+      "knowledgePointId": "so7a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "鄭成功結束的是誰在台灣的統治？",
+      "options": [
+        "荷蘭",
+        "日本皇民化",
+        "聯合國",
+        "希臘"
+      ],
+      "answer": "A",
+      "explanation": "1662 年荷蘭退出。",
+      "tags": [
+        "荷西、鄭氏和清領"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u06-so7a-u06-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u06",
+      "knowledgePointId": "so7a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "清領開始於？",
+      "options": [
+        "1683 年之後",
+        "1945 年",
+        "1996 年",
+        "遠古史前"
+      ],
+      "answer": "A",
+      "explanation": "清廷在 1683 年後統治台灣。",
+      "tags": [
+        "荷西、鄭氏和清領"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u06-so7a-u06-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u06",
+      "knowledgePointId": "so7a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "開港通商對台灣的影響是？",
+      "options": [
+        "農產更進入國際貿易",
+        "完全沒有外人",
+        "進入史前",
+        "取消所有港口"
+      ],
+      "answer": "A",
+      "explanation": "港口開放後出口增加。",
+      "tags": [
+        "荷西、鄭氏和清領"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u07-so7a-u07-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u07",
+      "knowledgePointId": "so7a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "社會化是？",
+      "options": [
+        "學會社會中的行為和期待",
+        "只學數學公式",
+        "搬家",
+        "畫地圖"
+      ],
+      "answer": "A",
+      "explanation": "社會化讓人能參與群體。",
+      "tags": [
+        "我、家庭和社會化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u07-so7a-u07-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u07",
+      "knowledgePointId": "so7a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "同一個人可以？",
+      "options": [
+        "同時有多種角色",
+        "只能有一種身份",
+        "不能當學生",
+        "沒有義務"
+      ],
+      "answer": "A",
+      "explanation": "角色隨關係改變。",
+      "tags": [
+        "我、家庭和社會化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u07-so7a-u07-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u07",
+      "knowledgePointId": "so7a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "家庭在社會化裡通常？",
+      "options": [
+        "是最早的場所",
+        "完全沒有影響",
+        "只存在於法律條文",
+        "等於政府"
+      ],
+      "answer": "A",
+      "explanation": "人先在家庭裡學規則。",
+      "tags": [
+        "我、家庭和社會化"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u07-so7a-u07-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u07",
+      "knowledgePointId": "so7a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "當子女和當學生的要求衝突時，需要？",
+      "options": [
+        "分辨不同角色的期待",
+        "否認所有角色",
+        "只看地圖",
+        "取消社會"
+      ],
+      "answer": "A",
+      "explanation": "角色衝突要用判斷來處理。",
+      "tags": [
+        "我、家庭和社會化"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u08-so7a-u08-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u08",
+      "knowledgePointId": "so7a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "和法律相比，風俗的強制力通常？",
+      "options": [
+        "來自身體的罰則較少，靠社會壓力",
+        "一定關進監獄",
+        "完全沒有影響",
+        "由法院判決"
+      ],
+      "answer": "A",
+      "explanation": "不同規範有不同制裁。",
+      "tags": [
+        "規範、文化和偏見"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u08-so7a-u08-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u08",
+      "knowledgePointId": "so7a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "文化會？",
+      "options": [
+        "隨時間和接觸而改變",
+        "永遠不能變",
+        "只存在於一個人",
+        "等於比例尺"
+      ],
+      "answer": "A",
+      "explanation": "文化是生活方式，不是化石。",
+      "tags": [
+        "規範、文化和偏見"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u08-so7a-u08-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u08",
+      "knowledgePointId": "so7a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "還沒見面就認定某一群人一定怎樣，這是？",
+      "options": [
+        "刻板印象",
+        "實地調查",
+        "比例尺",
+        "公共討論"
+      ],
+      "answer": "A",
+      "explanation": "未經驗證的概括就是刻板印象。",
+      "tags": [
+        "規範、文化和偏見"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u08-so7a-u08-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "so7a-ch2",
+      "unitId": "so7a-u08",
+      "knowledgePointId": "so7a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "減少偏見的做法是？",
+      "options": [
+        "增加真實接觸和查證",
+        "只保留第一印象",
+        "拒絕所有不同",
+        "用笑話鞏固印象"
+      ],
+      "answer": "A",
+      "explanation": "認識和查證能修正印象。",
+      "tags": [
+        "規範、文化和偏見"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u01-so7b-u01-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u01",
+      "knowledgePointId": "so7b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "台灣人口主要集中在？",
+      "options": [
+        "西部平原",
+        "中央山脈山頂",
+        "沒有人的小島",
+        "只有港口外海"
+      ],
+      "answer": "A",
+      "explanation": "西部地勢較平、都市較多。",
+      "tags": [
+        "人口集中在哪裡"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u01-so7b-u01-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u01",
+      "knowledgePointId": "so7b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "都市吸引人口的原因之一是？",
+      "options": [
+        "工作機會較多",
+        "完全沒有服務",
+        "禁止居住",
+        "沒有道路"
+      ],
+      "answer": "A",
+      "explanation": "就業和生活機能是拉力。",
+      "tags": [
+        "人口集中在哪裡"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u01-so7b-u01-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u01",
+      "knowledgePointId": "so7b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "人口集中會增加哪一種壓力？",
+      "options": [
+        "住房、交通和廢棄物處理",
+        "山地自動變平",
+        "經度改變",
+        "歷史消失"
+      ],
+      "answer": "A",
+      "explanation": "人多，公共服務的負擔變大。",
+      "tags": [
+        "人口集中在哪裡"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u01-so7b-u01-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u01",
+      "knowledgePointId": "so7b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "只看總人口、不看分布，會漏掉？",
+      "options": [
+        "哪裡的公共服務特別吃緊",
+        "全國人數",
+        "年份",
+        "單位"
+      ],
+      "answer": "A",
+      "explanation": "分布比總數更會影響生活。",
+      "tags": [
+        "人口集中在哪裡"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u02-so7b-u02-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u02",
+      "knowledgePointId": "so7b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "醫師看診屬於？",
+      "options": [
+        "第三級產業",
+        "第一級",
+        "只算自然資源",
+        "地形"
+      ],
+      "answer": "A",
+      "explanation": "醫療是服務業。",
+      "tags": [
+        "三級產業"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u02-so7b-u02-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u02",
+      "knowledgePointId": "so7b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "把小麥做成麵粉最接近？",
+      "options": [
+        "第二級",
+        "第一級的捕魚",
+        "只是地圖",
+        "人口遷出"
+      ],
+      "answer": "A",
+      "explanation": "加工屬於第二級。",
+      "tags": [
+        "三級產業"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u02-so7b-u02-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u02",
+      "knowledgePointId": "so7b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "種稻屬於？",
+      "options": [
+        "第一級",
+        "第三級的運輸",
+        "政府",
+        "法律"
+      ],
+      "answer": "A",
+      "explanation": "直接從土地獲得產物。",
+      "tags": [
+        "三級產業"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u02-so7b-u02-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u02",
+      "knowledgePointId": "so7b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "台灣產業結構的特色是？",
+      "options": [
+        "服務業產值最高",
+        "只有農業",
+        "沒有製造業",
+        "沒有貿易"
+      ],
+      "answer": "A",
+      "explanation": "第三級是現在的主力。",
+      "tags": [
+        "三級產業"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u03-so7b-u03-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u03",
+      "knowledgePointId": "so7b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "高雄作為港口城市，有利於？",
+      "options": [
+        "進出口",
+        "成為雪山",
+        "取消貿易",
+        "只發展牧業"
+      ],
+      "answer": "A",
+      "explanation": "港口降低貨物進出的成本。",
+      "tags": [
+        "區域為什麼不一樣"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u03-so7b-u03-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u03",
+      "knowledgePointId": "so7b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "區域發展不同，主因包括？",
+      "options": [
+        "地形、資源和交通",
+        "每個人的血型",
+        "絕句字數",
+        "酵素"
+      ],
+      "answer": "A",
+      "explanation": "自然和人文條件一起塑造區域。",
+      "tags": [
+        "區域為什麼不一樣"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u03-so7b-u03-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u03",
+      "knowledgePointId": "so7b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "東部發展觀光時還要注意？",
+      "options": [
+        "環境承載和在地文化",
+        "把所有山鏟平",
+        "禁止所有人生活",
+        "只看當天人數"
+      ],
+      "answer": "A",
+      "explanation": "觀光不能耗盡它依靠的環境。",
+      "tags": [
+        "區域為什麼不一樣"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u03-so7b-u03-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u03",
+      "knowledgePointId": "so7b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "把全台灣用同一種產業政策硬套，問題是？",
+      "options": [
+        "忽略區域條件差異",
+        "太尊重差異",
+        "有港口",
+        "有平原"
+      ],
+      "answer": "A",
+      "explanation": "條件不同，做法就要調整。",
+      "tags": [
+        "區域為什麼不一樣"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u04-so7b-u04-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u04",
+      "knowledgePointId": "so7b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "都市的工作機會屬於？",
+      "options": [
+        "拉力",
+        "推力",
+        "比例尺",
+        "圖例"
+      ],
+      "answer": "A",
+      "explanation": "吸引人前往的是拉力。",
+      "tags": [
+        "遷移"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u04-so7b-u04-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u04",
+      "knowledgePointId": "so7b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "原居地缺少服務，屬於？",
+      "options": [
+        "推力",
+        "拉力",
+        "產業第三級的定義本身",
+        "經線"
+      ],
+      "answer": "A",
+      "explanation": "讓人想離開的是推力。",
+      "tags": [
+        "遷移"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u04-so7b-u04-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u04",
+      "knowledgePointId": "so7b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "大量年輕人移出後，原鄉可能？",
+      "options": [
+        "高齡人口比例上升",
+        "自動變成年輕都市",
+        "沒有任何改變",
+        "經度改變"
+      ],
+      "answer": "A",
+      "explanation": "遷移會改變年齡組成。",
+      "tags": [
+        "遷移"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch1-so7b-u04-so7b-u04-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch1",
+      "unitId": "so7b-u04",
+      "knowledgePointId": "so7b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "判斷是不是遷移，要看？",
+      "options": [
+        "是不是換了長期居住地",
+        "只是出門買菜",
+        "有沒有看地圖",
+        "當天天氣"
+      ],
+      "answer": "A",
+      "explanation": "短期移動不是遷移。",
+      "tags": [
+        "遷移"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u05-so7b-u05-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u05",
+      "knowledgePointId": "so7b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "日治時期大約是？",
+      "options": [
+        "1895–1945",
+        "1683–1858",
+        "1949–1987",
+        "1996 以後"
+      ],
+      "answer": "A",
+      "explanation": "1895 年開始，1945 年結束。",
+      "tags": [
+        "日治三階段"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u05-so7b-u05-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u05",
+      "knowledgePointId": "so7b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "皇民化主要發生在？",
+      "options": [
+        "後期",
+        "史前",
+        "清領開港之前",
+        "荷西時期"
+      ],
+      "answer": "A",
+      "explanation": "戰爭時期推動皇民化。",
+      "tags": [
+        "日治三階段"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u05-so7b-u05-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u05",
+      "knowledgePointId": "so7b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只寫「日治有建設」會漏掉？",
+      "options": [
+        "差別待遇和反抗",
+        "所有年份",
+        "地圖",
+        "人口"
+      ],
+      "answer": "A",
+      "explanation": "建設與不平等要一起看。",
+      "tags": [
+        "日治三階段"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u05-so7b-u05-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u05",
+      "knowledgePointId": "so7b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "同化政策的方向是？",
+      "options": [
+        "讓台灣人更接近殖民者的規範",
+        "恢復史前生活",
+        "立即獨立建國",
+        "取消所有學校"
+      ],
+      "answer": "A",
+      "explanation": "同化是依統治者的標準改變。",
+      "tags": [
+        "日治三階段"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u06-so7b-u06-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u06",
+      "knowledgePointId": "so7b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "二二八事件發生於？",
+      "options": [
+        "1947 年",
+        "1624 年",
+        "1895 年",
+        "2000 年"
+      ],
+      "answer": "A",
+      "explanation": "1947 年 2 月 28 日。",
+      "tags": [
+        "戰後到解嚴"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u06-so7b-u06-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u06",
+      "knowledgePointId": "so7b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "戒嚴期間，人民的言論和結社？",
+      "options": [
+        "受到嚴格限制",
+        "完全沒有任何法律",
+        "自動擴大",
+        "等於解嚴"
+      ],
+      "answer": "A",
+      "explanation": "戒嚴壓縮公民自由。",
+      "tags": [
+        "戰後到解嚴"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u06-so7b-u06-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u06",
+      "knowledgePointId": "so7b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "解嚴是哪一年？",
+      "options": [
+        "1987",
+        "1945",
+        "1683",
+        "1662"
+      ],
+      "answer": "A",
+      "explanation": "1987 年解除戒嚴。",
+      "tags": [
+        "戰後到解嚴"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u06-so7b-u06-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u06",
+      "knowledgePointId": "so7b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "紀念二二八的意義較接近？",
+      "options": [
+        "記住傷害並避免再用暴力處理異議",
+        "鼓勵私刑",
+        "否認事件",
+        "只討論天氣"
+      ],
+      "answer": "A",
+      "explanation": "和平紀念日強調記取與平反。",
+      "tags": [
+        "戰後到解嚴"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u07-so7b-u07-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u07",
+      "knowledgePointId": "so7b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "義務是？",
+      "options": [
+        "應當完成的責任",
+        "可以任意放棄的禮物",
+        "地圖符號",
+        "產業分類"
+      ],
+      "answer": "A",
+      "explanation": "義務對應責任。",
+      "tags": [
+        "權利和義務"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u07-so7b-u07-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u07",
+      "knowledgePointId": "so7b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "自由的邊界通常是？",
+      "options": [
+        "不侵害他人的權利",
+        "完全沒有邊界",
+        "只看心情",
+        "只適用於大人玩遊戲"
+      ],
+      "answer": "A",
+      "explanation": "自由與別人的權利並存。",
+      "tags": [
+        "權利和義務"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u07-so7b-u07-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u07",
+      "knowledgePointId": "so7b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "權利被侵害時，較適當的做法是？",
+      "options": [
+        "循申訴、調解或訴訟",
+        "私下報復",
+        "假裝沒發生且不能告訴任何人",
+        "改寫歷史"
+      ],
+      "answer": "A",
+      "explanation": "制度用來取代私力報復。",
+      "tags": [
+        "權利和義務"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u07-so7b-u07-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u07",
+      "knowledgePointId": "so7b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "納稅屬於？",
+      "options": [
+        "義務",
+        "地形",
+        "拉力",
+        "詞牌"
+      ],
+      "answer": "A",
+      "explanation": "納稅是公民義務。",
+      "tags": [
+        "權利和義務"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u08-so7b-u08-kp1-1",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u08",
+      "knowledgePointId": "so7b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "為什麼不能只看標題？",
+      "options": [
+        "標題可能省略或誇大",
+        "標題一定是全文",
+        "標題沒有文字",
+        "標題等於法律"
+      ],
+      "answer": "A",
+      "explanation": "標題是選擇過的句子。",
+      "tags": [
+        "媒體怎麼讀"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u08-so7b-u08-kp1-2",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u08",
+      "knowledgePointId": "so7b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "查證時最好？",
+      "options": [
+        "對照其他可靠來源",
+        "只看轉傳次數",
+        "看讚數",
+        "看字體"
+      ],
+      "answer": "A",
+      "explanation": "獨立來源能互相檢查。",
+      "tags": [
+        "媒體怎麼讀"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u08-so7b-u08-kp1-3",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u08",
+      "knowledgePointId": "so7b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "廣告和新聞的差別之一是？",
+      "options": [
+        "廣告目的常常是說服你行動或購買",
+        "兩者完全相同",
+        "廣告不能有文字",
+        "新聞一定是假的"
+      ],
+      "answer": "A",
+      "explanation": "目的不同，讀法就要不同。",
+      "tags": [
+        "媒體怎麼讀"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u08-so7b-u08-kp1-4",
+      "subject": "social",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "so7b-ch2",
+      "unitId": "so7b-u08",
+      "knowledgePointId": "so7b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "轉傳未查證的消息，可能？",
+      "options": [
+        "讓錯誤繼續擴散",
+        "自動更正事實",
+        "取代法院",
+        "改變經度"
+      ],
+      "answer": "A",
+      "explanation": "轉傳也是在發表。",
+      "tags": [
+        "媒體怎麼讀"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u01-so8a-u01-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u01",
+      "knowledgePointId": "so8a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "中國地勢大致？",
+      "options": [
+        "西高東低",
+        "東高西低",
+        "全部平原",
+        "沒有河流"
+      ],
+      "answer": "A",
+      "explanation": "大河多向東流。",
+      "tags": [
+        "中國的地形和氣候"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u01-so8a-u01-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u01",
+      "knowledgePointId": "so8a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "內陸較乾燥的原因之一是？",
+      "options": [
+        "距海遠，水氣不易到達",
+        "人口一定較多",
+        "緯度是 0",
+        "沒有太陽"
+      ],
+      "answer": "A",
+      "explanation": "海陸位置影響降水。",
+      "tags": [
+        "中國的地形和氣候"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u01-so8a-u01-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u01",
+      "knowledgePointId": "so8a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "秦嶺淮河常被用來分？",
+      "options": [
+        "南方和北方",
+        "台灣的東部和西部",
+        "歐洲和非洲",
+        "產業三級"
+      ],
+      "answer": "A",
+      "explanation": "它是中國南北的重要界線。",
+      "tags": [
+        "中國的地形和氣候"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u01-so8a-u01-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u01",
+      "knowledgePointId": "so8a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "東部平原人口較多，與哪一項最有關？",
+      "options": [
+        "地形較平坦、農業條件較好",
+        "海拔最高",
+        "完全沒有水",
+        "沒有城市"
+      ],
+      "answer": "A",
+      "explanation": "生活條件影響人口分布。",
+      "tags": [
+        "中國的地形和氣候"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u02-so8a-u02-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u02",
+      "knowledgePointId": "so8a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "胡煥庸線用來說明？",
+      "options": [
+        "人口分布東密西疏",
+        "台灣颱風路徑",
+        "五院職權",
+        "血型遺傳"
+      ],
+      "answer": "A",
+      "explanation": "這條線概括人口疏密。",
+      "tags": [
+        "兩條重要界線"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u02-so8a-u02-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u02",
+      "knowledgePointId": "so8a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "秦嶺淮河以北傳統上較常見？",
+      "options": [
+        "旱作",
+        "只種水稻",
+        "沒有農業",
+        "赤道雨林"
+      ],
+      "answer": "A",
+      "explanation": "降水較少，旱作較普遍。",
+      "tags": [
+        "兩條重要界線"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u02-so8a-u02-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u02",
+      "knowledgePointId": "so8a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "年雨量約 800 毫米常和哪條界線一起記？",
+      "options": [
+        "秦嶺淮河",
+        "赤道",
+        "本初子午線本身的天氣",
+        "比例尺"
+      ],
+      "answer": "A",
+      "explanation": "它是南北分界的指標之一。",
+      "tags": [
+        "兩條重要界線"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u02-so8a-u02-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u02",
+      "knowledgePointId": "so8a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "把界線理解成絕對的牆，問題是？",
+      "options": [
+        "真實的變化是漸進的",
+        "界線完全沒用",
+        "人口不會分布",
+        "氣候不存在"
+      ],
+      "answer": "A",
+      "explanation": "界線是幫助記憶的概括。",
+      "tags": [
+        "兩條重要界線"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u03-so8a-u03-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u03",
+      "knowledgePointId": "so8a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "馬來群島屬於？",
+      "options": [
+        "東南亞",
+        "北歐",
+        "南美洲",
+        "北極"
+      ],
+      "answer": "A",
+      "explanation": "東南亞包含半島和群島。",
+      "tags": [
+        "東亞和東南亞"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u03-so8a-u03-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u03",
+      "knowledgePointId": "so8a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "海運要道重要，是因為？",
+      "options": [
+        "貨物和能源要經過",
+        "它等於農田",
+        "它沒有船",
+        "它改變經度定義"
+      ],
+      "answer": "A",
+      "explanation": "位置影響貿易。",
+      "tags": [
+        "東亞和東南亞"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u03-so8a-u03-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u03",
+      "knowledgePointId": "so8a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "日本位於？",
+      "options": [
+        "東亞",
+        "東南亞群島的赤道上",
+        "非洲",
+        "南極"
+      ],
+      "answer": "A",
+      "explanation": "日本是東亞國家。",
+      "tags": [
+        "東亞和東南亞"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u03-so8a-u03-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u03",
+      "knowledgePointId": "so8a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "鄰國之間？",
+      "options": [
+        "可以既貿易也有爭議",
+        "一定完全相同",
+        "不能有地圖",
+        "沒有文化"
+      ],
+      "answer": "A",
+      "explanation": "關係是多重的。",
+      "tags": [
+        "東亞和東南亞"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u04-so8a-u04-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u04",
+      "knowledgePointId": "so8a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "中國人口較稠密的一側是？",
+      "options": [
+        "東南",
+        "青藏高原全域",
+        "沙漠中心",
+        "海上"
+      ],
+      "answer": "A",
+      "explanation": "和胡煥庸線的描述一致。",
+      "tags": [
+        "中國人口與產業"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u04-so8a-u04-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u04",
+      "knowledgePointId": "so8a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "沿海適合外貿，主因之一是？",
+      "options": [
+        "接近港口",
+        "完全沒有勞動力",
+        "沒有城市",
+        "海拔最高"
+      ],
+      "answer": "A",
+      "explanation": "港口連接國際市場。",
+      "tags": [
+        "中國人口與產業"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u04-so8a-u04-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u04",
+      "knowledgePointId": "so8a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只看全國平均收入，可能忽略？",
+      "options": [
+        "區域和城鄉差距",
+        "人口很多",
+        "有海岸",
+        "有平原"
+      ],
+      "answer": "A",
+      "explanation": "平均會把差異抹平。",
+      "tags": [
+        "中國人口與產業"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch1-so8a-u04-so8a-u04-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch1",
+      "unitId": "so8a-u04",
+      "knowledgePointId": "so8a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "內陸發展要多考慮？",
+      "options": [
+        "交通成本",
+        "它沒有任何資源",
+        "它不在地球上",
+        "不需要能源"
+      ],
+      "answer": "A",
+      "explanation": "距離提高運輸成本。",
+      "tags": [
+        "中國人口與產業"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u05-so8a-u05-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u05",
+      "knowledgePointId": "so8a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "郡縣制強調？",
+      "options": [
+        "地方由中央任命管理",
+        "每個地方完全世襲不管中央",
+        "沒有行政",
+        "只存在於歐洲"
+      ],
+      "answer": "A",
+      "explanation": "郡縣加強中央對地方的控制。",
+      "tags": [
+        "秦漢與唐宋"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u05-so8a-u05-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u05",
+      "knowledgePointId": "so8a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "唐代歷史常被一起提到的是？",
+      "options": [
+        "對外交流頻繁",
+        "完全封閉",
+        "沒有城市",
+        "尚未進入農業"
+      ],
+      "answer": "A",
+      "explanation": "唐與絲路等交流密切。",
+      "tags": [
+        "秦漢與唐宋"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u05-so8a-u05-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u05",
+      "knowledgePointId": "so8a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "宋代值得同時記住的是？",
+      "options": [
+        "商業發達，但外患壓力大",
+        "沒有任何經濟",
+        "只有游牧",
+        "尚未有文字"
+      ],
+      "answer": "A",
+      "explanation": "富庶和邊防壓力並存。",
+      "tags": [
+        "秦漢與唐宋"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u05-so8a-u05-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u05",
+      "knowledgePointId": "so8a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "把朝代只背成年分、不看特色，會漏掉？",
+      "options": [
+        "制度、經濟和對外關係",
+        "所有時間",
+        "人名",
+        "順序"
+      ],
+      "answer": "A",
+      "explanation": "特色才能用來比較。",
+      "tags": [
+        "秦漢與唐宋"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u06-so8a-u06-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u06",
+      "knowledgePointId": "so8a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "清代統治的一個特色是？",
+      "options": [
+        "對不同地區和人群使用不同制度",
+        "全境完全同一種辦法",
+        "沒有皇帝",
+        "沒有農業"
+      ],
+      "answer": "A",
+      "explanation": "多元帝國要用不同方式治理。",
+      "tags": [
+        "明清的統治"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u06-so8a-u06-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u06",
+      "knowledgePointId": "so8a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "人口大幅增加後，較可能出現？",
+      "options": [
+        "開墾範圍擴大",
+        "土地自動變多且沒有限制",
+        "不再需要糧食",
+        "城市消失"
+      ],
+      "answer": "A",
+      "explanation": "糧食需求推動開墾。",
+      "tags": [
+        "明清的統治"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u06-so8a-u06-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u06",
+      "knowledgePointId": "so8a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "海禁代表？",
+      "options": [
+        "政府限制海上活動",
+        "鼓勵所有人出海",
+        "沒有海岸",
+        "已經全球化完成"
+      ],
+      "answer": "A",
+      "explanation": "海禁是政策選擇。",
+      "tags": [
+        "明清的統治"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u06-so8a-u06-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u06",
+      "knowledgePointId": "so8a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "環境壓力增加，常和哪一項有關？",
+      "options": [
+        "開墾過度",
+        "人口變成零",
+        "停止農業",
+        "沒有河流"
+      ],
+      "answer": "A",
+      "explanation": "過度開墾可能造成水土流失。",
+      "tags": [
+        "明清的統治"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u07-so8a-u07-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u07",
+      "knowledgePointId": "so8a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "國家四要素是？",
+      "options": [
+        "人民、領土、政府、主權",
+        "山、水、風、雨",
+        "農、工、商、服務以外",
+        "詩、詞、曲、賦"
+      ],
+      "answer": "A",
+      "explanation": "這四項是常見的國家要素。",
+      "tags": [
+        "國家的四個要素"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u07-so8a-u07-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u07",
+      "knowledgePointId": "so8a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "主權是指？",
+      "options": [
+        "能自己做最後的統治決定",
+        "人口總數",
+        "出口金額",
+        "山的高度"
+      ],
+      "answer": "A",
+      "explanation": "主權是最高的自我決定。",
+      "tags": [
+        "國家的四個要素"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u07-so8a-u07-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u07",
+      "knowledgePointId": "so8a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "政府和主權的差別是？",
+      "options": [
+        "政府是組織，主權是最高決定權",
+        "兩者是同一個詞",
+        "主權就是人口",
+        "政府就是領土"
+      ],
+      "answer": "A",
+      "explanation": "不要把組織和權力混成一個。",
+      "tags": [
+        "國家的四個要素"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u07-so8a-u07-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u07",
+      "knowledgePointId": "so8a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "兩國對同一塊土地都主張擁有，這是？",
+      "options": [
+        "領土爭議",
+        "人口遷移完成",
+        "產業升級",
+        "解嚴"
+      ],
+      "answer": "A",
+      "explanation": "爭執的是領土範圍。",
+      "tags": [
+        "國家的四個要素"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u08-so8a-u08-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u08",
+      "knowledgePointId": "so8a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "民主政治裡，選舉的重要性是？",
+      "options": [
+        "執政者可以被更換",
+        "保證同一人永遠執政",
+        "取消權利",
+        "代替領土"
+      ],
+      "answer": "A",
+      "explanation": "定期改選是責任政治的一環。",
+      "tags": [
+        "民主政治在做什麼"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u08-so8a-u08-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u08",
+      "knowledgePointId": "so8a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "多數決的限制是？",
+      "options": [
+        "不能因此取消少數的基本權利",
+        "少數不必存在",
+        "不必有法律",
+        "不能投票"
+      ],
+      "answer": "A",
+      "explanation": "權利不是靠人數投票投掉的。",
+      "tags": [
+        "民主政治在做什麼"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u08-so8a-u08-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u08",
+      "knowledgePointId": "so8a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "不同意見被允許表達，是為了？",
+      "options": [
+        "讓公共決定被檢驗",
+        "讓事實更混亂就好",
+        "取消選舉",
+        "代替政府"
+      ],
+      "answer": "A",
+      "explanation": "言論用來檢查權力。",
+      "tags": [
+        "民主政治在做什麼"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u08-so8a-u08-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "so8a-ch2",
+      "unitId": "so8a-u08",
+      "knowledgePointId": "so8a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "只在投票日參與、平常完全不關心公共事務，民主會？",
+      "options": [
+        "缺少日常的監督",
+        "自動更完整",
+        "不需要制度",
+        "等於主權消失"
+      ],
+      "answer": "A",
+      "explanation": "民主靠持續參與。",
+      "tags": [
+        "民主政治在做什麼"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u01-so8b-u01-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u01",
+      "knowledgePointId": "so8b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "工業革命最早發生在？",
+      "options": [
+        "歐洲",
+        "南極",
+        "台灣東部山區",
+        "撒哈拉中心"
+      ],
+      "answer": "A",
+      "explanation": "英國等地最先工業化。",
+      "tags": [
+        "歐洲和美洲"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u01-so8b-u01-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u01",
+      "knowledgePointId": "so8b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "認識美洲歷史時不能忽略？",
+      "options": [
+        "殖民前就有原住民族",
+        "那裡沒有人",
+        "沒有海岸",
+        "沒有農業"
+      ],
+      "answer": "A",
+      "explanation": "原住民族是更早的居民。",
+      "tags": [
+        "歐洲和美洲"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u01-so8b-u01-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u01",
+      "knowledgePointId": "so8b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "歐洲曲折的海岸有利於？",
+      "options": [
+        "發展航海",
+        "變成沙漠",
+        "取消貿易",
+        "沒有港口"
+      ],
+      "answer": "A",
+      "explanation": "港灣方便船舶停靠。",
+      "tags": [
+        "歐洲和美洲"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u01-so8b-u01-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u01",
+      "knowledgePointId": "so8b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "把南美洲和北美洲完全當成同一種發展，會？",
+      "options": [
+        "忽略歷史和條件差異",
+        "更精確",
+        "取消地圖",
+        "改變赤道"
+      ],
+      "answer": "A",
+      "explanation": "兩地的殖民與產業並不同。",
+      "tags": [
+        "歐洲和美洲"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u02-so8b-u02-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u02",
+      "knowledgePointId": "so8b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "沙漠地區最缺乏的是？",
+      "options": [
+        "水",
+        "陽光一定沒有",
+        "土地這個詞",
+        "所有人口遷移"
+      ],
+      "answer": "A",
+      "explanation": "缺水限制農業和聚落。",
+      "tags": [
+        "乾燥地區與季風"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u02-so8b-u02-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u02",
+      "knowledgePointId": "so8b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "季風區的特色是？",
+      "options": [
+        "降水隨季節改變",
+        "全年完全沒有風",
+        "沒有農業",
+        "位於南極"
+      ],
+      "answer": "A",
+      "explanation": "風向和雨季會交換。",
+      "tags": [
+        "乾燥地區與季風"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u02-so8b-u02-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u02",
+      "knowledgePointId": "so8b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "聚落多分布在有水的地方，是因為？",
+      "options": [
+        "生活和農業需要水",
+        "水會取消交通",
+        "法律規定只能看河",
+        "經度為零"
+      ],
+      "answer": "A",
+      "explanation": "水是基本條件。",
+      "tags": [
+        "乾燥地區與季風"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u02-so8b-u02-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u02",
+      "knowledgePointId": "so8b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "北非大片乾燥，主要和哪一項有關？",
+      "options": [
+        "長期降水不足",
+        "終年颱風",
+        "全部是平原水田",
+        "人口過多才變成沙漠的唯一定義"
+      ],
+      "answer": "A",
+      "explanation": "氣候乾燥是主因。",
+      "tags": [
+        "乾燥地區與季風"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u03-so8b-u03-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u03",
+      "knowledgePointId": "so8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "不平等條約對清廷的直接影響是？",
+      "options": [
+        "主權和通商權利受損",
+        "立刻完成民主",
+        "進入史前",
+        "取消所有港口並致富"
+      ],
+      "answer": "A",
+      "explanation": "口岸、關稅和法權受到限制。",
+      "tags": [
+        "晚清變局"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u03-so8b-u03-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u03",
+      "knowledgePointId": "so8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "洋務運動主要想？",
+      "options": [
+        "學習西方技術以強化原有體制",
+        "立刻實行全民普選",
+        "回到商代",
+        "取消農業"
+      ],
+      "answer": "A",
+      "explanation": "它是以技術為主的自強。",
+      "tags": [
+        "晚清變局"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u03-so8b-u03-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u03",
+      "knowledgePointId": "so8b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只購買武器卻不調整制度，限制在於？",
+      "options": [
+        "技術需要制度和人才配合",
+        "武器不能存在",
+        "沒有外力",
+        "人口為零"
+      ],
+      "answer": "A",
+      "explanation": "制度與人才決定技術能不能用。",
+      "tags": [
+        "晚清變局"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u03-so8b-u03-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u03",
+      "knowledgePointId": "so8b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "晚清變局要同時看？",
+      "options": [
+        "外部壓力和內部改革",
+        "只有天氣",
+        "只有絕句",
+        "只有地圖三要素"
+      ],
+      "answer": "A",
+      "explanation": "內外是連在一起的。",
+      "tags": [
+        "晚清變局"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u04-so8b-u04-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u04",
+      "knowledgePointId": "so8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法國大革命挑戰的是？",
+      "options": [
+        "舊制度的統治正當性",
+        "地圖比例尺",
+        "水稻種植",
+        "血型"
+      ],
+      "answer": "A",
+      "explanation": "它質疑君權和等級。",
+      "tags": [
+        "近代革命"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u04-so8b-u04-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u04",
+      "knowledgePointId": "so8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「權力來自人民同意」是？",
+      "options": [
+        "民主論述的核心之一",
+        "沙漠形成的原因",
+        "清領開港的港口名單",
+        "產業分類"
+      ],
+      "answer": "A",
+      "explanation": "同意是正當性的來源。",
+      "tags": [
+        "近代革命"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u04-so8b-u04-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u04",
+      "knowledgePointId": "so8b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "革命成功不等於？",
+      "options": [
+        "民主制度已經穩定運作",
+        "有發生政治變化",
+        "有人參與",
+        "有新主張"
+      ],
+      "answer": "A",
+      "explanation": "制度要經過建立和修正。",
+      "tags": [
+        "近代革命"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u04-so8b-u04-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch1",
+      "unitId": "so8b-u04",
+      "knowledgePointId": "so8b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "當時婦女或奴隸若不能投票，說明？",
+      "options": [
+        "普遍權利是逐步擴大的",
+        "革命沒有任何理想",
+        "所有人一開始就完全平等",
+        "不必再研究"
+      ],
+      "answer": "A",
+      "explanation": "權利的範圍會隨鬥爭改變。",
+      "tags": [
+        "近代革命"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u05-so8b-u05-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u05",
+      "knowledgePointId": "so8b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "審議法律的主要是？",
+      "options": [
+        "立法院",
+        "只靠行政院單獨公布即可",
+        "監察院種稻",
+        "考試院畫地圖"
+      ],
+      "answer": "A",
+      "explanation": "立法權在立法院。",
+      "tags": [
+        "中央政府五院"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u05-so8b-u05-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u05",
+      "knowledgePointId": "so8b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法院審判屬於？",
+      "options": [
+        "司法",
+        "農林漁牧",
+        "比例尺",
+        "人口拉力"
+      ],
+      "answer": "A",
+      "explanation": "審判是司法核心。",
+      "tags": [
+        "中央政府五院"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u05-so8b-u05-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u05",
+      "knowledgePointId": "so8b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "預算由立法部門審議，是為了？",
+      "options": [
+        "讓花錢受人民代表監督",
+        "讓預算秘密",
+        "取消行政",
+        "代替選舉"
+      ],
+      "answer": "A",
+      "explanation": "預算是民主監督的工具。",
+      "tags": [
+        "中央政府五院"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u05-so8b-u05-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u05",
+      "knowledgePointId": "so8b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "監察的功能較接近？",
+      "options": [
+        "糾舉與調查公職",
+        "制定所有刑法條文",
+        "經營港口",
+        "預測颱風"
+      ],
+      "answer": "A",
+      "explanation": "監察院負責監察。",
+      "tags": [
+        "中央政府五院"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u06-so8b-u06-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u06",
+      "knowledgePointId": "so8b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "垃圾、公園這類事務較常由？",
+      "options": [
+        "地方政府處理",
+        "只有赤道委員會",
+        "詞牌規定",
+        "酵素決定"
+      ],
+      "answer": "A",
+      "explanation": "地方最靠近日常生活。",
+      "tags": [
+        "地方和選舉"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u06-so8b-u06-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u06",
+      "knowledgePointId": "so8b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "民法上的成年年齡是？",
+      "options": [
+        "18 歲",
+        "7 歲",
+        "40 歲",
+        "和投票年齡永遠相同且是 12"
+      ],
+      "answer": "A",
+      "explanation": "民法成年已是 18 歲。",
+      "tags": [
+        "地方和選舉"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u06-so8b-u06-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u06",
+      "knowledgePointId": "so8b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "目前選舉投票年齡是？",
+      "options": [
+        "滿 20 歲",
+        "滿 7 歲",
+        "滿 14 歲就一定可以",
+        "沒有年齡"
+      ],
+      "answer": "A",
+      "explanation": "投票年齡仍是 20 歲。",
+      "tags": [
+        "地方和選舉"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u06-so8b-u06-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u06",
+      "knowledgePointId": "so8b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "地方議會的作用是？",
+      "options": [
+        "監督地方政府",
+        "代替天氣",
+        "取消主權",
+        "制定詞牌"
+      ],
+      "answer": "A",
+      "explanation": "議會代表地方居民監督。",
+      "tags": [
+        "地方和選舉"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u07-so8b-u07-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u07",
+      "knowledgePointId": "so8b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法律位階最高的是？",
+      "options": [
+        "憲法",
+        "一則行政命令",
+        "一則新聞",
+        "一張地圖"
+      ],
+      "answer": "A",
+      "explanation": "憲法高於法律和命令。",
+      "tags": [
+        "憲法和基本權利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u07-so8b-u07-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u07",
+      "knowledgePointId": "so8b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "投票屬於哪一類權利的實踐？",
+      "options": [
+        "參政權",
+        "只有受益權裡的免費午餐",
+        "地形",
+        "產業"
+      ],
+      "answer": "A",
+      "explanation": "參與公共決定是參政。",
+      "tags": [
+        "憲法和基本權利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u07-so8b-u07-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u07",
+      "knowledgePointId": "so8b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "政府限制遊行，必須？",
+      "options": [
+        "有法律依據和理由",
+        "看當天心情",
+        "不必說明",
+        "由私人決定"
+      ],
+      "answer": "A",
+      "explanation": "限制基本權利要依法。",
+      "tags": [
+        "憲法和基本權利"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u07-so8b-u07-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u07",
+      "knowledgePointId": "so8b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "憲法比普通法律難修改，是因為？",
+      "options": [
+        "它規範最根本的權力結構",
+        "它字比較少",
+        "它不是法",
+        "它每年自動消失"
+      ],
+      "answer": "A",
+      "explanation": "根本規則需要更嚴格的程序。",
+      "tags": [
+        "憲法和基本權利"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u08-so8b-u08-kp1-1",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u08",
+      "knowledgePointId": "so8b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "分權的主要目的之一是？",
+      "options": [
+        "避免權力不受監督",
+        "讓每個機關做同一件事四次",
+        "取消政府",
+        "增加地形"
+      ],
+      "answer": "A",
+      "explanation": "監督來自分開。",
+      "tags": [
+        "為什麼要分權"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u08-so8b-u08-kp1-2",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u08",
+      "knowledgePointId": "so8b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "立法和行政分開，是為了？",
+      "options": [
+        "訂規則的人和執行的人可以互相檢查",
+        "讓法律無法執行",
+        "取消預算",
+        "代替選舉"
+      ],
+      "answer": "A",
+      "explanation": "分開才有檢查點。",
+      "tags": [
+        "為什麼要分權"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u08-so8b-u08-kp1-3",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u08",
+      "knowledgePointId": "so8b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "分權若變成完全不合作，可能？",
+      "options": [
+        "公共事務停擺",
+        "自動更民主",
+        "不需要預算",
+        "主權增加"
+      ],
+      "answer": "A",
+      "explanation": "制衡之後仍要能運作。",
+      "tags": [
+        "為什麼要分權"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u08-so8b-u08-kp1-4",
+      "subject": "social",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "so8b-ch2",
+      "unitId": "so8b-u08",
+      "knowledgePointId": "so8b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "考試事務獨立處理，較接近？",
+      "options": [
+        "專業分工",
+        "取消人事",
+        "由天氣決定",
+        "地方地形"
+      ],
+      "answer": "A",
+      "explanation": "分權同時是分工。",
+      "tags": [
+        "為什麼要分權"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u01-so9a-u01-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u01",
+      "knowledgePointId": "so9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "工業革命改變了？",
+      "options": [
+        "生產方式",
+        "赤道位置",
+        "染色體數目",
+        "絕句句數"
+      ],
+      "answer": "A",
+      "explanation": "機器生產取代部分手工。",
+      "tags": [
+        "工業革命"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u01-so9a-u01-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u01",
+      "knowledgePointId": "so9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "都市變大的原因之一是？",
+      "options": [
+        "工廠需要勞動力",
+        "所有人去種稻",
+        "沒有交通",
+        "地形變平的法令"
+      ],
+      "answer": "A",
+      "explanation": "工作把人口拉進城市。",
+      "tags": [
+        "工業革命"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u01-so9a-u01-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u01",
+      "knowledgePointId": "so9a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "工業發展初期的勞動問題是？",
+      "options": [
+        "工時長、環境差",
+        "完全沒有產品",
+        "沒有城市",
+        "沒有任何改變"
+      ],
+      "answer": "A",
+      "explanation": "規範是後來才逐步建立。",
+      "tags": [
+        "工業革命"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u01-so9a-u01-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u01",
+      "knowledgePointId": "so9a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "產量增加仍要同時看？",
+      "options": [
+        "環境代價",
+        "只看口號",
+        "取消貿易",
+        "忽略工人"
+      ],
+      "answer": "A",
+      "explanation": "利益和代價要一起算。",
+      "tags": [
+        "工業革命"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u02-so9a-u02-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u02",
+      "knowledgePointId": "so9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "結盟可能讓戰爭？",
+      "options": [
+        "從兩國擴成更多國家",
+        "自動消失",
+        "只剩地圖題",
+        "不再需要武器"
+      ],
+      "answer": "A",
+      "explanation": "盟友會被拖進衝突。",
+      "tags": [
+        "大戰和冷戰"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u02-so9a-u02-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u02",
+      "knowledgePointId": "so9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "冷戰是指？",
+      "options": [
+        "兩大陣營長期對立",
+        "南極的天氣",
+        "一次沒有任何對立的和平",
+        "台灣的清領"
+      ],
+      "answer": "A",
+      "explanation": "冷戰以對立和代理人衝突為特徵。",
+      "tags": [
+        "大戰和冷戰"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u02-so9a-u02-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u02",
+      "knowledgePointId": "so9a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "聯合國成立的背景是？",
+      "options": [
+        "減少戰爭、處理國際問題",
+        "推廣絕句",
+        "取消所有國家",
+        "測量細胞"
+      ],
+      "answer": "A",
+      "explanation": "它是戰後的國際組織。",
+      "tags": [
+        "大戰和冷戰"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u02-so9a-u02-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u02",
+      "knowledgePointId": "so9a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "學習二戰時必須面對的是？",
+      "options": [
+        "對平民的大規模迫害",
+        "只有將軍的名字",
+        "沒有傷亡",
+        "與人權無關"
+      ],
+      "answer": "A",
+      "explanation": "迫害是這段歷史的核心。",
+      "tags": [
+        "大戰和冷戰"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u03-so9a-u03-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u03",
+      "knowledgePointId": "so9a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "全球化是指？",
+      "options": [
+        "跨國的流動變密切",
+        "每個國家完全隔絕",
+        "取消地圖",
+        "只發生在一個城市"
+      ],
+      "answer": "A",
+      "explanation": "重點是跨界連結。",
+      "tags": [
+        "全球化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u03-so9a-u03-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u03",
+      "knowledgePointId": "so9a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "貨物全球生產的好處之一是？",
+      "options": [
+        "可能降低成本",
+        "一定沒有風險",
+        "不會影響工作",
+        "地方不再存在"
+      ],
+      "answer": "A",
+      "explanation": "分工可以降低價格。",
+      "tags": [
+        "全球化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u03-so9a-u03-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u03",
+      "knowledgePointId": "so9a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "金融危機會跨國傳遞，說明？",
+      "options": [
+        "連結愈緊，衝擊愈快",
+        "全球化沒有影響",
+        "只有農業會受影響",
+        "邊界能擋住所有資訊"
+      ],
+      "answer": "A",
+      "explanation": "依賴會傳遞風險。",
+      "tags": [
+        "全球化"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u03-so9a-u03-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u03",
+      "knowledgePointId": "so9a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "完全封閉不一定更好，因為？",
+      "options": [
+        "許多問題和資源都跨國",
+        "貿易一定違法",
+        "沒有文化",
+        "人口不能分布"
+      ],
+      "answer": "A",
+      "explanation": "環境、疫情和貿易都跨越邊界。",
+      "tags": [
+        "全球化"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u04-so9a-u04-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u04",
+      "knowledgePointId": "so9a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "石油屬於？",
+      "options": [
+        "用了會減少的資源",
+        "每天自動無限",
+        "一種政府",
+        "法律位階"
+      ],
+      "answer": "A",
+      "explanation": "石油是不可更新資源。",
+      "tags": [
+        "資源和環境議題"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u04-so9a-u04-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u04",
+      "knowledgePointId": "so9a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "高消費社會要同時處理？",
+      "options": [
+        "廢棄物和能源",
+        "只處理標語",
+        "取消農業",
+        "忽略海岸"
+      ],
+      "answer": "A",
+      "explanation": "消費的背後是資源和垃圾。",
+      "tags": [
+        "資源和環境議題"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u04-so9a-u04-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u04",
+      "knowledgePointId": "so9a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "氣候變遷的影響？",
+      "options": [
+        "對弱勢和低地往往更嚴重",
+        "每個人完全一樣",
+        "只影響地圖顏色",
+        "不會影響農業"
+      ],
+      "answer": "A",
+      "explanation": "承受能力不同。",
+      "tags": [
+        "資源和環境議題"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u04-so9a-u04-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch1",
+      "unitId": "so9a-u04",
+      "knowledgePointId": "so9a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "永續的意思最接近？",
+      "options": [
+        "滿足現在，也不耗盡未來",
+        "把資源今年用完",
+        "停止所有生產",
+        "只看今天的價格"
+      ],
+      "answer": "A",
+      "explanation": "它同時看現在和以後。",
+      "tags": [
+        "資源和環境議題"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u05-so9a-u05-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u05",
+      "knowledgePointId": "so9a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "命令和憲法衝突時，應該？",
+      "options": [
+        "以憲法為準",
+        "以命令為準",
+        "以新聞為準",
+        "沒有規則"
+      ],
+      "answer": "A",
+      "explanation": "上位規範優先。",
+      "tags": [
+        "法律位階和年齡"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u05-so9a-u05-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u05",
+      "knowledgePointId": "so9a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法律不能違反？",
+      "options": [
+        "憲法",
+        "一則廣告",
+        "私人日記",
+        "天氣"
+      ],
+      "answer": "A",
+      "explanation": "憲法是根本法。",
+      "tags": [
+        "法律位階和年齡"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u05-so9a-u05-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u05",
+      "knowledgePointId": "so9a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "滿 18 歲代表？",
+      "options": [
+        "民法上成年",
+        "一定可以投票",
+        "不必負任何責任",
+        "自動當選"
+      ],
+      "answer": "A",
+      "explanation": "成年和投票年齡不同。",
+      "tags": [
+        "法律位階和年齡"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u05-so9a-u05-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u05",
+      "knowledgePointId": "so9a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "未滿 14 歲的人犯罪，刑法上？",
+      "options": [
+        "不罰",
+        "一定判得比成人重",
+        "沒有條文",
+        "由學校校長自行關押"
+      ],
+      "answer": "A",
+      "explanation": "未滿 14 歲不負刑事責任。",
+      "tags": [
+        "法律位階和年齡"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u06-so9a-u06-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u06",
+      "knowledgePointId": "so9a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "契約的基礎是？",
+      "options": [
+        "雙方真的同意",
+        "一方偷偷決定",
+        "天氣",
+        "地形"
+      ],
+      "answer": "A",
+      "explanation": "沒有同意就不是有效的約定。",
+      "tags": [
+        "契約和損害"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u06-so9a-u06-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u06",
+      "knowledgePointId": "so9a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "被強迫簽名時，這個同意？",
+      "options": [
+        "有瑕疵",
+        "一定完全有效",
+        "等於憲法",
+        "不需要理會"
+      ],
+      "answer": "A",
+      "explanation": "強迫會影響效力。",
+      "tags": [
+        "契約和損害"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u06-so9a-u06-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u06",
+      "knowledgePointId": "so9a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "法律特別保護未成年人簽約，是因為？",
+      "options": [
+        "他們較容易吃虧",
+        "他們不能擁有任何權利",
+        "契約只適用成人且小孩完全隱形",
+        "他們一定不會損害別人"
+      ],
+      "answer": "A",
+      "explanation": "判斷經驗不足，所以有保護。",
+      "tags": [
+        "契約和損害"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u06-so9a-u06-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u06",
+      "knowledgePointId": "so9a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "弄壞別人物品，可能要？",
+      "options": [
+        "負損害賠償",
+        "獲得獎勵",
+        "改寫憲法",
+        "取消所有契約"
+      ],
+      "answer": "A",
+      "explanation": "侵權可能產生賠償責任。",
+      "tags": [
+        "契約和損害"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u07-so9a-u07-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u07",
+      "knowledgePointId": "so9a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "罪刑法定是指？",
+      "options": [
+        "犯罪和刑罰必須事先由法律規定",
+        "法官可以臨時發明罪名",
+        "新聞標題就是判決",
+        "多數人討厭就可以罰"
+      ],
+      "answer": "A",
+      "explanation": "沒有事先規定，就不能當成犯罪處罰。",
+      "tags": [
+        "罪刑法定"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u07-so9a-u07-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u07",
+      "knowledgePointId": "so9a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "行為當時法律沒有禁止，事後才規定。原則上？",
+      "options": [
+        "不能用新法溯及去罰舊行為",
+        "一定從重",
+        "由鄰居投票",
+        "沒有原則"
+      ],
+      "answer": "A",
+      "explanation": "刑法不溯及既往去加重處罰。",
+      "tags": [
+        "罪刑法定"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u07-so9a-u07-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u07",
+      "knowledgePointId": "so9a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "還沒判決前，嫌疑人應被視為？",
+      "options": [
+        "尚未定罪",
+        "已經有罪",
+        "不能有辯護",
+        "失去全部權利"
+      ],
+      "answer": "A",
+      "explanation": "有罪要經過審判。",
+      "tags": [
+        "罪刑法定"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u07-so9a-u07-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u07",
+      "knowledgePointId": "so9a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "因為某人屬於某族群就判罪，違反？",
+      "options": [
+        "處罰應針對行為",
+        "比例尺",
+        "產業分類",
+        "季風"
+      ],
+      "answer": "A",
+      "explanation": "罪是行為，不是身份。",
+      "tags": [
+        "罪刑法定"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u08-so9a-u08-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u08",
+      "knowledgePointId": "so9a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "機會成本是？",
+      "options": [
+        "放棄的選項中價值最高者",
+        "所有選項的價錢相加",
+        "商品標價",
+        "零"
+      ],
+      "answer": "A",
+      "explanation": "只算次佳選項的價值。",
+      "tags": [
+        "機會成本"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u08-so9a-u08-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u08",
+      "knowledgePointId": "so9a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "周末只能選一項。選了球賽，放棄的家教價值最高。機會成本是？",
+      "options": [
+        "那場家教",
+        "球賽本身的樂趣全部相加",
+        "零",
+        "交通加上午餐再加上所有沒選的總和"
+      ],
+      "answer": "A",
+      "explanation": "成本是被放棄的最高價值。",
+      "tags": [
+        "機會成本"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u08-so9a-u08-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u08",
+      "knowledgePointId": "so9a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "免費演唱會若讓你沒時間準備考試，成本是？",
+      "options": [
+        "失去的讀書與可能的成績",
+        "一定是零",
+        "票價",
+        "場地租金的全部"
+      ],
+      "answer": "A",
+      "explanation": "沒有標價不等於沒有成本。",
+      "tags": [
+        "機會成本"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u08-so9a-u08-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "so9a-ch2",
+      "unitId": "so9a-u08",
+      "knowledgePointId": "so9a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "電腦機會成本時，不該？",
+      "options": [
+        "把每一個沒選的選項全部加總",
+        "找出次佳",
+        "考慮時間",
+        "考慮選擇"
+      ],
+      "answer": "A",
+      "explanation": "相加會高估。",
+      "tags": [
+        "機會成本"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u01-so9b-u01-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u01",
+      "knowledgePointId": "so9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "其他條件不變，價格上升時，需求量通常？",
+      "options": [
+        "下降",
+        "一定無限上升",
+        "變成供給",
+        "與價格無關"
+      ],
+      "answer": "A",
+      "explanation": "這是需求法則。",
+      "tags": [
+        "價格怎麼來"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u01-so9b-u01-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u01",
+      "knowledgePointId": "so9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "供給是指？",
+      "options": [
+        "賣方願意出售的數量",
+        "買方的心情名稱",
+        "法律位階",
+        "地形種類"
+      ],
+      "answer": "A",
+      "explanation": "供給來自賣方。",
+      "tags": [
+        "價格怎麼來"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u01-so9b-u01-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u01",
+      "knowledgePointId": "so9b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只看需求、不看供給，會漏掉？",
+      "options": [
+        "賣方能提供多少",
+        "買方存在",
+        "價格這個詞",
+        "選擇"
+      ],
+      "answer": "A",
+      "explanation": "價格由兩邊共同作用。",
+      "tags": [
+        "價格怎麼來"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u01-so9b-u01-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u01",
+      "knowledgePointId": "so9b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「其他條件不變」這句話是為了？",
+      "options": [
+        "先隔離出價格的影響",
+        "表示現實永遠不變",
+        "取消所有原因",
+        "代替數據"
+      ],
+      "answer": "A",
+      "explanation": "它是分析時的假設。",
+      "tags": [
+        "價格怎麼來"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u02-so9b-u02-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u02",
+      "knowledgePointId": "so9b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "貿易發生的基礎之一是？",
+      "options": [
+        "生產條件不同",
+        "兩地完全一樣",
+        "禁止交換",
+        "沒有交通"
+      ],
+      "answer": "A",
+      "explanation": "差異讓交換有意義。",
+      "tags": [
+        "貿易為什麼發生"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u02-so9b-u02-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u02",
+      "knowledgePointId": "so9b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "分工的好處是？",
+      "options": [
+        "各自發揮相對優勢",
+        "所有人做同一件最不擅長的事",
+        "取消選擇",
+        "提高所有成本"
+      ],
+      "answer": "A",
+      "explanation": "相對優勢是貿易的理由。",
+      "tags": [
+        "貿易為什麼發生"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u02-so9b-u02-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u02",
+      "knowledgePointId": "so9b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "便宜進口品增加時，國內同類生產者可能？",
+      "options": [
+        "受到競爭壓力",
+        "完全不受影響",
+        "自動消失且不值得討論",
+        "變成地圖"
+      ],
+      "answer": "A",
+      "explanation": "貿易的利益分配不平均。",
+      "tags": [
+        "貿易為什麼發生"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u02-so9b-u02-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u02",
+      "knowledgePointId": "so9b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "評價貿易政策時應該？",
+      "options": [
+        "同時看消費者和受衝擊者",
+        "只看一口號",
+        "不看就業",
+        "不看價格"
+      ],
+      "answer": "A",
+      "explanation": "利益和調整成本都要算。",
+      "tags": [
+        "貿易為什麼發生"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u03-so9b-u03-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u03",
+      "knowledgePointId": "so9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "社會福利主要在處理？",
+      "options": [
+        "個人難以單獨承擔的風險",
+        "地圖繪製",
+        "押韻",
+        "細胞分類"
+      ],
+      "answer": "A",
+      "explanation": "疾病、老年、失業都是風險。",
+      "tags": [
+        "社會福利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u03-so9b-u03-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u03",
+      "knowledgePointId": "so9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "福利的財源主要包括？",
+      "options": [
+        "稅收",
+        "只靠願望",
+        "取消政府",
+        "地形"
+      ],
+      "answer": "A",
+      "explanation": "公共支出需要稅。",
+      "tags": [
+        "社會福利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u03-so9b-u03-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u03",
+      "knowledgePointId": "so9b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只照顧最有聲音的人，可能漏掉？",
+      "options": [
+        "真正資源不足的人",
+        "所有風險",
+        "稅的存在",
+        "制度"
+      ],
+      "answer": "A",
+      "explanation": "對象要對準需要。",
+      "tags": [
+        "社會福利"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u03-so9b-u03-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u03",
+      "knowledgePointId": "so9b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "福利若支出遠超過社會能負擔，問題是？",
+      "options": [
+        "制度難以持續",
+        "一定更公平",
+        "不必討論",
+        "沒有機會成本"
+      ],
+      "answer": "A",
+      "explanation": "永續和公平要一起看。",
+      "tags": [
+        "社會福利"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u04-so9b-u04-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u04",
+      "knowledgePointId": "so9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "社會變遷是指？",
+      "options": [
+        "生活方式和觀念的改變",
+        "地形永遠升降",
+        "一天的天氣",
+        "一個人改暱稱"
+      ],
+      "answer": "A",
+      "explanation": "它是群體生活的變化。",
+      "tags": [
+        "社會變遷"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u04-so9b-u04-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u04",
+      "knowledgePointId": "so9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "網路讓遠距工作變多，這屬於？",
+      "options": [
+        "科技推動的變遷",
+        "地形雨",
+        "罪刑法定",
+        "清領"
+      ],
+      "answer": "A",
+      "explanation": "科技會改變工作方式。",
+      "tags": [
+        "社會變遷"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u04-so9b-u04-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u04",
+      "knowledgePointId": "so9b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "規則跟不上新情況時，應該？",
+      "options": [
+        "重新討論制度",
+        "假裝沒有變化",
+        "取消所有權利",
+        "只靠刻板印象"
+      ],
+      "answer": "A",
+      "explanation": "制度需要更新。",
+      "tags": [
+        "社會變遷"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u04-so9b-u04-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch1",
+      "unitId": "so9b-u04",
+      "knowledgePointId": "so9b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "評估變遷時要先？",
+      "options": [
+        "分開事實和情緒",
+        "只留下害怕",
+        "不看資料",
+        "拒絕定義"
+      ],
+      "answer": "A",
+      "explanation": "情緒不能代替事實。",
+      "tags": [
+        "社會變遷"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u05-so9b-u05-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u05",
+      "knowledgePointId": "so9b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "地圖題最先看？",
+      "options": [
+        "題目在問什麼",
+        "哪一種顏色漂亮",
+        "作者心情",
+        "紙張品牌"
+      ],
+      "answer": "A",
+      "explanation": "問題決定你要在圖上找什麼。",
+      "tags": [
+        "地圖題怎麼讀"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u05-so9b-u05-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u05",
+      "knowledgePointId": "so9b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "符號看不懂時應該？",
+      "options": [
+        "查圖例",
+        "猜最亮的顏色",
+        "忽略",
+        "當成人口"
+      ],
+      "answer": "A",
+      "explanation": "圖例解釋符號。",
+      "tags": [
+        "地圖題怎麼讀"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u05-so9b-u05-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u05",
+      "knowledgePointId": "so9b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "沒有看比例尺就比較兩張圖的距離，可能？",
+      "options": [
+        "單位不同而比錯",
+        "一定正確",
+        "更精確",
+        "不需要方向"
+      ],
+      "answer": "A",
+      "explanation": "比例尺不同，圖上同樣長度意義不同。",
+      "tags": [
+        "地圖題怎麼讀"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u05-so9b-u05-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u05",
+      "knowledgePointId": "so9b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "答案的依據應該是？",
+      "options": [
+        "圖上讀得到的資訊",
+        "自己去過所以覺得",
+        "標題好看",
+        "選項最長"
+      ],
+      "answer": "A",
+      "explanation": "素養題仍要有圖上證據。",
+      "tags": [
+        "地圖題怎麼讀"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u06-so9b-u06-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u06",
+      "knowledgePointId": "so9b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "年表最基本的讀法是？",
+      "options": [
+        "確認時間先後",
+        "從顏色猜",
+        "不看年份",
+        "只讀最後一格"
+      ],
+      "answer": "A",
+      "explanation": "順序是年表的骨架。",
+      "tags": [
+        "年表題看因果"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u06-so9b-u06-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u06",
+      "knowledgePointId": "so9b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "甲發生在乙之前，就能說甲造成乙嗎？",
+      "options": [
+        "不一定",
+        "一定可以",
+        "絕對不行看任何資料",
+        "只有在地圖上可以"
+      ],
+      "answer": "A",
+      "explanation": "先後不是因果的充分條件。",
+      "tags": [
+        "年表題看因果"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u06-so9b-u06-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u06",
+      "knowledgePointId": "so9b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "題目問某事件的影響，應該看？",
+      "options": [
+        "事件之後出現的變化",
+        "事件之前的史前考古",
+        "無關的詩",
+        "血型"
+      ],
+      "answer": "A",
+      "explanation": "影響是後來的結果。",
+      "tags": [
+        "年表題看因果"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u06-so9b-u06-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u06",
+      "knowledgePointId": "so9b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "格子太多時可以？",
+      "options": [
+        "每格收成短句",
+        "全部跳過",
+        "只背第一個年份",
+        "改成對聯"
+      ],
+      "answer": "A",
+      "explanation": "短句幫助比較。",
+      "tags": [
+        "年表題看因果"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u07-so9b-u07-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u07",
+      "knowledgePointId": "so9b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "折線圖較適合呈現？",
+      "options": [
+        "隨時間的變化",
+        "一種地形的照片",
+        "一首詩",
+        "契約原文"
+      ],
+      "answer": "A",
+      "explanation": "折線強調趨勢。",
+      "tags": [
+        "統計圖"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u07-so9b-u07-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u07",
+      "knowledgePointId": "so9b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "縱軸不從零開始時，要注意？",
+      "options": [
+        "差距看起來可能被放大",
+        "數據一定是假的",
+        "不能比較",
+        "單位消失"
+      ],
+      "answer": "A",
+      "explanation": "視覺可能誇大差異。",
+      "tags": [
+        "統計圖"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u07-so9b-u07-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u07",
+      "knowledgePointId": "so9b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "圖的標題是「出口金額」，就不能直接拿來證明？",
+      "options": [
+        "人民的幸福程度",
+        "出口金額的變化",
+        "哪一年較高",
+        "單位是什麼"
+      ],
+      "answer": "A",
+      "explanation": "幸福不是這張圖的內容。",
+      "tags": [
+        "統計圖"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u07-so9b-u07-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u07",
+      "knowledgePointId": "so9b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "比較兩年之前要確認？",
+      "options": [
+        "單位和統計範圍相同",
+        "顏色相同",
+        "字體相同",
+        "作者相同"
+      ],
+      "answer": "A",
+      "explanation": "範圍不同就不能直接比。",
+      "tags": [
+        "統計圖"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u08-so9b-u08-kp1-1",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u08",
+      "knowledgePointId": "so9b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "時事題最常考的是？",
+      "options": [
+        "新聞背後的課程概念",
+        "記者的生日",
+        "你的立場名稱",
+        "版面好不好看"
+      ],
+      "answer": "A",
+      "explanation": "情境是新的，概念是學過的。",
+      "tags": [
+        "時事題的讀法"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u08-so9b-u08-kp1-2",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u08",
+      "knowledgePointId": "so9b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "一段新聞在談價格上漲。可以對上？",
+      "options": [
+        "供需",
+        "絕句對仗",
+        "減數分裂",
+        "詞牌"
+      ],
+      "answer": "A",
+      "explanation": "用經濟概念解釋。",
+      "tags": [
+        "時事題的讀法"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u08-so9b-u08-kp1-3",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u08",
+      "knowledgePointId": "so9b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "資料沒有提到原因，選項卻給了確定原因。應該？",
+      "options": [
+        "不選超出資料的選項",
+        "選最符合自己意見的",
+        "選最長的",
+        "忽略資料"
+      ],
+      "answer": "A",
+      "explanation": "證據不能向外擴張。",
+      "tags": [
+        "時事題的讀法"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u08-so9b-u08-kp1-4",
+      "subject": "social",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "so9b-ch2",
+      "unitId": "so9b-u08",
+      "knowledgePointId": "so9b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "做這類題時，政治偏好應該？",
+      "options": [
+        "先放下，回到資料和概念",
+        "當作標準答案",
+        "代替圖表",
+        "取消權利概念"
+      ],
+      "answer": "A",
+      "explanation": "偏好不是證據。",
+      "tags": [
+        "時事題的讀法"
+      ],
+      "difficulty": 3
+    }
+  ]
+}

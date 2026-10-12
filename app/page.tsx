@@ -6,6 +6,7 @@ import { useUserData } from '@/lib/useUserData';
 import { Pet } from '@/components/Pet';
 import { questions, getUnitProgress, books, findNextUnit, findUnit, isUnitUnlocked } from '@/lib/questions';
 import type { Subject, Unit, UserData } from '@/lib/types';
+import { SUBJECT_TABS, subjectLabel } from '@/lib/subjects';
 
 function getUnitAnsweredAndCorrect(unitId: string, userData: UserData): { answered: number; correct: number } {
   const unitQs = questions.filter((q) => q.unitId === unitId);
@@ -52,15 +53,15 @@ function HomeContent() {
         <h1 className="text-2xl font-bold">歡迎回來！</h1>
         <p className="text-lg text-[var(--muted)]">小學伴：{pet.name}</p>
       </div>
-      <div className="flex gap-2 px-4">
-        {([['math', '數學'], ['english', '英文']] as const).map(([id, label]) => (
+      <div className="flex flex-wrap gap-2 px-4">
+        {SUBJECT_TABS.map((item) => (
           <button
-            key={id}
+            key={item.id}
             type="button"
-            className={id === subject ? 'btn btn-primary px-4 py-2' : 'btn btn-secondary px-4 py-2'}
-            onClick={() => setSubject(id)}
+            className={item.id === subject ? 'btn btn-primary px-4 py-2' : 'btn btn-secondary px-4 py-2'}
+            onClick={() => setSubject(item.id)}
           >
-            {label}
+            {item.label}
           </button>
         ))}
       </div>
@@ -71,7 +72,7 @@ function HomeContent() {
           {allPassed ? (
             <>
               <div className="text-4xl mb-4">🎉</div>
-              <h2 className="text-2xl font-bold mb-4">{subject === 'english' ? '英文' : '數學'}全部通過！</h2>
+              <h2 className="text-2xl font-bold mb-4">{subjectLabel(subject)}全部通過！</h2>
               <p className="text-[var(--muted)] mb-6">準備挑戰更高難度吧！</p>
               <Link
                 href={`/practice?mode=exam&subject=${subject}`}

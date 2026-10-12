@@ -16,6 +16,7 @@ import {
   unitPassed,
 } from '@/lib/questions';
 import type { Unit } from '@/lib/types';
+import { SUBJECT_TABS } from '@/lib/subjects';
 
 type UnitState = 'passed' | 'unlocked' | 'locked';
 
@@ -70,20 +71,31 @@ function MapContent() {
     return shell(
       '學習地圖',
       <>
-        <h1 className="mb-2 text-center text-2xl font-bold">國一到國三數學</h1>
+        <h1 className="mb-2 text-center text-2xl font-bold">國一到國三課程</h1>
         <p className="mb-6 text-center text-sm text-[var(--muted)]">選一個學期，再進入章節。</p>
-        <div className="mx-auto grid max-w-lg grid-cols-2 gap-3">
-          {books.map((item) => {
-            const unitCount = item.chapters.reduce((sum, chapter) => sum + chapter.units.length, 0);
+        <div className="mx-auto max-w-lg space-y-6">
+          {SUBJECT_TABS.map((tab) => {
+            const items = books.filter((item) => item.subject === tab.id);
+            if (items.length === 0) return null;
             return (
-              <Link
-                key={item.id}
-                href={`/map?book=${item.id}`}
-                className="card p-4 no-underline"
-              >
-                <div className="text-lg font-bold">{item.title}</div>
-                <p className="mt-1 text-sm text-[var(--muted)]">{item.chapters.length} 章 · {unitCount} 單元</p>
-              </Link>
+              <section key={tab.id}>
+                <h2 className="mb-2 text-lg font-bold">{tab.label}</h2>
+                <div className="grid grid-cols-2 gap-3">
+                  {items.map((item) => {
+                    const unitCount = item.chapters.reduce((sum, chapter) => sum + chapter.units.length, 0);
+                    return (
+                      <Link
+                        key={item.id}
+                        href={`/map?book=${item.id}`}
+                        className="card p-4 no-underline"
+                      >
+                        <div className="text-lg font-bold">{item.title}</div>
+                        <p className="mt-1 text-sm text-[var(--muted)]">{item.chapters.length} 章 · {unitCount} 單元</p>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </section>
             );
           })}
         </div>

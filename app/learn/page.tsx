@@ -11,6 +11,7 @@ import { speakEnglish } from '@/lib/browserSpeech';
 import { TopBar } from '@/components/TopBar';
 import { books, findUnit, questions as allQuestions, isUnitUnlocked } from '@/lib/questions';
 import type { Question, Subject } from '@/lib/types';
+import { SUBJECT_TABS } from '@/lib/subjects';
 
 function LearnContent() {
   const searchParams = useSearchParams();
@@ -63,14 +64,14 @@ function LearnContent() {
       <>
         <TopBar title="選擇單元學習" />
         <div className="space-y-6 p-4">
-          <div className="flex gap-2">
-            {([['math', '數學'], ['english', '英文']] as const).map(([id, label]) => (
+          <div className="flex flex-wrap gap-2">
+            {SUBJECT_TABS.map((item) => (
               <Link
-                key={id}
-                href={`/learn?subject=${id}`}
-                className={id === subject ? 'btn btn-primary px-4 py-2' : 'btn btn-secondary px-4 py-2'}
+                key={item.id}
+                href={`/learn?subject=${item.id}`}
+                className={item.id === subject ? 'btn btn-primary px-4 py-2' : 'btn btn-secondary px-4 py-2'}
               >
-                {label}
+                {item.label}
               </Link>
             ))}
           </div>

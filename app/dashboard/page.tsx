@@ -6,7 +6,8 @@ import { TopBar } from '@/components/TopBar';
 import { ProgressRing } from '@/components/ProgressRing';
 import { BottomNav } from '@/components/BottomNav';
 import { books, getUnitProgress, questions } from '@/lib/questions';
-import type { UserData } from '@/lib/types';
+import { SUBJECT_TABS } from '@/lib/subjects';
+import type { Subject, UserData } from '@/lib/types';
 
 /**
  * 進度儀表板：總覽、單元長條、弱點、待複習
@@ -14,6 +15,7 @@ import type { UserData } from '@/lib/types';
 export default function DashboardPage() {
   const { userData } = useUserData();
   const [today] = useState(() => new Date().toISOString().split('T')[0]);
+  const [subject, setSubject] = useState<Subject>('math');
   const [bookId, setBookId] = useState(books[0].id);
 
   if (!userData) {
@@ -26,7 +28,8 @@ export default function DashboardPage() {
   const overallRate = totalQuestions > 0 ? correctCount / totalQuestions : 0;
 
   // 單元進度
-  const book = books.find((item) => item.id === bookId) ?? books[0];
+  const subjectBooks = books.filter((item) => item.subject === subject);
+  const book = subjectBooks.find((item) => item.id === bookId) ?? subjectBooks[0] ?? books[0];
   const unitProgresses = book.chapters.flatMap((chapter) => chapter.units.map(unit => ({
     unitId: unit.id,
     title: unit.title,
@@ -96,8 +99,24 @@ export default function DashboardPage() {
         {/* 單元長條圖 */}
         <div className="mb-8">
           <h2 className="text-xl font-bold mb-4">單元進度</h2>
+          <div className="mb-3 flex flex-wrap gap-2">
+            {SUBJECT_TABS.map((tab) => (
+              <button
+                key={tab.id}
+                type="button"
+                className={tab.id === subject ? 'btn btn-primary px-3 py-1 text-sm' : 'btn btn-secondary px-3 py-1 text-sm'}
+                onClick={() => {
+                  setSubject(tab.id);
+                  const first = books.find((item) => item.subject === tab.id);
+                  if (first) setBookId(first.id);
+                }}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
           <div className="mb-4 flex gap-2 overflow-x-auto">
-            {books.map((item) => (
+            {subjectBooks.map((item) => (
               <button
                 key={item.id}
                 type="button"
