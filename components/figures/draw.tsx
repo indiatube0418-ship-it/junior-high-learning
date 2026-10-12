@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { Atlas } from './atlas';
 
 export type Tone = 'pri' | 'acc' | 'ink' | 'mute';
 
@@ -53,7 +54,8 @@ export type Visual =
   | { type: 'bars'; phases: BarPhase[] }
   | { type: 'frac'; phases: FracPhase[] }
   | { type: 'plane'; phases: PlanePhase[] }
-  | { type: 'geo'; name: string };
+  | { type: 'geo'; name: string }
+  | { type: 'atlas'; name: string };
 
 interface Pt {
   x: number;
@@ -1454,5 +1456,6 @@ export function renderVisual(visual: Visual, step: number, motion: boolean, beat
   if (visual.type === 'bars') return <Bars phase={phaseAt(visual.phases, step) || { items: [] }} beat={beat} />;
   if (visual.type === 'frac') return <Fractions phase={phaseAt(visual.phases, step) || { rows: [] }} beat={beat} />;
   if (visual.type === 'plane') return <Plane phase={phaseAt(visual.phases, step) || {}} beat={beat} />;
+  if (visual.type === 'atlas') return <Atlas name={visual.name} step={step} beat={beat} />;
   return <Geo name={visual.name} step={step} motion={motion} beat={beat} />;
 }
