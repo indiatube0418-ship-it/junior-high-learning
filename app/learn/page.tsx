@@ -6,6 +6,8 @@ import { useSearchParams } from 'next/navigation';
 import { useUserData } from '@/lib/useUserData';
 import { QuestionCard } from '@/components/QuestionCard';
 import { LessonFigure } from '@/components/figures/LessonFigure';
+import { englishLineFor } from '@/components/figures/englishLine';
+import { speakEnglish } from '@/lib/browserSpeech';
 import { TopBar } from '@/components/TopBar';
 import { books, findUnit, questions as allQuestions, isUnitUnlocked } from '@/lib/questions';
 import type { Question, Subject } from '@/lib/types';
@@ -40,7 +42,15 @@ function LearnContent() {
       setPlaying(false);
       return;
     }
-    const id = window.setTimeout(() => setLessonStep((step) => step + 1), 8500);
+    const id = window.setTimeout(() => {
+      const next = lessonStep + 1;
+      const kpId = locatedNow?.unit.knowledgePoints[currentKP]?.id;
+      if (kpId) {
+        const line = englishLineFor(kpId, next);
+        if (line) speakEnglish(line);
+      }
+      setLessonStep(next);
+    }, 8500);
     return () => window.clearTimeout(id);
   }, [playing, lessonStep, currentKP, unitId]);
 
@@ -133,19 +143,22 @@ function LearnContent() {
             </div>
             <div className="flex gap-2 p-4 pt-0">
               {lessonStep > 0 && (
-                <button className="btn btn-secondary flex-1" onClick={() => { setPlaying(false); setLessonStep((s) => s - 1); }}>
+                <button className="btn btn-secondary flex-1" onClick={() => { setPlaying(false); const next = lessonStep - 1; setLessonStep(next); const line = englishLineFor(kp.id, next); if (line) speakEnglish(line); }}>
                   上一步
                 </button>
               )}
               {lessonStep < lesson.length - 1 ? (
-                <button className="btn btn-primary flex-1" onClick={() => { setPlaying(false); setLessonStep((s) => s + 1); }}>
+                <button className="btn btn-primary flex-1" onClick={() => { setPlaying(false); const next = lessonStep + 1; setLessonStep(next); const line = englishLineFor(kp.id, next); if (line) speakEnglish(line); }}>
                   看懂了，下一步
                 </button>
               ) : currentKP < unit.knowledgePoints.length - 1 ? (
                 <button className="btn btn-primary flex-1" onClick={() => {
                   setPlaying(false);
-                  setCurrentKP((k) => k + 1);
+                  const nextKp = currentKP + 1;
+                  setCurrentKP(nextKp);
                   setLessonStep(0);
+                  const line = englishLineFor(unit.knowledgePoints[nextKp].id, 0);
+                  if (line) speakEnglish(line);
                 }}>
                   下一個觀念
                 </button>
@@ -155,6 +168,8 @@ function LearnContent() {
                     setPlaying(false);
                     setCurrentKP(0);
                     setLessonStep(0);
+                    const line = englishLineFor(unit.knowledgePoints[0].id, 0);
+                    if (line) speakEnglish(line);
                   }}>
                     重新開始
                   </button>

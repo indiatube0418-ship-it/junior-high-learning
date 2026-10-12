@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { primeVoices, speakChinese, speakEnglish, stopSpeaking } from '@/lib/browserSpeech';
+import { englishLineFor } from './englishLine';
 import { figures } from './catalog';
 import { renderVisual } from './draw';
 import { BEAT_LABELS, stepRole } from './guide';
@@ -23,15 +25,6 @@ const CSS = `
 }
 `;
 
-function speakZh(text: string) {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = 'zh-TW';
-  utter.rate = 0.92;
-  window.speechSynthesis.speak(utter);
-}
-
 export function LessonFigure({
   knowledgePointId,
   step,
@@ -50,6 +43,10 @@ export function LessonFigure({
   const [localStep, setLocalStep] = useState(step);
 
   useEffect(() => {
+    primeVoices();
+  }, []);
+
+  useEffect(() => {
     const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
     const apply = () => setMotion(!mq.matches);
     apply();
@@ -65,7 +62,8 @@ export function LessonFigure({
   const safe = entry ? Math.max(0, Math.min(entry.captions.length - 1, shown)) : 0;
   const last = entry ? entry.captions.length - 1 : 0;
   const total = entry ? entry.captions.length : 1;
-  const role = stepRole(safe, total, entry.voice ?? 'math');
+  const role = stepRole(safe, total, entry?.voice ?? 'math');
+  const spoken = entry ? englishLineFor(knowledgePointId, safe) : '';
 
   useEffect(() => {
     if (!entry) return;
@@ -83,22 +81,21 @@ export function LessonFigure({
   }, [entry, knowledgePointId, safe, play, motion]);
 
   useEffect(() => {
-    return () => {
-      if (typeof window !== 'undefined') window.speechSynthesis?.cancel();
-    };
+    return () => stopSpeaking();
   }, []);
+
 
   if (!entry) return null;
 
   const replay = () => {
-    if (typeof window !== 'undefined') window.speechSynthesis?.cancel();
     setPlay((n) => n + 1);
+    if (spoken) speakEnglish(spoken);
   };
 
   const readAloud = () => {
     const parts = [`第 ${safe + 1} 步。${role.look}。`, entry.captions[safe]];
     if (lessonText) parts.push(lessonText);
-    speakZh(parts.join(''));
+    speakChinese(parts.join(''));
   };
 
   return (
@@ -146,6 +143,16 @@ export function LessonFigure({
         ))}
       </div>
       <p className="mt-2 text-sm font-bold leading-relaxed text-[var(--fg)]">{entry.captions[safe]}</p>
+      {spoken && (
+        <div className="mt-2 flex flex-wrap items-center gap-2">
+          <p className="text-lg font-bold leading-relaxed text-[var(--fg)]" lang="en">
+            {spoken}
+          </p>
+          <button type="button" className="btn btn-primary px-3 py-2 text-sm" onClick={() => speakEnglish(spoken)}>
+            聽英文
+          </button>
+        </div>
+      )}
       <p className="mt-1 text-xs text-[var(--muted)]">{role.hint}</p>
       {lessonText && !compact && (
         <p className="mt-2 rounded-xl bg-[var(--bg2)] px-3 py-2 text-sm leading-relaxed">{lessonText}</p>
@@ -156,7 +163,12 @@ export function LessonFigure({
             type="button"
             className="btn btn-secondary flex-1 text-sm"
             disabled={safe === 0}
-            onClick={() => setLocalStep((n) => Math.max(0, n - 1))}
+            onClick={() => {
+              const next = Math.max(0, safe - 1);
+              setLocalStep(next);
+              const line = englishLineFor(knowledgePointId, next);
+              if (line) speakEnglish(line);
+            }}
           >
             上一步
           </button>
@@ -164,7 +176,12 @@ export function LessonFigure({
             type="button"
             className="btn btn-secondary flex-1 text-sm"
             disabled={safe === last}
-            onClick={() => setLocalStep((n) => Math.min(last, n + 1))}
+            onClick={() => {
+              const next = Math.min(last, safe + 1);
+              setLocalStep(next);
+              const line = englishLineFor(knowledgePointId, next);
+              if (line) speakEnglish(line);
+            }}
           >
             看懂了，下一步
           </button>

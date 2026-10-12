@@ -2,7 +2,9 @@
 
 import { Question, QuestionType, QuestionMark } from '@/lib/types';
 import { LessonFigure } from '@/components/figures/LessonFigure';
-import { useState, useRef } from 'react';
+import { primeVoices, speakEnglish } from '@/lib/browserSpeech';
+import { englishFromQuestion } from '@/lib/englishSpeech';
+import { useEffect, useState, useRef } from 'react';
 
 interface QuestionCardProps {
   question: Question;
@@ -26,6 +28,12 @@ export function QuestionCard({
 }: QuestionCardProps) {
   const [selected, setSelected] = useState<string[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
+  const heard =
+    question.subject === 'english' ? englishFromQuestion(question.stem, question.options) : '';
+
+  useEffect(() => {
+    if (heard) primeVoices();
+  }, [heard]);
 
   const handleSubmit = () => {
     if (question.type === 'fill') {
@@ -62,6 +70,13 @@ export function QuestionCard({
       <div className={fill ? 'min-h-0 flex-1 overflow-y-auto' : ''}>
         <h3 className="section-title mb-4">題目 {question.tags.join(' ')}</h3>
         <p className="text-[var(--fg)] mb-6 whitespace-pre-wrap leading-relaxed">{question.stem}</p>
+        {heard && (
+          <div className="mb-4">
+            <button type="button" className="btn btn-secondary px-3 py-2 text-sm" onClick={() => speakEnglish(heard)}>
+              聽英文
+            </button>
+          </div>
+        )}
         
         {question.type !== 'fill' && question.options && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
