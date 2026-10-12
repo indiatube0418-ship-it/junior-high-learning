@@ -11,12 +11,12 @@ import { speakEnglish } from '@/lib/browserSpeech';
 import { TopBar } from '@/components/TopBar';
 import { books, findUnit, questions as allQuestions, isUnitUnlocked } from '@/lib/questions';
 import type { Question, Subject } from '@/lib/types';
-import { SUBJECT_TABS } from '@/lib/subjects';
+import { SUBJECT_TABS, subjectFromQuery } from '@/lib/subjects';
 
 function LearnContent() {
   const searchParams = useSearchParams();
   const unitId = searchParams?.get('unit') || '';
-  const subject = (searchParams?.get('subject') || 'math') as Subject;
+  const subject = subjectFromQuery(searchParams?.get('subject') || 'math');
   const { userData, recordAnswer, toggleMark, unlockUnit, refreshSrs } = useUserData();
   const [currentKP, setCurrentKP] = useState(0);
   const [lessonStep, setLessonStep] = useState(0);

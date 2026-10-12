@@ -9,6 +9,7 @@ import { QuestionCard } from '@/components/QuestionCard';
 import { LessonFigure } from '@/components/figures/LessonFigure';
 import { getQuestionsByTier, sampleQuestions } from '@/lib/questions';
 import type { Question, Subject } from '@/lib/types';
+import { subjectFromQuery } from '@/lib/subjects';
 
 function drawExamQuestions(subject: Subject): Question[] {
   const examQuestions = sampleQuestions(getQuestionsByTier('exam', undefined, subject), 10);
@@ -35,7 +36,7 @@ function answersMatch(expected: string | string[], given: string | string[] | un
  */
 function ExamContent() {
   const searchParams = useSearchParams();
-  const subject = (searchParams?.get('subject') || 'math') as Subject;
+  const subject = subjectFromQuery(searchParams?.get('subject') || 'math');
   const { userData, recordAnswer } = useUserData();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);

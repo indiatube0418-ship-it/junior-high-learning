@@ -3,6 +3,7 @@ import { englishFigures } from './englishCatalog';
 import { chineseFigures } from './chineseCatalog';
 import { socialFigures } from './socialCatalog';
 import { biologyFigures } from './biologyCatalog';
+import { strandFigures } from './strandCatalog';
 
 export interface FigureEntry {
   title: string;
@@ -18,6 +19,7 @@ export const figures: Record<string, FigureEntry> = {
   ...chineseFigures,
   ...socialFigures,
   ...biologyFigures,
+  ...strandFigures,
   'unit-1-1-kp1': {
     title: '正數、負數和零',
     captions: [

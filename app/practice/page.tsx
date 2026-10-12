@@ -9,12 +9,13 @@ import { TopBar } from '@/components/TopBar';
 import { ProgressRing } from '@/components/ProgressRing';
 import { getQuestionsByTier, sampleQuestions } from '@/lib/questions';
 import type { Question, Subject } from '@/lib/types';
+import { subjectFromQuery } from '@/lib/subjects';
 
 function PracticeContent() {
   const searchParams = useSearchParams();
   const mode = (searchParams?.get('mode') || 'basic') as 'basic' | 'advanced' | 'exam';
   const unitId = searchParams?.get('unit') || '';
-  const subject = (searchParams?.get('subject') || 'math') as Subject;
+  const subject = subjectFromQuery(searchParams?.get('subject') || 'math');
   const { userData, recordAnswer, toggleMark, refreshSrs } = useUserData();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);

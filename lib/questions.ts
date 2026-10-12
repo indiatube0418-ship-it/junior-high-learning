@@ -1,5 +1,5 @@
 /**
- * 題庫：國一到國三數學、國文、英文、社會，以及國一生物。
+ * 題庫：數學、國文、英文、歷史、地理、公民、國一生物，以及國二國三理化。
  * 進度以單元最新作答計算。所有單元都開放，不依前一關上鎖。
  * 答對率 ≥80% 且至少 4 題，單元標成已通過。
  */
@@ -7,8 +7,11 @@
 import mathBank from '@/data/math-bank.json';
 import englishBank from '@/data/english-bank.json';
 import chineseBank from '@/data/chinese-bank.json';
-import socialBank from '@/data/social-bank.json';
+import historyBank from '@/data/history-bank.json';
+import geographyBank from '@/data/geography-bank.json';
+import civicsBank from '@/data/civics-bank.json';
 import biologyBank from '@/data/biology-bank.json';
+import scienceBank from '@/data/science-bank.json';
 import type { Chapter, Grade, Question, Semester, Subject, Tier, Unit, UserData } from './types';
 
 export interface CourseBook {
@@ -33,11 +36,14 @@ function loadBooks(
 const math = loadBooks(mathBank as { books: CourseBook[]; questions: Question[] }, 'math');
 const english = loadBooks(englishBank as { books: CourseBook[]; questions: Question[] }, 'english');
 const chinese = loadBooks(chineseBank as { books: CourseBook[]; questions: Question[] }, 'chinese');
-const social = loadBooks(socialBank as { books: CourseBook[]; questions: Question[] }, 'social');
+const history = loadBooks(historyBank as { books: CourseBook[]; questions: Question[] }, 'history');
+const geography = loadBooks(geographyBank as { books: CourseBook[]; questions: Question[] }, 'geography');
+const civics = loadBooks(civicsBank as { books: CourseBook[]; questions: Question[] }, 'civics');
 const biology = loadBooks(biologyBank as { books: CourseBook[]; questions: Question[] }, 'biology');
+const science = loadBooks(scienceBank as { books: CourseBook[]; questions: Question[] }, 'science');
 
-export const books: CourseBook[] = [...math.books, ...chinese.books, ...english.books, ...social.books, ...biology.books];
-export const questions: Question[] = [...math.questions, ...chinese.questions, ...english.questions, ...social.questions, ...biology.questions];
+export const books: CourseBook[] = [...math.books, ...chinese.books, ...english.books, ...history.books, ...geography.books, ...civics.books, ...biology.books, ...science.books];
+export const questions: Question[] = [...math.questions, ...chinese.questions, ...english.questions, ...history.questions, ...geography.questions, ...civics.questions, ...biology.questions, ...science.questions];
 
 export function allChapters(): Chapter[] {
   return books.flatMap((book) => book.chapters);

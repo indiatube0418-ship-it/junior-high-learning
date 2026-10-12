@@ -1,0 +1,3674 @@
+{
+  "books": [
+    {
+      "id": "sc8a",
+      "title": "理化・國二上",
+      "grade": 2,
+      "semester": 1,
+      "subject": "science",
+      "chapters": [
+        {
+          "id": "sc8a-ch1",
+          "title": "測量和物質",
+          "units": [
+            {
+              "id": "sc8a-u01",
+              "title": "測量與估計",
+              "knowledgePoints": [
+                {
+                  "id": "sc8a-u01-kp1",
+                  "title": "測量與估計",
+                  "lesson": [
+                    "測量要有單位，並且讀到最小刻度的下一位。",
+                    "最後那一位是估計的，所以測量值不是無限精確。",
+                    "最小刻度是 1 公釐時，可以估到 0.1 公釐。",
+                    "記錄時要寫數字和單位。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8a-u02",
+              "title": "密度",
+              "knowledgePoints": [
+                {
+                  "id": "sc8a-u02-kp1",
+                  "title": "密度",
+                  "lesson": [
+                    "密度等於質量除以體積。",
+                    "同一種物質，密度大致一定。",
+                    "水的密度大約是 1 g/cm³。",
+                    "同體積時，密度大的質量比較大。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8a-u03",
+              "title": "純物質、混合物和變化",
+              "knowledgePoints": [
+                {
+                  "id": "sc8a-u03-kp1",
+                  "title": "純物質、混合物和變化",
+                  "lesson": [
+                    "純物質只有一種物質，混合物是兩種以上混在一起。",
+                    "氧氣是純物質，空氣是混合物。",
+                    "物理變化沒有產生新物質，三態變化屬於物理變化。",
+                    "化學變化會產生新物質，例如紙燃燒。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8a-u04",
+              "title": "水溶液的濃度",
+              "knowledgePoints": [
+                {
+                  "id": "sc8a-u04-kp1",
+                  "title": "水溶液的濃度",
+                  "lesson": [
+                    "溶液等於溶質加上溶劑。",
+                    "重量百分濃度是溶質質量占溶液質量的百分比。",
+                    "10 克鹽配成 100 克鹽水，濃度是 10%。",
+                    "把 10 克鹽加進 100 克水，溶液是 110 克，不是 10%。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sc8a-ch2",
+          "title": "波、光、熱和粒子",
+          "units": [
+            {
+              "id": "sc8a-u05",
+              "title": "波和聲音",
+              "knowledgePoints": [
+                {
+                  "id": "sc8a-u05-kp1",
+                  "title": "波和聲音",
+                  "lesson": [
+                    "波傳遞能量，不把介質一起送過去。",
+                    "聲音需要介質，真空裡聽不到。",
+                    "頻率高，音調高；振幅大，通常比較大聲。",
+                    "波速大約等於頻率乘以波長。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8a-u06",
+              "title": "光的反射和折射",
+              "knowledgePoints": [
+                {
+                  "id": "sc8a-u06-kp1",
+                  "title": "光的反射和折射",
+                  "lesson": [
+                    "光在同一種均勻介質裡直線前進。",
+                    "反射時，入射角等於反射角，角度從法線量起。",
+                    "光從空氣斜射進水，折射角會小於入射角。",
+                    "凸透鏡會聚光，放大鏡就是凸透鏡；凹透鏡讓光散開。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8a-u07",
+              "title": "溫度、熱和比熱",
+              "knowledgePoints": [
+                {
+                  "id": "sc8a-u07-kp1",
+                  "title": "溫度、熱和比熱",
+                  "lesson": [
+                    "溫度表示冷熱程度，熱是能量。",
+                    "熱會從溫度高的地方傳到溫度低的地方。",
+                    "傳導、對流、輻射是三種方式，輻射可以穿過真空。",
+                    "質量和吸收的熱相同時，比熱大的升溫比較少。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8a-u08",
+              "title": "元素、化合物和原子",
+              "knowledgePoints": [
+                {
+                  "id": "sc8a-u08-kp1",
+                  "title": "元素、化合物和原子",
+                  "lesson": [
+                    "元素只由同一種原子組成。",
+                    "化合物由兩種以上元素化合而成，例如水是 H₂O。",
+                    "氧氣 O₂ 是純物質，但不是化合物。",
+                    "化學反應是原子重新組合，不是把原子拆成更小的核反應。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sc8b",
+      "title": "理化・國二下",
+      "grade": 2,
+      "semester": 2,
+      "subject": "science",
+      "chapters": [
+        {
+          "id": "sc8b-ch1",
+          "title": "化學變化",
+          "units": [
+            {
+              "id": "sc8b-u01",
+              "title": "質量守恆",
+              "knowledgePoints": [
+                {
+                  "id": "sc8b-u01-kp1",
+                  "title": "質量守恆",
+                  "lesson": [
+                    "化學反應前後，原子的種類和數目不變。",
+                    "所以密閉容器裡的總質量不變。",
+                    "蠟燭在開放空間變輕，是氣體散走了。",
+                    "看起來消失，不代表質量被消滅。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8b-u02",
+              "title": "氧化和活性",
+              "knowledgePoints": [
+                {
+                  "id": "sc8b-u02-kp1",
+                  "title": "氧化和活性",
+                  "lesson": [
+                    "燃燒和鐵生鏽都是氧化的例子。",
+                    "狹義的氧化是得氧，廣義則常說成失去電子。",
+                    "活性大的金屬比較容易變成離子。",
+                    "鋅放進硫酸銅溶液，會把銅置換出來。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8b-u03",
+              "title": "酸、鹼和 pH",
+              "knowledgePoints": [
+                {
+                  "id": "sc8b-u03-kp1",
+                  "title": "酸、鹼和 pH",
+                  "lesson": [
+                    "酸的水溶液有氫離子，嘗起來酸；鹼常有氫氧根離子，感覺滑。",
+                    "pH 7 是中性，小於 7 偏酸，大於 7 偏鹼。",
+                    "pH 愈小，酸性愈強。",
+                    "酸和鹼反應可以生成鹽和水。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8b-u04",
+              "title": "反應速率",
+              "knowledgePoints": [
+                {
+                  "id": "sc8b-u04-kp1",
+                  "title": "反應速率",
+                  "lesson": [
+                    "速率看的是反應快慢，不是最後能產生多少。",
+                    "溫度高、濃度高、接觸面積大，通常比較快。",
+                    "催化劑能加快反應，本身的質量最後不變。",
+                    "把藥品磨碎，是在增加接觸面積。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sc8b-ch2",
+          "title": "力和流體",
+          "units": [
+            {
+              "id": "sc8b-u05",
+              "title": "力與平衡",
+              "knowledgePoints": [
+                {
+                  "id": "sc8b-u05-kp1",
+                  "title": "力與平衡",
+                  "lesson": [
+                    "力有大小、方向和作用點。",
+                    "合力為零時，物體平衡。",
+                    "平衡可以是靜止，也可以是等速度直線運動。",
+                    "速度正在改變，就還沒有達到力的平衡。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8b-u06",
+              "title": "摩擦力",
+              "knowledgePoints": [
+                {
+                  "id": "sc8b-u06-kp1",
+                  "title": "摩擦力",
+                  "lesson": [
+                    "摩擦力阻礙物體相對滑動。",
+                    "接觸面愈粗糙，摩擦力通常愈大。",
+                    "把物體壓得愈緊，摩擦力通常也愈大。",
+                    "走路時，鞋底向後推地面，地面用摩擦力把人向前推。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8b-u07",
+              "title": "壓力",
+              "knowledgePoints": [
+                {
+                  "id": "sc8b-u07-kp1",
+                  "title": "壓力",
+                  "lesson": [
+                    "壓力等於垂直力除以受力面積。",
+                    "同一股力，面積愈小，壓力愈大。",
+                    "刀刃和針尖就是把面積變小。",
+                    "雪地鞋把面積變大，人就不容易陷下去。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc8b-u08",
+              "title": "浮力",
+              "knowledgePoints": [
+                {
+                  "id": "sc8b-u08-kp1",
+                  "title": "浮力",
+                  "lesson": [
+                    "浮力等於物體排開的液體重量。",
+                    "全部浸入時，體積相同，排開的液體一樣多，浮力就一樣大。",
+                    "會不會上浮，要再比較浮力和物重。",
+                    "平均密度比液體小，物體就浮起來。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sc9a",
+      "title": "理化・國三上",
+      "grade": 3,
+      "semester": 1,
+      "subject": "science",
+      "chapters": [
+        {
+          "id": "sc9a-ch1",
+          "title": "運動和力",
+          "units": [
+            {
+              "id": "sc9a-u01",
+              "title": "位移和路徑長",
+              "knowledgePoints": [
+                {
+                  "id": "sc9a-u01-kp1",
+                  "title": "位移和路徑長",
+                  "lesson": [
+                    "路徑長是實際走了多遠。",
+                    "位移只看起點到終點，而且有方向。",
+                    "走一圈回到原點，位移是零，路徑長不是零。",
+                    "向東 3 公尺再向西 3 公尺，位移是 0。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9a-u02",
+              "title": "速率和速度",
+              "knowledgePoints": [
+                {
+                  "id": "sc9a-u02-kp1",
+                  "title": "速率和速度",
+                  "lesson": [
+                    "速率是路徑長除以時間，只有快慢。",
+                    "速度是位移除以時間，有快慢也有方向。",
+                    "方向一變，速度就變了，即使快慢不變。",
+                    "平均速率和平均速度的分母都是時間，分子不同。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9a-u03",
+              "title": "加速度和自由落體",
+              "knowledgePoints": [
+                {
+                  "id": "sc9a-u03-kp1",
+                  "title": "加速度和自由落體",
+                  "lesson": [
+                    "速度的大小或方向改變，就有加速度。",
+                    "慢下來也是加速度，只是和速度方向相反。",
+                    "忽略空氣阻力時，輕重物體同時落地。",
+                    "這個加速度大約是每秒 9.8 公尺/秒。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9a-u04",
+              "title": "力和加速度",
+              "knowledgePoints": [
+                {
+                  "id": "sc9a-u04-kp1",
+                  "title": "力和加速度",
+                  "lesson": [
+                    "質量大，同樣的力造成的加速度比較小。",
+                    "力變大，同樣質量的加速度變大。",
+                    "關係可以寫成力等於質量乘以加速度。",
+                    "這個力是合力，不是隨便一股分力。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9a-u05",
+              "title": "作用力與反作用力",
+              "knowledgePoints": [
+                {
+                  "id": "sc9a-u05-kp1",
+                  "title": "作用力與反作用力",
+                  "lesson": [
+                    "兩股力一樣大、方向相反，而且在同一直線上。",
+                    "它們作用在兩個不同的物體上。",
+                    "所以不會在同一個物體上互相抵消。",
+                    "人推牆，牆也用人一樣大的力推人。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sc9a-ch2",
+          "title": "功和電",
+          "units": [
+            {
+              "id": "sc9a-u06",
+              "title": "功、動能和位能",
+              "knowledgePoints": [
+                {
+                  "id": "sc9a-u06-kp1",
+                  "title": "功、動能和位能",
+                  "lesson": [
+                    "力和位移同一方向時，功等於力乘以位移。",
+                    "力和位移垂直時，這股力不做功。",
+                    "物體愈重、愈快，動能愈大；位置愈高，重力位能愈大。",
+                    "有摩擦時，一部分能量會變成熱，不會全部留下。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9a-u07",
+              "title": "簡單機械",
+              "knowledgePoints": [
+                {
+                  "id": "sc9a-u07-kp1",
+                  "title": "簡單機械",
+                  "lesson": [
+                    "槓桿繞著支點轉動。",
+                    "省力槓桿的施力臂比較長，施力可以比較小。",
+                    "省了力，通常就要移動比較長的距離。",
+                    "理想情況下，省力不會省功。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9a-u08",
+              "title": "電壓、電流和電阻",
+              "knowledgePoints": [
+                {
+                  "id": "sc9a-u08-kp1",
+                  "title": "電壓、電流和電阻",
+                  "lesson": [
+                    "電壓推動電荷，電流是電荷在流動。",
+                    "規定的電流方向是正電荷流動的方向，電子實際相反。",
+                    "電阻阻礙電流。",
+                    "電壓等於電流乘以電阻。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sc9b",
+      "title": "理化・國三下",
+      "grade": 3,
+      "semester": 2,
+      "subject": "science",
+      "chapters": [
+        {
+          "id": "sc9b-ch1",
+          "title": "電路和磁",
+          "units": [
+            {
+              "id": "sc9b-u01",
+              "title": "串聯和並聯",
+              "knowledgePoints": [
+                {
+                  "id": "sc9b-u01-kp1",
+                  "title": "串聯和並聯",
+                  "lesson": [
+                    "串聯只有一條路，電流處處相等。",
+                    "串聯的總電壓等於各段電壓相加，總電阻也相加。",
+                    "並聯各支路的電壓相等。",
+                    "並聯的總電流等於各支路相加，總電阻比任何一條支路都小。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9b-u02",
+              "title": "電功率和家庭用電",
+              "knowledgePoints": [
+                {
+                  "id": "sc9b-u02-kp1",
+                  "title": "電功率和家庭用電",
+                  "lesson": [
+                    "電功率等於電壓乘以電流，單位是瓦特。",
+                    "同樣電壓下，功率大的電器電流比較大。",
+                    "電能等於功率乘以時間，一度電是 1 千瓦小時。",
+                    "台灣一般插座大約 110 伏特，電流過大時保險絲會熔斷保護電路。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9b-u03",
+              "title": "電流的熱效應和化學效應",
+              "knowledgePoints": [
+                {
+                  "id": "sc9b-u03-kp1",
+                  "title": "電流的熱效應和化學效應",
+                  "lesson": [
+                    "電流通過有電阻的導線會發熱。",
+                    "電熱器利用的就是熱效應。",
+                    "電解質溶液能導電，電流通過時可以發生化學變化。",
+                    "電解水可以得到氫和氧。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9b-u04",
+              "title": "磁鐵和磁場",
+              "knowledgePoints": [
+                {
+                  "id": "sc9b-u04-kp1",
+                  "title": "磁鐵和磁場",
+                  "lesson": [
+                    "磁鐵有 N 極和 S 極，同極相斥、異極相吸。",
+                    "磁鐵外部的磁場方向，規定由 N 極指向 S 極。",
+                    "磁場看不見，可以用磁針或鐵屑觀察。",
+                    "把磁鐵剪斷，每一段仍同時有 N 極和 S 極。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9b-u05",
+              "title": "電流可以生磁",
+              "knowledgePoints": [
+                {
+                  "id": "sc9b-u05-kp1",
+                  "title": "電流可以生磁",
+                  "lesson": [
+                    "通電導線旁邊的磁針會偏轉。",
+                    "導線繞成線圈，磁性更明顯。",
+                    "線圈加上鐵芯，就成為電磁鐵。",
+                    "電流愈大、匝數愈多，電磁鐵通常愈強；斷電後軟鐵芯的磁性跟著消失。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9b-u06",
+              "title": "電磁感應",
+              "knowledgePoints": [
+                {
+                  "id": "sc9b-u06-kp1",
+                  "title": "電磁感應",
+                  "lesson": [
+                    "閉合線圈裡的磁場改變時，會產生感應電流。",
+                    "磁鐵插得愈快，電流通常愈明顯。",
+                    "發電機用這個原理把動能轉成電能。",
+                    "電動機相反，把電能轉成動能。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sc9b-ch2",
+          "title": "有機物和能源",
+          "units": [
+            {
+              "id": "sc9b-u07",
+              "title": "有機化合物",
+              "knowledgePoints": [
+                {
+                  "id": "sc9b-u07-kp1",
+                  "title": "有機化合物",
+                  "lesson": [
+                    "有機物多半含碳，但二氧化碳、一氧化碳和碳酸鹽通常不算。",
+                    "甲烷是最簡單的烷類，化學式是 CH₄。",
+                    "煤、石油和天然氣來自動植物長期變化，屬於化石燃料。",
+                    "它們燃燒會產生二氧化碳。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sc9b-u08",
+              "title": "能源",
+              "knowledgePoints": [
+                {
+                  "id": "sc9b-u08-kp1",
+                  "title": "能源",
+                  "lesson": [
+                    "煤、石油、天然氣用了會減少，而且燃燒產生二氧化碳。",
+                    "太陽能、風力和水力可以持續補充，稱為再生能源。",
+                    "能量可以轉換，但每次都會有一部分變成比較難用的熱。",
+                    "核能能產生大量電力，廢料則需要長期處理。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u01-sc8a-u01-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u01",
+      "knowledgePointId": "sc8a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "測量值最後一位通常是？",
+      "options": [
+        "估計出來的",
+        "永遠剛好是零",
+        "不需要讀",
+        "一定是單位本身"
+      ],
+      "answer": "A",
+      "explanation": "估計到最小刻度的下一位。",
+      "tags": [
+        "測量與估計"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u01-sc8a-u01-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u01",
+      "knowledgePointId": "sc8a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "尺的最小刻度是 0.1 公分。讀數可以估到？",
+      "options": [
+        "0.01 公分",
+        "1 公尺",
+        "不用估計",
+        "只寫到 10 公分"
+      ],
+      "answer": "A",
+      "explanation": "再往下估一位。",
+      "tags": [
+        "測量與估計"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u01-sc8a-u01-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u01",
+      "knowledgePointId": "sc8a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "12 公尺和 12.0 公尺差在？",
+      "options": [
+        "後者告訴你估到了小數那位",
+        "兩者精度一定相同",
+        "前者比較科學",
+        "單位不同所以不能比"
+      ],
+      "answer": "A",
+      "explanation": "小數位代表估計的位置。",
+      "tags": [
+        "測量與估計"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u01-sc8a-u01-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u01",
+      "knowledgePointId": "sc8a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "只寫 3.5、不寫單位。問題是？",
+      "options": [
+        "別人不知道是公分還是公尺",
+        "數字太小",
+        "估計值不能有小數",
+        "單位會改變刻度"
+      ],
+      "answer": "A",
+      "explanation": "數字和單位要一起出現。",
+      "tags": [
+        "測量與估計"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u02-sc8a-u02-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u02",
+      "knowledgePointId": "sc8a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "密度的算法是？",
+      "options": [
+        "質量 ÷ 體積",
+        "體積 ÷ 質量",
+        "質量 + 體積",
+        "質量 × 時間"
+      ],
+      "answer": "A",
+      "explanation": "密度表示單位體積有多少質量。",
+      "tags": [
+        "密度"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u02-sc8a-u02-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u02",
+      "knowledgePointId": "sc8a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "質量 20 g、體積 10 cm³，密度是？",
+      "options": [
+        "2 g/cm³",
+        "200 g/cm³",
+        "0.5 g",
+        "30 cm³"
+      ],
+      "answer": "A",
+      "explanation": "20÷10=2。",
+      "tags": [
+        "密度"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u02-sc8a-u02-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u02",
+      "knowledgePointId": "sc8a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "同樣 1 cm³，鐵比木頭重，是因為？",
+      "options": [
+        "鐵的密度比較大",
+        "鐵沒有體積",
+        "木頭沒有質量",
+        "密度看顏色"
+      ],
+      "answer": "A",
+      "explanation": "同體積比質量，就是在比密度。",
+      "tags": [
+        "密度"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u02-sc8a-u02-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u02",
+      "knowledgePointId": "sc8a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "一塊金屬切成兩半。每一半的密度？",
+      "options": [
+        "大致不變",
+        "變成兩倍",
+        "變成零",
+        "單位消失"
+      ],
+      "answer": "A",
+      "explanation": "密度是物質的性質，不隨切塊改變。",
+      "tags": [
+        "密度"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u03-sc8a-u03-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u03",
+      "knowledgePointId": "sc8a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "空氣屬於？",
+      "options": [
+        "混合物",
+        "元素",
+        "化合物",
+        "一種原子"
+      ],
+      "answer": "A",
+      "explanation": "空氣含氮、氧和其他氣體。",
+      "tags": [
+        "純物質、混合物和變化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u03-sc8a-u03-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u03",
+      "knowledgePointId": "sc8a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "冰融化成水是？",
+      "options": [
+        "物理變化",
+        "化學變化",
+        "產生新元素",
+        "核反應"
+      ],
+      "answer": "A",
+      "explanation": "物質還是水，只是狀態改變。",
+      "tags": [
+        "純物質、混合物和變化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u03-sc8a-u03-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u03",
+      "knowledgePointId": "sc8a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "哪一個產生了新物質？",
+      "options": [
+        "木炭燃燒",
+        "糖溶在水裡",
+        "水結冰",
+        "玻璃打破"
+      ],
+      "answer": "A",
+      "explanation": "燃燒生成新的物質。",
+      "tags": [
+        "純物質、混合物和變化"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u03-sc8a-u03-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u03",
+      "knowledgePointId": "sc8a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "鹽水可以用蒸發把水去掉而留下鹽。這表示？",
+      "options": [
+        "混合物常能用物理方法分離",
+        "鹽水是元素",
+        "蒸發是核反應",
+        "鹽變成了另一種元素"
+      ],
+      "answer": "A",
+      "explanation": "分離後成分還在。",
+      "tags": [
+        "純物質、混合物和變化"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u04-sc8a-u04-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u04",
+      "knowledgePointId": "sc8a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "重量百分濃度的分母是？",
+      "options": [
+        "溶液質量",
+        "溶劑質量",
+        "燒杯質量",
+        "溫度"
+      ],
+      "answer": "A",
+      "explanation": "溶質占整杯溶液的比例。",
+      "tags": [
+        "水溶液的濃度"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u04-sc8a-u04-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u04",
+      "knowledgePointId": "sc8a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "20 克糖溶成 200 克糖水。濃度是？",
+      "options": [
+        "10%",
+        "20%",
+        "180%",
+        "200%"
+      ],
+      "answer": "A",
+      "explanation": "20÷200=10%。",
+      "tags": [
+        "水溶液的濃度"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u04-sc8a-u04-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u04",
+      "knowledgePointId": "sc8a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "10 克鹽加進 100 克水。濃度約是？",
+      "options": [
+        "9%",
+        "10%",
+        "110%",
+        "90%"
+      ],
+      "answer": "A",
+      "explanation": "溶液約 110 克，10/110 約 9%。",
+      "tags": [
+        "水溶液的濃度"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-1-sc8a-ch1-sc8a-u04-sc8a-u04-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch1",
+      "unitId": "sc8a-u04",
+      "knowledgePointId": "sc8a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "把溶液加水稀釋，溶質質量不變。濃度會？",
+      "options": [
+        "變小",
+        "變大",
+        "變成零以下",
+        "單位變成公分"
+      ],
+      "answer": "A",
+      "explanation": "分母變大，百分比下降。",
+      "tags": [
+        "水溶液的濃度"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u05-sc8a-u05-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u05",
+      "knowledgePointId": "sc8a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "把鐘放在逐漸抽掉空氣的罩子裡，聲音會？",
+      "options": [
+        "變小",
+        "變得更清楚",
+        "變成光",
+        "頻率一定變高"
+      ],
+      "answer": "A",
+      "explanation": "空氣變少，聲音缺少介質。",
+      "tags": [
+        "波和聲音"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u05-sc8a-u05-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u05",
+      "knowledgePointId": "sc8a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "音調高低主要看？",
+      "options": [
+        "頻率",
+        "顏色",
+        "質量",
+        "密度單位"
+      ],
+      "answer": "A",
+      "explanation": "頻率高，音調高。",
+      "tags": [
+        "波和聲音"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u05-sc8a-u05-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u05",
+      "knowledgePointId": "sc8a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "頻率 2 Hz、波長 3 m，波速是？",
+      "options": [
+        "6 m/s",
+        "1.5 m/s",
+        "5 m/s",
+        "2 m"
+      ],
+      "answer": "A",
+      "explanation": "波速＝頻率×波長。",
+      "tags": [
+        "波和聲音"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u05-sc8a-u05-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u05",
+      "knowledgePointId": "sc8a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "光可以穿過真空、聲音不行。差在？",
+      "options": [
+        "聲音需要介質",
+        "光沒有能量",
+        "聲音比光快",
+        "真空會吸收所有頻率"
+      ],
+      "answer": "A",
+      "explanation": "聲音是介質的振動。",
+      "tags": [
+        "波和聲音"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u06-sc8a-u06-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u06",
+      "knowledgePointId": "sc8a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "反射定律是？",
+      "options": [
+        "入射角等於反射角",
+        "入射角一定是 90 度",
+        "角度要貼著鏡面量",
+        "光會轉彎回太陽"
+      ],
+      "answer": "A",
+      "explanation": "兩個角都從法線量。",
+      "tags": [
+        "光的反射和折射"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u06-sc8a-u06-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u06",
+      "knowledgePointId": "sc8a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "放大鏡通常是？",
+      "options": [
+        "凸透鏡",
+        "凹透鏡",
+        "平面鏡的背面",
+        "不透明板"
+      ],
+      "answer": "A",
+      "explanation": "凸透鏡能會聚光線。",
+      "tags": [
+        "光的反射和折射"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u06-sc8a-u06-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u06",
+      "knowledgePointId": "sc8a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "光從空氣斜斜進入水中。",
+      "options": [
+        "折射角小於入射角",
+        "一定沒有折射",
+        "反射角變成零",
+        "光速在水中比較快所以角度變大"
+      ],
+      "answer": "A",
+      "explanation": "水中光速較慢，折射角較小。",
+      "tags": [
+        "光的反射和折射"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u06-sc8a-u06-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u06",
+      "knowledgePointId": "sc8a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "有人把角度從鏡面量成 30 度。若法線量是 60 度，他漏了？",
+      "options": [
+        "角度要從法線量",
+        "反射定律",
+        "光會前進",
+        "鏡子會反射"
+      ],
+      "answer": "A",
+      "explanation": "法線垂直鏡面，兩個量法加起來是 90 度。",
+      "tags": [
+        "光的反射和折射"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u07-sc8a-u07-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u07",
+      "knowledgePointId": "sc8a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "0℃ 代表？",
+      "options": [
+        "水在一大氣壓下的凝固點附近",
+        "完全沒有熱",
+        "沒有分子",
+        "絕對不能傳熱"
+      ],
+      "answer": "A",
+      "explanation": "零度仍有熱運動，不是沒有能量。",
+      "tags": [
+        "溫度、熱和比熱"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u07-sc8a-u07-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u07",
+      "knowledgePointId": "sc8a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "太陽的熱傳到地球，主要靠？",
+      "options": [
+        "輻射",
+        "必須有空氣當對流",
+        "鐵棒連接",
+        "聲音"
+      ],
+      "answer": "A",
+      "explanation": "輻射不需要介質。",
+      "tags": [
+        "溫度、熱和比熱"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u07-sc8a-u07-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u07",
+      "knowledgePointId": "sc8a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "同樣質量的水和鐵吸收同樣熱量。水的溫度上升通常？",
+      "options": [
+        "比鐵少，因為水的比熱較大",
+        "一定比鐵多",
+        "變成零",
+        "跟比熱無關"
+      ],
+      "answer": "A",
+      "explanation": "比熱大，同樣熱量升溫少。",
+      "tags": [
+        "溫度、熱和比熱"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u07-sc8a-u07-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u07",
+      "knowledgePointId": "sc8a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "一杯熱水和一大桶溫水，哪一個熱量一定比較多？",
+      "options": [
+        "不能只看溫度",
+        "一定是熱水",
+        "一定是溫度數字小的",
+        "熱量等於溫度"
+      ],
+      "answer": "A",
+      "explanation": "還要看質量和比熱。",
+      "tags": [
+        "溫度、熱和比熱"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u08-sc8a-u08-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u08",
+      "knowledgePointId": "sc8a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "水是？",
+      "options": [
+        "化合物",
+        "元素",
+        "混合物空氣",
+        "一種原子"
+      ],
+      "answer": "A",
+      "explanation": "水由氫和氧組成。",
+      "tags": [
+        "元素、化合物和原子"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u08-sc8a-u08-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u08",
+      "knowledgePointId": "sc8a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "氧氣 O₂ 是？",
+      "options": [
+        "由氧元素組成的純物質，不是化合物",
+        "混合物",
+        "化合物",
+        "沒有原子"
+      ],
+      "answer": "A",
+      "explanation": "只有一種元素，屬於單質。",
+      "tags": [
+        "元素、化合物和原子"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u08-sc8a-u08-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u08",
+      "knowledgePointId": "sc8a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "化學反應裡，原子會？",
+      "options": [
+        "重新組合",
+        "全部消失",
+        "變成另一種元素的原子核",
+        "不再守住質量"
+      ],
+      "answer": "A",
+      "explanation": "一般化學變化不改變原子核。",
+      "tags": [
+        "元素、化合物和原子"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-1-sc8a-ch2-sc8a-u08-sc8a-u08-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "sc8a-ch2",
+      "unitId": "sc8a-u08",
+      "knowledgePointId": "sc8a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "空氣、氧氣、水，依序是？",
+      "options": [
+        "混合物、單質、化合物",
+        "三種都是元素",
+        "三種都是混合物",
+        "化合物、混合物、元素"
+      ],
+      "answer": "A",
+      "explanation": "先看裡面有幾種物質、幾種元素。",
+      "tags": [
+        "元素、化合物和原子"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u01-sc8b-u01-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u01",
+      "knowledgePointId": "sc8b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "密閉容器中反應前後，總質量？",
+      "options": [
+        "相等",
+        "一定變重",
+        "一定變輕",
+        "不能測量"
+      ],
+      "answer": "A",
+      "explanation": "這就是質量守恆。",
+      "tags": [
+        "質量守恆"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u01-sc8b-u01-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u01",
+      "knowledgePointId": "sc8b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "開放空間裡木頭燒完變輕，主要是因為？",
+      "options": [
+        "有氣體產物離開",
+        "質量被消滅",
+        "原子消失",
+        "溫度沒有了"
+      ],
+      "answer": "A",
+      "explanation": "產物若是氣體，要一起算。",
+      "tags": [
+        "質量守恆"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u01-sc8b-u01-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u01",
+      "knowledgePointId": "sc8b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "反應式左右邊的原子數要？",
+      "options": [
+        "各自平衡",
+        "左邊比較多才會反應",
+        "右邊必須是零",
+        "不用看"
+      ],
+      "answer": "A",
+      "explanation": "原子重新組合，不會憑空增減。",
+      "tags": [
+        "質量守恆"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u01-sc8b-u01-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u01",
+      "knowledgePointId": "sc8b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "在密閉袋裡讓鐵生鏽。袋子的總質量？",
+      "options": [
+        "幾乎不變",
+        "變成零",
+        "一定增加空氣以外的質量",
+        "無法守恆因為生鏽很慢"
+      ],
+      "answer": "A",
+      "explanation": "氧氣若來自爆袋內的空氣，總質量仍在袋內。",
+      "tags": [
+        "質量守恆"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u02-sc8b-u02-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u02",
+      "knowledgePointId": "sc8b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "鐵生鏽屬於？",
+      "options": [
+        "氧化",
+        "只是物理變化",
+        "密度測量",
+        "反射"
+      ],
+      "answer": "A",
+      "explanation": "鐵與氧作用生成新物質。",
+      "tags": [
+        "氧化和活性"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u02-sc8b-u02-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u02",
+      "knowledgePointId": "sc8b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "鋅片放入硫酸銅溶液，常見現象是？",
+      "options": [
+        "析出銅",
+        "析出金",
+        "溶液變成氧氣單質",
+        "沒有任何變化"
+      ],
+      "answer": "A",
+      "explanation": "鋅活性比銅大，能置換銅。",
+      "tags": [
+        "氧化和活性"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u02-sc8b-u02-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u02",
+      "knowledgePointId": "sc8b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "活性比較大的金屬通常？",
+      "options": [
+        "比較容易氧化",
+        "完全不反應",
+        "不能導電",
+        "密度一定小於水"
+      ],
+      "answer": "A",
+      "explanation": "活性看的是反應傾向。",
+      "tags": [
+        "氧化和活性"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u02-sc8b-u02-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u02",
+      "knowledgePointId": "sc8b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "狹義氧化和廣義氧化差在？",
+      "options": [
+        "一個強調得氧，一個常說失去電子",
+        "兩者都是物理變化",
+        "廣義氧化不會生鏽",
+        "燃燒兩者都不是"
+      ],
+      "answer": "A",
+      "explanation": "國中會兩種說法都見到。",
+      "tags": [
+        "氧化和活性"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u03-sc8b-u03-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u03",
+      "knowledgePointId": "sc8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "純水在常溫下的 pH 大約是？",
+      "options": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "answer": "A",
+      "explanation": "7 定為中性。",
+      "tags": [
+        "酸、鹼和 pH"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u03-sc8b-u03-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u03",
+      "knowledgePointId": "sc8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "pH 2 和 pH 5 相比？",
+      "options": [
+        "pH 2 酸性較強",
+        "pH 5 酸性較強",
+        "兩者都是強鹼",
+        "pH 沒有大小"
+      ],
+      "answer": "A",
+      "explanation": "數字愈小愈酸。",
+      "tags": [
+        "酸、鹼和 pH"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u03-sc8b-u03-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u03",
+      "knowledgePointId": "sc8b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "鹽酸和氫氧化鈉完全反應，產物裡會有？",
+      "options": [
+        "鹽和水",
+        "只有氧氣",
+        "只有金屬鈉",
+        "音波"
+      ],
+      "answer": "A",
+      "explanation": "酸鹼中和生成鹽和水。",
+      "tags": [
+        "酸、鹼和 pH"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u03-sc8b-u03-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u03",
+      "knowledgePointId": "sc8b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "肥皂水使紅色石蕊紙變藍。它比較像？",
+      "options": [
+        "鹼",
+        "強酸",
+        "中性鹽水一定",
+        "純氧"
+      ],
+      "answer": "A",
+      "explanation": "鹼才會讓紅色石蕊變藍。",
+      "tags": [
+        "酸、鹼和 pH"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u04-sc8b-u04-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u04",
+      "knowledgePointId": "sc8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "其他條件相同，溫度升高通常讓反應？",
+      "options": [
+        "變快",
+        "一定停止",
+        "質量消失",
+        "變成物理變化"
+      ],
+      "answer": "A",
+      "explanation": "粒子碰撞更激烈。",
+      "tags": [
+        "反應速率"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u04-sc8b-u04-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u04",
+      "knowledgePointId": "sc8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "催化劑在反應結束後？",
+      "options": [
+        "仍在，質量大致不變",
+        "全部變成產物",
+        "必須被消耗光",
+        "會變成溶劑"
+      ],
+      "answer": "A",
+      "explanation": "它參與過程但不當淨消耗。",
+      "tags": [
+        "反應速率"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u04-sc8b-u04-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u04",
+      "knowledgePointId": "sc8b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "塊狀大理石和粉末，誰和酸反應通常較快？",
+      "options": [
+        "粉末",
+        "塊狀",
+        "一樣，因為質量相同就一定同速",
+        "都不反應"
+      ],
+      "answer": "A",
+      "explanation": "粉末接觸面積大。",
+      "tags": [
+        "反應速率"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-2-sc8b-ch1-sc8b-u04-sc8b-u04-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch1",
+      "unitId": "sc8b-u04",
+      "knowledgePointId": "sc8b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "加了催化劑，最後產量一定變多嗎？",
+      "options": [
+        "不一定，它主要改快慢",
+        "一定變兩倍",
+        "產量會變成零",
+        "催化劑就是多出來的產物"
+      ],
+      "answer": "A",
+      "explanation": "快慢和最終量要分開。",
+      "tags": [
+        "反應速率"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u05-sc8b-u05-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u05",
+      "knowledgePointId": "sc8b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "力除了大小，還一定要有？",
+      "options": [
+        "方向",
+        "顏色",
+        "味道",
+        "pH"
+      ],
+      "answer": "A",
+      "explanation": "力是向量。",
+      "tags": [
+        "力與平衡"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u05-sc8b-u05-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u05",
+      "knowledgePointId": "sc8b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "放在桌上不動的書，受力上是？",
+      "options": [
+        "合力為零",
+        "完全沒有力",
+        "只有重力沒有支承力",
+        "加速度很大"
+      ],
+      "answer": "A",
+      "explanation": "重力和支承力抵消。",
+      "tags": [
+        "力與平衡"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u05-sc8b-u05-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u05",
+      "knowledgePointId": "sc8b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "等速度直線前進的物體？",
+      "options": [
+        "合力為零",
+        "一定沒有受到任何力",
+        "速度一定是零",
+        "方向不斷改變"
+      ],
+      "answer": "A",
+      "explanation": "牛頓第一定律：速度不變就是平衡。",
+      "tags": [
+        "力與平衡"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u05-sc8b-u05-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u05",
+      "knowledgePointId": "sc8b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "繞圓圈跑的人，速率若不變，速度仍在變。因為？",
+      "options": [
+        "方向一直改變",
+        "速率和速度是同一個詞",
+        "圓形沒有方向",
+        "合力一定是零"
+      ],
+      "answer": "A",
+      "explanation": "速度包含方向。",
+      "tags": [
+        "力與平衡"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u06-sc8b-u06-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u06",
+      "knowledgePointId": "sc8b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "摩擦力的方向是？",
+      "options": [
+        "阻礙相對滑動",
+        "永遠向下",
+        "永遠和平地垂直向上",
+        "沒有方向"
+      ],
+      "answer": "A",
+      "explanation": "它反對滑動的發生或繼續。",
+      "tags": [
+        "摩擦力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u06-sc8b-u06-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u06",
+      "knowledgePointId": "sc8b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "其他條件相同，哪一種地面摩擦力通常較大？",
+      "options": [
+        "粗糙的",
+        "光滑到幾乎沒有摩擦的冰",
+        "真空",
+        "沒有接觸"
+      ],
+      "answer": "A",
+      "explanation": "粗糙增加摩擦。",
+      "tags": [
+        "摩擦力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u06-sc8b-u06-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u06",
+      "knowledgePointId": "sc8b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "人能向前走，是因為？",
+      "options": [
+        "地面給鞋向前的摩擦力",
+        "人不受任何力",
+        "重力水平向前",
+        "摩擦力只會向後拉人"
+      ],
+      "answer": "A",
+      "explanation": "人向後蹬，反作用把人往前送。",
+      "tags": [
+        "摩擦力"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u06-sc8b-u06-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u06",
+      "knowledgePointId": "sc8b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "書沒有被推動。靜摩擦力這時？",
+      "options": [
+        "剛好大到和推力平衡",
+        "一定等於最大靜摩擦",
+        "一定是零因為沒動",
+        "方向和推力相同"
+      ],
+      "answer": "A",
+      "explanation": "沒動代表靜摩擦把推力抵消，大小依推力而定，直到最大值。",
+      "tags": [
+        "摩擦力"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u07-sc8b-u07-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u07",
+      "knowledgePointId": "sc8b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "壓力的算法是？",
+      "options": [
+        "力 ÷ 面積",
+        "力 × 面積",
+        "質量 ÷ 體積",
+        "面積 ÷ 時間"
+      ],
+      "answer": "A",
+      "explanation": "面積是分母。",
+      "tags": [
+        "壓力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u07-sc8b-u07-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u07",
+      "knowledgePointId": "sc8b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "同一個人，為什麼站著比躺著對地面的壓力大？",
+      "options": [
+        "站著的接觸面積比較小",
+        "站著體重變大",
+        "躺著沒有重力",
+        "壓力跟面積無關"
+      ],
+      "answer": "A",
+      "explanation": "體重差不多，面積小則壓力大。",
+      "tags": [
+        "壓力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u07-sc8b-u07-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u07",
+      "knowledgePointId": "sc8b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "背包背帶做寬，是為了？",
+      "options": [
+        "減少肩膀受到的壓力",
+        "增加壓力",
+        "改變背包質量",
+        "取消重力"
+      ],
+      "answer": "A",
+      "explanation": "力分散到較大面積。",
+      "tags": [
+        "壓力"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u07-sc8b-u07-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u07",
+      "knowledgePointId": "sc8b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "10 牛頓的力壓在 2 m² 上。壓力是？",
+      "options": [
+        "5 N/m²",
+        "20 N/m²",
+        "12 N",
+        "8 m²"
+      ],
+      "answer": "A",
+      "explanation": "10÷2=5。",
+      "tags": [
+        "壓力"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u08-sc8b-u08-kp1-1",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u08",
+      "knowledgePointId": "sc8b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "阿基米德原理說浮力等於？",
+      "options": [
+        "排開液體的重量",
+        "物體的體積數字",
+        "容器的質量",
+        "空氣的顏色"
+      ],
+      "answer": "A",
+      "explanation": "排開多少，就有多少浮力。",
+      "tags": [
+        "浮力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u08-sc8b-u08-kp1-2",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u08",
+      "knowledgePointId": "sc8b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "鐵塊會沉、木塊會浮，主要因為？",
+      "options": [
+        "平均密度和液體比起來不同",
+        "木塊沒有受到浮力",
+        "鐵塊沒有重力",
+        "水只對木頭有浮力"
+      ],
+      "answer": "A",
+      "explanation": "兩者都受浮力，差在物重。",
+      "tags": [
+        "浮力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u08-sc8b-u08-kp1-3",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u08",
+      "knowledgePointId": "sc8b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "同體積的鐵塊和木塊都完全按進水裡。浮力？",
+      "options": [
+        "一樣大",
+        "鐵塊比較大",
+        "木塊一定是零",
+        "跟排開的水無關"
+      ],
+      "answer": "A",
+      "explanation": "全浸且體積相同，排開的水一樣多。",
+      "tags": [
+        "浮力"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-2-2-sc8b-ch2-sc8b-u08-sc8b-u08-kp1-4",
+      "subject": "science",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "sc8b-ch2",
+      "unitId": "sc8b-u08",
+      "knowledgePointId": "sc8b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "船是鋼做的卻能浮。因為？",
+      "options": [
+        "中空使平均密度小於水",
+        "鋼的密度小於水",
+        "船不受重力",
+        "浮力定律對鋼無效"
+      ],
+      "answer": "A",
+      "explanation": "算的是整艘船的平均密度。",
+      "tags": [
+        "浮力"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u01-sc9a-u01-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u01",
+      "knowledgePointId": "sc9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "位移和路徑長最大的差別是？",
+      "options": [
+        "位移看起終點和方向",
+        "兩者永遠一樣長",
+        "路徑長有方向",
+        "位移不能是零"
+      ],
+      "answer": "A",
+      "explanation": "位移是位置的改變。",
+      "tags": [
+        "位移和路徑長"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u01-sc9a-u01-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u01",
+      "knowledgePointId": "sc9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "操場跑完一圈回到起點。",
+      "options": [
+        "位移為 0，路徑長是一圈",
+        "兩者都是 0",
+        "位移等於一圈",
+        "路徑長是 0"
+      ],
+      "answer": "A",
+      "explanation": "位置沒變，位移就是零。",
+      "tags": [
+        "位移和路徑長"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u01-sc9a-u01-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u01",
+      "knowledgePointId": "sc9a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "向東 3 公尺再向西 3 公尺。",
+      "options": [
+        "位移 0，路徑長 6 公尺",
+        "位移 6 公尺",
+        "路徑長 0",
+        "位移向東 6 公尺"
+      ],
+      "answer": "A",
+      "explanation": "兩段路徑加起來是 6，位置回到原點。",
+      "tags": [
+        "位移和路徑長"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u01-sc9a-u01-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u01",
+      "knowledgePointId": "sc9a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "為什麼位移可以比路徑長短？",
+      "options": [
+        "拐彎和回頭不會全部算進起終點的直線",
+        "測量錯了",
+        "路徑長沒有單位",
+        "位移不能有方向"
+      ],
+      "answer": "A",
+      "explanation": "位移是捷徑加方向，不是腳步總和。",
+      "tags": [
+        "位移和路徑長"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u02-sc9a-u02-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u02",
+      "knowledgePointId": "sc9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "速率沒有的是？",
+      "options": [
+        "方向",
+        "單位",
+        "時間",
+        "快慢"
+      ],
+      "answer": "A",
+      "explanation": "速率只回答多快。",
+      "tags": [
+        "速率和速度"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u02-sc9a-u02-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u02",
+      "knowledgePointId": "sc9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "10 秒走了路徑長 20 公尺。平均速率是？",
+      "options": [
+        "2 m/s",
+        "200 m/s",
+        "0.5 m",
+        "10 m/s 向北"
+      ],
+      "answer": "A",
+      "explanation": "20÷10=2，速率不寫方向。",
+      "tags": [
+        "速率和速度"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u02-sc9a-u02-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u02",
+      "knowledgePointId": "sc9a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "繞圓跑步保持同樣快慢。",
+      "options": [
+        "速度仍在改變",
+        "速度完全不變",
+        "速率一定是零",
+        "位移等於路徑長"
+      ],
+      "answer": "A",
+      "explanation": "方向時時在變。",
+      "tags": [
+        "速率和速度"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u02-sc9a-u02-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u02",
+      "knowledgePointId": "sc9a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "去程和回程各 100 公尺、各花 10 秒，回到原點。平均速度大小是？",
+      "options": [
+        "0",
+        "10 m/s",
+        "20 m/s",
+        "100 m/s"
+      ],
+      "answer": "A",
+      "explanation": "位移是 0，平均速度就是 0。平均速率才是 10 m/s。",
+      "tags": [
+        "速率和速度"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u03-sc9a-u03-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u03",
+      "knowledgePointId": "sc9a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "汽車煞車時有加速度嗎？",
+      "options": [
+        "有，因為速度變慢",
+        "沒有，因為沒有變快",
+        "沒有，因為還在直線",
+        "只有轉彎才有"
+      ],
+      "answer": "A",
+      "explanation": "速度改變就是加速度。",
+      "tags": [
+        "加速度和自由落體"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u03-sc9a-u03-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u03",
+      "knowledgePointId": "sc9a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "真空中同時放下鐵球和羽毛。",
+      "options": [
+        "同時落地",
+        "鐵球一定先到",
+        "羽毛不受重力",
+        "加速度是零"
+      ],
+      "answer": "A",
+      "explanation": "沒有空氣阻力時加速度相同。",
+      "tags": [
+        "加速度和自由落體"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u03-sc9a-u03-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u03",
+      "knowledgePointId": "sc9a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "自由落體的加速度大約是？",
+      "options": [
+        "9.8 m/s²",
+        "9.8 公尺",
+        "340 m/s",
+        "1 g/cm³"
+      ],
+      "answer": "A",
+      "explanation": "單位是速度每秒的改變。",
+      "tags": [
+        "加速度和自由落體"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u03-sc9a-u03-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u03",
+      "knowledgePointId": "sc9a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "日常生活羽毛落得慢，是因為？",
+      "options": [
+        "空氣阻力影響大",
+        "羽毛沒有質量",
+        "重力只作用在鐵",
+        "加速度定律在空氣中取消"
+      ],
+      "answer": "A",
+      "explanation": "阻力讓理想的自由落體看不到。",
+      "tags": [
+        "加速度和自由落體"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u04-sc9a-u04-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u04",
+      "knowledgePointId": "sc9a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "同一顆球，推力變大。加速度？",
+      "options": [
+        "變大",
+        "變小",
+        "變成零",
+        "方向消失"
+      ],
+      "answer": "A",
+      "explanation": "力是分子那一側。",
+      "tags": [
+        "力和加速度"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u04-sc9a-u04-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u04",
+      "knowledgePointId": "sc9a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "同樣的推力，空車和載滿貨的車。",
+      "options": [
+        "空車加速度較大",
+        "滿車加速度較大",
+        "兩者加速度一定相同",
+        "質量不影響"
+      ],
+      "answer": "A",
+      "explanation": "質量大，加速度小。",
+      "tags": [
+        "力和加速度"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u04-sc9a-u04-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u04",
+      "knowledgePointId": "sc9a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "質量 2 kg，合力 4 N。加速度是？",
+      "options": [
+        "2 m/s²",
+        "8 m/s²",
+        "0.5 N",
+        "6 kg"
+      ],
+      "answer": "A",
+      "explanation": "a=F/m=4/2。",
+      "tags": [
+        "力和加速度"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u04-sc9a-u04-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u04",
+      "knowledgePointId": "sc9a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "物體受兩股方向相反的力，4 N 和 4 N。加速度？",
+      "options": [
+        "0",
+        "8 m/s²",
+        "4 m/s²",
+        "不能用牛頓定律"
+      ],
+      "answer": "A",
+      "explanation": "合力是零。",
+      "tags": [
+        "力和加速度"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u05-sc9a-u05-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u05",
+      "knowledgePointId": "sc9a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "作用力與反作用力作用在？",
+      "options": [
+        "兩個不同物體",
+        "同一個物體",
+        "只有空氣",
+        "沒有物體"
+      ],
+      "answer": "A",
+      "explanation": "這是它們不能相減的原因。",
+      "tags": [
+        "作用力與反作用力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u05-sc9a-u05-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u05",
+      "knowledgePointId": "sc9a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "大小和方向的關係是？",
+      "options": [
+        "一樣大、方向相反",
+        "作用力永遠比較大",
+        "沒有方向",
+        "必須垂直"
+      ],
+      "answer": "A",
+      "explanation": "牛頓第三定律。",
+      "tags": [
+        "作用力與反作用力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u05-sc9a-u05-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u05",
+      "knowledgePointId": "sc9a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "書本重力的反作用力是？",
+      "options": [
+        "書本吸引地球的力",
+        "桌子向上托書的力",
+        "人的推力",
+        "摩擦力"
+      ],
+      "answer": "A",
+      "explanation": "重力是地球拉書，反作用是書拉地球。桌面支承力是另一對。",
+      "tags": [
+        "作用力與反作用力"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-1-sc9a-ch1-sc9a-u05-sc9a-u05-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch1",
+      "unitId": "sc9a-u05",
+      "knowledgePointId": "sc9a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "為什麼作用力和反作用力不會使合力變成零？",
+      "options": [
+        "它們不在同一個物體上",
+        "因為大小其實不同",
+        "因為沒有方向",
+        "定律只在真空成立"
+      ],
+      "answer": "A",
+      "explanation": "合力只加在同一個物體上的力。",
+      "tags": [
+        "作用力與反作用力"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u06-sc9a-u06-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u06",
+      "knowledgePointId": "sc9a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "提著書包在水平地面走，手向上的力？",
+      "options": [
+        "對書包不做功",
+        "做了很多功",
+        "等於動能",
+        "方向和位移相同"
+      ],
+      "answer": "A",
+      "explanation": "力和位移垂直。",
+      "tags": [
+        "功、動能和位能"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u06-sc9a-u06-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u06",
+      "knowledgePointId": "sc9a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "同一顆球，哪一種動能比較大？",
+      "options": [
+        "速度比較快的時候",
+        "停著但塗了顏色",
+        "位置的名稱比較長",
+        "溫度單位比較大"
+      ],
+      "answer": "A",
+      "explanation": "動能隨速率增加。",
+      "tags": [
+        "功、動能和位能"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u06-sc9a-u06-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u06",
+      "knowledgePointId": "sc9a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "球從斜坡滾下，重力位能主要變成？",
+      "options": [
+        "動能，若有摩擦還會變成熱",
+        "全部變成質量",
+        "全部消失",
+        "變成電荷"
+      ],
+      "answer": "A",
+      "explanation": "能量轉換，總量仍守恆，形式改變。",
+      "tags": [
+        "功、動能和位能"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u06-sc9a-u06-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u06",
+      "knowledgePointId": "sc9a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "力 5 N，沿力的方向移動 2 公尺。功是？",
+      "options": [
+        "10 J",
+        "2.5 J",
+        "7 N",
+        "3 m"
+      ],
+      "answer": "A",
+      "explanation": "功的單位是焦耳。",
+      "tags": [
+        "功、動能和位能"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u07-sc9a-u07-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u07",
+      "knowledgePointId": "sc9a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "省力槓桿通常？",
+      "options": [
+        "施力臂比抗力臂長",
+        "完全不需要力",
+        "會省下功",
+        "沒有支點"
+      ],
+      "answer": "A",
+      "explanation": "力臂愈長愈省力。",
+      "tags": [
+        "簡單機械"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u07-sc9a-u07-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u07",
+      "knowledgePointId": "sc9a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "省力的代價常常是？",
+      "options": [
+        "施力要走比較遠",
+        "物體質量變小",
+        "功變成零",
+        "重力消失"
+      ],
+      "answer": "A",
+      "explanation": "力和距離互換。",
+      "tags": [
+        "簡單機械"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u07-sc9a-u07-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u07",
+      "knowledgePointId": "sc9a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "理想槓桿為什麼說不省功？",
+      "options": [
+        "力變小，距離就變大，乘積仍差不多",
+        "因為機械沒有摩擦所以功消失",
+        "功不能計算",
+        "支點會產生能量"
+      ],
+      "answer": "A",
+      "explanation": "功大約守住。",
+      "tags": [
+        "簡單機械"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u07-sc9a-u07-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u07",
+      "knowledgePointId": "sc9a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "想用較小的力抬起重物。支點該靠近？",
+      "options": [
+        "重物",
+        "施力的手",
+        "無限遠",
+        "跟位置無關"
+      ],
+      "answer": "A",
+      "explanation": "抗力臂變短、施力臂變長就省力。",
+      "tags": [
+        "簡單機械"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u08-sc9a-u08-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u08",
+      "knowledgePointId": "sc9a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "歐姆定律寫成？",
+      "options": [
+        "電壓 = 電流 × 電阻",
+        "電壓 = 電流 ÷ 密度",
+        "電流 = 電阻",
+        "電阻 = 電壓 × 電流"
+      ],
+      "answer": "A",
+      "explanation": "V=IR。",
+      "tags": [
+        "電壓、電流和電阻"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u08-sc9a-u08-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u08",
+      "knowledgePointId": "sc9a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "金屬導線裡真正在移動的通常是？",
+      "options": [
+        "電子，方向和規定電流相反",
+        "質子沿著規定電流",
+        "中子",
+        "空氣"
+      ],
+      "answer": "A",
+      "explanation": "規定方向是歷史上的約定。",
+      "tags": [
+        "電壓、電流和電阻"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u08-sc9a-u08-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u08",
+      "knowledgePointId": "sc9a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "電阻不變，電壓變成兩倍。電流？",
+      "options": [
+        "變成兩倍",
+        "變一半",
+        "不變",
+        "變成零"
+      ],
+      "answer": "A",
+      "explanation": "I=V/R。",
+      "tags": [
+        "電壓、電流和電阻"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-1-sc9a-ch2-sc9a-u08-sc9a-u08-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "sc9a-ch2",
+      "unitId": "sc9a-u08",
+      "knowledgePointId": "sc9a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "電壓 6 V，電流 0.2 A。電阻是？",
+      "options": [
+        "30 Ω",
+        "1.2 Ω",
+        "6.2 Ω",
+        "0.2 V"
+      ],
+      "answer": "A",
+      "explanation": "R=V/I=30。",
+      "tags": [
+        "電壓、電流和電阻"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u01-sc9b-u01-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u01",
+      "knowledgePointId": "sc9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "串聯電路裡，各處電流？",
+      "options": [
+        "相等",
+        "愈後面愈大",
+        "等於電壓",
+        "一定是零"
+      ],
+      "answer": "A",
+      "explanation": "只有一條路。",
+      "tags": [
+        "串聯和並聯"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u01-sc9b-u01-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u01",
+      "knowledgePointId": "sc9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "並聯時，各支路兩端的電壓？",
+      "options": [
+        "相等",
+        "一定相加",
+        "等於電阻",
+        "沒有電壓"
+      ],
+      "answer": "A",
+      "explanation": "它們接在同一對點上。",
+      "tags": [
+        "串聯和並聯"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u01-sc9b-u01-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u01",
+      "knowledgePointId": "sc9b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "兩個電阻並聯。總電阻？",
+      "options": [
+        "比其中較小的那個還小",
+        "等於兩個相加",
+        "變成無限大",
+        "等於較大的那個"
+      ],
+      "answer": "A",
+      "explanation": "多一條路，電流更容易通過。",
+      "tags": [
+        "串聯和並聯"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u01-sc9b-u01-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u01",
+      "knowledgePointId": "sc9b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "串聯兩顆相同電阻，再接到同一顆電池。和只接一顆相比，電流？",
+      "options": [
+        "變小",
+        "變大",
+        "不變",
+        "方向每秒反轉"
+      ],
+      "answer": "A",
+      "explanation": "總電阻變大，電壓沒變。",
+      "tags": [
+        "串聯和並聯"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u02-sc9b-u02-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u02",
+      "knowledgePointId": "sc9b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "電功率的單位是？",
+      "options": [
+        "瓦特",
+        "公尺",
+        "公克",
+        "牛頓"
+      ],
+      "answer": "A",
+      "explanation": "W=J/s，也等於 V×A。",
+      "tags": [
+        "電功率和家庭用電"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u02-sc9b-u02-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u02",
+      "knowledgePointId": "sc9b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "一度電是？",
+      "options": [
+        "1 千瓦使用 1 小時",
+        "1 瓦特",
+        "1 伏特",
+        "1 歐姆"
+      ],
+      "answer": "A",
+      "explanation": "千瓦小時是能量。",
+      "tags": [
+        "電功率和家庭用電"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u02-sc9b-u02-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u02",
+      "knowledgePointId": "sc9b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "110 V、功率 1100 W 的電器，電流大約？",
+      "options": [
+        "10 A",
+        "100 A",
+        "1 A",
+        "1100 A"
+      ],
+      "answer": "A",
+      "explanation": "I=P/V=10。",
+      "tags": [
+        "電功率和家庭用電"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u02-sc9b-u02-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u02",
+      "knowledgePointId": "sc9b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "保險絲燒斷後，正確的觀念是？",
+      "options": [
+        "它在阻止過大的電流，不能用更粗的金屬隨便代替",
+        "用銅線代替比較安全",
+        "代表電壓變成零所以可以碰裸線",
+        "電器功率會消失"
+      ],
+      "answer": "A",
+      "explanation": "保險絲是保護，不是障礙。",
+      "tags": [
+        "電功率和家庭用電"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u03-sc9b-u03-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u03",
+      "knowledgePointId": "sc9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "電暖器發熱主要是？",
+      "options": [
+        "電流的熱效應",
+        "電流的磁效應",
+        "光的折射",
+        "浮力"
+      ],
+      "answer": "A",
+      "explanation": "電能轉成熱。",
+      "tags": [
+        "電流的熱效應和化學效應"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u03-sc9b-u03-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u03",
+      "knowledgePointId": "sc9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "純水很不容易導電。要做電解水，常加入？",
+      "options": [
+        "少量電解質",
+        "更多的糖",
+        "油",
+        "塑膠"
+      ],
+      "answer": "A",
+      "explanation": "離子幫助導電。",
+      "tags": [
+        "電流的熱效應和化學效應"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u03-sc9b-u03-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u03",
+      "knowledgePointId": "sc9b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "電解水和燃燒氫氣，方向上比較像？",
+      "options": [
+        "一個把水拆開，一個把氫和氧合成水",
+        "兩者都是物理變化",
+        "兩者都不需要能量",
+        "都是反射"
+      ],
+      "answer": "A",
+      "explanation": "化學變化的方向不同。",
+      "tags": [
+        "電流的熱效應和化學效應"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u03-sc9b-u03-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u03",
+      "knowledgePointId": "sc9b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "導線很細又流過大電流。危險是？",
+      "options": [
+        "過熱甚至起火",
+        "電阻變成零",
+        "電壓消失",
+        "電子停止存在"
+      ],
+      "answer": "A",
+      "explanation": "熱效應在不良條件下會變成災害。",
+      "tags": [
+        "電流的熱效應和化學效應"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u04-sc9b-u04-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u04",
+      "knowledgePointId": "sc9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "兩個 N 極靠近會？",
+      "options": [
+        "互相排斥",
+        "一定吸在一起",
+        "變成電場",
+        "失去質量"
+      ],
+      "answer": "A",
+      "explanation": "同極相斥。",
+      "tags": [
+        "磁鐵和磁場"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u04-sc9b-u04-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u04",
+      "knowledgePointId": "sc9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "磁鐵外面，磁場方向規定？",
+      "options": [
+        "由 N 極指向 S 極",
+        "由 S 極指向 N 極",
+        "沒有方向",
+        "垂直地面向上"
+      ],
+      "answer": "A",
+      "explanation": "這是方向的約定。",
+      "tags": [
+        "磁鐵和磁場"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u04-sc9b-u04-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u04",
+      "knowledgePointId": "sc9b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "磁鐵斷成兩截之後？",
+      "options": [
+        "每一截都還有 N 和 S",
+        "一截只剩 N，一截只剩 S",
+        "磁性一定永久消失",
+        "變成電荷"
+      ],
+      "answer": "A",
+      "explanation": "磁單極不會這樣分離出來。",
+      "tags": [
+        "磁鐵和磁場"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u04-sc9b-u04-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u04",
+      "knowledgePointId": "sc9b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "鐵屑在磁鐵周圍排成弧線。那些線表示？",
+      "options": [
+        "磁場的形狀",
+        "電流一定在鐵屑裡",
+        "等高線",
+        "光的法線"
+      ],
+      "answer": "A",
+      "explanation": "鐵屑用來顯示磁場。",
+      "tags": [
+        "磁鐵和磁場"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u05-sc9b-u05-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u05",
+      "knowledgePointId": "sc9b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "奧斯特實驗看到的是？",
+      "options": [
+        "通電會使磁針偏轉",
+        "磁鐵產生電壓",
+        "聲音不需要介質",
+        "光被反射"
+      ],
+      "answer": "A",
+      "explanation": "電流周圍有磁場。",
+      "tags": [
+        "電流可以生磁"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u05-sc9b-u05-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u05",
+      "knowledgePointId": "sc9b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "電磁鐵和一般磁鐵不同在？",
+      "options": [
+        "可以靠開關電流控制磁性",
+        "沒有磁極",
+        "不能吸鐵",
+        "必須永久有磁"
+      ],
+      "answer": "A",
+      "explanation": "斷電，磁性可消失。",
+      "tags": [
+        "電流可以生磁"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u05-sc9b-u05-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u05",
+      "knowledgePointId": "sc9b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "想讓電磁鐵更強，可以？",
+      "options": [
+        "增加電流或匝數",
+        "把線圈拉直",
+        "拿掉所有鐵芯就一定更強",
+        "停止供電"
+      ],
+      "answer": "A",
+      "explanation": "電流和匝數都加強磁場。",
+      "tags": [
+        "電流可以生磁"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u05-sc9b-u05-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u05",
+      "knowledgePointId": "sc9b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "電磁鐵能吸起迴紋針，斷電後掉下來。這表示？",
+      "options": [
+        "磁性來自電流",
+        "迴紋針沒有重力",
+        "鐵芯變成了電荷",
+        "磁場一旦產生就永遠留在鐵芯"
+      ],
+      "answer": "A",
+      "explanation": "軟鐵的磁性隨電流消失。",
+      "tags": [
+        "電流可以生磁"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u06-sc9b-u06-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u06",
+      "knowledgePointId": "sc9b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "磁鐵靜止放在閉合線圈中，感應電流？",
+      "options": [
+        "沒有，因為磁場沒有改變",
+        "一定很大",
+        "等於電池電壓",
+        "方向每秒固定增加"
+      ],
+      "answer": "A",
+      "explanation": "要有變化才發電。",
+      "tags": [
+        "電磁感應"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u06-sc9b-u06-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u06",
+      "knowledgePointId": "sc9b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "發電機主要把什麼轉成電能？",
+      "options": [
+        "動能",
+        "位能的名稱",
+        "質量",
+        "顏色"
+      ],
+      "answer": "A",
+      "explanation": "線圈和磁鐵相對運動。",
+      "tags": [
+        "電磁感應"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u06-sc9b-u06-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u06",
+      "knowledgePointId": "sc9b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "電動機和發電機的能量方向？",
+      "options": [
+        "一個用電產生運動，一個用運動產生電",
+        "兩者都只發熱",
+        "兩者都違反能量守恆",
+        "完全相同"
+      ],
+      "answer": "A",
+      "explanation": "原理相關，用途相反。",
+      "tags": [
+        "電磁感應"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-2-sc9b-ch1-sc9b-u06-sc9b-u06-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch1",
+      "unitId": "sc9b-u06",
+      "knowledgePointId": "sc9b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "為什麼快速抽插磁鐵比慢慢移動更容易看到電流？",
+      "options": [
+        "磁場變得比較快",
+        "磁鐵質量變大",
+        "線圈電阻變成零",
+        "電子停止流動"
+      ],
+      "answer": "A",
+      "explanation": "變化愈快，感應愈明顯。",
+      "tags": [
+        "電磁感應"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-2-sc9b-ch2-sc9b-u07-sc9b-u07-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch2",
+      "unitId": "sc9b-u07",
+      "knowledgePointId": "sc9b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "最簡單的烷是？",
+      "options": [
+        "甲烷 CH₄",
+        "水 H₂O",
+        "氧氣 O₂",
+        "氯化鈉"
+      ],
+      "answer": "A",
+      "explanation": "一個碳連四個氫。",
+      "tags": [
+        "有機化合物"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch2-sc9b-u07-sc9b-u07-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch2",
+      "unitId": "sc9b-u07",
+      "knowledgePointId": "sc9b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "二氧化碳在國中分類裡？",
+      "options": [
+        "通常不算有機物",
+        "是最典型的烷",
+        "是混合物",
+        "沒有碳"
+      ],
+      "answer": "A",
+      "explanation": "含碳不自動等於有機。",
+      "tags": [
+        "有機化合物"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch2-sc9b-u07-sc9b-u07-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch2",
+      "unitId": "sc9b-u07",
+      "knowledgePointId": "sc9b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "化石燃料燃燒共通的產物之一是？",
+      "options": [
+        "二氧化碳",
+        "氧氣變多",
+        "甲烷消失所以沒有碳",
+        "黃金"
+      ],
+      "answer": "A",
+      "explanation": "碳和氧化合成二氧化碳。",
+      "tags": [
+        "有機化合物"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-2-sc9b-ch2-sc9b-u07-sc9b-u07-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch2",
+      "unitId": "sc9b-u07",
+      "knowledgePointId": "sc9b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "酒精、甲烷和碳酸鈣都含碳。哪一個通常不當有機物？",
+      "options": [
+        "碳酸鈣",
+        "酒精",
+        "甲烷",
+        "三者都是烷"
+      ],
+      "answer": "A",
+      "explanation": "碳酸鹽排除在常見有機定義之外。",
+      "tags": [
+        "有機化合物"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "science-3-2-sc9b-ch2-sc9b-u08-sc9b-u08-kp1-1",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch2",
+      "unitId": "sc9b-u08",
+      "knowledgePointId": "sc9b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "哪一組屬於再生能源？",
+      "options": [
+        "太陽能、風力、水力",
+        "煤和石油",
+        "天然氣和煤",
+        "只有電池裡的化學名稱"
+      ],
+      "answer": "A",
+      "explanation": "它們可以持續從自然補充。",
+      "tags": [
+        "能源"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch2-sc9b-u08-sc9b-u08-kp1-2",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch2",
+      "unitId": "sc9b-u08",
+      "knowledgePointId": "sc9b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "化石燃料使用上的共同問題是？",
+      "options": [
+        "存量有限，燃燒產生二氧化碳",
+        "完全沒有能量",
+        "不能燃燒",
+        "屬於再生能源"
+      ],
+      "answer": "A",
+      "explanation": "既有耗盡問題，也有排放。",
+      "tags": [
+        "能源"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "science-3-2-sc9b-ch2-sc9b-u08-sc9b-u08-kp1-3",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch2",
+      "unitId": "sc9b-u08",
+      "knowledgePointId": "sc9b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "為什麼能量守恆，電器還是會發熱浪費？",
+      "options": [
+        "轉換時有一部分變成難用的熱",
+        "能量會消失",
+        "熱不是能量",
+        "守恆只在化學成立"
+      ],
+      "answer": "A",
+      "explanation": "守恆不等於每一份都能做功。",
+      "tags": [
+        "能源"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "science-3-2-sc9b-ch2-sc9b-u08-sc9b-u08-kp1-4",
+      "subject": "science",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "sc9b-ch2",
+      "unitId": "sc9b-u08",
+      "knowledgePointId": "sc9b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "比較能源時，只說「很乾淨」不夠。還要看？",
+      "options": [
+        "能不能穩定供電、有沒有廢料或土地影響",
+        "名稱長短",
+        "是不是金屬",
+        "電壓的顏色"
+      ],
+      "answer": "A",
+      "explanation": "每種能源都有條件和代價。",
+      "tags": [
+        "能源"
+      ],
+      "difficulty": 3
+    }
+  ]
+}

@@ -1,0 +1,3044 @@
+{
+  "books": [
+    {
+      "id": "ci7a",
+      "title": "公民・國一上",
+      "grade": 1,
+      "semester": 1,
+      "subject": "civics",
+      "chapters": [
+        {
+          "id": "ci7a-ch1",
+          "title": "我和家人",
+          "units": [
+            {
+              "id": "ci7a-u01",
+              "title": "家庭有很多種樣子",
+              "knowledgePoints": [
+                {
+                  "id": "ci7a-u01-kp1",
+                  "title": "家庭有很多種樣子",
+                  "lesson": [
+                    "家庭不只有一種組成。",
+                    "它常常負責照顧、情感和最早的社會化。",
+                    "衝突可以用規則和溝通處理。",
+                    "人在家裡的角色會跟著年齡改變。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7a-u07",
+              "title": "我、家庭和社會化",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u07-kp1",
+                  "title": "我、家庭和社會化",
+                  "lesson": [
+                    "每個人同時有很多角色：子女、學生、朋友。",
+                    "家庭是最早學習規則的地方。",
+                    "社會化是學會一個社會期待的行為。",
+                    "角色會變，所以學來的規則也要能調整。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ci7a-ch2",
+          "title": "規範與同儕",
+          "units": [
+            {
+              "id": "so7a-u08",
+              "title": "規範、文化和偏見",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u08-kp1",
+                  "title": "規範、文化和偏見",
+                  "lesson": [
+                    "規範告訴人什麼該做、什麼不該做。",
+                    "法律是國家制定的，風俗和道德不是同一種力量。",
+                    "文化是一群人共同的生活方式，會改變。",
+                    "刻板印象是還沒認識就先下判斷。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ci7a-u02",
+              "title": "同儕壓力",
+              "knowledgePoints": [
+                {
+                  "id": "ci7a-u02-kp1",
+                  "title": "同儕壓力",
+                  "lesson": [
+                    "同儕是年齡相近、常一起活動的人。",
+                    "影響可以是支持，也可以是壓力。",
+                    "大家都這樣做，不等於這件事是對的。",
+                    "拒絕時可以給理由，也可以找其他支持。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci7b",
+      "title": "公民・國一下",
+      "grade": 1,
+      "semester": 2,
+      "subject": "civics",
+      "chapters": [
+        {
+          "id": "ci7b-ch1",
+          "title": "權利與團體",
+          "units": [
+            {
+              "id": "so7b-u07",
+              "title": "權利和義務",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u07-kp1",
+                  "title": "權利和義務",
+                  "lesson": [
+                    "權利是可以主張的保障，義務是應該完成的事。",
+                    "自由不是完全不影響別人。",
+                    "受教育既是權利也伴隨義務。",
+                    "權利受侵害時，要用制度求救，而不是私了。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ci7b-u03",
+              "title": "團體裡的規則",
+              "knowledgePoints": [
+                {
+                  "id": "ci7b-u03-kp1",
+                  "title": "團體裡的規則",
+                  "lesson": [
+                    "加入團體，就會遇到那個團體的規則。",
+                    "有的規則寫下來，有的只是默契。",
+                    "規則幫助合作，也可能把某些人排除在外。",
+                    "不合理的規則可以經由程序提出修改。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ci7b-ch2",
+          "title": "文化與媒體",
+          "units": [
+            {
+              "id": "ci7b-u04",
+              "title": "多元文化",
+              "knowledgePoints": [
+                {
+                  "id": "ci7b-u04-kp1",
+                  "title": "多元文化",
+                  "lesson": [
+                    "文化包含語言、信仰、食物和節日。",
+                    "不同不等於比較差。",
+                    "在法律之前，人人平等。",
+                    "先認識差異，比較不會用偏見下判斷。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7b-u08",
+              "title": "媒體怎麼讀",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u08-kp1",
+                  "title": "媒體怎麼讀",
+                  "lesson": [
+                    "媒體選擇什麼、怎麼下標題，就會影響理解。",
+                    "同一件事要對第二個來源。",
+                    "廣告和新聞的目的不同。",
+                    "轉傳之前先看日期、出處和有沒有斷章取義。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci8a",
+      "title": "公民・國二上",
+      "grade": 2,
+      "semester": 1,
+      "subject": "civics",
+      "chapters": [
+        {
+          "id": "ci8a-ch1",
+          "title": "國家與民主",
+          "units": [
+            {
+              "id": "so8a-u07",
+              "title": "國家的四個要素",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u07-kp1",
+                  "title": "國家的四個要素",
+                  "lesson": [
+                    "國家通常要有人民、領土、政府和主權。",
+                    "人民是成員，領土是範圍。",
+                    "政府是做決定的組織。",
+                    "主權是自己做最後決定、不受他國隨意支配。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u08",
+              "title": "民主政治在做什麼",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u08-kp1",
+                  "title": "民主政治在做什麼",
+                  "lesson": [
+                    "民主是人民透過制度參與公共決定。",
+                    "定期改選讓執政者可以被換掉。",
+                    "多數決定仍要保護少數的基本權利。",
+                    "言論和新聞讓不同意見被看見。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ci8a-ch2",
+          "title": "參與和公共利益",
+          "units": [
+            {
+              "id": "ci8a-u03",
+              "title": "參與不只投票那一天",
+              "knowledgePoints": [
+                {
+                  "id": "ci8a-u03-kp1",
+                  "title": "參與不只投票那一天",
+                  "lesson": [
+                    "投票是參與，不是唯一的參與。",
+                    "討論公共問題、監督、陳情，也算。",
+                    "還沒有投票權的人，仍然可以關心和討論。",
+                    "參與要根據事實，不只轉傳情緒。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ci8a-u04",
+              "title": "個人和公共利益",
+              "knowledgePoints": [
+                {
+                  "id": "ci8a-u04-kp1",
+                  "title": "個人和公共利益",
+                  "lesson": [
+                    "個人自由重要，但不能任意傷害別人。",
+                    "道路、空氣和教室是大家一起用的。",
+                    "公共規則是為了讓更多人都能使用。",
+                    "發生衝突時，先問誰的權利被影響。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci8b",
+      "title": "公民・國二下",
+      "grade": 2,
+      "semester": 2,
+      "subject": "civics",
+      "chapters": [
+        {
+          "id": "ci8b-ch1",
+          "title": "政府",
+          "units": [
+            {
+              "id": "so8b-u05",
+              "title": "中央政府五院",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u05-kp1",
+                  "title": "中央政府五院",
+                  "lesson": [
+                    "行政院負責推動政務。",
+                    "立法院審議法律和預算。",
+                    "司法院掌理審判和憲法解釋相關職權。",
+                    "考試院管考選，監察院負責監察。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u06",
+              "title": "地方和選舉",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u06-kp1",
+                  "title": "地方和選舉",
+                  "lesson": [
+                    "地方政府處理更靠近生活的事務。",
+                    "地方也要有議會監督。",
+                    "投票年齡目前是滿 20 歲，民法上的成年是 18 歲。",
+                    "兩種年齡不同，不能記成同一個。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ci8b-ch2",
+          "title": "憲法與分權",
+          "units": [
+            {
+              "id": "so8b-u07",
+              "title": "憲法和基本權利",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u07-kp1",
+                  "title": "憲法和基本權利",
+                  "lesson": [
+                    "憲法是國家的根本法，位階最高。",
+                    "人民的基本權利包括平等、自由、受益和參政。",
+                    "權利不是無限，可以依法限制，但限制本身要有理由。",
+                    "修憲比修普通法律更嚴格。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u08",
+              "title": "為什麼要分權",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u08-kp1",
+                  "title": "為什麼要分權",
+                  "lesson": [
+                    "權力集中時，很難被糾正。",
+                    "分成不同機關，讓它們互相監督。",
+                    "分工也讓專業的事有人負責。",
+                    "分權之後仍要能合作，否則政務會停擺。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci9a",
+      "title": "公民・國三上",
+      "grade": 3,
+      "semester": 1,
+      "subject": "civics",
+      "chapters": [
+        {
+          "id": "ci9a-ch1",
+          "title": "法律",
+          "units": [
+            {
+              "id": "so9a-u05",
+              "title": "法律位階和年齡",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u05-kp1",
+                  "title": "法律位階和年齡",
+                  "lesson": [
+                    "憲法高於法律，法律高於命令。",
+                    "命令不能違反法律。",
+                    "民法成年是 18 歲。",
+                    "未滿 14 歲不負刑事責任；民法成年是 18 歲；選舉投票仍要滿 20 歲。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u07",
+              "title": "罪刑法定",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u07-kp1",
+                  "title": "罪刑法定",
+                  "lesson": [
+                    "什麼是犯罪、會受什麼處罰，要先有法律規定。",
+                    "不能用今天新訂的刑罰去罰昨天的行為。",
+                    "嫌疑還不是有罪，審判要看證據。",
+                    "處罰的是行為，不是某一群人的身份。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ci9a-ch2",
+          "title": "契約與選擇",
+          "units": [
+            {
+              "id": "so9a-u06",
+              "title": "契約和損害",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u06-kp1",
+                  "title": "契約和損害",
+                  "lesson": [
+                    "契約是雙方同意產生的約定。",
+                    "同意若是被騙或被強迫，可能有問題。",
+                    "未成年人簽重大契約，法律上會特別保護。",
+                    "侵害別人造成損害，可能要負賠償責任。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u08",
+              "title": "機會成本",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u08-kp1",
+                  "title": "機會成本",
+                  "lesson": [
+                    "選擇一件事，就要放下其他事。",
+                    "機會成本是被放下的選項裡，價值最高的那一個。",
+                    "它不一定是金錢，時間也算。",
+                    "免費的活動若占用讀書時間，並不是沒有成本。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci9b",
+      "title": "公民・國三下",
+      "grade": 3,
+      "semester": 2,
+      "subject": "civics",
+      "chapters": [
+        {
+          "id": "ci9b-ch1",
+          "title": "經濟生活",
+          "units": [
+            {
+              "id": "so9b-u01",
+              "title": "價格怎麼來",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u01-kp1",
+                  "title": "價格怎麼來",
+                  "lesson": [
+                    "需求是買方在某價格下想買的量。",
+                    "供給是賣方想賣的量。",
+                    "其他條件不變時，價格上升，需求量通常下降。",
+                    "供需變化會推動價格調整。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u02",
+              "title": "貿易為什麼發生",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u02-kp1",
+                  "title": "貿易為什麼發生",
+                  "lesson": [
+                    "兩地條件不同，生產成本就不同。",
+                    "各自做相對擅長的，再交換，選擇可以變多。",
+                    "貿易會有受益者，也可能有受衝擊的產業。",
+                    "政策要同時看消費者和受影響的工作者。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u03",
+              "title": "全球化",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u03-kp1",
+                  "title": "全球化",
+                  "lesson": [
+                    "人、貨物、資金和資訊跨過國界移動。",
+                    "好處是選擇變多、成本可能下降。",
+                    "風險是工作外移、疫情或金融震盪傳得很快。",
+                    "一個國家很難再只靠關上門解決所有問題。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ci9b-ch2",
+          "title": "社會與時事",
+          "units": [
+            {
+              "id": "so9b-u03",
+              "title": "社會福利",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u03-kp1",
+                  "title": "社會福利",
+                  "lesson": [
+                    "福利是社會一起分擔生病、年老、失業等風險。",
+                    "稅收是重要財源。",
+                    "給付要考慮誰真的需要，也要能持續。",
+                    "福利不是施捨，常和權利、義務一起設計。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u04",
+              "title": "社會變遷",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u04-kp1",
+                  "title": "社會變遷",
+                  "lesson": [
+                    "變遷是生活方式和價值觀改變。",
+                    "科技、教育和接觸他人都會推動改變。",
+                    "改變會產生新機會，也會讓舊規則不夠用。",
+                    "面對改變要區分事實和害怕。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u08",
+              "title": "時事題的讀法",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u08-kp1",
+                  "title": "時事題的讀法",
+                  "lesson": [
+                    "時事題通常考長久的概念，不是考你有沒有背昨天的新聞。",
+                    "先把新聞翻譯成課程概念，例如權利、供需或地形。",
+                    "資料只給一段，就只根據那段。",
+                    "自己的政治偏好不能取代資料。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "civics-1-1-ci7a-ch1-ci7a-u01-ci7a-u01-kp1-1",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch1",
+      "unitId": "ci7a-u01",
+      "knowledgePointId": "ci7a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "家庭的組成？",
+      "options": [
+        "可以有很多種",
+        "全世界只有一種才算",
+        "必須人數相同",
+        "不能有長輩"
+      ],
+      "answer": "A",
+      "explanation": "形式不同，照顧的功能可以一樣。",
+      "tags": [
+        "家庭有很多種樣子"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-1-1-ci7a-ch1-ci7a-u01-ci7a-u01-kp1-2",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch1",
+      "unitId": "ci7a-u01",
+      "knowledgePointId": "ci7a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "家庭在社會化裡常常是？",
+      "options": [
+        "最早學習期待的地方",
+        "完全沒有影響",
+        "只教數學公式",
+        "取代所有法律"
+      ],
+      "answer": "A",
+      "explanation": "人先在親密關係裡學規則。",
+      "tags": [
+        "家庭有很多種樣子"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-1-1-ci7a-ch1-ci7a-u01-ci7a-u01-kp1-3",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch1",
+      "unitId": "ci7a-u01",
+      "knowledgePointId": "ci7a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "家裡意見不同時，比較好的方向是？",
+      "options": [
+        "說出需要，並用大家知道的規則處理",
+        "最大聲的人永遠對",
+        "假裝沒有衝突",
+        "用體罰代替說明"
+      ],
+      "answer": "A",
+      "explanation": "衝突可以是調整角色的機會。",
+      "tags": [
+        "家庭有很多種樣子"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "civics-1-1-ci7a-ch1-ci7a-u01-ci7a-u01-kp1-4",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch1",
+      "unitId": "ci7a-u01",
+      "knowledgePointId": "ci7a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "題目出現單親、隔代或新組成的家庭。判斷時看？",
+      "options": [
+        "有沒有照顧和尊重",
+        "人數是不是剛好四人",
+        "姓氏長短",
+        "住不住在都市"
+      ],
+      "answer": "A",
+      "explanation": "功能比形式的刻板印象重要。",
+      "tags": [
+        "家庭有很多種樣子"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u07-so7a-u07-kp1-1",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch1",
+      "unitId": "so7a-u07",
+      "knowledgePointId": "so7a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "社會化是？",
+      "options": [
+        "學會社會中的行為和期待",
+        "只學數學公式",
+        "搬家",
+        "畫地圖"
+      ],
+      "answer": "A",
+      "explanation": "社會化讓人能參與群體。",
+      "tags": [
+        "我、家庭和社會化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u07-so7a-u07-kp1-2",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch1",
+      "unitId": "so7a-u07",
+      "knowledgePointId": "so7a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "同一個人可以？",
+      "options": [
+        "同時有多種角色",
+        "只能有一種身份",
+        "不能當學生",
+        "沒有義務"
+      ],
+      "answer": "A",
+      "explanation": "角色隨關係改變。",
+      "tags": [
+        "我、家庭和社會化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u07-so7a-u07-kp1-3",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch1",
+      "unitId": "so7a-u07",
+      "knowledgePointId": "so7a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "家庭在社會化裡通常？",
+      "options": [
+        "是最早的場所",
+        "完全沒有影響",
+        "只存在於法律條文",
+        "等於政府"
+      ],
+      "answer": "A",
+      "explanation": "人先在家庭裡學規則。",
+      "tags": [
+        "我、家庭和社會化"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u07-so7a-u07-kp1-4",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch1",
+      "unitId": "so7a-u07",
+      "knowledgePointId": "so7a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "當子女和當學生的要求衝突時，需要？",
+      "options": [
+        "分辨不同角色的期待",
+        "否認所有角色",
+        "只看地圖",
+        "取消社會"
+      ],
+      "answer": "A",
+      "explanation": "角色衝突要用判斷來處理。",
+      "tags": [
+        "我、家庭和社會化"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u08-so7a-u08-kp1-1",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch2",
+      "unitId": "so7a-u08",
+      "knowledgePointId": "so7a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "和法律相比，風俗的強制力通常？",
+      "options": [
+        "來自身體的罰則較少，靠社會壓力",
+        "一定關進監獄",
+        "完全沒有影響",
+        "由法院判決"
+      ],
+      "answer": "A",
+      "explanation": "不同規範有不同制裁。",
+      "tags": [
+        "規範、文化和偏見"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u08-so7a-u08-kp1-2",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch2",
+      "unitId": "so7a-u08",
+      "knowledgePointId": "so7a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "文化會？",
+      "options": [
+        "隨時間和接觸而改變",
+        "永遠不能變",
+        "只存在於一個人",
+        "等於比例尺"
+      ],
+      "answer": "A",
+      "explanation": "文化是生活方式，不是化石。",
+      "tags": [
+        "規範、文化和偏見"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u08-so7a-u08-kp1-3",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch2",
+      "unitId": "so7a-u08",
+      "knowledgePointId": "so7a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "還沒見面就認定某一群人一定怎樣，這是？",
+      "options": [
+        "刻板印象",
+        "實地調查",
+        "比例尺",
+        "公共討論"
+      ],
+      "answer": "A",
+      "explanation": "未經驗證的概括就是刻板印象。",
+      "tags": [
+        "規範、文化和偏見"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u08-so7a-u08-kp1-4",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch2",
+      "unitId": "so7a-u08",
+      "knowledgePointId": "so7a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "減少偏見的做法是？",
+      "options": [
+        "增加真實接觸和查證",
+        "只保留第一印象",
+        "拒絕所有不同",
+        "用笑話鞏固印象"
+      ],
+      "answer": "A",
+      "explanation": "認識和查證能修正印象。",
+      "tags": [
+        "規範、文化和偏見"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "civics-1-1-ci7a-ch2-ci7a-u02-ci7a-u02-kp1-1",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch2",
+      "unitId": "ci7a-u02",
+      "knowledgePointId": "ci7a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "同儕主要是指？",
+      "options": [
+        "常一起活動、年齡相近的人",
+        "只有父母",
+        "只有老師",
+        "政府五院"
+      ],
+      "answer": "A",
+      "explanation": "朋友和同學是常見例子。",
+      "tags": [
+        "同儕壓力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-1-1-ci7a-ch2-ci7a-u02-ci7a-u02-kp1-2",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch2",
+      "unitId": "ci7a-u02",
+      "knowledgePointId": "ci7a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "大家都在做，所以我應該做。這句話？",
+      "options": [
+        "不一定，還要看那件事對不對",
+        "永遠正確",
+        "是法律條文",
+        "是地圖圖例"
+      ],
+      "answer": "A",
+      "explanation": "多數不是對錯的標準。",
+      "tags": [
+        "同儕壓力"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-1-1-ci7a-ch2-ci7a-u02-ci7a-u02-kp1-3",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch2",
+      "unitId": "ci7a-u02",
+      "knowledgePointId": "ci7a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "拒絕同儕時，有用的做法是？",
+      "options": [
+        "給出理由或離開情境",
+        "必須罵對方",
+        "只能沉默跟著做",
+        "立刻散播對方的秘密"
+      ],
+      "answer": "A",
+      "explanation": "界線可以清楚，而不必羞辱人。",
+      "tags": [
+        "同儕壓力"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "civics-1-1-ci7a-ch2-ci7a-u02-ci7a-u02-kp1-4",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "ci7a-ch2",
+      "unitId": "ci7a-u02",
+      "knowledgePointId": "ci7a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "同儕影響題要先分開？",
+      "options": [
+        "支持和壓力",
+        "所有朋友都是壓力",
+        "所有朋友都是對的",
+        "大人沒有影響"
+      ],
+      "answer": "A",
+      "explanation": "同一群人可以有兩種作用。",
+      "tags": [
+        "同儕壓力"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u07-so7b-u07-kp1-1",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch1",
+      "unitId": "so7b-u07",
+      "knowledgePointId": "so7b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "義務是？",
+      "options": [
+        "應當完成的責任",
+        "可以任意放棄的禮物",
+        "地圖符號",
+        "產業分類"
+      ],
+      "answer": "A",
+      "explanation": "義務對應責任。",
+      "tags": [
+        "權利和義務"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u07-so7b-u07-kp1-2",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch1",
+      "unitId": "so7b-u07",
+      "knowledgePointId": "so7b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "自由的邊界通常是？",
+      "options": [
+        "不侵害他人的權利",
+        "完全沒有邊界",
+        "只看心情",
+        "只適用於大人玩遊戲"
+      ],
+      "answer": "A",
+      "explanation": "自由與別人的權利並存。",
+      "tags": [
+        "權利和義務"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u07-so7b-u07-kp1-3",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch1",
+      "unitId": "so7b-u07",
+      "knowledgePointId": "so7b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "權利被侵害時，較適當的做法是？",
+      "options": [
+        "循申訴、調解或訴訟",
+        "私下報復",
+        "假裝沒發生且不能告訴任何人",
+        "改寫歷史"
+      ],
+      "answer": "A",
+      "explanation": "制度用來取代私力報復。",
+      "tags": [
+        "權利和義務"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u07-so7b-u07-kp1-4",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch1",
+      "unitId": "so7b-u07",
+      "knowledgePointId": "so7b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "納稅屬於？",
+      "options": [
+        "義務",
+        "地形",
+        "拉力",
+        "詞牌"
+      ],
+      "answer": "A",
+      "explanation": "納稅是公民義務。",
+      "tags": [
+        "權利和義務"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "civics-1-2-ci7b-ch1-ci7b-u03-ci7b-u03-kp1-1",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch1",
+      "unitId": "ci7b-u03",
+      "knowledgePointId": "ci7b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "班規這一類規則的作用是？",
+      "options": [
+        "讓大家知道如何一起做事",
+        "讓一個人可以任意決定",
+        "取代憲法",
+        "取消所有權利"
+      ],
+      "answer": "A",
+      "explanation": "共同規則降低混亂。",
+      "tags": [
+        "團體裡的規則"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-1-2-ci7b-ch1-ci7b-u03-ci7b-u03-kp1-2",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch1",
+      "unitId": "ci7b-u03",
+      "knowledgePointId": "ci7b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "沒有寫下來、但大家默默遵守的是？",
+      "options": [
+        "非正式規範",
+        "憲法",
+        "地圖比例尺",
+        "化學式"
+      ],
+      "answer": "A",
+      "explanation": "默契也是規範。",
+      "tags": [
+        "團體裡的規則"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-1-2-ci7b-ch1-ci7b-u03-ci7b-u03-kp1-3",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch1",
+      "unitId": "ci7b-u03",
+      "knowledgePointId": "ci7b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "規則可能帶來的問題是？",
+      "options": [
+        "把一部分人排除在外",
+        "讓人完全不能合作",
+        "使法律消失",
+        "讓所有衝突自動變好"
+      ],
+      "answer": "A",
+      "explanation": "規範要檢查誰被排開。",
+      "tags": [
+        "團體裡的規則"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "civics-1-2-ci7b-ch1-ci7b-u03-ci7b-u03-kp1-4",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch1",
+      "unitId": "ci7b-u03",
+      "knowledgePointId": "ci7b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "想改一個不公平的班規，比較符合公民做法的是？",
+      "options": [
+        "在討論程序裡提出理由",
+        "私下報復",
+        "假裝它不存在",
+        "只對好朋友適用"
+      ],
+      "answer": "A",
+      "explanation": "改變規則走程序。",
+      "tags": [
+        "團體裡的規則"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "civics-1-2-ci7b-ch2-ci7b-u04-ci7b-u04-kp1-1",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch2",
+      "unitId": "ci7b-u04",
+      "knowledgePointId": "ci7b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "多元文化是指？",
+      "options": [
+        "社會裡有不同的生活方式",
+        "所有人必須完全一樣",
+        "只剩一種語言",
+        "不能過節"
+      ],
+      "answer": "A",
+      "explanation": "差異同時存在。",
+      "tags": [
+        "多元文化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-1-2-ci7b-ch2-ci7b-u04-ci7b-u04-kp1-2",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch2",
+      "unitId": "ci7b-u04",
+      "knowledgePointId": "ci7b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法律之前人人平等，是指？",
+      "options": [
+        "不能因為族群或文化就被歧視",
+        "每個人的身高相同",
+        "每個人的成績相同",
+        "不需要規則"
+      ],
+      "answer": "A",
+      "explanation": "平等是權利，不是長得一樣。",
+      "tags": [
+        "多元文化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-1-2-ci7b-ch2-ci7b-u04-ci7b-u04-kp1-3",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch2",
+      "unitId": "ci7b-u04",
+      "knowledgePointId": "ci7b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "減少偏見的第一步通常是？",
+      "options": [
+        "認識對方的文化",
+        "先嘲笑差異",
+        "禁止所有節日",
+        "假設自己的方式永遠最好"
+      ],
+      "answer": "A",
+      "explanation": "認識先於判斷。",
+      "tags": [
+        "多元文化"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "civics-1-2-ci7b-ch2-ci7b-u04-ci7b-u04-kp1-4",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch2",
+      "unitId": "ci7b-u04",
+      "knowledgePointId": "ci7b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "題目要你尊重文化，同時文化裡有傷害人的做法。較好的判斷是？",
+      "options": [
+        "尊重差異，但傷害權利的行為仍要被法律檢視",
+        "全部接受",
+        "全部禁止",
+        "只看食物好不好吃"
+      ],
+      "answer": "A",
+      "explanation": "尊重不等於放棄權利保障。",
+      "tags": [
+        "多元文化"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u08-so7b-u08-kp1-1",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch2",
+      "unitId": "so7b-u08",
+      "knowledgePointId": "so7b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "為什麼不能只看標題？",
+      "options": [
+        "標題可能省略或誇大",
+        "標題一定是全文",
+        "標題沒有文字",
+        "標題等於法律"
+      ],
+      "answer": "A",
+      "explanation": "標題是選擇過的句子。",
+      "tags": [
+        "媒體怎麼讀"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u08-so7b-u08-kp1-2",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch2",
+      "unitId": "so7b-u08",
+      "knowledgePointId": "so7b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "查證時最好？",
+      "options": [
+        "對照其他可靠來源",
+        "只看轉傳次數",
+        "看讚數",
+        "看字體"
+      ],
+      "answer": "A",
+      "explanation": "獨立來源能互相檢查。",
+      "tags": [
+        "媒體怎麼讀"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u08-so7b-u08-kp1-3",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch2",
+      "unitId": "so7b-u08",
+      "knowledgePointId": "so7b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "廣告和新聞的差別之一是？",
+      "options": [
+        "廣告目的常常是說服你行動或購買",
+        "兩者完全相同",
+        "廣告不能有文字",
+        "新聞一定是假的"
+      ],
+      "answer": "A",
+      "explanation": "目的不同，讀法就要不同。",
+      "tags": [
+        "媒體怎麼讀"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u08-so7b-u08-kp1-4",
+      "subject": "civics",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "ci7b-ch2",
+      "unitId": "so7b-u08",
+      "knowledgePointId": "so7b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "轉傳未查證的消息，可能？",
+      "options": [
+        "讓錯誤繼續擴散",
+        "自動更正事實",
+        "取代法院",
+        "改變經度"
+      ],
+      "answer": "A",
+      "explanation": "轉傳也是在發表。",
+      "tags": [
+        "媒體怎麼讀"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u07-so8a-u07-kp1-1",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch1",
+      "unitId": "so8a-u07",
+      "knowledgePointId": "so8a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "國家四要素是？",
+      "options": [
+        "人民、領土、政府、主權",
+        "山、水、風、雨",
+        "農、工、商、服務以外",
+        "詩、詞、曲、賦"
+      ],
+      "answer": "A",
+      "explanation": "這四項是常見的國家要素。",
+      "tags": [
+        "國家的四個要素"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u07-so8a-u07-kp1-2",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch1",
+      "unitId": "so8a-u07",
+      "knowledgePointId": "so8a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "主權是指？",
+      "options": [
+        "能自己做最後的統治決定",
+        "人口總數",
+        "出口金額",
+        "山的高度"
+      ],
+      "answer": "A",
+      "explanation": "主權是最高的自我決定。",
+      "tags": [
+        "國家的四個要素"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u07-so8a-u07-kp1-3",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch1",
+      "unitId": "so8a-u07",
+      "knowledgePointId": "so8a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "政府和主權的差別是？",
+      "options": [
+        "政府是組織，主權是最高決定權",
+        "兩者是同一個詞",
+        "主權就是人口",
+        "政府就是領土"
+      ],
+      "answer": "A",
+      "explanation": "不要把組織和權力混成一個。",
+      "tags": [
+        "國家的四個要素"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u07-so8a-u07-kp1-4",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch1",
+      "unitId": "so8a-u07",
+      "knowledgePointId": "so8a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "兩國對同一塊土地都主張擁有，這是？",
+      "options": [
+        "領土爭議",
+        "人口遷移完成",
+        "產業升級",
+        "解嚴"
+      ],
+      "answer": "A",
+      "explanation": "爭執的是領土範圍。",
+      "tags": [
+        "國家的四個要素"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u08-so8a-u08-kp1-1",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch1",
+      "unitId": "so8a-u08",
+      "knowledgePointId": "so8a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "民主政治裡，選舉的重要性是？",
+      "options": [
+        "執政者可以被更換",
+        "保證同一人永遠執政",
+        "取消權利",
+        "代替領土"
+      ],
+      "answer": "A",
+      "explanation": "定期改選是責任政治的一環。",
+      "tags": [
+        "民主政治在做什麼"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u08-so8a-u08-kp1-2",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch1",
+      "unitId": "so8a-u08",
+      "knowledgePointId": "so8a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "多數決的限制是？",
+      "options": [
+        "不能因此取消少數的基本權利",
+        "少數不必存在",
+        "不必有法律",
+        "不能投票"
+      ],
+      "answer": "A",
+      "explanation": "權利不是靠人數投票投掉的。",
+      "tags": [
+        "民主政治在做什麼"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u08-so8a-u08-kp1-3",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch1",
+      "unitId": "so8a-u08",
+      "knowledgePointId": "so8a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "不同意見被允許表達，是為了？",
+      "options": [
+        "讓公共決定被檢驗",
+        "讓事實更混亂就好",
+        "取消選舉",
+        "代替政府"
+      ],
+      "answer": "A",
+      "explanation": "言論用來檢查權力。",
+      "tags": [
+        "民主政治在做什麼"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u08-so8a-u08-kp1-4",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch1",
+      "unitId": "so8a-u08",
+      "knowledgePointId": "so8a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "只在投票日參與、平常完全不關心公共事務，民主會？",
+      "options": [
+        "缺少日常的監督",
+        "自動更完整",
+        "不需要制度",
+        "等於主權消失"
+      ],
+      "answer": "A",
+      "explanation": "民主靠持續參與。",
+      "tags": [
+        "民主政治在做什麼"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "civics-2-1-ci8a-ch2-ci8a-u03-ci8a-u03-kp1-1",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch2",
+      "unitId": "ci8a-u03",
+      "knowledgePointId": "ci8a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "還沒有投票年齡的學生可以？",
+      "options": [
+        "討論和關心公共問題",
+        "什麼都不能說",
+        "直接頒布法律",
+        "代替別人投票"
+      ],
+      "answer": "A",
+      "explanation": "參與不限於投票當天。",
+      "tags": [
+        "參與不只投票那一天"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-2-1-ci8a-ch2-ci8a-u03-ci8a-u03-kp1-2",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch2",
+      "unitId": "ci8a-u03",
+      "knowledgePointId": "ci8a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "監督政府屬於？",
+      "options": [
+        "政治參與",
+        "只屬於地圖技能",
+        "私人吵架",
+        "化學實驗"
+      ],
+      "answer": "A",
+      "explanation": "問責是民主的一部分。",
+      "tags": [
+        "參與不只投票那一天"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-2-1-ci8a-ch2-ci8a-u03-ci8a-u03-kp1-3",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch2",
+      "unitId": "ci8a-u03",
+      "knowledgePointId": "ci8a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "轉傳一則生氣的訊息之前，要先？",
+      "options": [
+        "核對它是不是事實",
+        "看按讚多不多",
+        "選最誇張的標題",
+        "隱藏出處"
+      ],
+      "answer": "A",
+      "explanation": "參與用證據。",
+      "tags": [
+        "參與不只投票那一天"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "civics-2-1-ci8a-ch2-ci8a-u03-ci8a-u03-kp1-4",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch2",
+      "unitId": "ci8a-u03",
+      "knowledgePointId": "ci8a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「沒有投票就等於沒有盡公民責任」漏了什麼？",
+      "options": [
+        "還有其他參與方式",
+        "投票不重要",
+        "學生必須投票",
+        "討論是違法的"
+      ],
+      "answer": "A",
+      "explanation": "責任包含平常的關注。",
+      "tags": [
+        "參與不只投票那一天"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "civics-2-1-ci8a-ch2-ci8a-u04-ci8a-u04-kp1-1",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch2",
+      "unitId": "ci8a-u04",
+      "knowledgePointId": "ci8a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "公共場所的規則主要是為了？",
+      "options": [
+        "讓大家都能使用",
+        "只方便一個人",
+        "取消自由",
+        "增加爭吵"
+      ],
+      "answer": "A",
+      "explanation": "共用資源需要規則。",
+      "tags": [
+        "個人和公共利益"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-2-1-ci8a-ch2-ci8a-u04-ci8a-u04-kp1-2",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch2",
+      "unitId": "ci8a-u04",
+      "knowledgePointId": "ci8a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "個人自由的邊界通常在？",
+      "options": [
+        "不任意傷害別人",
+        "想做什麼都可以",
+        "沒有邊界",
+        "只看心情"
+      ],
+      "answer": "A",
+      "explanation": "權利伴隨不侵害他人。",
+      "tags": [
+        "個人和公共利益"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "civics-2-1-ci8a-ch2-ci8a-u04-ci8a-u04-kp1-3",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch2",
+      "unitId": "ci8a-u04",
+      "knowledgePointId": "ci8a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "空氣和安靜的教室比較像？",
+      "options": [
+        "大家共用、需要規則的資源",
+        "一個人的私人物品",
+        "不能被影響的神話",
+        "只跟地理有關"
+      ],
+      "answer": "A",
+      "explanation": "使用時會影響其他人。",
+      "tags": [
+        "個人和公共利益"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "civics-2-1-ci8a-ch2-ci8a-u04-ci8a-u04-kp1-4",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "ci8a-ch2",
+      "unitId": "ci8a-u04",
+      "knowledgePointId": "ci8a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "兩種權利撞在一起時，第一步？",
+      "options": [
+        "看各自影響了誰、有什麼規則",
+        "最大聲的人贏",
+        "完全不處理",
+        "只選自己的朋友"
+      ],
+      "answer": "A",
+      "explanation": "先釐清權利，再找程序。",
+      "tags": [
+        "個人和公共利益"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u05-so8b-u05-kp1-1",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch1",
+      "unitId": "so8b-u05",
+      "knowledgePointId": "so8b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "審議法律的主要是？",
+      "options": [
+        "立法院",
+        "只靠行政院單獨公布即可",
+        "監察院種稻",
+        "考試院畫地圖"
+      ],
+      "answer": "A",
+      "explanation": "立法權在立法院。",
+      "tags": [
+        "中央政府五院"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u05-so8b-u05-kp1-2",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch1",
+      "unitId": "so8b-u05",
+      "knowledgePointId": "so8b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法院審判屬於？",
+      "options": [
+        "司法",
+        "農林漁牧",
+        "比例尺",
+        "人口拉力"
+      ],
+      "answer": "A",
+      "explanation": "審判是司法核心。",
+      "tags": [
+        "中央政府五院"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u05-so8b-u05-kp1-3",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch1",
+      "unitId": "so8b-u05",
+      "knowledgePointId": "so8b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "預算由立法部門審議，是為了？",
+      "options": [
+        "讓花錢受人民代表監督",
+        "讓預算秘密",
+        "取消行政",
+        "代替選舉"
+      ],
+      "answer": "A",
+      "explanation": "預算是民主監督的工具。",
+      "tags": [
+        "中央政府五院"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u05-so8b-u05-kp1-4",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch1",
+      "unitId": "so8b-u05",
+      "knowledgePointId": "so8b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "監察的功能較接近？",
+      "options": [
+        "糾舉與調查公職",
+        "制定所有刑法條文",
+        "經營港口",
+        "預測颱風"
+      ],
+      "answer": "A",
+      "explanation": "監察院負責監察。",
+      "tags": [
+        "中央政府五院"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u06-so8b-u06-kp1-1",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch1",
+      "unitId": "so8b-u06",
+      "knowledgePointId": "so8b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "垃圾、公園這類事務較常由？",
+      "options": [
+        "地方政府處理",
+        "只有赤道委員會",
+        "詞牌規定",
+        "酵素決定"
+      ],
+      "answer": "A",
+      "explanation": "地方最靠近日常生活。",
+      "tags": [
+        "地方和選舉"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u06-so8b-u06-kp1-2",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch1",
+      "unitId": "so8b-u06",
+      "knowledgePointId": "so8b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "民法上的成年年齡是？",
+      "options": [
+        "18 歲",
+        "7 歲",
+        "40 歲",
+        "和投票年齡永遠相同且是 12"
+      ],
+      "answer": "A",
+      "explanation": "民法成年已是 18 歲。",
+      "tags": [
+        "地方和選舉"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u06-so8b-u06-kp1-3",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch1",
+      "unitId": "so8b-u06",
+      "knowledgePointId": "so8b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "目前選舉投票年齡是？",
+      "options": [
+        "滿 20 歲",
+        "滿 7 歲",
+        "滿 14 歲就一定可以",
+        "沒有年齡"
+      ],
+      "answer": "A",
+      "explanation": "投票年齡仍是 20 歲。",
+      "tags": [
+        "地方和選舉"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u06-so8b-u06-kp1-4",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch1",
+      "unitId": "so8b-u06",
+      "knowledgePointId": "so8b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "地方議會的作用是？",
+      "options": [
+        "監督地方政府",
+        "代替天氣",
+        "取消主權",
+        "制定詞牌"
+      ],
+      "answer": "A",
+      "explanation": "議會代表地方居民監督。",
+      "tags": [
+        "地方和選舉"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u07-so8b-u07-kp1-1",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch2",
+      "unitId": "so8b-u07",
+      "knowledgePointId": "so8b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法律位階最高的是？",
+      "options": [
+        "憲法",
+        "一則行政命令",
+        "一則新聞",
+        "一張地圖"
+      ],
+      "answer": "A",
+      "explanation": "憲法高於法律和命令。",
+      "tags": [
+        "憲法和基本權利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u07-so8b-u07-kp1-2",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch2",
+      "unitId": "so8b-u07",
+      "knowledgePointId": "so8b-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "投票屬於哪一類權利的實踐？",
+      "options": [
+        "參政權",
+        "只有受益權裡的免費午餐",
+        "地形",
+        "產業"
+      ],
+      "answer": "A",
+      "explanation": "參與公共決定是參政。",
+      "tags": [
+        "憲法和基本權利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u07-so8b-u07-kp1-3",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch2",
+      "unitId": "so8b-u07",
+      "knowledgePointId": "so8b-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "政府限制遊行，必須？",
+      "options": [
+        "有法律依據和理由",
+        "看當天心情",
+        "不必說明",
+        "由私人決定"
+      ],
+      "answer": "A",
+      "explanation": "限制基本權利要依法。",
+      "tags": [
+        "憲法和基本權利"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u07-so8b-u07-kp1-4",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch2",
+      "unitId": "so8b-u07",
+      "knowledgePointId": "so8b-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "憲法比普通法律難修改，是因為？",
+      "options": [
+        "它規範最根本的權力結構",
+        "它字比較少",
+        "它不是法",
+        "它每年自動消失"
+      ],
+      "answer": "A",
+      "explanation": "根本規則需要更嚴格的程序。",
+      "tags": [
+        "憲法和基本權利"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u08-so8b-u08-kp1-1",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch2",
+      "unitId": "so8b-u08",
+      "knowledgePointId": "so8b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "分權的主要目的之一是？",
+      "options": [
+        "避免權力不受監督",
+        "讓每個機關做同一件事四次",
+        "取消政府",
+        "增加地形"
+      ],
+      "answer": "A",
+      "explanation": "監督來自分開。",
+      "tags": [
+        "為什麼要分權"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u08-so8b-u08-kp1-2",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch2",
+      "unitId": "so8b-u08",
+      "knowledgePointId": "so8b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "立法和行政分開，是為了？",
+      "options": [
+        "訂規則的人和執行的人可以互相檢查",
+        "讓法律無法執行",
+        "取消預算",
+        "代替選舉"
+      ],
+      "answer": "A",
+      "explanation": "分開才有檢查點。",
+      "tags": [
+        "為什麼要分權"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u08-so8b-u08-kp1-3",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch2",
+      "unitId": "so8b-u08",
+      "knowledgePointId": "so8b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "分權若變成完全不合作，可能？",
+      "options": [
+        "公共事務停擺",
+        "自動更民主",
+        "不需要預算",
+        "主權增加"
+      ],
+      "answer": "A",
+      "explanation": "制衡之後仍要能運作。",
+      "tags": [
+        "為什麼要分權"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch2-so8b-u08-so8b-u08-kp1-4",
+      "subject": "civics",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "ci8b-ch2",
+      "unitId": "so8b-u08",
+      "knowledgePointId": "so8b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "考試事務獨立處理，較接近？",
+      "options": [
+        "專業分工",
+        "取消人事",
+        "由天氣決定",
+        "地方地形"
+      ],
+      "answer": "A",
+      "explanation": "分權同時是分工。",
+      "tags": [
+        "為什麼要分權"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u05-so9a-u05-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch1",
+      "unitId": "so9a-u05",
+      "knowledgePointId": "so9a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "命令和憲法衝突時，應該？",
+      "options": [
+        "以憲法為準",
+        "以命令為準",
+        "以新聞為準",
+        "沒有規則"
+      ],
+      "answer": "A",
+      "explanation": "上位規範優先。",
+      "tags": [
+        "法律位階和年齡"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u05-so9a-u05-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch1",
+      "unitId": "so9a-u05",
+      "knowledgePointId": "so9a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法律不能違反？",
+      "options": [
+        "憲法",
+        "一則廣告",
+        "私人日記",
+        "天氣"
+      ],
+      "answer": "A",
+      "explanation": "憲法是根本法。",
+      "tags": [
+        "法律位階和年齡"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u05-so9a-u05-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch1",
+      "unitId": "so9a-u05",
+      "knowledgePointId": "so9a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "滿 18 歲代表？",
+      "options": [
+        "民法上成年",
+        "一定可以投票",
+        "不必負任何責任",
+        "自動當選"
+      ],
+      "answer": "A",
+      "explanation": "成年和投票年齡不同。",
+      "tags": [
+        "法律位階和年齡"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u05-so9a-u05-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch1",
+      "unitId": "so9a-u05",
+      "knowledgePointId": "so9a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "未滿 14 歲的人犯罪，刑法上？",
+      "options": [
+        "不罰",
+        "一定判得比成人重",
+        "沒有條文",
+        "由學校校長自行關押"
+      ],
+      "answer": "A",
+      "explanation": "未滿 14 歲不負刑事責任。",
+      "tags": [
+        "法律位階和年齡"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u07-so9a-u07-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch1",
+      "unitId": "so9a-u07",
+      "knowledgePointId": "so9a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "罪刑法定是指？",
+      "options": [
+        "犯罪和刑罰必須事先由法律規定",
+        "法官可以臨時發明罪名",
+        "新聞標題就是判決",
+        "多數人討厭就可以罰"
+      ],
+      "answer": "A",
+      "explanation": "沒有事先規定，就不能當成犯罪處罰。",
+      "tags": [
+        "罪刑法定"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u07-so9a-u07-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch1",
+      "unitId": "so9a-u07",
+      "knowledgePointId": "so9a-u07-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "行為當時法律沒有禁止，事後才規定。原則上？",
+      "options": [
+        "不能用新法溯及去罰舊行為",
+        "一定從重",
+        "由鄰居投票",
+        "沒有原則"
+      ],
+      "answer": "A",
+      "explanation": "刑法不溯及既往去加重處罰。",
+      "tags": [
+        "罪刑法定"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u07-so9a-u07-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch1",
+      "unitId": "so9a-u07",
+      "knowledgePointId": "so9a-u07-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "還沒判決前，嫌疑人應被視為？",
+      "options": [
+        "尚未定罪",
+        "已經有罪",
+        "不能有辯護",
+        "失去全部權利"
+      ],
+      "answer": "A",
+      "explanation": "有罪要經過審判。",
+      "tags": [
+        "罪刑法定"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u07-so9a-u07-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch1",
+      "unitId": "so9a-u07",
+      "knowledgePointId": "so9a-u07-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "因為某人屬於某族群就判罪，違反？",
+      "options": [
+        "處罰應針對行為",
+        "比例尺",
+        "產業分類",
+        "季風"
+      ],
+      "answer": "A",
+      "explanation": "罪是行為，不是身份。",
+      "tags": [
+        "罪刑法定"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u06-so9a-u06-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch2",
+      "unitId": "so9a-u06",
+      "knowledgePointId": "so9a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "契約的基礎是？",
+      "options": [
+        "雙方真的同意",
+        "一方偷偷決定",
+        "天氣",
+        "地形"
+      ],
+      "answer": "A",
+      "explanation": "沒有同意就不是有效的約定。",
+      "tags": [
+        "契約和損害"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u06-so9a-u06-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch2",
+      "unitId": "so9a-u06",
+      "knowledgePointId": "so9a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "被強迫簽名時，這個同意？",
+      "options": [
+        "有瑕疵",
+        "一定完全有效",
+        "等於憲法",
+        "不需要理會"
+      ],
+      "answer": "A",
+      "explanation": "強迫會影響效力。",
+      "tags": [
+        "契約和損害"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u06-so9a-u06-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch2",
+      "unitId": "so9a-u06",
+      "knowledgePointId": "so9a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "法律特別保護未成年人簽約，是因為？",
+      "options": [
+        "他們較容易吃虧",
+        "他們不能擁有任何權利",
+        "契約只適用成人且小孩完全隱形",
+        "他們一定不會損害別人"
+      ],
+      "answer": "A",
+      "explanation": "判斷經驗不足，所以有保護。",
+      "tags": [
+        "契約和損害"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u06-so9a-u06-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch2",
+      "unitId": "so9a-u06",
+      "knowledgePointId": "so9a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "弄壞別人物品，可能要？",
+      "options": [
+        "負損害賠償",
+        "獲得獎勵",
+        "改寫憲法",
+        "取消所有契約"
+      ],
+      "answer": "A",
+      "explanation": "侵權可能產生賠償責任。",
+      "tags": [
+        "契約和損害"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u08-so9a-u08-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch2",
+      "unitId": "so9a-u08",
+      "knowledgePointId": "so9a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "機會成本是？",
+      "options": [
+        "放棄的選項中價值最高者",
+        "所有選項的價錢相加",
+        "商品標價",
+        "零"
+      ],
+      "answer": "A",
+      "explanation": "只算次佳選項的價值。",
+      "tags": [
+        "機會成本"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u08-so9a-u08-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch2",
+      "unitId": "so9a-u08",
+      "knowledgePointId": "so9a-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "周末只能選一項。選了球賽，放棄的家教價值最高。機會成本是？",
+      "options": [
+        "那場家教",
+        "球賽本身的樂趣全部相加",
+        "零",
+        "交通加上午餐再加上所有沒選的總和"
+      ],
+      "answer": "A",
+      "explanation": "成本是被放棄的最高價值。",
+      "tags": [
+        "機會成本"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u08-so9a-u08-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch2",
+      "unitId": "so9a-u08",
+      "knowledgePointId": "so9a-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "免費演唱會若讓你沒時間準備考試，成本是？",
+      "options": [
+        "失去的讀書與可能的成績",
+        "一定是零",
+        "票價",
+        "場地租金的全部"
+      ],
+      "answer": "A",
+      "explanation": "沒有標價不等於沒有成本。",
+      "tags": [
+        "機會成本"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch2-so9a-u08-so9a-u08-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "ci9a-ch2",
+      "unitId": "so9a-u08",
+      "knowledgePointId": "so9a-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "電腦機會成本時，不該？",
+      "options": [
+        "把每一個沒選的選項全部加總",
+        "找出次佳",
+        "考慮時間",
+        "考慮選擇"
+      ],
+      "answer": "A",
+      "explanation": "相加會高估。",
+      "tags": [
+        "機會成本"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u01-so9b-u01-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9b-u01",
+      "knowledgePointId": "so9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "其他條件不變，價格上升時，需求量通常？",
+      "options": [
+        "下降",
+        "一定無限上升",
+        "變成供給",
+        "與價格無關"
+      ],
+      "answer": "A",
+      "explanation": "這是需求法則。",
+      "tags": [
+        "價格怎麼來"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u01-so9b-u01-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9b-u01",
+      "knowledgePointId": "so9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "供給是指？",
+      "options": [
+        "賣方願意出售的數量",
+        "買方的心情名稱",
+        "法律位階",
+        "地形種類"
+      ],
+      "answer": "A",
+      "explanation": "供給來自賣方。",
+      "tags": [
+        "價格怎麼來"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u01-so9b-u01-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9b-u01",
+      "knowledgePointId": "so9b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只看需求、不看供給，會漏掉？",
+      "options": [
+        "賣方能提供多少",
+        "買方存在",
+        "價格這個詞",
+        "選擇"
+      ],
+      "answer": "A",
+      "explanation": "價格由兩邊共同作用。",
+      "tags": [
+        "價格怎麼來"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u01-so9b-u01-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9b-u01",
+      "knowledgePointId": "so9b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "「其他條件不變」這句話是為了？",
+      "options": [
+        "先隔離出價格的影響",
+        "表示現實永遠不變",
+        "取消所有原因",
+        "代替數據"
+      ],
+      "answer": "A",
+      "explanation": "它是分析時的假設。",
+      "tags": [
+        "價格怎麼來"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u02-so9b-u02-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9b-u02",
+      "knowledgePointId": "so9b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "貿易發生的基礎之一是？",
+      "options": [
+        "生產條件不同",
+        "兩地完全一樣",
+        "禁止交換",
+        "沒有交通"
+      ],
+      "answer": "A",
+      "explanation": "差異讓交換有意義。",
+      "tags": [
+        "貿易為什麼發生"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u02-so9b-u02-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9b-u02",
+      "knowledgePointId": "so9b-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "分工的好處是？",
+      "options": [
+        "各自發揮相對優勢",
+        "所有人做同一件最不擅長的事",
+        "取消選擇",
+        "提高所有成本"
+      ],
+      "answer": "A",
+      "explanation": "相對優勢是貿易的理由。",
+      "tags": [
+        "貿易為什麼發生"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u02-so9b-u02-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9b-u02",
+      "knowledgePointId": "so9b-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "便宜進口品增加時，國內同類生產者可能？",
+      "options": [
+        "受到競爭壓力",
+        "完全不受影響",
+        "自動消失且不值得討論",
+        "變成地圖"
+      ],
+      "answer": "A",
+      "explanation": "貿易的利益分配不平均。",
+      "tags": [
+        "貿易為什麼發生"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u02-so9b-u02-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9b-u02",
+      "knowledgePointId": "so9b-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "評價貿易政策時應該？",
+      "options": [
+        "同時看消費者和受衝擊者",
+        "只看一口號",
+        "不看就業",
+        "不看價格"
+      ],
+      "answer": "A",
+      "explanation": "利益和調整成本都要算。",
+      "tags": [
+        "貿易為什麼發生"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u03-so9a-u03-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9a-u03",
+      "knowledgePointId": "so9a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "全球化是指？",
+      "options": [
+        "跨國的流動變密切",
+        "每個國家完全隔絕",
+        "取消地圖",
+        "只發生在一個城市"
+      ],
+      "answer": "A",
+      "explanation": "重點是跨界連結。",
+      "tags": [
+        "全球化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u03-so9a-u03-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9a-u03",
+      "knowledgePointId": "so9a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "貨物全球生產的好處之一是？",
+      "options": [
+        "可能降低成本",
+        "一定沒有風險",
+        "不會影響工作",
+        "地方不再存在"
+      ],
+      "answer": "A",
+      "explanation": "分工可以降低價格。",
+      "tags": [
+        "全球化"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u03-so9a-u03-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9a-u03",
+      "knowledgePointId": "so9a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "金融危機會跨國傳遞，說明？",
+      "options": [
+        "連結愈緊，衝擊愈快",
+        "全球化沒有影響",
+        "只有農業會受影響",
+        "邊界能擋住所有資訊"
+      ],
+      "answer": "A",
+      "explanation": "依賴會傳遞風險。",
+      "tags": [
+        "全球化"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u03-so9a-u03-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch1",
+      "unitId": "so9a-u03",
+      "knowledgePointId": "so9a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "完全封閉不一定更好，因為？",
+      "options": [
+        "許多問題和資源都跨國",
+        "貿易一定違法",
+        "沒有文化",
+        "人口不能分布"
+      ],
+      "answer": "A",
+      "explanation": "環境、疫情和貿易都跨越邊界。",
+      "tags": [
+        "全球化"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u03-so9b-u03-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u03",
+      "knowledgePointId": "so9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "社會福利主要在處理？",
+      "options": [
+        "個人難以單獨承擔的風險",
+        "地圖繪製",
+        "押韻",
+        "細胞分類"
+      ],
+      "answer": "A",
+      "explanation": "疾病、老年、失業都是風險。",
+      "tags": [
+        "社會福利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u03-so9b-u03-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u03",
+      "knowledgePointId": "so9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "福利的財源主要包括？",
+      "options": [
+        "稅收",
+        "只靠願望",
+        "取消政府",
+        "地形"
+      ],
+      "answer": "A",
+      "explanation": "公共支出需要稅。",
+      "tags": [
+        "社會福利"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u03-so9b-u03-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u03",
+      "knowledgePointId": "so9b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只照顧最有聲音的人，可能漏掉？",
+      "options": [
+        "真正資源不足的人",
+        "所有風險",
+        "稅的存在",
+        "制度"
+      ],
+      "answer": "A",
+      "explanation": "對象要對準需要。",
+      "tags": [
+        "社會福利"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u03-so9b-u03-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u03",
+      "knowledgePointId": "so9b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "福利若支出遠超過社會能負擔，問題是？",
+      "options": [
+        "制度難以持續",
+        "一定更公平",
+        "不必討論",
+        "沒有機會成本"
+      ],
+      "answer": "A",
+      "explanation": "永續和公平要一起看。",
+      "tags": [
+        "社會福利"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u04-so9b-u04-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u04",
+      "knowledgePointId": "so9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "社會變遷是指？",
+      "options": [
+        "生活方式和觀念的改變",
+        "地形永遠升降",
+        "一天的天氣",
+        "一個人改暱稱"
+      ],
+      "answer": "A",
+      "explanation": "它是群體生活的變化。",
+      "tags": [
+        "社會變遷"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u04-so9b-u04-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u04",
+      "knowledgePointId": "so9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "網路讓遠距工作變多，這屬於？",
+      "options": [
+        "科技推動的變遷",
+        "地形雨",
+        "罪刑法定",
+        "清領"
+      ],
+      "answer": "A",
+      "explanation": "科技會改變工作方式。",
+      "tags": [
+        "社會變遷"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u04-so9b-u04-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u04",
+      "knowledgePointId": "so9b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "規則跟不上新情況時，應該？",
+      "options": [
+        "重新討論制度",
+        "假裝沒有變化",
+        "取消所有權利",
+        "只靠刻板印象"
+      ],
+      "answer": "A",
+      "explanation": "制度需要更新。",
+      "tags": [
+        "社會變遷"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch1-so9b-u04-so9b-u04-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u04",
+      "knowledgePointId": "so9b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "評估變遷時要先？",
+      "options": [
+        "分開事實和情緒",
+        "只留下害怕",
+        "不看資料",
+        "拒絕定義"
+      ],
+      "answer": "A",
+      "explanation": "情緒不能代替事實。",
+      "tags": [
+        "社會變遷"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u08-so9b-u08-kp1-1",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u08",
+      "knowledgePointId": "so9b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "時事題最常考的是？",
+      "options": [
+        "新聞背後的課程概念",
+        "記者的生日",
+        "你的立場名稱",
+        "版面好不好看"
+      ],
+      "answer": "A",
+      "explanation": "情境是新的，概念是學過的。",
+      "tags": [
+        "時事題的讀法"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u08-so9b-u08-kp1-2",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u08",
+      "knowledgePointId": "so9b-u08-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "一段新聞在談價格上漲。可以對上？",
+      "options": [
+        "供需",
+        "絕句對仗",
+        "減數分裂",
+        "詞牌"
+      ],
+      "answer": "A",
+      "explanation": "用經濟概念解釋。",
+      "tags": [
+        "時事題的讀法"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u08-so9b-u08-kp1-3",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u08",
+      "knowledgePointId": "so9b-u08-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "資料沒有提到原因，選項卻給了確定原因。應該？",
+      "options": [
+        "不選超出資料的選項",
+        "選最符合自己意見的",
+        "選最長的",
+        "忽略資料"
+      ],
+      "answer": "A",
+      "explanation": "證據不能向外擴張。",
+      "tags": [
+        "時事題的讀法"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u08-so9b-u08-kp1-4",
+      "subject": "civics",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "ci9b-ch2",
+      "unitId": "so9b-u08",
+      "knowledgePointId": "so9b-u08-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "做這類題時，政治偏好應該？",
+      "options": [
+        "先放下，回到資料和概念",
+        "當作標準答案",
+        "代替圖表",
+        "取消權利概念"
+      ],
+      "answer": "A",
+      "explanation": "偏好不是證據。",
+      "tags": [
+        "時事題的讀法"
+      ],
+      "difficulty": 3
+    }
+  ]
+}

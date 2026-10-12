@@ -1,0 +1,2820 @@
+{
+  "books": [
+    {
+      "id": "hi7a",
+      "title": "歷史・國一上",
+      "grade": 1,
+      "semester": 1,
+      "subject": "history",
+      "chapters": [
+        {
+          "id": "hi7a-ch1",
+          "title": "早期台灣",
+          "units": [
+            {
+              "id": "so7a-u05",
+              "title": "史前和原住民族",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u05-kp1",
+                  "title": "史前和原住民族",
+                  "lesson": [
+                    "史前是還沒有本地文字紀錄的時代。",
+                    "考古看器物、聚落和食物殘留。",
+                    "台灣原住民族各自有語言和文化，不是單一團體。",
+                    "理解歷史時要用他們的名稱和觀點，不只用地圖上的資源。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7a-u06",
+              "title": "荷西、鄭氏和清領",
+              "knowledgePoints": [
+                {
+                  "id": "so7a-u06-kp1",
+                  "title": "荷西、鄭氏和清領",
+                  "lesson": [
+                    "17 世紀荷蘭、西班牙先後來到台灣，建立貿易據點。",
+                    "鄭成功於 1662 年結束荷蘭在台灣的統治。",
+                    "1683 年以後進入清領。",
+                    "清領後期開港通商，台灣和世界的連結變深。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hi7a-ch2",
+          "title": "清領與開港",
+          "units": [
+            {
+              "id": "hi7a-u03",
+              "title": "清領時期的社會",
+              "knowledgePoints": [
+                {
+                  "id": "hi7a-u03-kp1",
+                  "title": "清領時期的社會",
+                  "lesson": [
+                    "1683 年之後，台灣納入清帝國的統治。",
+                    "官府一度限制人民渡台，還是有人繼續移入。",
+                    "漢人主要在西部平原開墾。",
+                    "開墾碰到原住民族的生活和土地，不是空地等人來。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hi7a-u04",
+              "title": "開港與茶糖樟腦",
+              "knowledgePoints": [
+                {
+                  "id": "hi7a-u04-kp1",
+                  "title": "開港與茶糖樟腦",
+                  "lesson": [
+                    "19 世紀中葉以後，淡水、雞籠、安平、打狗等口岸開放。",
+                    "茶、糖、樟腦成為重要出口。",
+                    "外國商人和傳教士也進入。",
+                    "台灣經濟更連上國際，社會跟著改變。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi7b",
+      "title": "歷史・國一下",
+      "grade": 1,
+      "semester": 2,
+      "subject": "history",
+      "chapters": [
+        {
+          "id": "hi7b-ch1",
+          "title": "日治到解嚴",
+          "units": [
+            {
+              "id": "so7b-u05",
+              "title": "日治三階段",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u05-kp1",
+                  "title": "日治三階段",
+                  "lesson": [
+                    "1895 到 1945 年台灣處於日治。",
+                    "前期以穩定統治、壓制反抗為主。",
+                    "中期推動同化，後期則是皇民化。",
+                    "基礎建設和差別待遇同時存在，不能只記一邊。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so7b-u06",
+              "title": "戰後到解嚴",
+              "knowledgePoints": [
+                {
+                  "id": "so7b-u06-kp1",
+                  "title": "戰後到解嚴",
+                  "lesson": [
+                    "1945 年戰爭結束，台灣進入中華民國體制。",
+                    "1947 年二二八事件造成嚴重傷亡，後來有調查與平反。",
+                    "1949 年起長期戒嚴，言論和結社受限制。",
+                    "1987 年解嚴，之後才有更完整的民主化。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hi7b-ch2",
+          "title": "人群與民主化",
+          "units": [
+            {
+              "id": "hi7b-u03",
+              "title": "人群從哪裡來",
+              "knowledgePoints": [
+                {
+                  "id": "hi7b-u03-kp1",
+                  "title": "人群從哪裡來",
+                  "lesson": [
+                    "原住民族的祖先很早就在台灣生活。",
+                    "明清時期，漢人移民很多來自福建、廣東。",
+                    "1949 年前後，又有大量軍民遷台。",
+                    "近幾十年，新住民也成為社會的一部分。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hi7b-u04",
+              "title": "從解嚴到政黨輪替",
+              "knowledgePoints": [
+                {
+                  "id": "hi7b-u04-kp1",
+                  "title": "從解嚴到政黨輪替",
+                  "lesson": [
+                    "1987 年解除戒嚴。",
+                    "1996 年第一次由公民直選總統。",
+                    "2000 年出現第一次政黨輪替。",
+                    "民主化是一段過程，權利要靠制度繼續保護。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi8a",
+      "title": "歷史・國二上",
+      "grade": 2,
+      "semester": 1,
+      "subject": "history",
+      "chapters": [
+        {
+          "id": "hi8a-ch1",
+          "title": "從先秦到唐宋",
+          "units": [
+            {
+              "id": "hi8a-u01",
+              "title": "先秦到秦的統一",
+              "knowledgePoints": [
+                {
+                  "id": "hi8a-u01-kp1",
+                  "title": "先秦到秦的統一",
+                  "lesson": [
+                    "商周已經有文字和政治制度。",
+                    "春秋戰國思想很多，戰爭也很頻繁。",
+                    "秦建立皇帝制度，推行郡縣，並統一文字、貨幣和度量衡。",
+                    "秦很短，許多做法要到漢代才穩定下來。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u05",
+              "title": "秦漢與唐宋",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u05-kp1",
+                  "title": "秦漢與唐宋",
+                  "lesson": [
+                    "秦建立郡縣，把地方收進中央。",
+                    "漢延續並擴張，儒家後來成為重要統治思想。",
+                    "唐是開放的帝國，對外交流多。",
+                    "宋的經濟和城市生活發達，外患也嚴重。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hi8a-ch2",
+          "title": "宋元與明清",
+          "units": [
+            {
+              "id": "hi8a-u02",
+              "title": "宋元的生活",
+              "knowledgePoints": [
+                {
+                  "id": "hi8a-u02-kp1",
+                  "title": "宋元的生活",
+                  "lesson": [
+                    "宋朝城市和商業比較發達，同時外患壓力大。",
+                    "印刷讓知識比以前更容易流傳。",
+                    "元朝由蒙古人建立，統治的範圍很大。",
+                    "朝代更換時，統治者和人民的生活不會同一天全部改寫。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8a-u06",
+              "title": "明清的統治",
+              "knowledgePoints": [
+                {
+                  "id": "so8a-u06-kp1",
+                  "title": "明清的統治",
+                  "lesson": [
+                    "明初加強君權，也有海禁與後來的調整。",
+                    "清以少數族統治廣大地區，用不同制度管理不同人群。",
+                    "人口在明清大幅增加。",
+                    "人口增加會帶來開墾、糧食和環境壓力。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi8b",
+      "title": "歷史・國二下",
+      "grade": 2,
+      "semester": 2,
+      "subject": "history",
+      "chapters": [
+        {
+          "id": "hi8b-ch1",
+          "title": "晚清到民國",
+          "units": [
+            {
+              "id": "so8b-u03",
+              "title": "晚清變局",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u03-kp1",
+                  "title": "晚清變局",
+                  "lesson": [
+                    "19 世紀西方以武力要求通商，清廷接連受挫。",
+                    "不平等條約開放口岸、損失權利。",
+                    "有人推動洋務，想用新技術保住體制。",
+                    "改革趕不上內外形勢時，體制最後被取代。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so8b-u04",
+              "title": "近代革命",
+              "knowledgePoints": [
+                {
+                  "id": "so8b-u04-kp1",
+                  "title": "近代革命",
+                  "lesson": [
+                    "美國獨立和法國大革命都在挑戰舊的統治正當性。",
+                    "人民同意成為權力來源的一種說法。",
+                    "革命之後不一定立刻有穩定民主。",
+                    "比較革命時要看誰參與、誰被排除。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hi8b-ch2",
+          "title": "建國與遷台",
+          "units": [
+            {
+              "id": "hi8b-u03",
+              "title": "中華民國成立",
+              "knowledgePoints": [
+                {
+                  "id": "hi8b-u03-kp1",
+                  "title": "中華民國成立",
+                  "lesson": [
+                    "1911 年辛亥革命，1912 年中華民國成立。",
+                    "它要結束的是皇帝制度。",
+                    "成立之後仍有軍閥等問題，不是隔天就穩定。",
+                    "革命回答了舊的權力來源，新秩序還要再建立。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hi8b-u04",
+              "title": "戰爭與 1949",
+              "knowledgePoints": [
+                {
+                  "id": "hi8b-u04-kp1",
+                  "title": "戰爭與 1949",
+                  "lesson": [
+                    "八年抗戰對中國社會傷害很大。",
+                    "1949 年，中華民國政府遷到台灣。",
+                    "同一年，中華人民共和國在大陸成立。",
+                    "這是兩套統治分開的開始，不是所有後來的事都發生在那一天。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi9a",
+      "title": "歷史・國三上",
+      "grade": 3,
+      "semester": 1,
+      "subject": "history",
+      "chapters": [
+        {
+          "id": "hi9a-ch1",
+          "title": "走向世界",
+          "units": [
+            {
+              "id": "hi9a-u01",
+              "title": "大航海",
+              "knowledgePoints": [
+                {
+                  "id": "hi9a-u01-kp1",
+                  "title": "大航海",
+                  "lesson": [
+                    "15 到 16 世紀，歐洲人經海路到達美洲、非洲和亞洲。",
+                    "動機包含貿易、財富和宗教。",
+                    "作物和疾病也被帶來帶去，影響並不平均。",
+                    "美洲早就有人，不是空的新大陸等人發現。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u01",
+              "title": "工業革命",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u01-kp1",
+                  "title": "工業革命",
+                  "lesson": [
+                    "機器和工廠讓生產變快。",
+                    "人從鄉村進入工廠，都市變大。",
+                    "勞動時間長、環境差，後來才有勞動法規。",
+                    "工業也帶來汙染和資源消耗。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hi9a-ch2",
+          "title": "戰爭與對立",
+          "units": [
+            {
+              "id": "hi9a-u02",
+              "title": "近代民主思想",
+              "knowledgePoints": [
+                {
+                  "id": "hi9a-u02-kp1",
+                  "title": "近代民主思想",
+                  "lesson": [
+                    "有人開始說，權力應該來自人民的同意。",
+                    "這和「統治者天生該永遠統治」不同。",
+                    "想法要變成投票、法律和可以換人的制度，需要很長時間。",
+                    "早期很多地方的投票權仍排除婦女和窮人。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9a-u02",
+              "title": "大戰和冷戰",
+              "knowledgePoints": [
+                {
+                  "id": "so9a-u02-kp1",
+                  "title": "大戰和冷戰",
+                  "lesson": [
+                    "第一次大戰暴露結盟如何把衝突擴大。",
+                    "第二次大戰有大規模迫害，事後才有更多國際人權討論。",
+                    "冷戰是美蘇兩大陣營的對立，不一定直接全面開戰。",
+                    "戰後出現聯合國等國際組織，想減少戰爭。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi9b",
+      "title": "歷史・國三下",
+      "grade": 3,
+      "semester": 2,
+      "subject": "history",
+      "chapters": [
+        {
+          "id": "hi9b-ch1",
+          "title": "史料與年表",
+          "units": [
+            {
+              "id": "hi9b-u01",
+              "title": "史料怎麼讀",
+              "knowledgePoints": [
+                {
+                  "id": "hi9b-u01-kp1",
+                  "title": "史料怎麼讀",
+                  "lesson": [
+                    "史料是證據，不是故事本身。",
+                    "比較接近當時的資料，仍然可能有立場。",
+                    "要看出處、作者和寫作目的。",
+                    "只有一份資料，還不夠下結論。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "so9b-u06",
+              "title": "年表題看因果",
+              "knowledgePoints": [
+                {
+                  "id": "so9b-u06-kp1",
+                  "title": "年表題看因果",
+                  "lesson": [
+                    "年表先確認先後，不要把順序讀反。",
+                    "先發生的不一定就是原因。",
+                    "題目若問影響，要找到事件之後的變化。",
+                    "把每格收成「誰、做了什麼」。"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hi9b-ch2",
+          "title": "因果和解釋",
+          "units": [
+            {
+              "id": "hi9b-u03",
+              "title": "先後不等於因果",
+              "knowledgePoints": [
+                {
+                  "id": "hi9b-u03-kp1",
+                  "title": "先後不等於因果",
+                  "lesson": [
+                    "先發生的事，不一定是後件事的原因。",
+                    "要說得出中間的過程。",
+                    "一個結果常常有好幾個原因。",
+                    "兩件事一起出現，也不等於其中一件造成另一件。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hi9b-u04",
+              "title": "解釋可以有好多個",
+              "knowledgePoints": [
+                {
+                  "id": "hi9b-u04-kp1",
+                  "title": "解釋可以有好多個",
+                  "lesson": [
+                    "同一件事，不同的人會強調不同部分。",
+                    "解釋要回到資料，不能只靠喜歡。",
+                    "有多種解釋，不代表每一種都成立。",
+                    "作答時看題目給的資料支持哪一種。"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u05-so7a-u05-kp1-1",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch1",
+      "unitId": "so7a-u05",
+      "knowledgePointId": "so7a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "史前時代主要靠什麼認識？",
+      "options": [
+        "考古資料",
+        "當天的報紙",
+        "會考考卷",
+        "比例尺"
+      ],
+      "answer": "A",
+      "explanation": "沒有文字紀錄時，要用考古證據。",
+      "tags": [
+        "史前和原住民族"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u05-so7a-u05-kp1-2",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch1",
+      "unitId": "so7a-u05",
+      "knowledgePointId": "so7a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "台灣原住民族應該被理解成？",
+      "options": [
+        "許多各有文化的民族",
+        "完全同一種語言",
+        "直到清代才出現",
+        "沒有社會組織"
+      ],
+      "answer": "A",
+      "explanation": "各族的語言、社會和領域都不同。",
+      "tags": [
+        "史前和原住民族"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u05-so7a-u05-kp1-3",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch1",
+      "unitId": "so7a-u05",
+      "knowledgePointId": "so7a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只把原住民族寫成「被開發的障礙」，問題是？",
+      "options": [
+        "忽略了他們是歷史的主體",
+        "太尊重",
+        "使用考古",
+        "有分類"
+      ],
+      "answer": "A",
+      "explanation": "歷史不能只從後來者的眼光書寫。",
+      "tags": [
+        "史前和原住民族"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u05-so7a-u05-kp1-4",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch1",
+      "unitId": "so7a-u05",
+      "knowledgePointId": "so7a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "器物出土的地層愈深，通常？",
+      "options": [
+        "年代可能愈早",
+        "一定是昨天",
+        "不能推論",
+        "等於文字紀錄"
+      ],
+      "answer": "A",
+      "explanation": "層位是考古判斷先後的線索。",
+      "tags": [
+        "史前和原住民族"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u06-so7a-u06-kp1-1",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch1",
+      "unitId": "so7a-u06",
+      "knowledgePointId": "so7a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "荷蘭人來台灣的主要目的是？",
+      "options": [
+        "建立貿易據點",
+        "推廣絕句",
+        "測量血糖",
+        "制定民法"
+      ],
+      "answer": "A",
+      "explanation": "大航海時代的據點服務貿易。",
+      "tags": [
+        "荷西、鄭氏和清領"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u06-so7a-u06-kp1-2",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch1",
+      "unitId": "so7a-u06",
+      "knowledgePointId": "so7a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "鄭成功結束的是誰在台灣的統治？",
+      "options": [
+        "荷蘭",
+        "日本皇民化",
+        "聯合國",
+        "希臘"
+      ],
+      "answer": "A",
+      "explanation": "1662 年荷蘭退出。",
+      "tags": [
+        "荷西、鄭氏和清領"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u06-so7a-u06-kp1-3",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch1",
+      "unitId": "so7a-u06",
+      "knowledgePointId": "so7a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "清領開始於？",
+      "options": [
+        "1683 年之後",
+        "1945 年",
+        "1996 年",
+        "遠古史前"
+      ],
+      "answer": "A",
+      "explanation": "清廷在 1683 年後統治台灣。",
+      "tags": [
+        "荷西、鄭氏和清領"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-1-so7a-ch2-so7a-u06-so7a-u06-kp1-4",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch1",
+      "unitId": "so7a-u06",
+      "knowledgePointId": "so7a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "開港通商對台灣的影響是？",
+      "options": [
+        "農產更進入國際貿易",
+        "完全沒有外人",
+        "進入史前",
+        "取消所有港口"
+      ],
+      "answer": "A",
+      "explanation": "港口開放後出口增加。",
+      "tags": [
+        "荷西、鄭氏和清領"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-1-1-hi7a-ch2-hi7a-u03-hi7a-u03-kp1-1",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch2",
+      "unitId": "hi7a-u03",
+      "knowledgePointId": "hi7a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "清領時期，漢人開墾比較集中在？",
+      "options": [
+        "西部平原",
+        "中央山脈山頂",
+        "只有澎湖海域",
+        "沒有陸地"
+      ],
+      "answer": "A",
+      "explanation": "西部比較平坦，適合農墾。",
+      "tags": [
+        "清領時期的社會"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-1-1-hi7a-ch2-hi7a-u03-hi7a-u03-kp1-2",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch2",
+      "unitId": "hi7a-u03",
+      "knowledgePointId": "hi7a-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "清廷對人民渡台的態度，早期比較接近？",
+      "options": [
+        "設有限制，但阻擋不了全部移民",
+        "鼓勵所有人自由來去",
+        "完全沒有人移動",
+        "只准原住民族遷入"
+      ],
+      "answer": "A",
+      "explanation": "渡台禁令存在，偷渡和開禁反覆出現。",
+      "tags": [
+        "清領時期的社會"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-1-1-hi7a-ch2-hi7a-u03-hi7a-u03-kp1-3",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch2",
+      "unitId": "hi7a-u03",
+      "knowledgePointId": "hi7a-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "為什麼不能說清領時的西部是無人空地？",
+      "options": [
+        "原住民族已經在這塊土地生活",
+        "那時還沒有台灣",
+        "平原不能種田",
+        "只有外國人在"
+      ],
+      "answer": "A",
+      "explanation": "移墾會和既有的社會相遇。",
+      "tags": [
+        "清領時期的社會"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-1-1-hi7a-ch2-hi7a-u03-hi7a-u03-kp1-4",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch2",
+      "unitId": "hi7a-u03",
+      "knowledgePointId": "hi7a-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "清領社會題要同時看到哪兩群人？",
+      "options": [
+        "漢人移民和原住民族",
+        "只有官府",
+        "只有商人",
+        "只有後來的日治政府"
+      ],
+      "answer": "A",
+      "explanation": "衝突和相處都發生在彼此之間。",
+      "tags": [
+        "清領時期的社會"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-1-1-hi7a-ch2-hi7a-u04-hi7a-u04-kp1-1",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch2",
+      "unitId": "hi7a-u04",
+      "knowledgePointId": "hi7a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "開港之後，哪一組是重要出口？",
+      "options": [
+        "茶、糖、樟腦",
+        "石油、汽車、晶片",
+        "憲法、五院、選舉",
+        "經線、緯線、比例尺"
+      ],
+      "answer": "A",
+      "explanation": "清末出口以茶、糖、樟腦著名。",
+      "tags": [
+        "開港與茶糖樟腦"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-1-1-hi7a-ch2-hi7a-u04-hi7a-u04-kp1-2",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch2",
+      "unitId": "hi7a-u04",
+      "knowledgePointId": "hi7a-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "雞籠是今天的哪一個港口？",
+      "options": [
+        "基隆",
+        "台中",
+        "花蓮",
+        "澎湖馬公"
+      ],
+      "answer": "A",
+      "explanation": "雞籠即後來的基隆。",
+      "tags": [
+        "開港與茶糖樟腦"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-1-1-hi7a-ch2-hi7a-u04-hi7a-u04-kp1-3",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch2",
+      "unitId": "hi7a-u04",
+      "knowledgePointId": "hi7a-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "開港影響的是？",
+      "options": [
+        "貿易和地方社會",
+        "只改了地圖顏色",
+        "使台灣立刻工業化完成",
+        "取消了所有農業"
+      ],
+      "answer": "A",
+      "explanation": "進出口改變工作和生活。",
+      "tags": [
+        "開港與茶糖樟腦"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-1-1-hi7a-ch2-hi7a-u04-hi7a-u04-kp1-4",
+      "subject": "history",
+      "grade": 1,
+      "semester": 1,
+      "chapterId": "hi7a-ch2",
+      "unitId": "hi7a-u04",
+      "knowledgePointId": "hi7a-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "題目把 1860 年代的口岸和 17 世紀的荷蘭人放在一起。要先？",
+      "options": [
+        "分成不同時期",
+        "看成同一批人",
+        "都答成日治",
+        "都答成解嚴"
+      ],
+      "answer": "A",
+      "explanation": "誰來貿易，要對得上年代。",
+      "tags": [
+        "開港與茶糖樟腦"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u05-so7b-u05-kp1-1",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch1",
+      "unitId": "so7b-u05",
+      "knowledgePointId": "so7b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "日治時期大約是？",
+      "options": [
+        "1895–1945",
+        "1683–1858",
+        "1949–1987",
+        "1996 以後"
+      ],
+      "answer": "A",
+      "explanation": "1895 年開始，1945 年結束。",
+      "tags": [
+        "日治三階段"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u05-so7b-u05-kp1-2",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch1",
+      "unitId": "so7b-u05",
+      "knowledgePointId": "so7b-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "皇民化主要發生在？",
+      "options": [
+        "後期",
+        "史前",
+        "清領開港之前",
+        "荷西時期"
+      ],
+      "answer": "A",
+      "explanation": "戰爭時期推動皇民化。",
+      "tags": [
+        "日治三階段"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u05-so7b-u05-kp1-3",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch1",
+      "unitId": "so7b-u05",
+      "knowledgePointId": "so7b-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只寫「日治有建設」會漏掉？",
+      "options": [
+        "差別待遇和反抗",
+        "所有年份",
+        "地圖",
+        "人口"
+      ],
+      "answer": "A",
+      "explanation": "建設與不平等要一起看。",
+      "tags": [
+        "日治三階段"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u05-so7b-u05-kp1-4",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch1",
+      "unitId": "so7b-u05",
+      "knowledgePointId": "so7b-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "同化政策的方向是？",
+      "options": [
+        "讓台灣人更接近殖民者的規範",
+        "恢復史前生活",
+        "立即獨立建國",
+        "取消所有學校"
+      ],
+      "answer": "A",
+      "explanation": "同化是依統治者的標準改變。",
+      "tags": [
+        "日治三階段"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u06-so7b-u06-kp1-1",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch1",
+      "unitId": "so7b-u06",
+      "knowledgePointId": "so7b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "二二八事件發生於？",
+      "options": [
+        "1947 年",
+        "1624 年",
+        "1895 年",
+        "2000 年"
+      ],
+      "answer": "A",
+      "explanation": "1947 年 2 月 28 日。",
+      "tags": [
+        "戰後到解嚴"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u06-so7b-u06-kp1-2",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch1",
+      "unitId": "so7b-u06",
+      "knowledgePointId": "so7b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "戒嚴期間，人民的言論和結社？",
+      "options": [
+        "受到嚴格限制",
+        "完全沒有任何法律",
+        "自動擴大",
+        "等於解嚴"
+      ],
+      "answer": "A",
+      "explanation": "戒嚴壓縮公民自由。",
+      "tags": [
+        "戰後到解嚴"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u06-so7b-u06-kp1-3",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch1",
+      "unitId": "so7b-u06",
+      "knowledgePointId": "so7b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "解嚴是哪一年？",
+      "options": [
+        "1987",
+        "1945",
+        "1683",
+        "1662"
+      ],
+      "answer": "A",
+      "explanation": "1987 年解除戒嚴。",
+      "tags": [
+        "戰後到解嚴"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-1-2-so7b-ch2-so7b-u06-so7b-u06-kp1-4",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch1",
+      "unitId": "so7b-u06",
+      "knowledgePointId": "so7b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "紀念二二八的意義較接近？",
+      "options": [
+        "記住傷害並避免再用暴力處理異議",
+        "鼓勵私刑",
+        "否認事件",
+        "只討論天氣"
+      ],
+      "answer": "A",
+      "explanation": "和平紀念日強調記取與平反。",
+      "tags": [
+        "戰後到解嚴"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-1-2-hi7b-ch2-hi7b-u03-hi7b-u03-kp1-1",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch2",
+      "unitId": "hi7b-u03",
+      "knowledgePointId": "hi7b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "明清漢人移民主要來自？",
+      "options": [
+        "福建和廣東",
+        "歐洲內陸",
+        "南極",
+        "只有日本北海道"
+      ],
+      "answer": "A",
+      "explanation": "閩南與客家移民多由此而來。",
+      "tags": [
+        "人群從哪裡來"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-1-2-hi7b-ch2-hi7b-u03-hi7b-u03-kp1-2",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch2",
+      "unitId": "hi7b-u03",
+      "knowledgePointId": "hi7b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "1949 年前後遷台的人群，教材通常稱為？",
+      "options": [
+        "隨政府來台的軍民，後來常說外省族群",
+        "十七世紀的荷蘭人",
+        "史前繩紋陶文化",
+        "開港的茶商全部"
+      ],
+      "answer": "A",
+      "explanation": "這是戰後人口組成的一次大變化。",
+      "tags": [
+        "人群從哪裡來"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-1-2-hi7b-ch2-hi7b-u03-hi7b-u03-kp1-3",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch2",
+      "unitId": "hi7b-u03",
+      "knowledgePointId": "hi7b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "為什麼不宜把台灣人說成單一血統？",
+      "options": [
+        "不同時期有不同人群加入",
+        "台灣沒有移民",
+        "語言只有一種",
+        "族群不能被看見"
+      ],
+      "answer": "A",
+      "explanation": "社會是多次移動疊起來的。",
+      "tags": [
+        "人群從哪裡來"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-1-2-hi7b-ch2-hi7b-u03-hi7b-u03-kp1-4",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch2",
+      "unitId": "hi7b-u03",
+      "knowledgePointId": "hi7b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "新住民和明清移民差在？",
+      "options": [
+        "移入的時代不同",
+        "都是同一年來的",
+        "都不是人",
+        "都不能成為社會的一員"
+      ],
+      "answer": "A",
+      "explanation": "題目要看時間。",
+      "tags": [
+        "人群從哪裡來"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-1-2-hi7b-ch2-hi7b-u04-hi7b-u04-kp1-1",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch2",
+      "unitId": "hi7b-u04",
+      "knowledgePointId": "hi7b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "台灣第一次總統公民直選是哪一年？",
+      "options": [
+        "1996",
+        "1945",
+        "1683",
+        "1895"
+      ],
+      "answer": "A",
+      "explanation": "1996 年人民直接選出總統。",
+      "tags": [
+        "從解嚴到政黨輪替"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-1-2-hi7b-ch2-hi7b-u04-hi7b-u04-kp1-2",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch2",
+      "unitId": "hi7b-u04",
+      "knowledgePointId": "hi7b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "2000 年的政黨輪替是指？",
+      "options": [
+        "執政黨換成另一個黨",
+        "取消選舉",
+        "恢復帝制",
+        "關閉所有報紙"
+      ],
+      "answer": "A",
+      "explanation": "執政者經由選舉更換。",
+      "tags": [
+        "從解嚴到政黨輪替"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-1-2-hi7b-ch2-hi7b-u04-hi7b-u04-kp1-3",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch2",
+      "unitId": "hi7b-u04",
+      "knowledgePointId": "hi7b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "解嚴和民主完成可以畫上等號嗎？",
+      "options": [
+        "不可以，解嚴是重要轉折，制度還要運作",
+        "可以，隔天所有問題都消失",
+        "解嚴沒有發生",
+        "直選在清領"
+      ],
+      "answer": "A",
+      "explanation": "轉折不是終點。",
+      "tags": [
+        "從解嚴到政黨輪替"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-1-2-hi7b-ch2-hi7b-u04-hi7b-u04-kp1-4",
+      "subject": "history",
+      "grade": 1,
+      "semester": 2,
+      "chapterId": "hi7b-ch2",
+      "unitId": "hi7b-u04",
+      "knowledgePointId": "hi7b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "年表把 1987、1996、2000 排在一起，是要看？",
+      "options": [
+        "民主化的先後步驟",
+        "三件事發生在同一天",
+        "都是開港",
+        "都是工業革命"
+      ],
+      "answer": "A",
+      "explanation": "先後順序本身就是答案。",
+      "tags": [
+        "從解嚴到政黨輪替"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-2-1-hi8a-ch1-hi8a-u01-hi8a-u01-kp1-1",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch1",
+      "unitId": "hi8a-u01",
+      "knowledgePointId": "hi8a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "秦統一之後，地方制度主要改成？",
+      "options": [
+        "郡縣",
+        "每個地方都獨立成國",
+        "沒有政府",
+        "只留部落"
+      ],
+      "answer": "A",
+      "explanation": "郡縣由中央派官管理。",
+      "tags": [
+        "先秦到秦的統一"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-2-1-hi8a-ch1-hi8a-u01-hi8a-u01-kp1-2",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch1",
+      "unitId": "hi8a-u01",
+      "knowledgePointId": "hi8a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "秦除了制度，還統一了哪些日常標準？",
+      "options": [
+        "文字、貨幣、度量衡",
+        "全世界的語言",
+        "所有宗教",
+        "氣候"
+      ],
+      "answer": "A",
+      "explanation": "這些讓統治和交易比較一致。",
+      "tags": [
+        "先秦到秦的統一"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-2-1-hi8a-ch1-hi8a-u01-hi8a-u01-kp1-3",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch1",
+      "unitId": "hi8a-u01",
+      "knowledgePointId": "hi8a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "為什麼說秦短、漢把制度留下？",
+      "options": [
+        "秦統治時間短，漢沿用並調整許多做法",
+        "漢沒有政府",
+        "秦統治了一千年",
+        "郡縣是宋朝才有"
+      ],
+      "answer": "A",
+      "explanation": "開創和穩定常常不在同一個朝代。",
+      "tags": [
+        "先秦到秦的統一"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-2-1-hi8a-ch1-hi8a-u01-hi8a-u01-kp1-4",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch1",
+      "unitId": "hi8a-u01",
+      "knowledgePointId": "hi8a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "春秋戰國和秦差在？",
+      "options": [
+        "前者列國並立，後者把統治權集中",
+        "兩者都沒有戰爭",
+        "兩者都是民主選舉",
+        "秦比商周更早"
+      ],
+      "answer": "A",
+      "explanation": "題目在看權力怎麼從分散變集中。",
+      "tags": [
+        "先秦到秦的統一"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u05-so8a-u05-kp1-1",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch1",
+      "unitId": "so8a-u05",
+      "knowledgePointId": "so8a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "郡縣制強調？",
+      "options": [
+        "地方由中央任命管理",
+        "每個地方完全世襲不管中央",
+        "沒有行政",
+        "只存在於歐洲"
+      ],
+      "answer": "A",
+      "explanation": "郡縣加強中央對地方的控制。",
+      "tags": [
+        "秦漢與唐宋"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u05-so8a-u05-kp1-2",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch1",
+      "unitId": "so8a-u05",
+      "knowledgePointId": "so8a-u05-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "唐代歷史常被一起提到的是？",
+      "options": [
+        "對外交流頻繁",
+        "完全封閉",
+        "沒有城市",
+        "尚未進入農業"
+      ],
+      "answer": "A",
+      "explanation": "唐與絲路等交流密切。",
+      "tags": [
+        "秦漢與唐宋"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u05-so8a-u05-kp1-3",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch1",
+      "unitId": "so8a-u05",
+      "knowledgePointId": "so8a-u05-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "宋代值得同時記住的是？",
+      "options": [
+        "商業發達，但外患壓力大",
+        "沒有任何經濟",
+        "只有游牧",
+        "尚未有文字"
+      ],
+      "answer": "A",
+      "explanation": "富庶和邊防壓力並存。",
+      "tags": [
+        "秦漢與唐宋"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u05-so8a-u05-kp1-4",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch1",
+      "unitId": "so8a-u05",
+      "knowledgePointId": "so8a-u05-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "把朝代只背成年分、不看特色，會漏掉？",
+      "options": [
+        "制度、經濟和對外關係",
+        "所有時間",
+        "人名",
+        "順序"
+      ],
+      "answer": "A",
+      "explanation": "特色才能用來比較。",
+      "tags": [
+        "秦漢與唐宋"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-2-1-hi8a-ch2-hi8a-u02-hi8a-u02-kp1-1",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch2",
+      "unitId": "hi8a-u02",
+      "knowledgePointId": "hi8a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "元朝的建立者是？",
+      "options": [
+        "蒙古人",
+        "荷蘭人",
+        "鄭氏",
+        "英國工業家"
+      ],
+      "answer": "A",
+      "explanation": "蒙古建立元朝。",
+      "tags": [
+        "宋元的生活"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-2-1-hi8a-ch2-hi8a-u02-hi8a-u02-kp1-2",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch2",
+      "unitId": "hi8a-u02",
+      "knowledgePointId": "hi8a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "宋朝常被同時記下的兩件事是？",
+      "options": [
+        "經濟發達和外患壓力",
+        "沒有城市",
+        "還沒有農業",
+        "已經有網際網路"
+      ],
+      "answer": "A",
+      "explanation": "富庶和軍事壓力並存。",
+      "tags": [
+        "宋元的生活"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-2-1-hi8a-ch2-hi8a-u02-hi8a-u02-kp1-3",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch2",
+      "unitId": "hi8a-u02",
+      "knowledgePointId": "hi8a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "印刷術對社會的影響是？",
+      "options": [
+        "書籍更容易流傳",
+        "使人不能讀書",
+        "只影響農具",
+        "取代了所有老師"
+      ],
+      "answer": "A",
+      "explanation": "知識傳播的成本下降。",
+      "tags": [
+        "宋元的生活"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-2-1-hi8a-ch2-hi8a-u02-hi8a-u02-kp1-4",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch2",
+      "unitId": "hi8a-u02",
+      "knowledgePointId": "hi8a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "朝代換成另一個民族統治，題目不該直接結論？",
+      "options": [
+        "所有人的生活隔天完全一樣或完全相反",
+        "統治者換了",
+        "範圍可能變大",
+        "商業可以繼續"
+      ],
+      "answer": "A",
+      "explanation": "政治改變和日常生活要分開看。",
+      "tags": [
+        "宋元的生活"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u06-so8a-u06-kp1-1",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch2",
+      "unitId": "so8a-u06",
+      "knowledgePointId": "so8a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "清代統治的一個特色是？",
+      "options": [
+        "對不同地區和人群使用不同制度",
+        "全境完全同一種辦法",
+        "沒有皇帝",
+        "沒有農業"
+      ],
+      "answer": "A",
+      "explanation": "多元帝國要用不同方式治理。",
+      "tags": [
+        "明清的統治"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u06-so8a-u06-kp1-2",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch2",
+      "unitId": "so8a-u06",
+      "knowledgePointId": "so8a-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "人口大幅增加後，較可能出現？",
+      "options": [
+        "開墾範圍擴大",
+        "土地自動變多且沒有限制",
+        "不再需要糧食",
+        "城市消失"
+      ],
+      "answer": "A",
+      "explanation": "糧食需求推動開墾。",
+      "tags": [
+        "明清的統治"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u06-so8a-u06-kp1-3",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch2",
+      "unitId": "so8a-u06",
+      "knowledgePointId": "so8a-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "海禁代表？",
+      "options": [
+        "政府限制海上活動",
+        "鼓勵所有人出海",
+        "沒有海岸",
+        "已經全球化完成"
+      ],
+      "answer": "A",
+      "explanation": "海禁是政策選擇。",
+      "tags": [
+        "明清的統治"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-1-so8a-ch2-so8a-u06-so8a-u06-kp1-4",
+      "subject": "history",
+      "grade": 2,
+      "semester": 1,
+      "chapterId": "hi8a-ch2",
+      "unitId": "so8a-u06",
+      "knowledgePointId": "so8a-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "環境壓力增加，常和哪一項有關？",
+      "options": [
+        "開墾過度",
+        "人口變成零",
+        "停止農業",
+        "沒有河流"
+      ],
+      "answer": "A",
+      "explanation": "過度開墾可能造成水土流失。",
+      "tags": [
+        "明清的統治"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u03-so8b-u03-kp1-1",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch1",
+      "unitId": "so8b-u03",
+      "knowledgePointId": "so8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "不平等條約對清廷的直接影響是？",
+      "options": [
+        "主權和通商權利受損",
+        "立刻完成民主",
+        "進入史前",
+        "取消所有港口並致富"
+      ],
+      "answer": "A",
+      "explanation": "口岸、關稅和法權受到限制。",
+      "tags": [
+        "晚清變局"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u03-so8b-u03-kp1-2",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch1",
+      "unitId": "so8b-u03",
+      "knowledgePointId": "so8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "洋務運動主要想？",
+      "options": [
+        "學習西方技術以強化原有體制",
+        "立刻實行全民普選",
+        "回到商代",
+        "取消農業"
+      ],
+      "answer": "A",
+      "explanation": "它是以技術為主的自強。",
+      "tags": [
+        "晚清變局"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u03-so8b-u03-kp1-3",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch1",
+      "unitId": "so8b-u03",
+      "knowledgePointId": "so8b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "只購買武器卻不調整制度，限制在於？",
+      "options": [
+        "技術需要制度和人才配合",
+        "武器不能存在",
+        "沒有外力",
+        "人口為零"
+      ],
+      "answer": "A",
+      "explanation": "制度與人才決定技術能不能用。",
+      "tags": [
+        "晚清變局"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u03-so8b-u03-kp1-4",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch1",
+      "unitId": "so8b-u03",
+      "knowledgePointId": "so8b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "晚清變局要同時看？",
+      "options": [
+        "外部壓力和內部改革",
+        "只有天氣",
+        "只有絕句",
+        "只有地圖三要素"
+      ],
+      "answer": "A",
+      "explanation": "內外是連在一起的。",
+      "tags": [
+        "晚清變局"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u04-so8b-u04-kp1-1",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch1",
+      "unitId": "so8b-u04",
+      "knowledgePointId": "so8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "法國大革命挑戰的是？",
+      "options": [
+        "舊制度的統治正當性",
+        "地圖比例尺",
+        "水稻種植",
+        "血型"
+      ],
+      "answer": "A",
+      "explanation": "它質疑君權和等級。",
+      "tags": [
+        "近代革命"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u04-so8b-u04-kp1-2",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch1",
+      "unitId": "so8b-u04",
+      "knowledgePointId": "so8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "「權力來自人民同意」是？",
+      "options": [
+        "民主論述的核心之一",
+        "沙漠形成的原因",
+        "清領開港的港口名單",
+        "產業分類"
+      ],
+      "answer": "A",
+      "explanation": "同意是正當性的來源。",
+      "tags": [
+        "近代革命"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u04-so8b-u04-kp1-3",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch1",
+      "unitId": "so8b-u04",
+      "knowledgePointId": "so8b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "革命成功不等於？",
+      "options": [
+        "民主制度已經穩定運作",
+        "有發生政治變化",
+        "有人參與",
+        "有新主張"
+      ],
+      "answer": "A",
+      "explanation": "制度要經過建立和修正。",
+      "tags": [
+        "近代革命"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-2-2-so8b-ch1-so8b-u04-so8b-u04-kp1-4",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch1",
+      "unitId": "so8b-u04",
+      "knowledgePointId": "so8b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "當時婦女或奴隸若不能投票，說明？",
+      "options": [
+        "普遍權利是逐步擴大的",
+        "革命沒有任何理想",
+        "所有人一開始就完全平等",
+        "不必再研究"
+      ],
+      "answer": "A",
+      "explanation": "權利的範圍會隨鬥爭改變。",
+      "tags": [
+        "近代革命"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-2-2-hi8b-ch2-hi8b-u03-hi8b-u03-kp1-1",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch2",
+      "unitId": "hi8b-u03",
+      "knowledgePointId": "hi8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "中華民國成立於？",
+      "options": [
+        "1912 年",
+        "1644 年",
+        "1949 年",
+        "1683 年"
+      ],
+      "answer": "A",
+      "explanation": "辛亥革命後的次年成立。",
+      "tags": [
+        "中華民國成立"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-2-2-hi8b-ch2-hi8b-u03-hi8b-u03-kp1-2",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch2",
+      "unitId": "hi8b-u03",
+      "knowledgePointId": "hi8b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "這場革命主要要結束的是？",
+      "options": [
+        "皇帝制度",
+        "所有農業",
+        "地圖",
+        "學校"
+      ],
+      "answer": "A",
+      "explanation": "帝制是當時要推翻的秩序。",
+      "tags": [
+        "中華民國成立"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-2-2-hi8b-ch2-hi8b-u03-hi8b-u03-kp1-3",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch2",
+      "unitId": "hi8b-u03",
+      "knowledgePointId": "hi8b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "建國之後為什麼不能說問題都解決了？",
+      "options": [
+        "中央權力仍不穩，地方有軍閥",
+        "因為沒有發生革命",
+        "因為皇帝還在依法改選",
+        "因為人民消失"
+      ],
+      "answer": "A",
+      "explanation": "推翻舊制度只是開始。",
+      "tags": [
+        "中華民國成立"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-2-2-hi8b-ch2-hi8b-u03-hi8b-u03-kp1-4",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch2",
+      "unitId": "hi8b-u03",
+      "knowledgePointId": "hi8b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "1912 和 1949 放在同一題，要先？",
+      "options": [
+        "看成兩個不同年份的事件",
+        "當成同一天",
+        "都答成開港",
+        "都答成秦朝"
+      ],
+      "answer": "A",
+      "explanation": "建國和政府遷台不是同一件事。",
+      "tags": [
+        "中華民國成立"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-2-2-hi8b-ch2-hi8b-u04-hi8b-u04-kp1-1",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch2",
+      "unitId": "hi8b-u04",
+      "knowledgePointId": "hi8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "1949 年中華民國政府遷到？",
+      "options": [
+        "台灣",
+        "日本",
+        "美國",
+        "南極"
+      ],
+      "answer": "A",
+      "explanation": "中央政府遷台。",
+      "tags": [
+        "戰爭與 1949"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-2-2-hi8b-ch2-hi8b-u04-hi8b-u04-kp1-2",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch2",
+      "unitId": "hi8b-u04",
+      "knowledgePointId": "hi8b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "1949 年在大陸成立的是？",
+      "options": [
+        "中華人民共和國",
+        "清朝",
+        "荷蘭東印度公司",
+        "聯合國"
+      ],
+      "answer": "A",
+      "explanation": "兩岸從此由不同政府統治。",
+      "tags": [
+        "戰爭與 1949"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-2-2-hi8b-ch2-hi8b-u04-hi8b-u04-kp1-3",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch2",
+      "unitId": "hi8b-u04",
+      "knowledgePointId": "hi8b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "抗戰和 1949 的關係，比較恰當的說法是？",
+      "options": [
+        "戰爭的破壞是背景之一，不是唯一原因",
+        "兩者毫無年代順序",
+        "抗戰發生在 1949 之後",
+        "抗戰沒有傷亡"
+      ],
+      "answer": "A",
+      "explanation": "先後可以相關，仍要說明原因。",
+      "tags": [
+        "戰爭與 1949"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-2-2-hi8b-ch2-hi8b-u04-hi8b-u04-kp1-4",
+      "subject": "history",
+      "grade": 2,
+      "semester": 2,
+      "chapterId": "hi8b-ch2",
+      "unitId": "hi8b-u04",
+      "knowledgePointId": "hi8b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "題目問「1949 年發生了什麼」，不該選？",
+      "options": [
+        "把 1996 直選也寫進那一天",
+        "政府遷台",
+        "中華人民共和國成立",
+        "統治分成兩套"
+      ],
+      "answer": "A",
+      "explanation": "年份要對得上事件。",
+      "tags": [
+        "戰爭與 1949"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-3-1-hi9a-ch1-hi9a-u01-hi9a-u01-kp1-1",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch1",
+      "unitId": "hi9a-u01",
+      "knowledgePointId": "hi9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "大航海主要發生在什麼時候？",
+      "options": [
+        "15 到 16 世紀前後",
+        "秦朝",
+        "史前台灣",
+        "21 世紀初"
+      ],
+      "answer": "A",
+      "explanation": "歐洲遠洋航行在這段展開。",
+      "tags": [
+        "大航海"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-1-hi9a-ch1-hi9a-u01-hi9a-u01-kp1-2",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch1",
+      "unitId": "hi9a-u01",
+      "knowledgePointId": "hi9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "為什麼不宜說歐洲人發現了空無一人的美洲？",
+      "options": [
+        "那裡早有原住人群",
+        "美洲那時沉在海裡",
+        "沒有船",
+        "疾病不會傳播"
+      ],
+      "answer": "A",
+      "explanation": "「發現」忽略了原本的社會。",
+      "tags": [
+        "大航海"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-1-hi9a-ch1-hi9a-u01-hi9a-u01-kp1-3",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch1",
+      "unitId": "hi9a-u01",
+      "knowledgePointId": "hi9a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "作物交換代表？",
+      "options": [
+        "各地食物種類變多，影響不平均",
+        "所有人立刻變富",
+        "疾病消失",
+        "海洋消失"
+      ],
+      "answer": "A",
+      "explanation": "Columbian exchange 有得也有嚴重傷害。",
+      "tags": [
+        "大航海"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-3-1-hi9a-ch1-hi9a-u01-hi9a-u01-kp1-4",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch1",
+      "unitId": "hi9a-u01",
+      "knowledgePointId": "hi9a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "同一段航線，為什麼有人寫成冒險、有人寫成侵略？",
+      "options": [
+        "立場不同，要回到資料看它強調什麼",
+        "歷史不能有資料",
+        "只有一種句子可以寫",
+        "海路沒有發生"
+      ],
+      "answer": "A",
+      "explanation": "解釋要附證據。",
+      "tags": [
+        "大航海"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u01-so9a-u01-kp1-1",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch1",
+      "unitId": "so9a-u01",
+      "knowledgePointId": "so9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "工業革命改變了？",
+      "options": [
+        "生產方式",
+        "赤道位置",
+        "染色體數目",
+        "絕句句數"
+      ],
+      "answer": "A",
+      "explanation": "機器生產取代部分手工。",
+      "tags": [
+        "工業革命"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u01-so9a-u01-kp1-2",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch1",
+      "unitId": "so9a-u01",
+      "knowledgePointId": "so9a-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "都市變大的原因之一是？",
+      "options": [
+        "工廠需要勞動力",
+        "所有人去種稻",
+        "沒有交通",
+        "地形變平的法令"
+      ],
+      "answer": "A",
+      "explanation": "工作把人口拉進城市。",
+      "tags": [
+        "工業革命"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u01-so9a-u01-kp1-3",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch1",
+      "unitId": "so9a-u01",
+      "knowledgePointId": "so9a-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "工業發展初期的勞動問題是？",
+      "options": [
+        "工時長、環境差",
+        "完全沒有產品",
+        "沒有城市",
+        "沒有任何改變"
+      ],
+      "answer": "A",
+      "explanation": "規範是後來才逐步建立。",
+      "tags": [
+        "工業革命"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u01-so9a-u01-kp1-4",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch1",
+      "unitId": "so9a-u01",
+      "knowledgePointId": "so9a-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "產量增加仍要同時看？",
+      "options": [
+        "環境代價",
+        "只看口號",
+        "取消貿易",
+        "忽略工人"
+      ],
+      "answer": "A",
+      "explanation": "利益和代價要一起算。",
+      "tags": [
+        "工業革命"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-3-1-hi9a-ch2-hi9a-u02-hi9a-u02-kp1-1",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch2",
+      "unitId": "hi9a-u02",
+      "knowledgePointId": "hi9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "近代民主思想強調權力來自？",
+      "options": [
+        "人民的同意",
+        "天氣",
+        "血統一定最正確",
+        "軍隊的制服顏色"
+      ],
+      "answer": "A",
+      "explanation": "同意和權利是關鍵詞。",
+      "tags": [
+        "近代民主思想"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-1-hi9a-ch2-hi9a-u02-hi9a-u02-kp1-2",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch2",
+      "unitId": "hi9a-u02",
+      "knowledgePointId": "hi9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "有了民主思想，等於每個人立刻都能投票嗎？",
+      "options": [
+        "不等於，權利是慢慢擴大的",
+        "等於，隔天全世界都投票",
+        "思想會取消法律",
+        "投票在史前就全民開放"
+      ],
+      "answer": "A",
+      "explanation": "理念和實際資格有距離。",
+      "tags": [
+        "近代民主思想"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-1-hi9a-ch2-hi9a-u02-hi9a-u02-kp1-3",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch2",
+      "unitId": "hi9a-u02",
+      "knowledgePointId": "hi9a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "和民主思想相對的舊說法是？",
+      "options": [
+        "統治者天生擁有永久權力",
+        "人民可以改選",
+        "法律位階",
+        "權力要分開"
+      ],
+      "answer": "A",
+      "explanation": "君權那類說法把統治者放在質問之外。",
+      "tags": [
+        "近代民主思想"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-3-1-hi9a-ch2-hi9a-u02-hi9a-u02-kp1-4",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch2",
+      "unitId": "hi9a-u02",
+      "knowledgePointId": "hi9a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "題目說某國已經有民主思想家，卻還限制選舉資格。這表示？",
+      "options": [
+        "思想出現，不代表制度立刻包容所有人",
+        "那個國家沒有思想",
+        "限制代表它已經完全民主",
+        "資格和權利無關"
+      ],
+      "answer": "A",
+      "explanation": "要分開理想和當時的法律。",
+      "tags": [
+        "近代民主思想"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u02-so9a-u02-kp1-1",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch2",
+      "unitId": "so9a-u02",
+      "knowledgePointId": "so9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "結盟可能讓戰爭？",
+      "options": [
+        "從兩國擴成更多國家",
+        "自動消失",
+        "只剩地圖題",
+        "不再需要武器"
+      ],
+      "answer": "A",
+      "explanation": "盟友會被拖進衝突。",
+      "tags": [
+        "大戰和冷戰"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u02-so9a-u02-kp1-2",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch2",
+      "unitId": "so9a-u02",
+      "knowledgePointId": "so9a-u02-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "冷戰是指？",
+      "options": [
+        "兩大陣營長期對立",
+        "南極的天氣",
+        "一次沒有任何對立的和平",
+        "台灣的清領"
+      ],
+      "answer": "A",
+      "explanation": "冷戰以對立和代理人衝突為特徵。",
+      "tags": [
+        "大戰和冷戰"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u02-so9a-u02-kp1-3",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch2",
+      "unitId": "so9a-u02",
+      "knowledgePointId": "so9a-u02-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "聯合國成立的背景是？",
+      "options": [
+        "減少戰爭、處理國際問題",
+        "推廣絕句",
+        "取消所有國家",
+        "測量細胞"
+      ],
+      "answer": "A",
+      "explanation": "它是戰後的國際組織。",
+      "tags": [
+        "大戰和冷戰"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-1-so9a-ch1-so9a-u02-so9a-u02-kp1-4",
+      "subject": "history",
+      "grade": 3,
+      "semester": 1,
+      "chapterId": "hi9a-ch2",
+      "unitId": "so9a-u02",
+      "knowledgePointId": "so9a-u02-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "學習二戰時必須面對的是？",
+      "options": [
+        "對平民的大規模迫害",
+        "只有將軍的名字",
+        "沒有傷亡",
+        "與人權無關"
+      ],
+      "answer": "A",
+      "explanation": "迫害是這段歷史的核心。",
+      "tags": [
+        "大戰和冷戰"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-3-2-hi9b-ch1-hi9b-u01-hi9b-u01-kp1-1",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch1",
+      "unitId": "hi9b-u01",
+      "knowledgePointId": "hi9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "史料的角色是？",
+      "options": [
+        "拿來當證據",
+        "拿來取代問題",
+        "一定全部正確",
+        "不能讀"
+      ],
+      "answer": "A",
+      "explanation": "結論要建立在證據上。",
+      "tags": [
+        "史料怎麼讀"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-2-hi9b-ch1-hi9b-u01-hi9b-u01-kp1-2",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch1",
+      "unitId": "hi9b-u01",
+      "knowledgePointId": "hi9b-u01-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "讀一段史料，先問？",
+      "options": [
+        "誰寫的、為什麼寫",
+        "字體好不好看",
+        "會不會變成數學題",
+        "作者的星座"
+      ],
+      "answer": "A",
+      "explanation": "目的會影響它強調什麼。",
+      "tags": [
+        "史料怎麼讀"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-2-hi9b-ch1-hi9b-u01-hi9b-u01-kp1-3",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch1",
+      "unitId": "hi9b-u01",
+      "knowledgePointId": "hi9b-u01-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "一手資料為什麼仍要小心？",
+      "options": [
+        "當事人也會選擇怎麼說",
+        "一手資料一定是假的",
+        "只有二手資料能用",
+        "出處不重要"
+      ],
+      "answer": "A",
+      "explanation": "接近當時不等於沒有立場。",
+      "tags": [
+        "史料怎麼讀"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-3-2-hi9b-ch1-hi9b-u01-hi9b-u01-kp1-4",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch1",
+      "unitId": "hi9b-u01",
+      "knowledgePointId": "hi9b-u01-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "兩份史料說法相反。比較好的做法是？",
+      "options": [
+        "比較出處和目的，不急著選邊",
+        "選較長的那份",
+        "兩份都丟掉",
+        "只留跟自己想法一樣的"
+      ],
+      "answer": "A",
+      "explanation": "衝突的證據要解釋，不是忽略。",
+      "tags": [
+        "史料怎麼讀"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u06-so9b-u06-kp1-1",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch1",
+      "unitId": "so9b-u06",
+      "knowledgePointId": "so9b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "年表最基本的讀法是？",
+      "options": [
+        "確認時間先後",
+        "從顏色猜",
+        "不看年份",
+        "只讀最後一格"
+      ],
+      "answer": "A",
+      "explanation": "順序是年表的骨架。",
+      "tags": [
+        "年表題看因果"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u06-so9b-u06-kp1-2",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch1",
+      "unitId": "so9b-u06",
+      "knowledgePointId": "so9b-u06-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "甲發生在乙之前，就能說甲造成乙嗎？",
+      "options": [
+        "不一定",
+        "一定可以",
+        "絕對不行看任何資料",
+        "只有在地圖上可以"
+      ],
+      "answer": "A",
+      "explanation": "先後不是因果的充分條件。",
+      "tags": [
+        "年表題看因果"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u06-so9b-u06-kp1-3",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch1",
+      "unitId": "so9b-u06",
+      "knowledgePointId": "so9b-u06-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "題目問某事件的影響，應該看？",
+      "options": [
+        "事件之後出現的變化",
+        "事件之前的史前考古",
+        "無關的詩",
+        "血型"
+      ],
+      "answer": "A",
+      "explanation": "影響是後來的結果。",
+      "tags": [
+        "年表題看因果"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "social-3-2-so9b-ch2-so9b-u06-so9b-u06-kp1-4",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch1",
+      "unitId": "so9b-u06",
+      "knowledgePointId": "so9b-u06-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "格子太多時可以？",
+      "options": [
+        "每格收成短句",
+        "全部跳過",
+        "只背第一個年份",
+        "改成對聯"
+      ],
+      "answer": "A",
+      "explanation": "短句幫助比較。",
+      "tags": [
+        "年表題看因果"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-3-2-hi9b-ch2-hi9b-u03-hi9b-u03-kp1-1",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch2",
+      "unitId": "hi9b-u03",
+      "knowledgePointId": "hi9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "A 發生在 B 前面。可以確定？",
+      "options": [
+        "只能確定順序，還不能確定 A 造成 B",
+        "A 一定是原因",
+        "B 造成 A",
+        "兩者沒有時間"
+      ],
+      "answer": "A",
+      "explanation": "時間順序只是因果的必要條件之一。",
+      "tags": [
+        "先後不等於因果"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-2-hi9b-ch2-hi9b-u03-hi9b-u03-kp1-2",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch2",
+      "unitId": "hi9b-u03",
+      "knowledgePointId": "hi9b-u03-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "一個大變化通常？",
+      "options": [
+        "有多個原因",
+        "只能有一個原因",
+        "不需要原因",
+        "原因必須是天氣"
+      ],
+      "answer": "A",
+      "explanation": "歷史事件很少單因。",
+      "tags": [
+        "先後不等於因果"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-2-hi9b-ch2-hi9b-u03-hi9b-u03-kp1-3",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch2",
+      "unitId": "hi9b-u03",
+      "knowledgePointId": "hi9b-u03-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「因為之後發生，所以就是結果」錯在？",
+      "options": [
+        "沒有說明過程",
+        "時間不能排序",
+        "結果不能有原因",
+        "年表不能用"
+      ],
+      "answer": "A",
+      "explanation": "因果要有機制。",
+      "tags": [
+        "先後不等於因果"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-3-2-hi9b-ch2-hi9b-u03-hi9b-u03-kp1-4",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch2",
+      "unitId": "hi9b-u03",
+      "knowledgePointId": "hi9b-u03-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "兩條曲線一起上升。最穩的說法是？",
+      "options": [
+        "它們有相關，原因還要另外證明",
+        "一定是左邊造成右邊",
+        "一定沒有關係",
+        "圖不能同時有兩條線"
+      ],
+      "answer": "A",
+      "explanation": "相關不等於因果。",
+      "tags": [
+        "先後不等於因果"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "history-3-2-hi9b-ch2-hi9b-u04-hi9b-u04-kp1-1",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch2",
+      "unitId": "hi9b-u04",
+      "knowledgePointId": "hi9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "歷史解釋可以有多種，是因為？",
+      "options": [
+        "資料能支持的重點可能不同",
+        "歷史沒有事實",
+        "老師不許有答案",
+        "年代可以隨便換"
+      ],
+      "answer": "A",
+      "explanation": "事實和解釋要分開。",
+      "tags": [
+        "解釋可以有好多個"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-2-hi9b-ch2-hi9b-u04-hi9b-u04-kp1-2",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch2",
+      "unitId": "hi9b-u04",
+      "knowledgePointId": "hi9b-u04-kp1",
+      "tier": "basic",
+      "type": "single",
+      "stem": "哪一種解釋應該排除？",
+      "options": [
+        "跟題目資料相反的",
+        "用資料舉出例子的",
+        "承認還有別的可能的",
+        "寫出出處的"
+      ],
+      "answer": "A",
+      "explanation": "解釋不能違背已給的證據。",
+      "tags": [
+        "解釋可以有好多個"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "history-3-2-hi9b-ch2-hi9b-u04-hi9b-u04-kp1-3",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch2",
+      "unitId": "hi9b-u04",
+      "knowledgePointId": "hi9b-u04-kp1",
+      "tier": "advanced",
+      "type": "single",
+      "stem": "「怎麼說都可以」錯在？",
+      "options": [
+        "沒有證據的說法不能跟有證據的平起平坐",
+        "解釋只能有一句",
+        "資料會消失",
+        "年代沒有順序"
+      ],
+      "answer": "A",
+      "explanation": "開放不是沒有標準。",
+      "tags": [
+        "解釋可以有好多個"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "history-3-2-hi9b-ch2-hi9b-u04-hi9b-u04-kp1-4",
+      "subject": "history",
+      "grade": 3,
+      "semester": 2,
+      "chapterId": "hi9b-ch2",
+      "unitId": "hi9b-u04",
+      "knowledgePointId": "hi9b-u04-kp1",
+      "tier": "exam",
+      "type": "single",
+      "stem": "素養題要你選解釋時，評分看的是？",
+      "options": [
+        "它有沒有被題目資料支持",
+        "句子漂不漂亮",
+        "是不是你的政治偏好",
+        "字數是不是最多"
+      ],
+      "answer": "A",
+      "explanation": "回到資料。",
+      "tags": [
+        "解釋可以有好多個"
+      ],
+      "difficulty": 3
+    }
+  ]
+}
